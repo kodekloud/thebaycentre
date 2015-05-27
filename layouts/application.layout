@@ -102,7 +102,12 @@
 
 <script>
      $(document).ready(function() {
-         
+        function renderPageData(){
+            var propertyDetails = getPropertyDetails();
+            console.log(propertyDetails)
+        }
+        
+        loadMallData(renderPageData);  
      });
 </script>
 
