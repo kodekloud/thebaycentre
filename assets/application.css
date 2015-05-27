@@ -10,7 +10,10 @@ h1 {
 }
 
 .menu_container{
-    
+    width:1193px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 .menu_items_container{
     
