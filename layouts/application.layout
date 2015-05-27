@@ -123,6 +123,8 @@
             console.log(propertyDetails)
         }
         
+        
+        
         loadMallData(renderPageData);  
      });
 </script>
