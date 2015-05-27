@@ -16,14 +16,15 @@ h1 {
     display:block;
 }
 .menu_items_container{
-    
+    display:inline;
 }
 .search_social_div{
     float:right;
     margin-top:35px;
 }
 #logo_container{
-    
+    display:inline;
+    width:30%;
 }
 
 #left_image{
