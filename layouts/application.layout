@@ -118,14 +118,18 @@
 
 <script>
      $(document).ready(function() {
-        function renderPageData(){
+        function renderAll(){
             var propertyDetails = getPropertyDetails();
-            console.log(propertyDetails)
+            
+        }
+        
+        function renderPageData(container, template, collection, type){
+            
         }
         
         
         
-        loadMallData(renderPageData);  
+        loadMallData(renderAll);  
      });
 </script>
 
