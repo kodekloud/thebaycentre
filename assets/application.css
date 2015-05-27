@@ -23,7 +23,7 @@ h1 {
     margin-top:35px;
 }
 #logo_container{
-    display:inline;
+    display:inline-block;
     width:30%;
     margin-top:66px;
 }
