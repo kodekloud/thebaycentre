@@ -29,5 +29,8 @@ h1 {
     
 }
 #page_content{
-    
+    width:1193px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
