@@ -3,7 +3,7 @@
 <head>
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
 <meta charset="utf-8">
-<title>10 Dundas East</title>
+<title>The Bay Centre</title>
 
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,7 +75,7 @@
        
     });
   
-    setEndPoint('http://baycentre.mallmaverick.com/api/v2/10dundaseast/all.json');
+    setEndPoint('http://baycentre.mallmaverick.com/api/v2/baycentre/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
     
