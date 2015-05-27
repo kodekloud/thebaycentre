@@ -19,7 +19,8 @@ h1 {
     
 }
 .search_social_div{
-    text-align:right;
+    float:right;
+    margin-top:35px;
 }
 #logo_container{
     
