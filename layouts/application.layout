@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+<title>10 Dundas East</title>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/60cb7d89e157debbb7914a941327ad2c/animate.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.3.0/flexslider.css" rel="stylesheet">
+<link rel="stylesheet" href="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/60cb7d89e157debbb7914a941327ad2c/prettyPhoto.css" type="text/css" media="screen">
+<link href="/application.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/modernizr.custom.48287.js"></script>
+<!-- favicon -->
+<link rel="shortcut icon" href="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/70483e4f30054855ef30b8872dc7948d/10dundas_16favicon.png" type="image/x-icon" />
+
+<!-- jQuery Version 1.11.0 -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+<!--Mustache is a client side templating engine https://github.com/janl/mustache.js/ -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+<!--jReject is used to warn users certain browsers aren't compatible with this site-->
+<script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
+<link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
+<!--MallMaverick v=0.3-->
+<script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
+<script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
+
+<script src="http://cdn.jsdelivr.net/jquery.zoomooz/1.1.6/jquery.zoomooz.min.js"></script>
+
+
+
+<script>
+    $(document).ready(function() {
+        $.reject({  
+            reject: { all: false, msie: 9 },  
+            header: 'Thanks for visiting 10 Dundas East', // Header Text  
+            paragraph1: 'Unfortunately your browser is not officially supported with our site', // Paragraph 1  
+            paragraph2: 'For the best experience please install one of the many optional browsers below to proceed',  
+            closeMessage: 'You may continue using the site however certain features and content may not be accessible. Thank you.',
+            closeCookie: true,
+            browserInfo: { // Settings for which browsers to display  
+                chrome: {  
+                    // Text below the icon  
+                    text: 'Google Chrome',  
+                    // URL For icon/text link  
+                    url: 'http://www.google.com/chrome/',  
+                    // (Optional) Use "allow" to customized when to show this option  
+                    // Example: to show chrome only for IE users  
+                    // allow: { all: false, msie: true }  
+                },  
+                firefox: {  
+                    text: 'Mozilla Firefox',  
+                    url: 'http://www.mozilla.com/firefox/'  
+                },  
+                safari: {  
+                    text: 'Safari',  
+                    url: 'http://www.apple.com/safari/download/'  
+                },  
+                opera: {  
+                    text: 'Opera',  
+                    url: 'http://www.opera.com/download/'  
+                },  
+                msie: {  
+                    text: 'Internet Explorer',  
+                    url: 'http://www.microsoft.com/windows/Internet-explorer/'  
+                }  
+            },// Message below close window link  
+            imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
+        });  
+        
+       
+    });
+  
+    setEndPoint('http://baycentre.mallmaverick.com/api/v2/10dundaseast/all.json');
+    sessionStorage.setItem('primary_locale', 'en-CA');
+    sessionStorage.setItem('secondary_locale', 'fr-CA');
+    
+
+</script>
