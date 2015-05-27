@@ -83,8 +83,15 @@
 </script>
 </head>
 <body>
-    <header>HEADER</header>
+    <header>
+    <div class="search_social_div"> SEARCH -- SOCIAL ICONS</div>
+        
+        
+        
+    </header>
+    <img id="left_image"/>
     <div id="page_content">{{yield}}</div>
+    <img id="right_image"/>
     <footer>
     
     </footer>
