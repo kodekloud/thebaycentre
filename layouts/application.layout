@@ -120,7 +120,7 @@
      $(document).ready(function() {
         function renderAll(){
             var propertyDetails = getPropertyDetails();
-            
+            renderPageData("#logo_container","#logo_template", propertyDetails, "logo")
         }
         
         function renderPageData(container, template, collection, type){
