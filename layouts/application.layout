@@ -81,3 +81,13 @@
     
 
 </script>
+</head>
+<body>
+    <header>HEADER</header>
+    <div id="page_content">{{yield}}</div>
+    <footer>
+    
+    </footer>
+</body>
+
+
