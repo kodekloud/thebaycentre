@@ -124,7 +124,17 @@
         }
         
         function renderPageData(container, template, collection, type){
-            
+            var item_list = [];
+            var item_rendered = [];
+            var logo_template_html = $(logo_template).html();
+            Mustache.parse(logo_template_html);   // optional, speeds up future uses
+            item_list.push(propertyDetails);
+            $.each( item_list , function( key, val ) {
+                val.alt_site_logo = getImageURL(val.site_logo);
+                var rendered = Mustache.render(logo_template_html,val);
+                item_rendered.push(rendered);
+            });
+
         }
         
         
