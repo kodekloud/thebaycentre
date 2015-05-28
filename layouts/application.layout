@@ -93,7 +93,7 @@
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
-                <li>
+                <li onclick="javascript:show_dd(1)">
                     find a store
                     <div class="dd_submenu" id="s_sub_1">
                         <ul>
