@@ -117,7 +117,15 @@
                     </div>
                     
                 </li>
-                <li>deals</li>
+                <li onclick="javascript:show_dd(3)">
+                    Deals
+                    <div class="dd_submenu" id="s_sub_3">
+                        <ul>
+                            <li>Weekly Promotions</li>
+                        </ul>
+                    </div>
+                    
+                </li>
                 <li>events & contests</li>
                 <li>our style</li>
                 <li>about us</li>
