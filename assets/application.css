@@ -92,3 +92,8 @@ h1 {
     width:100%;
     background:#f1f0ed;
 }
+.footer_logos{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
