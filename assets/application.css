@@ -69,6 +69,7 @@ h1 {
 .main_menu li{
     list-style:none;
     display:inline-block;
-    margin-left:70px;
+    margin-left:40px;
+    text-transform:uppercase;
     
 }
