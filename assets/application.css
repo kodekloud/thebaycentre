@@ -41,10 +41,12 @@ h1 {
     width:1193px;
     background:url("http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg");
     background-repeat:no-repeat;
+    display:inline-block;
 }
 #page_content{
     width:1193px;
     min-height:547px;
+    display:inline-block;
 
 }
 .main_container{
