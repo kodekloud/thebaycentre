@@ -51,7 +51,7 @@ h1 {
     min-height:547px;
 
 }
-.main_container{
+#main_container{
     position:relative;
     width:1193px;
     overflow:visible;
