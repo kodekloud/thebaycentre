@@ -104,7 +104,6 @@
         <div id="page_content">{{yield}}</div>
         <img id="right_image" />
     </div>
-    <img id="testing"/>
     <footer>
     
     </footer>
