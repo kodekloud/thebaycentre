@@ -33,6 +33,9 @@ h1 {
     width:1193px;
     background:url("http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg");
     background-repeat:no-repeat;
+    position:absolute;
+    left:0;
+    top:0;
 
 }
 #right_image_div{
