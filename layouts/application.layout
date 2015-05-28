@@ -99,9 +99,9 @@
         
         
     </header>
-    <img id="left_image" src=""/>
+    <div id="left_image_div"></div>
     <div id="page_content">{{yield}}</div>
-    <img id="right_image" src=""/>
+    <div id="right_image_div"></div>
     <footer>
     
     </footer>
