@@ -57,8 +57,8 @@ h1 {
     margin-right:auto;
 }
 .main_menu{
-    
+    margin:0;
 }
 .main_menu li{
-    
+    list-style:none;
 }
