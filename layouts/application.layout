@@ -100,9 +100,9 @@
         
     </header>
     <div id="main_container">
-        <div id="left_image_div"></div>
+        <img id="left_image_div" />
         <div id="page_content">{{yield}}</div>
-        <div id="right_image_div"></div>
+        <img id="right_image_div" />
     </div>
     <img id="testing"/>
     <footer>
