@@ -146,9 +146,9 @@
                     </div>
                     
                 </li>
-                <li onclick="javascript:show_dd(5)">
+                <li onclick="javascript:show_dd(6)">
                     about us
-                    <div class="dd_submenu" id="s_sub_5">
+                    <div class="dd_submenu" id="s_sub_6">
                         <ul>
                             <li>Gift Cards </li>
                             <li>Job Opportunities  </li>
