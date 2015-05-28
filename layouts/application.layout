@@ -195,6 +195,7 @@
         if ($("#s_sub_"+id).is(":visible")){
             $("#s_sub_"+id).slideUp();
         } else {
+            $(".dd_submenu").slideUp();
             $("#s_sub_"+id).slideDown();
         }
     }
