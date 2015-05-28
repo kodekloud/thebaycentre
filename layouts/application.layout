@@ -138,11 +138,11 @@
 
 <script>
     function show_dd(id){
-        console.log("4353453453453")
-        if ($("#s_dd_"+id).is(":visible")){
-            $("#s_dd_"+id).slideUp();
+  
+        if ($("#s_sub_"+id).is(":visible")){
+            $("#s_sub_"+id).slideUp();
         } else {
-            $("#s_dd_"+id).slideDown();
+            $("#s_sub_"+id).slideDown();
         }
     }
 
