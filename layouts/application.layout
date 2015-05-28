@@ -89,7 +89,7 @@
     <div class="menu_container">
         <div class="search_social_div"> CONTACT US -- SEARCH -- SOCIAL ICONS</div>
         <div id="logo_container">
-            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}">{% endraw %}</script>  
+            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img class="site_logo" src="{{site_logo}}">{% endraw %}</script>  
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
