@@ -16,7 +16,7 @@ h1 {
     display:block;
 }
 .menu_items_container{
-    display:inline;
+    position:relative;
 }
 .search_social_div{
     float:right;
