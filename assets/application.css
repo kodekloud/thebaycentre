@@ -78,3 +78,8 @@ h1 {
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
