@@ -101,7 +101,7 @@
     </header>
     <img id="left_image" src=""/>
     <div id="page_content">{{yield}}</div>
-    <img id="right_image" src=""/>
+    <img id="right_image" src="http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg"/>
     <footer>
     
     </footer>
