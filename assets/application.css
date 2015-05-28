@@ -28,7 +28,7 @@ h1 {
     margin-top:66px;
 }
 
-#left_image_div{
+#left_image{
     height:547px; 
     width:1193px;
     position:absolute;
@@ -36,7 +36,7 @@ h1 {
     top:0;
 
 }
-#right_image_div{
+#right_image{
     height:547px;
     width:1193px;
     position:absolute;
