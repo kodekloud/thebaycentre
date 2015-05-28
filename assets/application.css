@@ -59,27 +59,17 @@ h1 {
     margin-left:auto;
     margin-right:auto;
 }
-/*.main_menu{*/
-/*    margin:0;*/
-/*    display:block;*/
-/*    position:absolute;*/
-/*    right:0;*/
-/*    top:-35px;*/
-/*}*/
-/*.main_menu li{*/
-/*    list-style:none;*/
-/*    display:inline-block;*/
-/*    margin-left:40px;*/
-/*    text-transform:uppercase;*/
-    
-/*}*/
-
-
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
+.main_menu{
+    margin:0;
+    display:block;
+    position:absolute;
+    right:0;
+    top:-35px;
 }
-.open .dropdown-toggle.btn-default {
-  color: #333333;
-  background-color: #ebebeb;
-  border-color: #adadad;
+.main_menu li{
+    list-style:none;
+    display:inline-block;
+    margin-left:40px;
+    text-transform:uppercase;
+    
 }
