@@ -92,7 +92,7 @@
             <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img class="site_logo" src="{{site_logo}}">{% endraw %}</script>  
         </div>
         <div class="menu_items_container collapse navbar-collapse">
-            <ul class="main_menu">
+            <ul class="main_menu nav navbar-nav">
                 <li>find a store</li>
                 <li>plan your visit</li>
                 <li>deals</li>
