@@ -92,7 +92,14 @@
             <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}">{% endraw %}</script>  
         </div>
         <div class="menu_items_container">
-            
+            <ul class="main_menu">
+                <li>find a store</li>
+                <li>plan your visit</li>
+                <li>deals</li>
+                <li>events & contests</li>
+                <li>our style</li>
+                <li>about us</li>
+            </ul>
         </div>
         
     </div>    
