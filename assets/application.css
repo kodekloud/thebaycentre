@@ -30,9 +30,11 @@ h1 {
 
 #left_image_div{
     height:547px; 
+    background:red;
 }
 #right_image_div{
     height:547px;
+    background:red;
 }
 #page_content{
     width:1193px;
