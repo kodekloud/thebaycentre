@@ -79,9 +79,11 @@ h1 {
     position:absolute;
     z-index:9999999999;
 }
+.dd_submenu ul{
+    padding:0;
+}
 
 .dd_submenu ul li {
-    padding:0;
     margin-left:0;
     display:block;
 }
