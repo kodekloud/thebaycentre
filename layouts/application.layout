@@ -138,6 +138,7 @@
 
 <script>
     function show_dd(id){
+        console.log("4353453453453")
         if ($("#s_dd_"+id).is(":visible")){
             $("#s_dd_"+id).slideUp();
         } else {
