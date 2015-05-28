@@ -81,6 +81,7 @@ h1 {
 }
 .dd_submenu ul{
     padding:0;
+    width:180px;
 }
 
 .dd_submenu ul li {
