@@ -3,6 +3,8 @@
 
 body{
     overflow-x:hidden;
+    margin-left:0;
+    margin-right:0;
 }
 
 h1 {
