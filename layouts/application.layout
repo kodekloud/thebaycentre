@@ -93,7 +93,13 @@
         </div>
         <div class="menu_items_container collapse navbar-collapse">
             <ul class="main_menu nav navbar-nav">
-                <li>find a store</li>
+                <li id="directory_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">find a store <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/stores">Store Directory</a></li>
+                        <li id="menu_map"><a href="/map">Centre Map</a></li>
+                        <li><a href="/office_directory">Office Directory</a></li>
+                    </ul> 
+                 </li>
                 <li>plan your visit</li>
                 <li>deals</li>
                 <li>events & contests</li>
