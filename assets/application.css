@@ -58,6 +58,7 @@ h1 {
 }
 .main_menu{
     margin:0;
+    display:inline-block;
 }
 .main_menu li{
     list-style:none;
