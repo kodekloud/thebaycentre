@@ -138,7 +138,11 @@
 
 <script>
     function show_dd(id){
-        
+        if ($("#s_dd_"+id).is(":visible")){
+            $("#s_dd_"+id).slideUp();
+        } else {
+            $("#s_dd_"+id).slideDown();
+        }
     }
 
      $(document).ready(function() {
