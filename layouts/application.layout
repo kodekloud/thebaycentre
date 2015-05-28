@@ -87,12 +87,12 @@
     
     
     <div class="menu_container">
-        <div class="search_social_div"> SEARCH -- SOCIAL ICONS</div>
+        <div class="search_social_div"> CONTACT US -- SEARCH -- SOCIAL ICONS</div>
         <div id="logo_container">
             <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}">{% endraw %}</script>  
         </div>
         <div class="menu_items_container">
-            MENU ITEMS 1    2   3   4   5   6   7   8   9   0
+            
         </div>
         
     </div>    
