@@ -104,7 +104,19 @@
                     </div>
                     
                 </li>
-                <li>plan your visit</li>
+                <li onclick="javascript:show_dd(2)">
+                    plan your visit
+                    <div class="dd_submenu" id="s_sub_2">
+                        <ul>
+                            <li>hours</li>
+                            <li>getting here</li>
+                            <li>parking</li>
+                            <li>guest services</li>
+                            <li>visitor information</li>
+                        </ul>
+                    </div>
+                    
+                </li>
                 <li>deals</li>
                 <li>events & contests</li>
                 <li>our style</li>
