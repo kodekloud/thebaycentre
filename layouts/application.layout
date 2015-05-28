@@ -126,9 +126,42 @@
                     </div>
                     
                 </li>
-                <li>events & contests</li>
-                <li>our style</li>
-                <li>about us</li>
+                <li onclick="javascript:show_dd(4)">
+                    events and contest
+                    <div class="dd_submenu" id="s_sub_4">
+                        <ul>
+                            <li>Events </li>
+                            <li>Contests </li>
+                        </ul>
+                    </div>
+                    
+                </li>
+                <li onclick="javascript:show_dd(5)">
+                    Our style
+                    <div class="dd_submenu" id="s_sub_5">
+                        <ul>
+                            <li>Blog </li>
+                            <li>Enewsletter </li>
+                        </ul>
+                    </div>
+                    
+                </li>
+                <li onclick="javascript:show_dd(5)">
+                    about us
+                    <div class="dd_submenu" id="s_sub_5">
+                        <ul>
+                            <li>Gift Cards </li>
+                            <li>Job Opportunities  </li>
+                            <li>Leasing Opportunities</li>
+                            <li>Sustainability</li>
+                            <li>Community Partners</li>
+                            <li>Security</li>
+                            <li>news</li>
+                            <li>Contact Us </li>
+                        </ul>
+                    </div>
+                    
+                </li>
             </ul>
         </div>
         
