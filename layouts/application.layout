@@ -93,7 +93,17 @@
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
-                <li>find a store</li>
+                <li>
+                    find a store
+                    <div class="dd_submenu" id="s_sub_1">
+                        <ul>
+                            <li>sub 1</li>
+                            <li>sub 2</li>
+                            <li>sub 4</li>
+                        </ul>
+                    </div>
+                    
+                </li>
                 <li>plan your visit</li>
                 <li>deals</li>
                 <li>events & contests</li>
