@@ -181,7 +181,7 @@
             <div class="find_left_div">
                 <script id="find_left_template" type="x-tmpl-mustache/text">
                     {% raw %}
-                        <img class="site_logo" src="{{site_logo}}">
+                        <img class="footer_site_logo" src="{{site_logo}}">
                     {% endraw %}
                 </script>  
             </div>
