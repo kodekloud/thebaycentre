@@ -34,7 +34,7 @@ h1 {
     background:url("http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg");
     background-repeat:no-repeat;
     position:absolute;
-    left:0;
+    left:-1193px;
     top:0;
 
 }
@@ -43,16 +43,20 @@ h1 {
     width:1193px;
     background:url("http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg");
     background-repeat:no-repeat;
+    position:absolute;
+    right:-1193px;
+    top:0;
 }
 #page_content{
     width:1193px;
     margin-left:auto;
     margin-right:auto;
-    min-height:547px;
 
 }
 #main_container{
     position:relative;
     width:1193px;
     overflow:visible;
+    margin-left:auto;
+    margin-right:auto;
 }
