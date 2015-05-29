@@ -117,10 +117,11 @@ h1 {
 }
 .find_left_div{
     width:220px;
-    display:inline;
+    display:inline-block;
     margin-right:67px;
+    vertical-align:top;
 }
 .find_right_div{
-    display:inline;
+    display:inline-block;
     width:866px;
 }
