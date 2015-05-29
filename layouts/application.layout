@@ -194,7 +194,15 @@
         </div>
         <div class="footer_bottom_div">
             <div class="footer_bottom_container">
-                &nbsp;
+                <div id="today_hour_container" class="today_hour_container">
+                    today's hours
+                </div>
+                <div class="newsletter_container">
+                    newsletter container    
+                </div>
+                <div class="social_container">
+                    social container
+                </div>
             </div>
         </div>
     </footer>
