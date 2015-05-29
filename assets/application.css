@@ -113,3 +113,7 @@ h1 {
     height:111px;
     width:220px;
 }
+.find_left_div{
+    width:220px;
+    display:inline;
+}
