@@ -110,6 +110,7 @@ h1 {
     display:block;
     padding-left:25px;
     padding-right:25px;
+    margin-bottom:95px;
 }
 .footer_site_logo{
     height:111px;
@@ -123,5 +124,5 @@ h1 {
 }
 .find_right_div{
     display:inline-block;
-    width:850px;
+    width:857px;
 }
