@@ -196,6 +196,10 @@
             <div class="footer_bottom_container">
                 <div id="today_hour_container" class="today_hour_container">
                     today's hours
+                     <script id="today_hour_template" type="x-tmpl-mustache/text">
+                        {% raw %}
+                            
+                        {% endraw %}
                 </div>
                 <div class="newsletter_container">
                     newsletter container    
