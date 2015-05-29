@@ -183,7 +183,7 @@
                     {% raw %}
                         <p class="footer_h1">Find us</p>
                         <p class="footer_h1">{{name}}</p>
-                        <p class="footer_text">Administration Office<br>{{address1}}<br>{{city}}, {{province_state}}<br>{{postal_code}}<br>{{phone_string}}<br>{{fax_string}}</p>
+                        <p class="footer_text">Administration Office<br>{{address1}}<br>{{city}}, {{province_state}}<br>{{postal_code}}{{phone_string}}</p>
                         <img class="footer_site_logo" src="{{site_logo}}">
                     {% endraw %}
                 </script>  
@@ -231,7 +231,7 @@
             item_list.push(collection);
             $.each( item_list , function( key, val ) {
                 if (val.contact_phone != ""){
-                    val.phone_string = "P" + val.contact_phone
+                    val.phone_string = "<br>P" + val.contact_phone
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
