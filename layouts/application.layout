@@ -287,8 +287,8 @@
                 }
                 
                 if (type == "hours"){
-                    console.log(val.id)
-                    
+                    console.log(val)
+                    console.log(key)
                 }
                 
                 var rendered = Mustache.render(template_html,val);
