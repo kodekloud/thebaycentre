@@ -287,7 +287,7 @@
                 }
                 
                 if (type == "hours"){
-                    console.log(val["id"])
+                    console.log(val)
                     
                 }
                 
