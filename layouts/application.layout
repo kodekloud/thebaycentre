@@ -279,9 +279,16 @@
             }
             
             $.each( item_list , function( key, val ) {
-                if (val.contact_phone != ""){
-                    val.phone_string = "P " + val.contact_phone
+                if (type == "footer_logo" || type == "logo"){
+                    if (val.contact_phone != ""){
+                        val.phone_string = "P " + val.contact_phone
+                    }    
                 }
+                
+                if (type == "hours"){
+                    val.day = get_day(val.day_of_week)
+                }
+                
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
