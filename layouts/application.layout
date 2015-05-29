@@ -198,7 +198,8 @@
                     today's hours
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
                         {% raw %}
-                            
+                            {{day}}
+                            {{open_time}} - {{close_time}}
                         {% endraw %}
                 </div>
                 <div class="newsletter_container">
