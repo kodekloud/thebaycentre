@@ -231,7 +231,7 @@
             item_list.push(collection);
             $.each( item_list , function( key, val ) {
                 if (val.contact_phone != ""){
-                    val.phone_string = "<br>P" + val.contact_phone
+                    val.phone_string = "P" + val.contact_phone
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
