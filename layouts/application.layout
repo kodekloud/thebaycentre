@@ -267,7 +267,12 @@
             var item_rendered = [];
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-            item_list.push(collection);
+            if (type == "hours"){
+                item_list = collection;
+            } else {
+                item_list.push(collection);    
+            }
+            
             $.each( item_list , function( key, val ) {
                 if (val.contact_phone != ""){
                     val.phone_string = "P " + val.contact_phone
