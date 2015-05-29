@@ -287,7 +287,8 @@
                 }
                 
                 if (type == "hours"){
-                    val.day = get_day(val.day_of_week)
+                    console.log(val)
+                    
                 }
                 
                 var rendered = Mustache.render(template_html,val);
