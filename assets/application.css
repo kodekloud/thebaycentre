@@ -132,3 +132,9 @@ h1 {
     padding-top:66px;
     padding-bottom:45px;
 }
+.footer_bottom_container{
+    width:1193px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
