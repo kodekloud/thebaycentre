@@ -138,6 +138,16 @@ h1 {
     margin-right:auto;
     display:block;
 }
-.today_hour_container{}
-.newsletter_container{}
-.bottom_social_container{}
+.today_hour_container{
+    margin-right:130px;
+    display:inline;
+    background:red;
+}
+.newsletter_container{
+    display:inline;
+    background:white;
+}
+.bottom_social_container{
+    display:inline;
+    background:blue;
+}
