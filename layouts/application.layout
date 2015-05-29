@@ -181,6 +181,9 @@
             <div class="find_left_div" id="find_left_div">
                 <script id="find_left_template" type="x-tmpl-mustache/text">
                     {% raw %}
+                        <p class="footer_h1">Find us</p>
+                        <p class="footer_h1">{{name}}</p>
+                        <p class="footer_text">Administration Office<br>{{address1}}<br>{{city}}, {{province_state}}</p>
                         <img class="footer_site_logo" src="{{site_logo}}">
                     {% endraw %}
                 </script>  
