@@ -225,7 +225,7 @@ w<!DOCTYPE html>
                         <input id="agree_terms" type="checkbox" required>I agree to receive newsletters from The Bay Centre</input>
                         
                          <input type="hidden" name="cm-f-jhtykd" id ="fieldjhtykd" />
-                         <input type="hidden" name="" id=""/>
+                         <input type="hidden" name="" id="cm-f-jhtykh"/>
                         
                     </form> 
                 </div>
@@ -249,6 +249,7 @@ w<!DOCTYPE html>
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
+        $("#cm-f-jhtykh").val($("#agree_terms").text())
          $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
           $(this).serialize(),
