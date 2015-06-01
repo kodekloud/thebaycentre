@@ -199,7 +199,7 @@
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
                         {% raw %}
                             {{day}}
-                            {{open_time}} - {{close_time}}
+                            {{h}}
                         {% endraw %}
                 </div>
                 <div class="newsletter_container">
