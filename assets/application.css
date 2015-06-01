@@ -144,12 +144,15 @@ h1 {
     margin-right:130px;
     display:inline-block;
     background:red;
+    vertical-align:top;
 }
 .newsletter_container{
     display:inline-block;
     background:white;
+    vertical-align:top;
 }
 .bottom_social_container{
     display:inline-block;
     background:blue;
+    vertical-align:top;
 }
