@@ -140,6 +140,13 @@ h1 {
     margin-right:auto;
     display:block;
 }
+.footer_bottom_container a{
+    color:white;
+}
+.footer_bottom_container a:hover{
+    color:white;
+    text-decoration:underline;
+}
 .today_hour_container{
     margin-right:130px;
     display:inline-block;
