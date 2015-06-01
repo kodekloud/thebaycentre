@@ -143,16 +143,16 @@ h1 {
 .today_hour_container{
     margin-right:130px;
     display:inline-block;
-    background:red;
+    color:white;
     vertical-align:top;
 }
 .newsletter_container{
     display:inline-block;
-    background:white;
+    color:white;
     vertical-align:top;
 }
 .bottom_social_container{
     display:inline-block;
-    background:blue;
+    color:white;
     vertical-align:top;
 }
