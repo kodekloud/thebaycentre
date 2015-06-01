@@ -197,10 +197,10 @@
                 <div id="today_hour_container" class="today_hour_container">
                     
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
-                     today's hours
+                     today's hours<br>
                         {% raw %}
                             {{day}}<br>
-                            {{h}}
+                            {{h}}<br>
                         {% endraw %}
                       <a href="/hours">See all Hours ></a>  
                     </script>
