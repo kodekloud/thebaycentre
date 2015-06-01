@@ -255,13 +255,40 @@
 <script>
     
     $( ".footer_icon" ).hover(
-        console.log("Test")
       function() {
         $( this ).attr("src","");
       }, function() {
         $( this ).find( "src" ).remove();
       }
     );
+    
+    function get_footer_hover (id, event){
+        switch (event){
+            case "enter"
+                switch (id) {
+                    case "insta"
+                        return
+                        break;
+                    case "fb"
+                        return
+                        break;
+                    case "twit"
+                        return
+                        break;
+                    case "ytube"
+                        return
+                        break;
+                    case "blog"
+                        return
+                        break;    
+                }
+                    
+                break;
+            case "exit"
+                break    
+        }
+            
+    }
 
 
     $("#footer_newsletter").submit(function(e){
