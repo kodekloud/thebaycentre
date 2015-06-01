@@ -256,9 +256,9 @@
     
     $( ".footer_icon" ).hover(
       function() {
-        $( this ).attr("src","");
+        $( this ).attr("src",get_footer_hover(this.id, "enter"));
       }, function() {
-        $( this ).find( "src" ).remove();
+        $( this ).find( "src",get_footer_hover(this.id, "enter") ).remove();
       }
     );
     
