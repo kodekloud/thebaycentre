@@ -209,14 +209,13 @@ w<!DOCTYPE html>
                     
                 </div>
                 <div class="newsletter_container">
-                    <form action="http://mobilefringe.createsend.com/t/d/s/iixuu/" method="post" id="subForm">
-                         <p>
-                            <label for="fieldEmail">Email</label><br />
-                            <input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/>
-                        </p>
-                        <p>
-                            <button type="submit">Subscribe</button>
-                        </p>
+                    <form id="footer_newsletter">
+                      
+                        <label for="fieldEmail">Email</label><br />
+                        <span><input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit">Subscribe</button></span>
+                        
+                            
+                        
                     </form> 
                 </div>
                 <div class="bottom_social_container">
