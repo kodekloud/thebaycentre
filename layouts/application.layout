@@ -195,17 +195,18 @@
         <div class="footer_bottom_div">
             <div class="footer_bottom_container">
                 <div id="today_hour_container" class="today_hour_container">
-                    today's hours
+                    
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
+                     today's hours
                         {% raw %}
                             {{day}}<br>
                             {{h}}
                         {% endraw %}
-                        
+                      <a href="/hours">See all Hours ></a>  
                     </script>
                     
                     <br>
-                    <a href="/hours">See all Hours ></a>
+                    
                 </div>
                 <div class="newsletter_container">
                     newsletter container    
