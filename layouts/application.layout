@@ -285,6 +285,23 @@
                     
                 break;
             case "exit"
+                switch (id) {
+                    case "insta"
+                        return
+                        break;
+                    case "fb"
+                        return
+                        break;
+                    case "twit"
+                        return
+                        break;
+                    case "ytube"
+                        return
+                        break;
+                    case "blog"
+                        return
+                        break;    
+                }
                 break    
         }
             
