@@ -233,6 +233,7 @@
                     <p class="footer_title"> Social pages</p>
                     <div class="footer_icon_container">
                         <img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a1e0929f84d3cd67435b92ca923cabf4/social_instagram.png" class="footer_icon" alt="instagram" id="footer_instagram">
+                        <img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_fb.png" class="footer_icon" alt="facebook" id="footer_facebook">
                     </div>
                 </div>
             </div>
