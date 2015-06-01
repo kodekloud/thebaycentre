@@ -249,7 +249,9 @@ w<!DOCTYPE html>
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
-        $("#cm-f-jhtykh").val($("#agree_terms").text())
+        $("#cm-f-jhtykh").val($("#agree_terms").text());
+        $("#cm-f-jhtykd").val(window.location.href)
+        
          $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
           $(this).serialize(),
