@@ -258,7 +258,7 @@
       function() {
         $( this ).attr("src",get_footer_hover(this.id, "enter"));
       }, function() {
-        $( this ).find( "src",get_footer_hover(this.id, "enter") ).remove();
+        $( this ).attr( "src",get_footer_hover(this.id, "enter") )
       }
     );
     
@@ -266,19 +266,19 @@
         switch (event){
             case "enter"
                 switch (id) {
-                    case "insta"
+                    case "footer_instagram"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png"
                         break;
-                    case "fb"
+                    case "footer_facebook"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_fb.png"
                         break;
-                    case "twit"
+                    case "footer_twitter"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_twit.png"
                         break;
-                    case "ytube"
+                    case "footer_youtube"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_youtube.png"
                         break;
-                    case "blog"
+                    case "footer_blog"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png"
                         break;    
                 }
@@ -286,19 +286,19 @@
                 break;
             case "exit"
                 switch (id) {
-                    case "insta"
+                    case "footer_instagram"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a1e0929f84d3cd67435b92ca923cabf4/social_instagram.png"
                         break;
-                    case "fb"
+                    case "footer_facebook"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_fb.png"
                         break;
-                    case "twit"
+                    case "footer_twitter"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_twit.png"
                         break;
-                    case "ytube"
+                    case "footer_youtube"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_youtube.png"
                         break;
-                    case "blog"
+                    case "footer_blog"
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_blog.png"
                         break;    
                 }
