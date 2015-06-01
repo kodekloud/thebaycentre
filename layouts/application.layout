@@ -263,7 +263,6 @@
     );
     
     function get_footer_hover (id, event){
-        console.log(id)
         switch (event){
             case "enter":
                 if (id == "footer_instagram"){
