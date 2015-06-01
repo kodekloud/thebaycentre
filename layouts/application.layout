@@ -267,19 +267,19 @@
             case "enter"
                 switch (id) {
                     case "insta"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png"
                         break;
                     case "fb"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_fb.png"
                         break;
                     case "twit"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_twit.png"
                         break;
                     case "ytube"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_youtube.png"
                         break;
                     case "blog"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png"
                         break;    
                 }
                     
@@ -287,19 +287,19 @@
             case "exit"
                 switch (id) {
                     case "insta"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a1e0929f84d3cd67435b92ca923cabf4/social_instagram.png"
                         break;
                     case "fb"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_fb.png"
                         break;
                     case "twit"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_twit.png"
                         break;
                     case "ytube"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_youtube.png"
                         break;
                     case "blog"
-                        return
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_blog.png"
                         break;    
                 }
                 break    
