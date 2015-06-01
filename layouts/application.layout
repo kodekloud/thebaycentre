@@ -256,7 +256,7 @@
     
     $( ".footer_icon" ).hover(
       function() {
-        $( this ).append( $( "<span> ***</span>" ) );
+        $( this ).attr("src","");
       }, function() {
         $( this ).find( "span:last" ).remove();
       }
