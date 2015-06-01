@@ -203,6 +203,9 @@
                         {% endraw %}
                         
                     </script>
+                    
+                    <br>
+                    <a href="/hours">See all Hours ></a>
                 </div>
                 <div class="newsletter_container">
                     newsletter container    
