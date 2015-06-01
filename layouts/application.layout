@@ -201,6 +201,8 @@
                             {{day}}<br>
                             {{h}}
                         {% endraw %}
+                        
+                    </script>
                 </div>
                 <div class="newsletter_container">
                     newsletter container    
