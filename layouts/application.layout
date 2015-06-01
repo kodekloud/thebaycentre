@@ -231,6 +231,9 @@ w<!DOCTYPE html>
                 </div>
                 <div class="bottom_social_container">
                     <p class="footer_title"> Social pages</p>
+                    <div class="footer_icon_container">
+                        
+                    </div>
                 </div>
             </div>
         </div>
