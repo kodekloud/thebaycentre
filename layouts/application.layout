@@ -274,7 +274,7 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             if (type == "hours"){
                 item_list = []
-                item_list = collection;
+                item_list.push(collection);    
             } else {
                 item_list.push(collection);    
             }
