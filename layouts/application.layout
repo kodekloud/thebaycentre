@@ -249,7 +249,7 @@ w<!DOCTYPE html>
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
-        $("#fieldjhtykh").val($("#agree_terms").text());
+        $("#fieldjhtykh").val($("#agree_terms").attr("value"));
         $("#fieldjhtykd").val(window.location.href)
         
          $.getJSON(
