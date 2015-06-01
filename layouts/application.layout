@@ -255,10 +255,11 @@
 <script>
     
     $( ".footer_icon" ).hover(
+        console.log("Test")
       function() {
         $( this ).attr("src","");
       }, function() {
-        $( this ).find( "span:last" ).remove();
+        $( this ).find( "src" ).remove();
       }
     );
 
