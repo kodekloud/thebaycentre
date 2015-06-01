@@ -265,44 +265,48 @@
     function get_footer_hover (id, event){
         switch (event){
             case "enter"
-                switch (id) {
-                    case "footer_instagram"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png"
-                        break;
-                    case "footer_facebook"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_fb.png"
-                        break;
-                    case "footer_twitter"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_twit.png"
-                        break;
-                    case "footer_youtube"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_youtube.png"
-                        break;
-                    case "footer_blog"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png"
-                        break;    
+                if (id == "footer_instagram"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png"    
                 }
+                if (id == "footer_facebook"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_fb.png"    
+                }
+                if (id == "footer_twitter"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_twit.png"    
                     
+                }
+                if (id == "footer_youtube"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_youtube.png"
+                    
+                }
+                if (id == "footer_blog"){
+                   return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png" 
+                    
+                }
                 break;
             case "exit"
                 switch (id) {
-                    case "footer_instagram"
+                    
+                    if (id == "footer_instagram"){
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a1e0929f84d3cd67435b92ca923cabf4/social_instagram.png"
-                        break;
-                    case "footer_facebook"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_fb.png"
-                        break;
-                    case "footer_twitter"
+                    }
+                    if (id == "footer_facebook"){
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_fb.png"   
+                    }
+                    if (id == "footer_twitter"){
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_twit.png"
-                        break;
-                    case "footer_youtube"
+                        
+                    }
+                    if (id == "footer_youtube"){
                         return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_youtube.png"
-                        break;
-                    case "footer_blog"
-                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_blog.png"
-                        break;    
+                        
+                    }
+                    if (id == "footer_blog"){
+                       return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/social_blog.png"
+                        
+                    }
                 }
-                break    
+                break;    
         }
             
     }
