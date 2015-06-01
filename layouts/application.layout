@@ -206,7 +206,7 @@ w<!DOCTYPE html>
                 <div id="today_hour_container" class="today_hour_container">
                     
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
-                     today's hours<br>
+                     <p class="footer_title"> today's hours </p>
                         {% raw %}
                             {{day}}<br>
                             {{h}}<br>
@@ -220,7 +220,7 @@ w<!DOCTYPE html>
                 <div class="newsletter_container">
                     <form id="footer_newsletter">
                       
-                        <label for="fieldEmail">GET ON THE LIST! SALES. EVENTS. FASHION NEWS.</label><br />
+                        <label for="fieldEmail" class="footer_title">get on the list! sales. events. fashion news.</label><br />
                         <span><input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit">Subscribe</button></span><br>
                         <input id="agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">I agree to receive newsletters from The Bay Centre</input>
                         
@@ -230,7 +230,7 @@ w<!DOCTYPE html>
                     </form> 
                 </div>
                 <div class="bottom_social_container">
-                    social container
+                    <p class="footer_title"> Social pages</p>
                 </div>
             </div>
         </div>
