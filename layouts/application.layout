@@ -248,7 +248,7 @@ w<!DOCTYPE html>
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
-        console.log("test")
+        
     })
 
     function show_dd(id){
@@ -314,6 +314,25 @@ w<!DOCTYPE html>
             i = "0" + i;
         }
         return i;
+    }
+    
+    
+    function check_email (){
+        var email = $("#fieldEmail").val();
+        if( !validateEmail(email)) {
+            return false
+        } else {
+            return true
+        }
+    }
+    
+    function validateEmail($email) {
+      var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+      if( !emailReg.test( $email ) ) {
+        return false;
+      } else {
+        return true;
+      }
     }
         
 
