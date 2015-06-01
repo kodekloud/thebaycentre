@@ -253,6 +253,15 @@
 <script type="text/javascript" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/collapser.js"></script>
 
 <script>
+    
+    $( ".footer_icon" ).hover(
+      function() {
+        $( this ).append( $( "<span> ***</span>" ) );
+      }, function() {
+        $( this ).find( "span:last" ).remove();
+      }
+    );
+
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
