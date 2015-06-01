@@ -245,6 +245,12 @@ w<!DOCTYPE html>
 <script type="text/javascript" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/collapser.js"></script>
 
 <script>
+
+    $("#footer_newsletter").submit(function(e){
+        e.preventDefault();
+        console.log("test")
+    })
+
     function show_dd(id){
   
         if ($("#s_sub_"+id).is(":visible")){
