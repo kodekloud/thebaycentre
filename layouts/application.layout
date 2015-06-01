@@ -248,7 +248,15 @@ w<!DOCTYPE html>
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
-        
+         $.getJSON(
+            "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
+          $(this).serialize(),
+            function (data) {
+                if (data.Status === 400) {
+                    e.preventDefault();
+                    alert("Please try again later.");
+                }
+        });  
     })
 
     function show_dd(id){
