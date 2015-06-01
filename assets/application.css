@@ -142,6 +142,7 @@ h1 {
 }
 .footer_bottom_container a{
     color:white;
+    text-decoration:none;
 }
 .footer_bottom_container a:hover{
     color:white;
