@@ -262,7 +262,7 @@ w<!DOCTYPE html>
                 } else {
                     alert("Thank you for signing up.")
                     $("#fieldEmail").val("")
-                    $("#agree_terms").attr("checked","false")
+                    $("#agree_terms").prop('checked', false);
                 }
         });  
     })
