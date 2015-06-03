@@ -112,6 +112,7 @@ h1 {
     display:none;
     position:absolute;
     z-index:9999999999;
+    left:-10px;
 }
 .dd_submenu ul{
     padding:0;
@@ -122,6 +123,7 @@ h1 {
     margin-left:0;
     display:block;
     margin-top:10px;
+    margin-left:10px;
 }
 .footer_logo_div{
     width:100%;
