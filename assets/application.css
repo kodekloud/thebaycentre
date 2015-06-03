@@ -49,7 +49,10 @@ h1 {
 }
 
 .search_input{
-    
+    background:#c7c8ca;
+    border:solid #c7c8ca;
+    border-radius:50px;
+    height:20px;
 }
 .search_button{
     
@@ -101,6 +104,9 @@ h1 {
 .search_social_div{
     float:right;
     margin-top:35px;
+}
+.header_icon{
+    height:20px;
 }
 .site_logo{
     vertical-align:bottom;
@@ -253,7 +259,7 @@ h1 {
     color:white;
     vertical-align:top;
 }
-.footer_icon, .header_icon{
+.footer_icon{
     width:34px;
 }
 .bottom_social_container{}
