@@ -216,8 +216,8 @@
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
                      <p class="footer_title" style="margin-bottom:14px"> today's hours </p>
                         {% raw %}
-                            {{day}}<br>
-                            {{h}}<br>
+                            <p class="footer_text">{{day}}</p>
+                            <p class="footer_text">{{h}}</p>
                         {% endraw %}
                       <a href="/hours">See all Hours ></a>  
                     </script>
