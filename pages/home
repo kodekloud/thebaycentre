@@ -26,7 +26,6 @@
                         <li class="feature_promo item">
                             <div class="feature_promo_left_div">
                                 {{dates}}
-                                
                                 {{name}}
                                 {{description}}
                                 {{promotionable_type}}
