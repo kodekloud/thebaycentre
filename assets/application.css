@@ -222,6 +222,10 @@ h1 {
     vertical-align:top;
 }
 
+.today_hour_container .footer_text{
+    color:yellow;
+}
+
 .footer_h1{
     font-family:railway-regular;
     font-size:18pt;
