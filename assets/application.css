@@ -227,7 +227,11 @@ h1 {
     font-size:18pt;
     color:#4d4d4f;
 }
-
+.footer_h2{
+    font-family:montserrat-regular;
+    font-size:14px;
+    color:#4d4d4f;
+}
 .footer_text{
     margin:0;
     font-family:lora-regular;
