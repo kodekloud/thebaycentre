@@ -141,6 +141,7 @@ h1 {
 .footer_site_logo{
     height:111px;
     width:220px;
+    margin-top:50px;
 }
 .find_left_div{
     width:220px;
@@ -225,7 +226,7 @@ h1 {
 .top_footer_text{
     font-family:lora-regular;
     color:#4d4d4f;
-    font-size:14px;
+    font-size:16px;
 }
 
 .footer_h1{
@@ -237,7 +238,7 @@ h1 {
 }
 .footer_h2{
     font-family:montserrat-regular;
-    font-size:14px;
+    font-size:16px;
     color:#4d4d4f;
     margin-top:0;
     margin-bottom:0;
