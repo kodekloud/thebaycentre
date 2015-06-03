@@ -47,6 +47,7 @@ h1 {
     text-decoration:none;
     display:inline;
     margin-right:50px;
+    vertical-align:middle;
 }
 
 .search_input{
