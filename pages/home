@@ -42,6 +42,7 @@
         $(this).css("background","white");
         $(this).find("div").css("color","#4d4d4f");
         $(".tab_content li").fadeOut( "fast", function() {
+            console.log(this.id)
             $(this.id + "_content").fadeIn("fast")
         });
     
