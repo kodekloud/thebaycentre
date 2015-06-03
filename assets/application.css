@@ -55,7 +55,9 @@ h1 {
     height:20px;
     color:white;
 }
-
+.search_icon{
+    
+}
 .search_div, .header_social_icons{
     display:inline-block;
     margin-left:20px;
