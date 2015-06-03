@@ -38,6 +38,12 @@ h1 {
     
 }
 
+.header_link{
+    font-family:montserrat-regular;
+    color:#c7c8ca;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
 .menu_container{
     width:1193px;
     height:214.444px;
