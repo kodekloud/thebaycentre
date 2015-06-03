@@ -4,11 +4,27 @@
         fear of missing out?
     </div>
 </div>
+<div class="tab_container">
+    <ul class="tabs">
+        <li id="tab_1">
+            whats happening today 
+        </li>
+        <li id="tab_2">
+            coming soon
+        </li>
+        <li id="tab_3">
+            deals of the week
+        </li>
+    </ul>
+</div>
 
 
 
 
 <script type="text/javascript" >
+    function show_tab(id){
+        
+    }
     $(document).ready(function() {
         $("#left_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg")
         $("#right_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg")
