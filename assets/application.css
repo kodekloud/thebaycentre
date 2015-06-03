@@ -68,6 +68,9 @@ h1 {
 .results_div{
     display:none;
 }
+.list-group li {
+    width:285.417px;
+}
 .menu_container{
     width:1193px;
     height:214.444px;
