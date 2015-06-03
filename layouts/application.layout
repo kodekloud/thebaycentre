@@ -229,7 +229,7 @@
                     <form id="footer_newsletter">
                       
                         <p class="footer_title">get on the list! sales. events. fashion news.</p>
-                        <span><input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit">Subscribe</button></span><br>
+                        <span><input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit" id="news_submit">Subscribe</button></span><br>
                         <input id="agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">I agree to receive newsletters from The Bay Centre</input>
                         
                          <input type="hidden" name="cm-f-jhtykd" id ="fieldjhtykd" />
