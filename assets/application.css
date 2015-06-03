@@ -359,11 +359,11 @@ h1 {
 }
 .tabs{
     padding:0;
+    background:background:#73b7aa;;
 }
 .tabs li {
     font-family:montserrat-regular;
     font-size:16px;
-    background:#73b7aa;
     width:360px;
     height:71px;
     color:white;
