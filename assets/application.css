@@ -127,6 +127,10 @@ h1 {
     margin-top:10px;
     margin-left:10px;
 }
+
+.dd_submenu ul li:hover{
+    text-decoration:underline;
+}
 .footer_logo_div{
     width:100%;
     background:#f1f0ed;
