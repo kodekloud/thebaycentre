@@ -16,6 +16,18 @@
             deals of the week
         </li>
     </ul>
+    
+    <ul class="tab_content">
+        <li id="tab_1_content">
+            tab 1 content
+        </li>
+        <li id="tab_2_content">
+            tab 2 content
+        </li>
+        <li id="tab_3_content">
+            tab 3 content
+        </li>
+    </ul>
 </div>
 
 
