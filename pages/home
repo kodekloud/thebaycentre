@@ -93,6 +93,11 @@
     
             
             $.each( collection , function( key, val ) {
+                if (type == "feature_promos"){
+                    if (val.description.length > 110) {
+                       val.description =  val.description.substring(0,100)+'...';
+                    } 
+                }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
