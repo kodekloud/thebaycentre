@@ -41,6 +41,9 @@
         $(".tabs li").find("div").css("color","white");
         $(this).css("background","white");
         $(this).find("div").css("color","black");
+        $(".tab_content li").fadeOut( "slow", function() {
+            $(this.id + "_content").fadeIn(slow)
+        });
     
     });
     
