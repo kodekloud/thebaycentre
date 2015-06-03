@@ -23,6 +23,9 @@
             <div class="feature_slider_container" id="feature_slider_container">
                 <ul class="feature_slider_ul">
                     <script id="feature_slider_template" type="x-tmpl-mustache/text">
+                        <li class="feature_promo">
+                            {{name}}
+                        </li>
                     </script>
                 </ul>
             </div>
