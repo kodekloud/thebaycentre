@@ -24,7 +24,14 @@
                 <ul class="feature_slider_ul slides" id="feature_slider_ul">
                     <script id="feature_slider_template" type="x-tmpl-mustache/text">
                         <li class="feature_promo item">
-                            {{name}}
+                            <div class="feature_promo_left_div">
+                                {{start_date}}
+                                {{end_date}}
+                                {{name}}
+                                {{promotionable_type}}
+                            </div>
+                            <div class="feature_promo_right_div">
+                            </div>
                         </li>
                     </script>
                 </ul>
