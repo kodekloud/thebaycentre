@@ -175,7 +175,7 @@ h1 {
     text-decoration:underline;
 }
 .today_hour_container{
-    margin-right:130px;
+    margin-right:145px;
     display:inline-block;
     color:white;
     vertical-align:top;
@@ -184,6 +184,7 @@ h1 {
     display:inline-block;
     color:white;
     vertical-align:top;
+    margin-tight:145px
 }
 .bottom_social_container{
     display:inline-block;
