@@ -71,11 +71,15 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
     
-            item_list.push(collection);    
+            if (type == "feature_promos"){
+                item_list = collection
+            } else {
+                item_list.push(collection);       
+            }
+             
             
             
             $.each( item_list , function( key, val ) {
-                console.log("jbfkjsbfsdkjfbsdkjfbsdkjfbsdkjfb")
                 if (type == "footer_logo" || type == "logo"){
                     if (val.contact_phone != ""){
                         val.phone_string = "P " + val.contact_phone
