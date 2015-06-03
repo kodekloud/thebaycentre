@@ -65,6 +65,9 @@ h1 {
     background:white;
     z-index:99999999;
 }
+.search_input{
+    
+}
 .results_div{
     display:none;
 }
