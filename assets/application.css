@@ -202,3 +202,12 @@ h1 {
     text-transform:uppercase;
     margin-bottom:27px;
 }
+
+#fieldEmail{
+    height:40px;
+    width:330px;
+    padding-left:20px;
+    font-size:14px;
+    background:#848585;
+    border:1px solid white;
+}
