@@ -56,7 +56,8 @@ h1 {
     color:white;
 }
 .search_button{
-    
+    background:#c7c8ca;
+    border:none;
 }
 
 .search_div, .header_social_icons{
