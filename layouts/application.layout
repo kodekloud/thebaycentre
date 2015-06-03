@@ -108,7 +108,7 @@
             <a class="header_link" href="/contact_us">contact us</a>
             <div class="search_div">
                 <input style="width:265px" type="text" id="search_input" class="search_input" placeholder="Search">
-                <i class="icon-search"></i> 
+                <i class="fa fa-search"></i>
                 <div class="search-results" id="search_results" style="display:none">
                         <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
                         <script id="search_results_template" type="x-tmpl-mustache/text">{% raw %}
