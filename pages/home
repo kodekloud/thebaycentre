@@ -25,6 +25,11 @@
                     <script id="feature_slider_template" type="x-tmpl-mustache/text">
                         <li class="feature_promo item">
                             <div class="feature_promo_left_div">
+                            <div class="feature_promo_date_div">
+                                <table>
+                                    <tr><td></td><td></td></tr>
+                                </table>
+                            </div>
                                 {{month_string}}
                                 {{day_string}}
                                 {{name}}
