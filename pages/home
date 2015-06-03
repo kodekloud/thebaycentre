@@ -37,7 +37,7 @@
 <script type="text/javascript" >
     
     $(".tabs li").onClick(function(e){
-        
+        console.log(this)
     })
     
     
