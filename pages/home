@@ -63,7 +63,10 @@
             var promos = getPromotionsList();
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos")
             
-            
+        }
+        loadMallData(render_page_details);  
+        
+        function load_slider(){
             $('.flexslider').flexslider({
                 animation: "slide",
                 controlNav: true,
@@ -72,8 +75,6 @@
                 nextText: ""
             });
         }
-        loadMallData(render_page_details);  
-        
         
         function renderHomePageData(container, template, collection, type){
             var item_list = [];
