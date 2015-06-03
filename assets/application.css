@@ -62,6 +62,8 @@ h1 {
 }
 .search-results{
     position:absolute;
+    background:white;
+    z-index:99999999;
 }
 .menu_container{
     width:1193px;
