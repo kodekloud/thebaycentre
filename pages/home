@@ -37,7 +37,7 @@
 <script type="text/javascript" >
     
     $(".tabs li").click(function(e){
-        $(this).find("div").css("background","white");
+        $(this).css("background","white");
     })
     
     
