@@ -414,6 +414,14 @@
       }
     );
     
+     $( ".header_icon" ).hover(
+      function() {
+        $( this ).attr("src",get_header_hover(this.id, "enter"));
+      }, function() {
+        $( this ).attr( "src",get_header_hover(this.id, "exit") )
+      }
+    );
+    
     function get_footer_hover (id, event){
         switch (event){
             case "enter":
