@@ -79,6 +79,10 @@ h1 {
 .result_container{
     
 }
+
+.list-group-item{
+    text-decoration:none;
+}
 .menu_container{
     width:1193px;
     height:214.444px;
