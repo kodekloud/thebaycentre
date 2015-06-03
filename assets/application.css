@@ -222,6 +222,12 @@ h1 {
     vertical-align:top;
 }
 
+.footer_h1{
+    font-family:railway-regular;
+    font-size:18pt;
+    color:#4d4d4f;
+}
+
 .footer_text{
     margin:0;
     font-family:lora-regular;
