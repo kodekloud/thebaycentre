@@ -20,7 +20,12 @@
     
     <ul class="tab_content">
         <li id="tab_1_content">
-            tab 1 content
+            <div class="feature_slider_container" id="feature_slider_container">
+                <ul class="feature_slider_ul">
+                    <script id="feature_slider_template" type="x-tmpl-mustache/text">
+                    </script>
+                </ul>
+            </div>
         </li>
         <li id="tab_2_content" style="display:none">
             tab 2 content
