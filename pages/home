@@ -108,7 +108,7 @@
                     val.month_string = get_month(start.getMonth()
                     val.day_string = start.getDate()
                 } else {
-                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
+                    
                     val.month_string = get_month(start.getMonth() +  " - " + get_month(end.getMonth()
                     val.day_string = start.getDate() + " - " + end.getDate()
                 }
