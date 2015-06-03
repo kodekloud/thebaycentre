@@ -60,6 +60,9 @@ h1 {
     margin-left:20px;
     position:relative;
 }
+.search-results{
+    position:absolute;
+}
 .menu_container{
     width:1193px;
     height:214.444px;
