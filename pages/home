@@ -38,7 +38,7 @@
     
     $(".tabs li").click(function(e){
         $(".tabs li").css({"background":"transparent","color":"white"})
-        $(this).css({"background":"white","color":"#4d4d4f"})
+        $(this).css({"background":"white","color":"#4d4d4f !important"})
     })
     
     
