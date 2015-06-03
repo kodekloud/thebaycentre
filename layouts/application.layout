@@ -214,7 +214,7 @@
                 <div id="today_hour_container" class="today_hour_container">
                     
                      <script id="today_hour_template" type="x-tmpl-mustache/text">
-                     <p class="footer_title"> today's hours </p>
+                     <p class="footer_title" style="margin-bottom:14px"> today's hours </p>
                         {% raw %}
                             {{day}}<br>
                             {{h}}<br>
