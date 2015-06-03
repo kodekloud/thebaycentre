@@ -98,6 +98,17 @@
                        val.description =  val.description.substring(0,100)+'...';
                     } 
                 }
+                
+                start = new Date (val.start_date);
+                end = new Date (val.end_date);
+                start.setDate(start.getDate()+1);
+                end.setDate(end.getDate()+1);
+        
+                if (start.toDateString() == end.toDateString()) {
+                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+                } else {
+                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+                }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
@@ -106,6 +117,49 @@
             $(container).html(item_rendered.join(''));
             load_slider();
         };
+        
+        function get_month (id){
+            switch(id) {
+                case 0:
+                    month = "Jan"
+                    break;
+                case 1:
+                    month = "Feb"
+                    break;
+                case 2:
+                    month = "Mar"
+                    break;
+                case 3:
+                    month = "Apr"
+                    break;
+                case 4:
+                    month = "May"
+                    break;
+                case 5:
+                    month = "June"
+                    break;
+                case 6:
+                    month = "July"
+                    break;
+                case 7:
+                    month = "Aug"
+                    break;
+                case 8:
+                    month = "Sep"
+                    break;
+                case 9:
+                    month = "Oct"
+                    break;
+                case 10:
+                    month = "Nov"
+                    break;
+                case 11:
+                    month = "Dec"
+                    break;
+                    
+            }
+            return month;
+        }
         
         
         $("#left_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg")
