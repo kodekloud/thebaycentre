@@ -380,8 +380,8 @@ h1 {
     padding-left:45px;
     text-transform:uppercase;
 }
-.tab_item:nth-last-child(1) {
-    border:none;
+.last_tab_item {
+    border:none !important;
 }
 .tab_content{
     padding:0;
