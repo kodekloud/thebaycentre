@@ -42,9 +42,9 @@
         $(".tabs li").find("div").css("color","white");
         $(this).css("background","white");
         $(this).find("div").css("color","#4d4d4f");
-        $(".tab_content li").fadeOut( "fast");
+        $(".tab_content li").hide();
         console.log(clicked)
-        $("#"+clicked + "_content").fadeIn("fast");
+        $("#"+clicked + "_content").show()
     
     });
     
