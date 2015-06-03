@@ -344,4 +344,7 @@ h1 {
     font-size:14px;
     color:white;
     background:#73b7aa;
+    position:absolute;
+    top:0;
+    right:0;
 }
