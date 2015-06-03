@@ -28,6 +28,7 @@
                                 {{start_date}}
                                 {{end_date}}
                                 {{name}}
+                                {{description}}
                                 {{promotionable_type}}
                             </div>
                             <div class="feature_promo_right_div">
