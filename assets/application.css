@@ -126,6 +126,7 @@ h1 {
     display:block;
     margin-top:10px;
     margin-left:10px;
+    cursor:pointer;
 }
 
 .dd_submenu ul li:hover{
