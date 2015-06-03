@@ -361,6 +361,7 @@ h1 {
     padding:0;
 }
 .tabs li {
+    font-family:montserrat-regular;
     background:#73b7aa;
     width:408px;
     height:71px;
