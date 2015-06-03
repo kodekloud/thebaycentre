@@ -21,10 +21,10 @@
         <li id="tab_1_content">
             tab 1 content
         </li>
-        <li id="tab_2_content">
+        <li id="tab_2_content" style="display:none">
             tab 2 content
         </li>
-        <li id="tab_3_content">
+        <li id="tab_3_content" style="display:none">
             tab 3 content
         </li>
     </ul>
