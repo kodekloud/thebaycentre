@@ -38,6 +38,7 @@
     
     $(".tabs li").click(function(e){
         $(".tabs li").css({"background":"transparent","color":"white"});
+        $(".tabs li").find("div").css("color","black");
         $(this).css("background","white");
         $(this).find("div").css("color","black");
     
