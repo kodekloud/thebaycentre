@@ -333,7 +333,9 @@ h1 {
     background:#848585;
     font-size:7.5pt;
 }
-
+.main_image{
+    position:relative;
+}
 /*home specific css*/
 .missing_out_div{
     
