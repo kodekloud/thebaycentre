@@ -45,6 +45,7 @@ h1 {
     text-transform:uppercase;
     font-size:14px;
     text-decoration:none;
+    display:inline;
 }
 .menu_container{
     width:1193px;
