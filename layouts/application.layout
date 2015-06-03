@@ -127,8 +127,10 @@
                         <div class="results_div" id="promo_results">
                         {{#promotions}}
                             <a href="/promotions/{{slug}}" class="list-group-item">
-                                <div class="name">{{name}}</div>
-                                <div class="description">{{description_trim}}</div>
+                                <div class="result_container">
+                                    <div class="name">{{name}}</div>
+                                    <div class="description">{{description_trim}}</div>
+                                </div>
                             </a>
                         {{/promotions}}
                         </div>
@@ -136,8 +138,10 @@
                         <div class="results_div" id="event_results">
                         {{#events}}
                             <a href="/events/{{slug}}" class="list-group-item">
-                                <div class="name">{{name}}</div>
-                                <div class="description">{{description_trim}}</div>
+                                <div class="result_container">
+                                    <div class="name">{{name}}</div>
+                                    <div class="description">{{description_trim}}</div>
+                                </div>
                             </a>
                         {{/events}}
                         </div>
