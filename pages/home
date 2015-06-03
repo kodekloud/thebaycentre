@@ -7,7 +7,8 @@
 <div class="tab_container">
     <ul class="tabs">
         <li id="tab_1">
-            whats happening today 
+        <div class="tab_item">whats happening today</div>
+             
         </li>
         <li id="tab_2">
             coming soon
