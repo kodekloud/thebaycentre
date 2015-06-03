@@ -380,6 +380,7 @@ h1 {
     padding-left:45px;
     text-transform:uppercase;
     height:50px;
+    line-height:50px;
 }
 .last_tab_item {
     border:none !important;
