@@ -61,6 +61,15 @@
         function render_page_details(){
             var promos = getPromotionsList();
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos")
+            
+            
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: true,
+                directionNav: true,        
+                prevText: "",
+                nextText: ""
+            });
         }
         loadMallData(render_page_details);  
         
