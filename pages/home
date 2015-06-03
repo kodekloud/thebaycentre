@@ -37,6 +37,7 @@
 <script type="text/javascript" >
     
     $(".tabs li").click(function(e){
+        $(".tabs li").css({"background":"transparent","color":"white"})
         $(this).css("background","white");
     })
     
