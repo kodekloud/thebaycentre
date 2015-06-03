@@ -213,3 +213,10 @@ h1 {
     margin-right:17px;
     margin-bottom:30px;
 }
+#news_submit{
+    border:1px white solid;
+    background:#848585;
+    height:43px;
+    color:white;
+    vertical-align:top;
+}
