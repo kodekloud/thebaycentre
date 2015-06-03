@@ -57,7 +57,7 @@
 
 
 <script type="text/javascript" >
-    
+    $("footer").css("margin-top","234px")
     $(".tabs li").click(function(e){
         var clicked = this.id
         $(".tabs li").css({"background":"transparent","color":"white"});
