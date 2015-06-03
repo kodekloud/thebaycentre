@@ -65,6 +65,9 @@ h1 {
     background:white;
     z-index:99999999;
 }
+.results_div{
+    display:none;
+}
 .menu_container{
     width:1193px;
     height:214.444px;
