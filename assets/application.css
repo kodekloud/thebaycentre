@@ -362,6 +362,7 @@ h1 {
 }
 .tabs li {
     background:#73b7aa;
+    width:30%;
 }
 .tab_content{
     padding:0;
