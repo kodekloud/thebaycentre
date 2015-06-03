@@ -360,6 +360,9 @@ h1 {
 .tabs{
     padding:0;
 }
+.tabs li {
+    background:#73b7aa;
+}
 .tab_content{
     padding:0;
 }
