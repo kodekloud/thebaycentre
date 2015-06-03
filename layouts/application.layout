@@ -232,7 +232,7 @@
                     </div>
                     
                 </li>
-                <li onmouseover="javascript:show_dd(6)">
+                <li onclick="javascript:show_dd(6)">
                     about us
                     <div class="dd_submenu" id="s_sub_6">
                         <ul>
