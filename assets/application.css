@@ -360,7 +360,7 @@ h1 {
 .tabs{
     padding:0;
     background:#73b7aa;
-    width:1090px;
+    width:1092px;
 }
 .tabs li {
     font-family:montserrat-regular;
@@ -368,6 +368,8 @@ h1 {
     width:360px;
     height:71px;
     color:white;
+    border-right:1px solid white
+    padding-top:5px;
 }
 .tab_content{
     padding:0;
