@@ -11,10 +11,10 @@
              
         </li>
         <li id="tab_2">
-            coming soon
+            <div class="tab_item">coming soon</div>
         </li>
         <li id="tab_3">
-            deals of the week
+            <div class="tab_item">deals of the week</div>
         </li>
     </ul>
     
