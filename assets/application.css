@@ -382,7 +382,7 @@ h1 {
     text-transform:uppercase;
     height:50px;
     line-height:50px;
-    pointer:cursor
+    pointer:cursor;
 }
 .last_tab_item {
     border:none !important;
