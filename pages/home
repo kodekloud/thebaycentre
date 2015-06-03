@@ -22,11 +22,11 @@
         <li id="tab_1_content">
             <div class="feature_slider_container" id="feature_slider_container">
                 <ul class="feature_slider_ul" id="feature_slider_ul">
-                    <script id="feature_slider_template" type="x-tmpl-mustache/text">
+                    <script id="feature_slider_template" type="x-tmpl-mustache/text">{% raw %}
                         <li class="feature_promo">
                             {{name}}
                         </li>
-                    </script>
+                    {% endraw %}</script>
                 </ul>
             </div>
         </li>
