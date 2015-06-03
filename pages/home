@@ -7,14 +7,14 @@
 <div class="tab_container">
     <ul class="tabs">
         <li id="tab_1">
-        <div class="tab_item">whats happening today</div>
+        <div class="tab_item">whats happening today <i class="fa fa-chevron-down"></i></div>
              
         </li>
         <li id="tab_2">
-            <div class="tab_item">coming soon</div>
+            <div class="tab_item">coming soon <i class="fa fa-chevron-down"></i></div>
         </li>
         <li id="tab_3">
-            <div class="tab_item last_tab_item">deals of the week</div>
+            <div class="tab_item last_tab_item">deals of the week <i class="fa fa-chevron-down"></i></div>
         </li>
     </ul>
     
