@@ -200,7 +200,7 @@
                     {% raw %}
                         <p class="footer_h1">Find us</p>
                         <p class="footer_h2">{{name}}</p>
-                        <p class="footer_text">Administration Office<br>{{address1}}<br>{{city}}, {{province_state}}<br>{{postal_code}}<br>{{phone_string}}</p>
+                        <p class="top_footer_text">Administration Office<br>{{address1}}<br>{{city}}, {{province_state}}<br>{{postal_code}}<br>{{phone_string}}</p>
                         <img class="footer_site_logo" src="{{site_logo}}">
                     {% endraw %}
                 </script>  
