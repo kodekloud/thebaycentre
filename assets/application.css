@@ -338,5 +338,10 @@ h1 {
 }
 /*home specific css*/
 .missing_out_div{
-    
+    width:313px;
+    height:63px;
+    font-family:lora-regular;
+    font-size:14px;
+    color:white;
+    background:#73b7aa;
 }
