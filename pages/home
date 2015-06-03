@@ -27,11 +27,11 @@
                             <div class="feature_promo_left_div">
                             <div class="feature_promo_date_div">
                                 <table>
-                                    <tr><td></td><td></td></tr>
+                                    <tr><td>{{month_string}}</td><td>{{day_string}}</td></tr>
                                 </table>
                             </div>
-                                {{month_string}}
-                                {{day_string}}
+                                
+                                
                                 {{name}}
                                 {{description}}
                                 {{promotionable_type}}
