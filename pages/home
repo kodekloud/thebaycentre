@@ -42,7 +42,7 @@
         $(this).css("background","white");
         $(this).find("div").css("color","black");
         $(".tab_content li").fadeOut( "slow", function() {
-            $(this.id + "_content").fadeIn(slow)
+            $(this.id + "_content").fadeIn("slow")
         });
     
     });
