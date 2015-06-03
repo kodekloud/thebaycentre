@@ -54,6 +54,10 @@ h1 {
 .search_button{
     
 }
+
+.search_div, .header_social_icons{
+    display:inline-block;
+}
 .menu_container{
     width:1193px;
     height:214.444px;
