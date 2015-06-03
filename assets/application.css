@@ -221,3 +221,8 @@ h1 {
     width:100px;
     vertical-align:top;
 }
+
+.footer_text{
+    margin:0
+    font-family:lora-regular;
+}
