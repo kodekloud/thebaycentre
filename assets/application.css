@@ -223,7 +223,9 @@ h1 {
 }
 
 .top_footer_text{
-    color:yellow;
+    font-family:lora-regular;
+    color:#4d4d4f;
+    font-size:14px;
 }
 
 .footer_h1{
