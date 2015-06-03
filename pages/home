@@ -42,10 +42,8 @@
         $(".tabs li").find("div").css("color","white");
         $(this).css("background","white");
         $(this).find("div").css("color","#4d4d4f");
-        $(".tab_content li").fadeOut( "fast", function() {
-            console.log(clicked)
-            $(clicked + "_content").fadeIn("fast")
-        });
+        $(".tab_content li").fadeOut( "fast");
+        $(clicked + "_content").fadeIn("fast");
     
     });
     
