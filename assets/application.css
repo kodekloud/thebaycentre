@@ -222,7 +222,7 @@ h1 {
     vertical-align:top;
 }
 
-.today_hour_container .footer_text{
+.today_hour_container > .footer_text{
     color:yellow;
 }
 
