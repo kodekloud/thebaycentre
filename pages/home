@@ -14,7 +14,7 @@
             <div class="tab_item">coming soon</div>
         </li>
         <li id="tab_3">
-            <div class="tab_item">deals of the week</div>
+            <div class="tab_item last_tab_item">deals of the week</div>
         </li>
     </ul>
     
