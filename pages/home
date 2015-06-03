@@ -69,7 +69,7 @@
         function load_slider(){
             $('.flexslider').flexslider({
                 animation: "slide",
-                controlNav: true,
+                controlNav: false,
                 directionNav: true,        
                 prevText: "",
                 nextText: ""
