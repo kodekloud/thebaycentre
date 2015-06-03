@@ -75,6 +75,7 @@
             
             
             $.each( item_list , function( key, val ) {
+                console.log(val)
                 if (type == "footer_logo" || type == "logo"){
                     if (val.contact_phone != ""){
                         val.phone_string = "P " + val.contact_phone
