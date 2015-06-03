@@ -354,6 +354,7 @@ h1 {
 }
 .tabs li, .tab_content li {
     list-style:none;
+    display:inline-block;
 }
 .tabs{
     padding:0;
