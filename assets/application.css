@@ -48,6 +48,9 @@ h1 {
 .menu_items_container{
     position:relative;
 }
+.dd_submenu ul{
+    background:white;
+}
 .search_social_div{
     float:right;
     margin-top:35px;
