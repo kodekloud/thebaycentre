@@ -60,6 +60,7 @@
     $(document).ready(function() {
         function render_page_details(){
             var promos = getPromotionsList();
+            console.log(promos)
             renderPageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos")
         }
         loadMallData(render_page_details);  
