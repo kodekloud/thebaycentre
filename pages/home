@@ -105,11 +105,11 @@
                 end.setDate(end.getDate()+1);
         
                 if (start.toDateString() == end.toDateString()) {
-                    val.month_string = get_month(start.getMonth()
+                    val.month_string = get_month(start.getMonth())
                     val.day_string = start.getDate()
                 } else {
                     
-                    val.month_string = get_month(start.getMonth() +  " - " + get_month(end.getMonth()
+                    val.month_string = get_month(start.getMonth()) +  " - " + get_month(end.getMonth())
                     val.day_string = start.getDate() + " - " + end.getDate()
                 }
                 var rendered = Mustache.render(template_html,val);
