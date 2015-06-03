@@ -360,6 +360,7 @@ h1 {
 .tabs{
     padding:0;
     background:#73b7aa;
+    width:1090px;
 }
 .tabs li {
     font-family:montserrat-regular;
