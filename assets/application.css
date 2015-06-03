@@ -57,6 +57,7 @@ h1 {
 
 .search_div, .header_social_icons{
     display:inline-block;
+    margin-left:20px;
 }
 .menu_container{
     width:1193px;
