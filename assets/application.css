@@ -79,7 +79,7 @@ h1 {
 .result_container{
     margin-bottom:20px;
     padding-bottom:20px;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .list-group-item{
