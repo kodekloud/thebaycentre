@@ -228,7 +228,7 @@
                 <div class="newsletter_container">
                     <form id="footer_newsletter">
                       
-                        <label for="fieldEmail" class="footer_title">get on the list! sales. events. fashion news.</label><br />
+                        <p for="fieldEmail" class="footer_title">get on the list! sales. events. fashion news.</p><br />
                         <span><input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit">Subscribe</button></span><br>
                         <input id="agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">I agree to receive newsletters from The Bay Centre</input>
                         
