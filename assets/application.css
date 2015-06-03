@@ -68,6 +68,10 @@ h1 {
 .results_div{
     display:none;
 }
+.list-group{
+    padding-left:15px;
+    padding-right:15px;
+}
 .list-group li {
     list-style:none;
     width:285.417px;
