@@ -375,7 +375,7 @@
                 renderSearchResultsTemplate('#search_results_template','#search_results_items',search_results);
                 if (search_results["stores"]){
                     if (search_results["stores"].length > 0){
-                        $("#store_results_header").html(search_results["stores"].length+" Stores <i id='store_arrow' class='fa fa-chevron-right pull-right'></i>") ;
+                        $("#store_results_header").html(search_results["stores"].length+" Stores <i id='store_arrow' class='fa fa-chevron-right pull-right search_arrow'></i>") ;
                         $("#store_results_header").show();
                     }
                     
@@ -384,7 +384,7 @@
                 }
                 if (search_results["promotions"]){
                     if (search_results["promotions"].length > 0){
-                        $("#promotions_results_header").html(search_results["promotions"].length+" Promotions <i id='promo_arrow' class='fa fa-chevron-right pull-right'></i>")    ;
+                        $("#promotions_results_header").html(search_results["promotions"].length+" Promotions <i id='promo_arrow' class='fa fa-chevron-right search_arrow pull-right'></i>")    ;
                         $("#promotions_results_header").show();
                     }
                     
@@ -393,7 +393,7 @@
                 }
                 if (search_results["events"]){
                     if (search_results["events"].length > 0) {
-                        $("#events_results_header").html(search_results["events"].length+" Events <i id='event_arrow' class='fa fa-chevron-right pull-right'></i>")    
+                        $("#events_results_header").html(search_results["events"].length+" Events <i id='event_arrow' class='fa fa-chevron-right pull-right search_arrow'></i>")    
                         $("#events_results_header").show();
                     }
                     
