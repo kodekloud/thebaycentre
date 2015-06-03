@@ -90,6 +90,7 @@
             
             $(container).show();
             $(container).html(item_rendered.join(''));
+            load_slider();
         };
         
         
