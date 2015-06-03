@@ -219,7 +219,7 @@
                             <p class="footer_text">{{day}}</p>
                             <p class="footer_text">{{h}}</p>
                         {% endraw %}
-                      <a href="/hours">See all Hours ></a>  
+                      <a href="/hours"><p class="footer_text">See all Hours ></p></a>  
                     </script>
                     
                     <br>
