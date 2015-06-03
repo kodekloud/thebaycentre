@@ -104,9 +104,12 @@
                 end.setDate(end.getDate()+1);
         
                 if (start.toDateString() == end.toDateString()) {
-                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+                    val.month_string = get_month(start.getMonth()
+                    val.day_string = start.getDate()
                 } else {
-                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();
+                    val.month_string = get_month(start.getMonth() +  " - " + get_month(end.getMonth()
+                    val.day_string = start.getDate() + " - " + end.getDate()
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
