@@ -107,7 +107,6 @@
         $(".tab_content li").hide();
         $("#"+clicked + "_content").show()
         $("#"+clicked + "_content li").show()
-        $(".flex-direction-nav li").show();
         load_slider("flexslider3")
     
     });
