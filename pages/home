@@ -96,7 +96,6 @@
      <script id="feature_template" type="x-tmpl-mustache/text">
         <img class="feature_image" src="{{image_url}}"/>
      </script>
-    
 </div>
 
 
