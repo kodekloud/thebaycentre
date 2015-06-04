@@ -463,3 +463,8 @@ h1 {
     top:27px;
     width:805px;
 }
+.promo_title{
+    font-family:railway-regular;
+    color:#4d4d4f;
+    font-size:14pt;
+}
