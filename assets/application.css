@@ -526,19 +526,16 @@ h1 {
     height:279px;
     width:579px;
 }
-.feature_image:nth-child(2){
+.feature_image:nth-child(2), .feature_image:nth-child(4){
     height:277px;
     width:267px;
 }
-.feature_image:nth-child(1){
+.feature_image:nth-child(3){
     height:561px;
     width:276px;
 }
-.feature_image:nth-child(1){
-    height:279px;
-    width:579px;
-}
-.feature_image:nth-child(1){
-    height:279px;
+
+.feature_image:nth-child(5){
+    height:277px;
     width:579px;
 }
