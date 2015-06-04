@@ -136,6 +136,9 @@
             renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
             load_slider("flexslider");
             
+            var featureList = getFeatureList();
+             
+            
         }
         loadMallData(render_page_details);  
         
