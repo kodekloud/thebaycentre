@@ -517,5 +517,9 @@ h1 {
     margin-left:20px;
 }
 .feature_image{
-    
+    margin-right:10px;
+}
+.feature_image:nth-child(1){
+    height:279px;
+    width:579px;
 }
