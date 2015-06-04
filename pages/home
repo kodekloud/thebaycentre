@@ -137,7 +137,7 @@
             load_slider("flexslider");
             
             var featureList = getFeatureList();
-            renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos") 
+            renderHomePageData("#feature_container", "#feature_template", featureList, "feature_items") 
             
         }
         loadMallData(render_page_details);  
