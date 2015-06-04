@@ -42,9 +42,10 @@
                             </div>
                             <div class="promo_description_div">
                                 <p class="promo_title"><a class="promo_title" href="{{store_slug}}">{{store_name}}</a> | {{name}} </p>
-                                {{name}}
-                                {{description}}
-                                {{promotionable_type}}
+                                <p class="promo_description">
+                                    {{description}}
+                                </p>
+
                             </div>
                                 
                                 
