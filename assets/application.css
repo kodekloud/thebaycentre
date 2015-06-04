@@ -478,7 +478,7 @@ h1 {
     font-size:11pt;
 }
 .feature_promo_left_div{
-    display:inline-block;
+    display:inline;
 }
 .feature_promo_right_div{
     position:absolute;
