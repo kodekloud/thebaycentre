@@ -116,7 +116,7 @@
             $.each( collection , function( key, val ) {
                 if (type == "feature_promos"){
                     if (val.description.length > 110) {
-                       val.description =  val.description.substring(0,100)+'...';
+                       val.description =  val.description.substring(0,300)+'...';
                     } 
                     
                     start = new Date (val.start_date);
