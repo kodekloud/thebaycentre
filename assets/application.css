@@ -514,7 +514,8 @@ h1 {
   left: -40px;
 }
 .feature_container{
-    margin-left:20px;
+    margin-left:30px;
+    padding-right:24px;
 }
 .feature_image{
     /*margin-right:10px;*/
