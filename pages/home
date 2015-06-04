@@ -111,6 +111,17 @@
     
     });
     
+    function load_slider(slider){
+        
+            $('.'+slider).flexslider({
+                animation: "slide",
+                controlNav: false,
+                directionNav: true,        
+                prevText: "",
+                nextText: ""
+            });
+        }
+        
     
     
     $(document).ready(function() {
@@ -123,16 +134,6 @@
         }
         loadMallData(render_page_details);  
         
-        function load_slider(slider){
-        
-            $('.'+slider).flexslider({
-                animation: "slide",
-                controlNav: false,
-                directionNav: true,        
-                prevText: "",
-                nextText: ""
-            });
-        }
         
         function renderHomePageData(container, template, collection, type){
             var item_list = [];
