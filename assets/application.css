@@ -540,12 +540,12 @@ h1 {
     padding-left:20px;
 }
 .socialize_text{
-    display:inline;
+    float:left;
     margin-top:99px;
     font-family:railway-regular;
     color:#4d4d4f;
     font-size:18pt;
-    text-transform:uppercase;
+    text-transform
 }
 .socialize_social_icons{
     
