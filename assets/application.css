@@ -467,4 +467,6 @@ h1 {
     font-family:railway-regular;
     color:#4d4d4f;
     font-size:14pt;
+    text-decoration:none;
+    text-transform:uppercase;
 }
