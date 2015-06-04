@@ -377,7 +377,8 @@ h1 {
     background:#73b7aa;
     width:1080px;
     position:absolute;
-    bottom:23px;
+    bottom:0;
+    margin-bottom:0;
     height:69px;
 }
 .tabs li {
