@@ -377,7 +377,7 @@ h1 {
     background:#73b7aa;
     width:1080px;
     position:absolute;
-    bottom:40;
+    bottom:24;
     margin-bottom:0;
     height:69px;
 }
@@ -405,6 +405,9 @@ h1 {
 }
 .tab_content{
     padding:0;
+    margin-bottom:0;
+    margin-top:80px;
+    
 }
 .tab_content li {
     margin-top:0px;
