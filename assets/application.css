@@ -478,10 +478,10 @@ h1 {
     font-size:11pt;
 }
 .feature_promo_left_div{
-    
+    display:inline-block;
 }
 .feature_promo_right_div{
-    
+    display:inline-block;
 }
 .read_more_btn{
     
