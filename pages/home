@@ -92,6 +92,12 @@
         </li>
     </ul>
 </div>
+<div class="feature_container">
+     <script id="feature_template" type="x-tmpl-mustache/text">
+        <img src="{{image_url}}"/>
+     </script>
+    
+</div>
 
 
 
