@@ -519,9 +519,7 @@ h1 {
 .feature_image{
     /*margin-right:10px;*/
 }
-.feature_image:nth-child(3){
-    float:right;
-}
+
 .feature_image:nth-child(1){
     height:279px;
     width:579px;
@@ -533,6 +531,7 @@ h1 {
 .feature_image:nth-child(3){
     height:561px;
     width:276px;
+    float:right;
 }
 
 .feature_image:nth-child(5){
