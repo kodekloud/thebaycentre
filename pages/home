@@ -116,25 +116,36 @@
                     if (val.description.length > 110) {
                        val.description =  val.description.substring(0,100)+'...';
                     } 
+                    
+                    start = new Date (val.start_date);
+                    end = new Date (val.end_date);
+                    start.setDate(start.getDate()+1);
+                    end.setDate(end.getDate()+1);
+            
+                    if (start.toDateString() == end.toDateString()) {
+                        val.start_month = get_month(start.getMonth())
+                        val.start_day = start.getDate()
+                        
+                        
+                    } else {
+                        val.start_month =get_month(start.getMonth())
+                        val.start_day = start.getDate() 
+                        val.end_month = get_month(end.getMonth())
+                        val.end_day = end.getDate()
+                        val.dash = " - "
+                    }
+                    
+                    if (val.promotionable_type == "Store"){
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.store_name = store_details.name
+                        val.store_slug = store_details.slug
+                    }else {
+                        val.store_name = "The Bay Centre"
+                        val.store_slug = "/home"
+                    }
                 }
                 
-                start = new Date (val.start_date);
-                end = new Date (val.end_date);
-                start.setDate(start.getDate()+1);
-                end.setDate(end.getDate()+1);
-        
-                if (start.toDateString() == end.toDateString()) {
-                    val.start_month = get_month(start.getMonth())
-                    val.start_day = start.getDate()
-                    
-                    
-                } else {
-                    val.start_month =get_month(start.getMonth())
-                    val.start_day = start.getDate() 
-                    val.end_month = get_month(end.getMonth())
-                    val.end_day = end.getDate()
-                    val.dash = " - "
-                }
+                
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
