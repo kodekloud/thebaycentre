@@ -467,7 +467,7 @@ h1 {
 .promo_title{
     font-family:railway-regular;
     color:#4d4d4f;
-    font-size:14pt;
+    font-size:20pt;
     text-decoration:none;
     text-transform:uppercase;
     margin-top:0;
@@ -475,5 +475,5 @@ h1 {
 }
 .promo_description{
     font-family:lora-regular;
-    font-size:9pt;
+    font-size:11pt;
 }
