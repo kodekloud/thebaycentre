@@ -109,9 +109,7 @@
                         <a href="" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png" class="social_icon" alt="blog" id="social_blog"></a>
             </div>
 </div>
-
-<iframe src="http://snapwidget.com/sc/?u=dGhlYmF5Y2VudHJlfGlufDE1MHwzfDN8fHllc3wyMHxmYWRlT3V0fG9uU3RhcnR8eWVzfG5v&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1149px; height:150px"></iframe>
-
+<iframe src="http://snapwidget.com/sc/?u=dGhlYmF5Y2VudHJlfGlufDE1MHwzfDN8fG5vfDV8ZmFkZU91dHxvblN0YXJ0fHllc3xubw==&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1149px; height:150px"></iframe>
 <script type="text/javascript" >
   
     $(".tabs li").click(function(e){
