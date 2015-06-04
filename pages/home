@@ -113,6 +113,8 @@
 
 <!-- SnapWidget -->
 <iframe src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIxMHw1fDF8fHllc3wxMHxmYWRlT3V0fG9uU3RhcnR8eWVzfG5v&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1150px; height:230px"></iframe>
+
+
 <script type="text/javascript" >
   
     $(".tabs li").click(function(e){
