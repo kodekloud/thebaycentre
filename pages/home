@@ -52,7 +52,7 @@
                                 
                             </div>
                             <div class="feature_promo_right_div">
-                                <button  class="read_more_btn"><a href="/promotions/{{slug}}">read more <i class="fa fa-chevron-right"></i></a></button>
+                                <button  class="read_more_btn">read more <i class="fa fa-chevron-right"></i></button>
                             </div>
                         </li>
                     </script>
