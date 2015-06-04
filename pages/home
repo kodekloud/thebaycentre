@@ -125,6 +125,7 @@
                     val.start_day = start.getDate() 
                     val.end_month = get_month(end.getMonth())
                     val.end_day = end.getDate()
+                    val.dash = " - "
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
