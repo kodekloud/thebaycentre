@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="date_block">
                                     <p class="dash_string">{{dash}}</p>
-                                </div<
+                                </div>
                                 <div class="date_block">
                                     <p class="month_string">{{end_month}}</p>
                                     <p class="day_string">{{end_day}}</p>
