@@ -62,7 +62,7 @@
         <li id="tab_3_content" style="display:none">
             <div class="feature_slider_container flexslider" id="current_promo_slider_container">
                 <ul class="feature_slider_ul slides" id="promo_slider_ul">
-                    <script id="feature_slider_template" type="x-tmpl-mustache/text">
+                    <script id="current_promo_slider_template" type="x-tmpl-mustache/text">
                         <li class="feature_promo item">
                             <div class="feature_promo_left_div">
                             <div class="feature_promo_date_div">
@@ -115,7 +115,8 @@
     $(document).ready(function() {
         function render_page_details(){
             var promos = getPromotionsList();
-            renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos")
+            renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos");
+            renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
             
         }
         loadMallData(render_page_details);  
