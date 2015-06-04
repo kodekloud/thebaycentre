@@ -540,7 +540,7 @@ h1 {
     padding-left:20px;
 }
 .socialize_text{
-    float:left;
+    display:inline;
     margin-top:99px;
     font-family:railway-regular;
     color:#4d4d4f;
