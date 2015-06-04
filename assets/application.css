@@ -415,7 +415,7 @@ h1 {
     position:absolute;
 }
 .flex-viewport{
-    width:1140px;
+    width:1140px !important;
 }
 .feature_slider_ul{
     
