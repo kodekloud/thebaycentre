@@ -60,7 +60,7 @@
             tab 2 content
         </li>
         <li id="tab_3_content" style="display:none">
-            <div class="feature_slider_container flexslider" id="current_promo_slider_container">
+            <div class="feature_slider_container flexslider3" id="current_promo_slider_container">
                 <ul class="feature_slider_ul slides" id="promo_slider_ul">
                     <script id="current_promo_slider_template" type="x-tmpl-mustache/text">
                         <li class="feature_promo item">
@@ -121,9 +121,9 @@
         }
         loadMallData(render_page_details);  
         
-        function load_slider(){
+        function load_slider(slider){
         
-            $('.flexslider').flexslider({
+            $('.'+slider).flexslider({
                 animation: "slide",
                 controlNav: false,
                 directionNav: true,        
