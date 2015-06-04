@@ -540,7 +540,8 @@ h1 {
     padding-left:20px;
 }
 .socialize_text{
-    
+    float:left;
+    margin-top:99px;
 }
 .socialize_social_icons{
     
