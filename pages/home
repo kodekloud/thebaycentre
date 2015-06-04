@@ -41,6 +41,7 @@
                                    
                             </div>
                             <div class="promo_description_div">
+                                <p class="promo_title"><a href="{{store_slug}}">{{store_name}}</a> | {{name}} </p>
                                 {{name}}
                                 {{description}}
                                 {{promotionable_type}}
