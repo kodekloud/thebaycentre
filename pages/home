@@ -92,7 +92,7 @@
         </li>
     </ul>
 </div>
-<div class="feature_container">
+<div class="feature_container" id="feature_container">
      <script id="feature_template" type="x-tmpl-mustache/text">
         <img class="feature_image" src="{{image_url}}"/>
      </script>
@@ -137,7 +137,7 @@
             load_slider("flexslider");
             
             var featureList = getFeatureList();
-             
+            renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos") 
             
         }
         loadMallData(render_page_details);  
