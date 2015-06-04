@@ -366,7 +366,8 @@ h1 {
 }
 
 .tab_container{
-    
+    display:block;
+    position:relative;
 }
 .tabs li, .tab_content li {
     list-style:none;
