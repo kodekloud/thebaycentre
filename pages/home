@@ -119,12 +119,15 @@
                 end.setDate(end.getDate()+1);
         
                 if (start.toDateString() == end.toDateString()) {
-                    val.month_string = get_month(start.getMonth())
-                    val.day_string = start.getDate()
-                } else {
+                    val.start_month = get_month(start.getMonth())
+                    val.start_day = start.getDate()
                     
-                    val.month_string = get_month(start.getMonth()) +  " - " + get_month(end.getMonth())
-                    val.day_string = start.getDate() + " - " + end.getDate()
+                    
+                } else {
+                    val.start_month =get_month(start.getMonth())
+                    val.start_day = start.getDate() 
+                    val.end_month = get_month(end.getMonth())
+                    val.end_day = end.getDate()
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
