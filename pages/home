@@ -122,7 +122,7 @@
         loadMallData(render_page_details);  
         
         function load_slider(){
-            $('.item').first().addClass('flex-active-slide');
+        
             $('.flexslider').flexslider({
                 animation: "slide",
                 controlNav: false,
