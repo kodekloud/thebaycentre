@@ -422,7 +422,7 @@ h1 {
 }
 
 .feature_promo{
-    
+    position:relative;
 }
 .feature_promo_date_div{
     position:relative;
@@ -481,7 +481,10 @@ h1 {
     display:inline-block;
 }
 .feature_promo_right_div{
-    display:inline-block;
+    position:absolute;
+    right:0;
+    top:50%;
+    
 }
 .read_more_btn{
     
