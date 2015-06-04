@@ -506,5 +506,5 @@ h1 {
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
-  left: 40px;
+  left: -40px;
 }
