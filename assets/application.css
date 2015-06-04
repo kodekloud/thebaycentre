@@ -459,7 +459,7 @@ h1 {
 }
 .promo_description_div{
     display:inline-block;
-    margin-left:55px;
+    margin-left:40px;
     position:absolute;
     top:27px;
     width:805px;
@@ -493,7 +493,7 @@ h1 {
     letter-spacing:2px;
     height:51px;
     width:145px;
-    margin-right:5px;
+    margin-right:20px;
     background:white;
     text-transform:uppercase;
     color:#4d4d4f;
