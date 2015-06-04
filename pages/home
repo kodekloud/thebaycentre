@@ -112,7 +112,7 @@
 <script src="http://snapwidget.com/js/snapwidget.js"></script>
 
 <!-- SnapWidget -->
-<iframe src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIxMHw1fDF8fHllc3w1fGZhZGVPdXR8b25TdGFydHx5ZXN8bm8=&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1125px; height:225px"></iframe>
+<iframe id="insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIxMHw1fDF8fHllc3w1fGZhZGVPdXR8b25TdGFydHx5ZXN8bm8=&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1125px; height:225px"></iframe>
 
 <script type="text/javascript" >
   
