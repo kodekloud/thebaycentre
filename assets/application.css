@@ -487,5 +487,11 @@ h1 {
     
 }
 .read_more_btn{
-    
+    text-decoration:none;
+    font-family:montserrat-regular;
+    font-size:8pt;
+    letter-spacing:2px;
+    height:51px;
+    width:195px;
+    background:#4d4d4f;
 }
