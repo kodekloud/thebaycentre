@@ -59,7 +59,7 @@
         <li id="tab_2_content" style="display:none">
             tab 2 content
         </li>
-        <li id="tab_3_content" style="display:none">
+        <li id="tab_3_content" >
             <div class="feature_slider_container flexslider3" id="current_promo_slider_container">
                 <ul class="feature_slider_ul slides" id="promo_slider_ul">
                     <script id="current_promo_slider_template" type="x-tmpl-mustache/text">
