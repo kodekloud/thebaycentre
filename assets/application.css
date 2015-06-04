@@ -377,8 +377,8 @@ h1 {
     padding:0;
     background:#73b7aa;
     width:1080px;
-    position:absolute;
-    bottom:84px;
+    position:relative;
+    bottom:90px;
     margin-bottom:0;
     height:69px;
 }
