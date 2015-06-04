@@ -107,13 +107,13 @@
         $(".tab_content li").hide();
         $("#"+clicked + "_content").show()
         $("#"+clicked + "_content li").show()
-        load_slider()
+        load_slider("flexslider3")
     
     });
     
-    function load_slider(){
+    function load_slider(slider){
         
-            $('.flexslider').flexslider({
+            $('.'+slider).flexslider({
                 animation: "slide",
                 controlNav: false,
                 directionNav: true,        
@@ -129,7 +129,7 @@
             var promos = getPromotionsList();
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos");
             renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
-            load_slider();
+            load_slider("flexslider");
             
         }
         loadMallData(render_page_details);  
