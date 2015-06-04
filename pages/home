@@ -117,7 +117,7 @@
             var promos = getPromotionsList();
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos");
             renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
-            
+            load_slider();
         }
         loadMallData(render_page_details);  
         
@@ -180,7 +180,7 @@
             
             $(container).show();
             $(container).html(item_rendered.join(''));
-            load_slider();
+            
         };
         
         function get_month (id){
