@@ -32,7 +32,7 @@
                         <li class="feature_promo item">
                             <div class="feature_promo_left_div">
                             <div class="feature_promo_date_div">
-                            <div class="feature_promo_date_triangle">&nbsp;</div>
+                                <div class="feature_promo_date_triangle">&nbsp;</div>
                      
                                     <div class="date_block">
                                         <p class="month_string">{{start_month}}</p>
@@ -40,11 +40,14 @@
                                     </div>
                                    
                             </div>
-                                
-                                
+                            <div class="promo_description_div">
                                 {{name}}
                                 {{description}}
                                 {{promotionable_type}}
+                            </div>
+                                
+                                
+                                
                             </div>
                             <div class="feature_promo_right_div">
                                 <a href="" class="read_more_btn">read more <i class="fa fa-chevron-right"></i> </a>
