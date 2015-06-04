@@ -127,6 +127,14 @@
             });
         }
         
+    $( ".social_icon" ).hover(
+      function() {
+        $( this ).attr("src",get_footer_hover(this.id, "enter"));
+      }, function() {
+        $( this ).attr( "src",get_footer_hover(this.id, "exit") )
+      }
+    );
+        
     
     function get_social_hover (id, event){
         switch (event){
