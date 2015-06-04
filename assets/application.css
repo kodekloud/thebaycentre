@@ -542,6 +542,9 @@ h1 {
 .socialize_text{
     float:left;
     margin-top:99px;
+    font-family:railway-regular;
+    color:#4d4d4f;
+    font-size:18pt;
 }
 .socialize_social_icons{
     
