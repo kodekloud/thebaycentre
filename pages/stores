@@ -109,7 +109,7 @@
              
            
             
-            $.each( alpha_list , function( key, val ) {
+            $.each( alpha_array , function( key, val ) {
                  console.log(val["name"])
              })
 
