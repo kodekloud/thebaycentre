@@ -5,6 +5,8 @@
     }
     .tabs li{
         width:50%;
+        position:relative;
+        bottom:-1px;
     }
     .tab_item{
         border:none;
