@@ -175,7 +175,7 @@
             </div>
         </div>
         <div id="logo_container">
-            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img class="site_logo" src="{{site_logo}}">{% endraw %}</script>  
+            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<a href="/"><img class="site_logo" src="{{site_logo}}"></a>{% endraw %}</script>  
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
