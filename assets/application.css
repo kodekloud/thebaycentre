@@ -653,6 +653,6 @@ h1 {
 }
 
 .list_icon{
-    line-height:59px;
+    line-height:59px !important;
     float:right;
 }
