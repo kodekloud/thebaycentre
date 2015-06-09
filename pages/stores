@@ -74,6 +74,10 @@
 
 <script>
 
+    $("#search_stores").change(function() {
+      alert( "Handler for .change() called." );
+    });
+
     function show_stores(id){
        if ($("#cat_"+id+"_stores").is(":visible")){
            $("#cat_"+id+"_stores").slideUp();
