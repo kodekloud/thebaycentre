@@ -626,6 +626,7 @@ h1 {
     border-top:1px solid black;
     padding-left:39px;
     padding-right:34px;
+    margin:0;
 }
 .cat_div{
     background:#f1f0ed;
