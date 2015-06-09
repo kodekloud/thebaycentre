@@ -58,7 +58,11 @@
 <script>
 
     function show_stores(id){
-        
+       if ($("#cat_"+id+"_stores").is("visible")){
+           $("#cat_"+id+"_stores").slideUp();
+       } else {
+           $("#cat_"+id+"_stores").slideDown();
+       }
     }
 
     $(document).ready(function() {
