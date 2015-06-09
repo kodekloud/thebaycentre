@@ -128,6 +128,8 @@
     function toggle_news_form(){
         if ($(".hidden_newsletter_form").is(":visible")){
             $(".hidden_newsletter_form").slideUp();
+            $("#fear_caret").removeClass("fa-caret-up");
+            $("#fear_caret").addClass("fa-caret-down")
         } else {
             $(".hidden_newsletter_form").slideDown();
             $("#fear_caret").removeClass("fa-caret-down");
