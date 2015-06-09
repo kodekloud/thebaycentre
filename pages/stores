@@ -63,6 +63,8 @@
         }
         
         
+        
+        
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
@@ -75,7 +77,10 @@
             $.each( collection , function( key, val ) {
                 console.log(val)
                 if (type == "cats"){
-                    val.count = val.store_ids.length   
+                    val.count = val.store_ids.length  
+                    $.each( val.store_ids , function( key, val ) {
+                      console.log(val)  
+                    })
                 }
                 
                 var rendered = Mustache.render(template_html,val);
