@@ -350,6 +350,62 @@
 <script type="text/javascript" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/collapser.js"></script>
 
 <script>
+        $( ".social_icon" ).hover(
+      function() {
+        $( this ).attr("src",get_social_hover(this.id, "enter"));
+      }, function() {
+        $( this ).attr( "src",get_social_hover(this.id, "exit") )
+      }
+    );
+        
+    
+    function get_social_hover (id, event){
+        switch (event){
+            case "enter":
+                if (id == "social_instagram"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/header_social_instagram.png"    
+                }
+                if (id == "social_facebook"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/header_social_fb.png"    
+                }
+                if (id == "social_twitter"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/header_social_twit.png"    
+                    
+                }
+                if (id == "social_youtube"){
+                    return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/header_social_youtube.png"
+                    
+                }
+                if (id == "social_blog"){
+                   return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/header_social_blog.png" 
+                    
+                }
+                break;
+            case "exit":
+                
+                    if (id == "social_instagram"){
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png"
+                    }
+                    if (id == "social_facebook"){
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_fb.png"   
+                    }
+                    if (id == "social_twitter"){
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_twit.png"
+                        
+                    }
+                    if (id == "social_youtube"){
+                        return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_youtube.png"
+                        
+                    }
+                    if (id == "social_blog"){
+                       return "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_blog.png"
+                        
+                    }
+            
+                break;    
+        }
+            
+    }
     
         function show_results(id){
         
