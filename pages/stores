@@ -90,11 +90,13 @@
             var categories = getStoreCategories();
             var alpha_stores = getStoresList();
             renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
-            renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_stores, "alpha")
+            generateAlphaStoreList(alpha_stores)
         }
         
         
-        
+        function generateAlphaStoreList (collection){
+            
+        }
         
         function renderPageData(container, template, collection, type){
             var item_list = [];
