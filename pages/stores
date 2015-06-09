@@ -100,7 +100,7 @@
                  first_letter = (val.name).charAt(0)
                  obj = {};
                  obj["name"] = first_letter
-                 if (isInArray(alpha_list, obj)){
+                 if (isInArray(alpha_list, obj) >= 0){
                      
                      alpha_list.push(obj);
                  } 
