@@ -6,11 +6,11 @@
         <p>Fear of missing out?<i id="fear_caret" class="fa fa-caret-down"></i></p>
         <div class="hidden_newsletter_form">
             <form>
-                <span><input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit" id="news_submit">Subscribe</button></span><br>
-                        <input id="agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">I agree to receive newsletters from The Bay Centre</input>
+                <span><input id="banner_email" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit" id="banner_submit">Subscribe</button></span><br>
+                        <input id="banner_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">I agree to receive newsletters from The Bay Centre</input>
                         
-                         <input type="hidden" name="cm-f-jhtykd" id ="fieldjhtykd" />
-                         <input type="hidden" name="cm-f-jhtykh" id="fieldjhtykh"/>
+                         <input type="hidden" name="cm-f-jhtykd" id ="banner_source" />
+                         <input type="hidden" name="cm-f-jhtykh" id="banner_terms"/>
             </form>
         </div>
     </div>
