@@ -570,7 +570,12 @@ h1 {
     color:white;
     font-size:10pt;
     font-family:montserrat-regular;
+    text-transform:uppercase;
 }
 #banner_hours_container p {
     margin:0;
+}
+#banner_hours_container a {
+    text-decoration:none;
+    color:white;
 }
