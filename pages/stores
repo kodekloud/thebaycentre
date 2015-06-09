@@ -57,7 +57,7 @@
 
     $(document).ready(function() {
         loadMallData(renderAll);  
-    }
+    })
 
     $(".tabs li").click(function(e){
         var clicked = this.id
