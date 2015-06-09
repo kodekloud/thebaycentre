@@ -144,8 +144,9 @@
                     alert("Please try again later.");
                 } else {
                     alert("Thank you for signing up.")
-                    $("#fieldEmail").val("")
-                    $("#agree_terms").prop('checked', false);
+                    $("#banner_email").val("")
+                    $("#banner_agree_terms").prop('checked', false);
+                    toggle_news_form();
                 }
         });  
     })
