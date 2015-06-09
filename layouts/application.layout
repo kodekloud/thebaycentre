@@ -183,7 +183,7 @@
                     find a store
                     <div class="dd_submenu" id="s_sub_1">
                         <ul>
-                            <li>Store Directory</li>
+                            <li><a href="/stores">Store Directory</a></li>
                             <li>Centre Directory</li>
                             <li>Interactive Map</li>
                         </ul>
