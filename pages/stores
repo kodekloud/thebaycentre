@@ -122,7 +122,7 @@
                 val.store_ids = store_ids
              })
             
-            console.log(alpha_array)
+            return(alpha_array)
         
         }
         
