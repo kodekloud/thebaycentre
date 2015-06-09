@@ -560,3 +560,14 @@ h1 {
 #insta_feed{
     margin-left:30px;
 }
+#banner_hours_container {
+    position:absolute;
+    top:100px;
+    right:0;
+    border-radius:50%;
+    width:155px;
+    background:#57424b;
+    color:white;
+    font-size:10pt;
+    font-family:montserrat-regular;
+}
