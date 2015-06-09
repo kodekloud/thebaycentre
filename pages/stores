@@ -98,7 +98,7 @@
                 $.each( collection , function( key, val ) {
                     $.each( val.store_ids , function( key2, val2 ) {
                       store = getStoreDetailsByID(val2)
-                      $("#cat_"+val.id).append("<p>"+store.name+"</p>")
+                      $("#cat_"+val.id+"_stores").append("<p>"+store.name+"</p>")
                     })    
                 })    
             }
