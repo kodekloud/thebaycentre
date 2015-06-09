@@ -43,6 +43,7 @@
                     <div class="cat_div" id="cat_{{id}}">
                         {{name}} ({{count}})
                     </div>
+                    <div class="stores_div" id="cat_{{id}}_stores"
                 </script>
             </div>
         </li>
