@@ -62,7 +62,9 @@
         }
         
         
-        function renderPageData(container, template, collection, type)
+        function renderPageData(container, template, collection, type){
+            
+        }
         
         loadMallData(renderAll);  
     })
