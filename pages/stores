@@ -55,6 +55,10 @@
 
 <script>
 
+    $(document).ready(function() {
+        
+    }
+
     $(".tabs li").click(function(e){
         var clicked = this.id
         $(".tabs li").css({"background":"transparent","color":"white"});
