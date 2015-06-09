@@ -260,7 +260,7 @@
                 }
                 
                 if (type == "banner_hours"){
-                    console.log val
+                    console.log (val)
                 }
                 
                 
