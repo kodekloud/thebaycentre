@@ -131,7 +131,7 @@
             $("#fear_caret").removeClass("fa-caret-up");
             $("#fear_caret").addClass("fa-caret-down")
         } else {
-            $(".hidden_newsletter_form").slideDown();
+            $(".hidden_newsletter_form").slideDown("slow");
             $("#fear_caret").removeClass("fa-caret-down");
             $("#fear_caret").addClass("fa-caret-up")
         }
