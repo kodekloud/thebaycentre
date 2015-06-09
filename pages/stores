@@ -132,7 +132,7 @@
     })
 
     function goto_slug(slug){
-        window.location.href= "/stores/"+slug
+        window.location.href= "/stores/"+slug;
     }
 
     $(".tabs li").click(function(e){
