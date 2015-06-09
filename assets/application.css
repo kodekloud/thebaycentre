@@ -632,6 +632,7 @@ h1 {
     font-family:montserrat-regular;
     font-size:16px;
     color:#4d4d4f;
+    display:inline;
 }
 .stores_div p:nth-child(1){
     border-top:none;
