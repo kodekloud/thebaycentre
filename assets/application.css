@@ -630,6 +630,9 @@ h1 {
     height:59px;
     line-height:59px;
 }
+.stores_div p:nth-child(1){
+    border-top:none;
+}
 .cat_div{
     background:#f1f0ed;
     height:59px;
