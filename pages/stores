@@ -111,7 +111,7 @@
             $.each( alpha_list , function( key, val ) {
                  console.log(val.name)
              })
-            console.log(alpha_list)
+         
         }
         
         function renderPageData(container, template, collection, type){
