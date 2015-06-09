@@ -76,7 +76,9 @@
 
     $("#search_stores").on("input", function() {
       var store_search_results = getSearchResults($('#search_stores').val(),10,100);
-      console.log(store_search_results.stores)
+      var alpha_stores = (store_search_results.stores)
+      var alpha_array = generateAlphaStoreList(alpha_stores);
+      renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
     });
 
     function show_stores(id){
