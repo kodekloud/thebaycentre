@@ -627,6 +627,8 @@ h1 {
     padding-left:39px;
     padding-right:34px;
     margin:0;
+    height:59px;
+    line-height:59px;
 }
 .cat_div{
     background:#f1f0ed;
