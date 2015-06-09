@@ -5,6 +5,13 @@
     <div class="missing_out_div">
         fear of missing out?
     </div>
+    <div id="banner_hours_container">
+        <script id="banner_hours_template" type="x-tmpl-mustache/text">
+            <p>{{status}} Today </p>
+            <p>{{open_time}}-{{close_time}}</p>
+            <a href="/hours">see all<br>hours ></a>
+        </script>
+    </div>
 </div>
 <div class="tab_container">
     <ul class="tabs">
