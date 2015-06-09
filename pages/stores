@@ -102,7 +102,11 @@
                      alpha_list.push(first_letter)
                  } 
              })
-             console.log(alpha_list)
+             
+             $.each( alpha_list , function( key, val ) {
+                 console.log(val)
+             })
+            
         }
         
         function renderPageData(container, template, collection, type){
