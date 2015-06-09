@@ -98,14 +98,11 @@
             alpha_list = new Array;
              $.each( collection , function( key, val ) {
                  first_letter = (val.name).charAt(0)
-                 obj = {};
-                 obj["name"] = first_letter
-                 if (isInArray(alpha_list, first_letter) >= 0){
-                     
-                     
-                 } else {
+                 if (jQuery.inArray(first_letter, alpha_list)== -1){
+                     obj = {};
+                     obj["name"] = first_letter
                      alpha_list.push(obj);
-                 }
+                 } 
              })
              
            
@@ -117,12 +114,6 @@
             console.log(alpha_list)
         }
         
-        
-        function isInArray(array, search)
-        {
-            return array.indexOf(search) >= 0;
-        }
-
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
