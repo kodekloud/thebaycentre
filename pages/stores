@@ -93,8 +93,6 @@
           var store_search_results = getSearchResults($('#search_stores').val(),10,100);
           var alpha_stores = (store_search_results.stores)
           var alpha_array = generateAlphaStoreList(alpha_stores);
-          console.log(alpha_array)
-          renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
         });
         
         function renderAll(){
