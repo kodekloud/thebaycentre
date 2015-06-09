@@ -5,7 +5,7 @@
     <div class="missing_out_div" onclick="javascript:toggle_news_form()">
         <p>Fear of missing out?<i id="fear_caret" class="fa fa-caret-down"></i></p>
         <div class="hidden_newsletter_form">
-            <form>
+            <form style="font-size:12px">
                 <span><input id="banner_email" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit" id="banner_submit">Subscribe</button></span><br>
                         <input id="banner_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">I agree to receive newsletters from The Bay Centre</input>
                         
