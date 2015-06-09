@@ -258,8 +258,9 @@
         <img id="left_image" />
         <img id="right_image" />
         <div id="page_content">{{yield}}</div>
-        
-        <div class="socialize_div">
+    </div>
+    <footer>
+            <div class="socialize_div">
     <p class="socialize_text">socialize with us</p>
     <div class="socialize_social_icons">
                 <a href="" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/19be0dcfe6428f0d1b57c253af02c6ce/hover_social_instagram.png" class="social_icon" alt="instagram" id="social_instagram"></a>
@@ -273,8 +274,6 @@
 
 <!-- SnapWidget -->
 <iframe id="insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIxMHw1fDF8fHllc3wxMHxmYWRlT3V0fG9uU3RhcnR8eWVzfG5v&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1150px; height:230px"></iframe>
-    </div>
-    <footer>
         <div class="footer_logo_div">
             <img class="footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/89b85fd61b49f7b49bc74345c2070d12/logos.jpg"/>    
         </div>
