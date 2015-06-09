@@ -97,7 +97,7 @@
         function generateAlphaStoreList (collection){
             alpha_list = []
              $.each( collection , function( key, val ) {
-                 first_letter = (val.name).substring(1)
+                 first_letter = (val.name).charAt(0)
                  console.log(first_letter)
              })
         }
