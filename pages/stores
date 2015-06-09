@@ -75,11 +75,11 @@
             
             
             $.each( collection , function( key, val ) {
-                console.log(val)
+             
                 if (type == "cats"){
                     val.count = val.store_ids.length  
-                    $.each( val.store_ids , function( key, val ) {
-                      console.log(val)  
+                    $.each( val.store_ids , function( key, val2 ) {
+                      console.log(val2)  
                     })
                 }
                 
