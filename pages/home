@@ -130,6 +130,8 @@
             $(".hidden_newsletter_form").slideUp();
         } else {
             $(".hidden_newsletter_form").slideDown();
+            $("#fear_caret").removeClass("fa-caret-down");
+            $("#fear_caret").addClass("fa-caret-up")
         }
     }
   
