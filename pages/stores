@@ -113,7 +113,7 @@
                  console.log(val["name"])
              })
 
-            console.log(alpha_list)
+        
         }
         
         function renderPageData(container, template, collection, type){
