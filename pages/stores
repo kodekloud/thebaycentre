@@ -112,7 +112,7 @@
            
             
             $.each( alpha_array , function( key, val ) {
-                 console.log(val["name"])
+                 console.log(val.name)
              })
 
         
