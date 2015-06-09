@@ -268,8 +268,8 @@
                     } else {
                         val.status = "Closed"
                     }
-                    open = (val.open_time).getHours();
-                    console.log(open)
+                    open = (val.open_time)
+                    console.log(opengetHours();)
                 }
                 
                 
