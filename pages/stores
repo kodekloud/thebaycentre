@@ -1,6 +1,7 @@
 <style>
     .tabs{
         width:100%;
+        background:transparent;
     }
     .tabs li{
         width:50%;
