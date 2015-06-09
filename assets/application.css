@@ -621,6 +621,9 @@ h1 {
 .stores_div{
     display:none;
 }
+.cat_div{
+    background:#f1f0ed;
+}
 .cat_stores_container{
     margin-top:61px;
 }
