@@ -95,7 +95,9 @@
         
         
         function generateAlphaStoreList (collection){
-            
+             $.each( collection , function( key, val ) {
+                 console.log(val)
+             })
         }
         
         function renderPageData(container, template, collection, type){
