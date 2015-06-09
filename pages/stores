@@ -98,7 +98,11 @@
             alpha_list = []
              $.each( collection , function( key, val ) {
                  first_letter = (val.name).charAt(0)
-                 console.log(first_letter)
+                 if (jQuery.inArray(first_letter, alpha_list)){
+                     
+                 } else {
+                     alpha_list.push(first_letter)
+                 }
              })
         }
         
