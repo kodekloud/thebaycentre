@@ -90,7 +90,7 @@
             var categories = getStoreCategories();
             var alpha_stores = getStoresList();
             renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
-            generateAlphaStoreList(alpha_stores);
+            var alpha_array = generateAlphaStoreList(alpha_stores);
         }
         
         
