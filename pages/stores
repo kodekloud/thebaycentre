@@ -55,7 +55,16 @@
             </div>
         </li>
         <li id="tab_2_content" style="display:none">
-            tab 2 content
+            <div class="cat_stores_container" id="">
+                <script id="" type="x-tmpl-mustache/text">
+                    <div class="cat_div" id="alpha_{{id}}" onclick="javascript:show_stores({{id}})">
+                        {{name}} ({{count}})
+                        <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
+                    </div>
+                    <div class="stores_div" id="alpha_{{id}}_stores">
+                    </div>
+                </script>
+            </div>
         </li>
     </ul>
 </div>
