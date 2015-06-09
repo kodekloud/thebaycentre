@@ -620,7 +620,8 @@ h1 {
 /*stores css*/
 .stores_div{
     display:none;
-    
+    padding-left:39px;
+    padding-right:34px;
 }
 .cat_div{
     background:#f1f0ed;
