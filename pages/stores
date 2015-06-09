@@ -100,7 +100,7 @@
                  first_letter = (val.name).charAt(0)
                  obj = {};
                  obj["name"] = first_letter
-                 if (jQuery.inArray(obj, alpha_list)== -1){
+                 if (isInArray(alpha_list, obj)){
                      
                      alpha_list.push(obj);
                  } 
@@ -115,6 +115,12 @@
             console.log(alpha_list)
         }
         
+        
+        function isInArray(array, search)
+        {
+            return array.indexOf(search) >= 0;
+        }
+
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
