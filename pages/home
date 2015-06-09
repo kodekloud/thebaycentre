@@ -269,7 +269,7 @@
                         val.status = "Closed"
                     }
                     open = new Date (val.open_time)
-                    console.log(open.getHours());
+                    console.log(open.getUTCHours());
                 }
                 
                 
