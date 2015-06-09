@@ -127,7 +127,7 @@
   
     function toggle_news_form(){
         if ($(".hidden_newsletter_form").is(":visible")){
-            $(".hidden_newsletter_form").slideUp();
+            $(".hidden_newsletter_form").slideUp("slow");
             $("#fear_caret").removeClass("fa-caret-up");
             $("#fear_caret").addClass("fa-caret-down")
         } else {
