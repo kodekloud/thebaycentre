@@ -565,7 +565,8 @@ h1 {
     top:100px;
     right:0;
     border-radius:50%;
-    width:130px;
+    width:140px;
+    height:140px;
     background:#57424b;
     color:white;
     font-size:10pt;
