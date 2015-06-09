@@ -623,6 +623,9 @@ h1 {
     padding-left:39px;
     padding-right:34px;
 }
+.stores_div p {
+    border-top:1px solid black;
+}
 .cat_div{
     background:#f1f0ed;
     height:59px;
