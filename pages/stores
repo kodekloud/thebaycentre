@@ -101,7 +101,8 @@
                  if (jQuery.inArray(first_letter, alpha_list)== -1){
                      obj = {};
                      obj["name"] = first_letter
-                     alpha_list.push(obj);
+                     alpha_array.push(obj);
+                     alpha_list.push(first_letter)
                  } 
              })
              
