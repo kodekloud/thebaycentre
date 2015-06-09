@@ -605,8 +605,11 @@ h1 {
     margin-right:10px;
     margin-bottom:15px;
     background:#848585;
+    border:1px solid white;
     color:white;
 }
 #banner_submit{
-    
+    background:#848585;
+    color:white;
+    border:1px solid white;
 }
