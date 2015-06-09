@@ -41,7 +41,7 @@
             <div class="cat_stores_container" id="cat_stores_container">
                 <script id="cat_stores_template" type="x-tmpl-mustache/text">
                     <div class="cat_div" id="cat_{{id}}">
-                        {{name}} | {{count}}
+                        {{name}} ({{count}})
                     </div>
                 </script>
             </div>
