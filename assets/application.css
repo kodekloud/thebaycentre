@@ -600,7 +600,10 @@ h1 {
     padding:20px;
 }
 #banner_email{
-    
+    height:20px;
+    width:60%;
+    margin-right:10px;
+    margin-bottom:15px;
 }
 #banner_submit{
     
