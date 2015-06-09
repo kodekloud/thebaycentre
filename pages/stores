@@ -88,12 +88,15 @@
             $(container).show();
             $(container).html(item_rendered.join(''));
             
-            $.each( collection , function( key, val ) {
-                $.each( val.store_ids , function( key2, val2 ) {
+            if (type == "cats"){
+                $.each( collection , function( key, val ) {
+                    $.each( val.store_ids , function( key2, val2 ) {
                       store = getStoreDetailsByID(val2)
                       $("#cat_"+val.id).append("<p>"+store.name+"</p>")
                     })    
-            })
+                })    
+            }
+            
             
         }
         
