@@ -620,11 +620,13 @@ h1 {
 /*stores css*/
 .stores_div{
     display:none;
+    text-transform:uppercase;
 }
 .cat_div{
     background:#f1f0ed;
     height:59px;
     margin-bottom:5px;
+    text-transform:uppercase;
 }
 .cat_stores_container{
     margin-top:61px;
