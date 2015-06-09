@@ -104,6 +104,7 @@
                      alpha_list.push(first_letter)
                  }
              })
+             console.log(alpha_list)
         }
         
         function renderPageData(container, template, collection, type){
