@@ -268,7 +268,7 @@
                     } else {
                         val.status = "Closed"
                     }
-                    open = (val.open_time)
+                    open = new Date (val.open_time)
                     console.log(open.getHours());
                 }
                 
