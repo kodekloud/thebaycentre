@@ -622,7 +622,7 @@ h1 {
     display:none;
     
 }
-.stores_div p {
+.stores_div p, .stores_div a {
     border-top:1px solid #f1f0ed;
     padding-left:39px;
     padding-right:34px;
