@@ -268,7 +268,7 @@
                     } else {
                         val.status = "Closed"
                     }
-                    console.log((val.open_time).getUTCHours())
+                    
                 }
                 
                 
