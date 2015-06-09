@@ -132,8 +132,8 @@
 
     $("#banner_newsletter").submit(function(e){
         e.preventDefault();
-        $("#fieldjhtykh").val($("#agree_terms").attr("value"));
-        $("#fieldjhtykd").val(window.location.href)
+        $("#banner_terms").val($("#agree_terms").attr("value"));
+        $("#banner_source").val(window.location.href)
         
          $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
