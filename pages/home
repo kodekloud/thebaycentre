@@ -285,7 +285,7 @@
         function get_simple_hour (d){
             d = new Date(d)
             hour = d.getUTCHours();
-            console.log(d)
+            console.log(hour)
         }
         function get_month (id){
             switch(id) {
