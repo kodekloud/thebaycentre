@@ -99,7 +99,9 @@
              $.each( collection , function( key, val ) {
                  first_letter = (val.name).charAt(0)
                  if (jQuery.inArray(first_letter, alpha_list)== -1){
-                     alpha_list.push(first_letter)
+                     obj = {};
+                     obj["name"] = first_letter
+                     alpha_list.push(obj);
                  } 
              })
              
