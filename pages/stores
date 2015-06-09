@@ -104,8 +104,8 @@
              })
              
              $.each( alpha_list , function( key, val ) {
-                 val.name = val
-                 val.test = "test"
+                 val["name"] = val
+                 val["test"] = "test"
              })
             
             console.log(alpha_list)
