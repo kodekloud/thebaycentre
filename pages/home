@@ -125,6 +125,15 @@
 
 <script type="text/javascript" >
   
+    function toggle_news_form(){
+        if ($(".hidden_newsletter_form").is(":visible")){
+            $(".hidden_newsletter_form").slideUp();
+        } else {
+            $(".hidden_newsletter_form").slideDown();
+        }
+    }
+  
+  
     $(".tabs li").click(function(e){
         var clicked = this.id
         $(".tabs li").css({"background":"transparent","color":"white"});
