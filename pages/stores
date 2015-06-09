@@ -57,11 +57,11 @@
         <li id="tab_2_content" style="display:none">
             <div class="cat_stores_container" id="">
                 <script id="" type="x-tmpl-mustache/text">
-                    <div class="cat_div" id="alpha_{{id}}" onclick="javascript:show_stores({{id}})">
+                    <div class="cat_div" id="cat_{{id}}" onclick="javascript:show_stores({{id}})">
                         {{name}} ({{count}})
                         <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
                     </div>
-                    <div class="stores_div" id="alpha_{{id}}_stores">
+                    <div class="stores_div" id="cat_{{id}}_stores">
                     </div>
                 </script>
             </div>
