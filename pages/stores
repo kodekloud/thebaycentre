@@ -9,6 +9,9 @@
     .tab_item{
         border:none;
     }
+    .tab_content{
+        height:auto;
+    }
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
