@@ -66,8 +66,10 @@
     function show_stores(id){
        if ($("#cat_"+id+"_stores").is(":visible")){
            $("#cat_"+id+"_stores").slideUp();
+           $("#icon_"+id).removeClass("")
        } else {
            $("#cat_"+id+"_stores").slideDown();
+           $("#icon_"+id).removeClass("fa-plus")
        }
     }
 
