@@ -256,8 +256,9 @@
     </header>
     <div id="main_container">
         <img id="left_image" />
-        <div id="page_content">{{yield}}</div>
         <img id="right_image" />
+        <div id="page_content">{{yield}}</div>
+        
         <div class="socialize_div">
     <p class="socialize_text">socialize with us</p>
     <div class="socialize_social_icons">
