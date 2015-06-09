@@ -95,6 +95,7 @@
         
         
         function generateAlphaStoreList (collection){
+            alpha_list = []
              $.each( collection , function( key, val ) {
                  console.log(val)
              })
