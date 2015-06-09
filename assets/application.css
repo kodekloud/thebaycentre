@@ -369,6 +369,9 @@ h1 {
     line-height:63px;
     text-align:center;
     margin:0;
+    font-family:lora-regular;
+    font-size:10pt;
+    
 }
 
 .tab_container{
