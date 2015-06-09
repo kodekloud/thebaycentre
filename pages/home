@@ -268,8 +268,8 @@
                     } else {
                         val.status = "Closed"
                     }
-                    get_simple_hour(val.open_time)
-                    get_simple_hour(val.close_time)
+                    val.open_time = get_simple_hour(val.open_time)
+                    val.close_time = get_simple_hour(val.close_time)
                 }
                 
                 
