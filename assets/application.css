@@ -621,6 +621,7 @@ h1 {
 .stores_div{
     display:none;
     padding-right:34px;
+    width:100%;
     
 }
 .stores_div a{
