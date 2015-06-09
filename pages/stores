@@ -62,6 +62,8 @@
         }
         
         
+        function renderPageData(container, template, collection, type)
+        
         loadMallData(renderAll);  
     })
 
