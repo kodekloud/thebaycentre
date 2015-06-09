@@ -59,7 +59,7 @@
         function renderAll(){
             var category_stores = getStoresListByCategory();
             var categories = getStoreCategories();
-            renderPageData("#cat_stores_container","#cat_stores_template", categories, "logo")
+            renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats")
         }
         
         
