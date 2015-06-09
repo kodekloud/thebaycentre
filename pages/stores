@@ -74,6 +74,7 @@
             
             $.each( collection , function( key, val ) {
                 console.log(val)
+                val.count = val.store_ids.length
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
