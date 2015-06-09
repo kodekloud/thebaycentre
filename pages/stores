@@ -79,7 +79,7 @@
                 if (type == "cats"){
                     val.count = val.store_ids.length  
                     $.each( val.store_ids , function( key2, val2 ) {
-                      console.log(val2)  
+                      store = getStoreDetailsByID(val2)  
                     })
                 }
                 
