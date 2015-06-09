@@ -76,7 +76,7 @@
 
     $("#search_stores").on("input", function() {
       var store_search_results = getSearchResults($('#search_stores').val(),10,100);
-      console.log(store_search_results)
+      console.log(store_search_results.stores)
     });
 
     function show_stores(id){
