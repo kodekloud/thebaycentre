@@ -5,6 +5,9 @@
     .tabs li{
         width:50%;
     }
+    .tab_item{
+        border:none;
+    }
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
