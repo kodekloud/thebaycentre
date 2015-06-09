@@ -269,7 +269,7 @@
                         val.status = "Closed"
                     }
                     open = (val.open_time)
-                    console.log(opengetHours();)
+                    console.log(open.getHours();)
                 }
                 
                 
