@@ -57,6 +57,10 @@
 
 <script>
 
+    function show_stores(id){
+        
+    }
+
     $(document).ready(function() {
         function renderAll(){
             var category_stores = getStoresListByCategory();
