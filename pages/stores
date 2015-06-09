@@ -14,7 +14,7 @@
     </div>
 </div>
 
-
+<img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner2.jpg" class="" alt="">
 
 <script>
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner3.jpg")
