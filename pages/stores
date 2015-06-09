@@ -131,6 +131,10 @@
         loadMallData(renderAll);  
     })
 
+    function goto_slug(slug){
+        window.location.href= "/stores/"+slug
+    }
+
     $(".tabs li").click(function(e){
         var clicked = this.id
         $(".tabs li").css({"background":"transparent","color":"white"});
