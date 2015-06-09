@@ -620,9 +620,11 @@ h1 {
 /*stores css*/
 .stores_div{
     display:none;
-    padding-right:34px;
-    width:100%;
     
+    
+}
+.s_div{
+   padding-right:34px; 
 }
 .stores_div a{
     margin:0;
