@@ -47,6 +47,7 @@
                 <script id="cat_stores_template" type="x-tmpl-mustache/text">
                     <div class="cat_div" id="cat_{{id}}" onclick="javascript:show_stores({{id}})">
                         {{name}} ({{count}})
+                        <i class="fa fa-plus"></i>
                     </div>
                     <div class="stores_div" id="cat_{{id}}_stores">
                     </div>
