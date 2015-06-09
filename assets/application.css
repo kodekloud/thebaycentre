@@ -615,3 +615,9 @@ h1 {
     height:24px;
     width:85px;
 }
+
+
+/*stores css*/
+.stores_div{
+    display:none;
+}
