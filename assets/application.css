@@ -562,8 +562,10 @@ h1 {
 }
 #banner_hours_container {
     position:absolute;
-    top:100px;
-    right:0;
+    top:440px;
+    right:-20px;
+    z-index:999999;
+    opacity:0.9;
     border-radius:50%;
     width:140px;
     height:140px;
