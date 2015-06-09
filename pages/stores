@@ -58,7 +58,8 @@
     $(document).ready(function() {
         function renderAll(){
             var category_stores = getStoresListByCategory();
-            renderPageData("#cat_stores_container","#cat_stores_template", category_stores, "logo")
+            var categories = getStoreCategories();
+            renderPageData("#cat_stores_container","#cat_stores_template", categories, "logo")
         }
         
         
