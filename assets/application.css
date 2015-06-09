@@ -597,4 +597,11 @@ h1 {
 .hidden_newsletter_form{
     display:none;
     background:#73b7aa;
+    padding:20px;
+}
+#banner_email{
+    
+}
+#banner_submit{
+    
 }
