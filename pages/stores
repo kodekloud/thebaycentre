@@ -102,8 +102,10 @@
                  obj["name"] = first_letter
                  if (isInArray(alpha_list, obj) >= 0){
                      
+                     
+                 } else {
                      alpha_list.push(obj);
-                 } 
+                 }
              })
              
            
