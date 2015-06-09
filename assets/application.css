@@ -368,6 +368,7 @@ h1 {
 .missing_out_div p {
     line-height:63px;
     text-align:center;
+    margin:0;
 }
 
 .tab_container{
