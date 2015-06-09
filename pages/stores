@@ -104,9 +104,10 @@
              })
              
              $.each( alpha_list , function( key, val ) {
-                 console.log(val)
+                 val.name = val
              })
             
+            console.log(alpha_list)
         }
         
         function renderPageData(container, template, collection, type){
