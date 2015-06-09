@@ -75,7 +75,8 @@
 <script>
 
     $("#search_stores").on("input", function() {
-      alert( "Handler for .change() called." );
+      var store_search_results = getSearchResults($('#search_stores').val(),10,100);
+      console.log(store_search_results)
     });
 
     function show_stores(id){
