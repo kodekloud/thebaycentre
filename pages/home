@@ -284,8 +284,21 @@
         
         function get_simple_hour (d){
             d = new Date(d)
-            hour = d.getUTCHours();
-            console.log(hour)
+            h = d.getUTCHours();
+            if (h >= 12) {
+                if ( h != 12) {
+                    h = h - 12;    
+                }
+                
+                i = "PM"
+            } else {
+                if (h == 0) {
+                    h = 12
+                }
+                i = "AM"
+            }
+            
+            return h+""+i;
         }
         function get_month (id){
             switch(id) {
