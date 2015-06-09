@@ -263,7 +263,11 @@
                 }
                 
                 if (type == "banner_hours"){
-                    console.log (val)
+                    if (val.is_closed == false){
+                        val.status = "Open"
+                    } else {
+                        val.status = "Closed"
+                    }
                 }
                 
                 
