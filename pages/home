@@ -211,6 +211,9 @@
             var featureList = getFeatureList();
             renderHomePageData("#feature_container", "#feature_template", featureList, "feature_items") 
             
+            var banner_hours = getTodaysHours();
+            renderHomePageData("#banner_hours_container", "#banner_hours_template", banner_hours, "banner_hours") 
+            
         }
         loadMallData(render_page_details);  
         
@@ -254,6 +257,10 @@
                         val.store_name = "The Bay Centre"
                         val.store_slug = "/home"
                     }
+                }
+                
+                if (type == "banner_hours"){
+                    console.log val
                 }
                 
                 
