@@ -622,6 +622,7 @@ h1 {
     display:none;
     padding-left:39px;
     padding-right:34px;
+    border-top:1px solid black;
 }
 .cat_div{
     background:#f1f0ed;
