@@ -284,6 +284,9 @@
             
         };
         
+        function get_simple_hour (d){
+            
+        }
         function get_month (id){
             switch(id) {
                 case 0:
