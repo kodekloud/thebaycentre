@@ -17,9 +17,7 @@
         margin-right:34px;
     }
 </style>
-<div id="loading_overlay">
-    <img class="loading_gif" alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
-</div>
+
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
     <div class="missing_out_div">
@@ -34,6 +32,9 @@
             </form>
         </div>
     </div>
+</div>
+<div id="loading_overlay">
+    <img class="loading_gif" alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
 <div class="tab_container">
     <ul class="tabs">
