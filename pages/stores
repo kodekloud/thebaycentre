@@ -149,7 +149,7 @@
             
             
             $.each( collection , function( key, val ) {
-             
+                console.log(val)
                 if (type == "cats"){
                     val.count = val.store_ids.length  
                     
