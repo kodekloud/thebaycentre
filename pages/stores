@@ -124,9 +124,9 @@
               }) 
             })
             cat_array = jQuery.unique( cat_array );
-            
+            full_cat_array = new Array;
             $.each( cat_array , function( key, val ) {
-                console.log(val)
+                full_cat_array.push(getCategoryDetails(val))
             })
             
           }
