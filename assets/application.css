@@ -692,12 +692,16 @@ h1 {
     height:30px;
     color:white;
     width:100%;
+    font-family:montserrat-regular;
+    text-transform:uppercase;
+    font-size:16px;
 }
 .store_search_icon{
     color:white;
     top:6px;
     right:10px;
     position:absolute;
+    font-size:16px;
 }
 .store_Search_div{
     position:relative;
