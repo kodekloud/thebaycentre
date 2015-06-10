@@ -728,3 +728,35 @@ h1 {
     margin-right:50px;
     display:inline-block;
 }
+
+
+/***********SHARE THIS**************/
+
+.stButton{
+    width:20px !important;
+}
+.stButton .chicklets{
+    background-size:contain !important;
+    height:20px !important;
+    line-height:20px !important;
+}
+
+.facebook{
+    background:url(http://northpark.mallmaverick.com/system/site_images/photos/000/004/140/original/social_fb.png?1411413898) !important;
+    background-repeat:no-repeat !important;
+}
+.pinterest{
+    background:url(http://northpark.mallmaverick.com/system/site_images/photos/000/004/141/original/social_pin.png?1411413905) !important;
+    background-repeat:no-repeat !important;
+}
+
+.twitter{
+    background:url(http://northpark.mallmaverick.com/system/site_images/photos/000/004/142/original/social_twitter.png?1411413916) !important;
+    background-repeat:no-repeat !important;
+}
+
+.sharethis{
+    background:url(http://assets.kodekloud.io/sites/556628266e6f640eb3000000/75a0b30e4d74dafec26d8331f731a127/share.png) !important;
+    background-repeat:no-repeat !important;
+}
+/***********************************/
