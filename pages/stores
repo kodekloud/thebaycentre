@@ -72,6 +72,19 @@
 </div>
 
 
+<div style="display:none" id="backup_stores_container">
+    <script id="alpha_stores_template" type="x-tmpl-mustache/text">
+        <div class="cat_div" id="cat_{{id}}" onclick="javascript:show_stores('{{id}}')">
+            {{name}} ({{count}})
+            <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
+        </div>
+        <div class="stores_div" id="cat_{{id}}_stores">
+        </div>
+    </script>
+</div>
+
+
+
 <script>
 
     
@@ -98,7 +111,7 @@
           }
           
           var alpha_array = generateAlphaStoreList(alpha_stores);
-          $("#alpha_stores_container").html()
+          $("#alpha_stores_container").html($("#backup_stores_container").html())
           renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
         });
         
