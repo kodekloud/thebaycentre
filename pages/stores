@@ -46,7 +46,7 @@
     <input type="text" id="search_stores" class="store_search_input" placeholder="search for a store">
     <i class="fa fa-search store_search_icon"></i>
     </div>
-    <button class="gray_pill">see all stores</button>
+    <button class="gray_pill" onclick="see_all_stores()">see all stores</button>
     <button class="gray_pill">view map</button>
     <ul class="tab_content">
         <li id="tab_1_content">
@@ -117,8 +117,8 @@
     }
 
     function see_all_stores(){
-            $("#search_stores").val('')
-            $("#search_stores").trigger("input")
+        $("#search_stores").val('')
+        $("#search_stores").trigger("input")
     }
         
 
