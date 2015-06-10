@@ -131,9 +131,10 @@
             
             
             $.each( full_cat_array , function( key, val ) {
-                $.each( val.store_ids , function( key, val ) {
-                    
-                })
+                newStoreIds = []
+                 $.each( store_search_results.stores , function( key2, val2 ) {
+                     console.log(val2.categories)
+                 })
             })
             
           }
