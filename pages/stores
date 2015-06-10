@@ -152,7 +152,7 @@
             var item_rendered = [];
             var template_html = $(template).html();
             console.log(template_html)
-            // Mustache.parse(template_html);   // optional, speeds up future uses
+            Mustache.parse(template_html);   // optional, speeds up future uses
  
             // item_list.push(collection);    
             
