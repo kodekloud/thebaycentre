@@ -122,7 +122,7 @@
           }
           
           var alpha_array = generateAlphaStoreList(alpha_stores);
-          $("#alpha_stores_container").html($("#backup_stores_container").html())
+          $("#alpha_stores_container").html($("#backup_alpha_stores_container").html())
           renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
           
           
@@ -150,7 +150,7 @@
                  })
                 val.store_ids = newStoreIds
             })
-            $("#cat_stores_container").html($("#backup_stores_container").html())
+            $("#cat_stores_container").html($("#backup_cat_stores_container").html())
             renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
           }
            
