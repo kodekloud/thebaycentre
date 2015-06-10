@@ -117,7 +117,7 @@
           
           var cat_array = new Array;
           
-          if (store_Search_results.stores.length > 0 ){
+          if (store_search_results.stores.length > 0 ){
             $.each( store_search_results.stores , function( key, val ) {
                console.log(val)
             })    
