@@ -117,9 +117,12 @@
           
           var cat_array = new Array;
           
-           $.each( store_search_results , function( key, val ) {
+          if (store_Search_results.length > 0 ){
+            $.each( store_search_results , function( key, val ) {
                console.log(val)
-           })
+            })    
+          }
+           
           
           
           
