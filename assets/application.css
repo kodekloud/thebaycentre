@@ -693,5 +693,8 @@ h1 {
     color:white;
 }
 .store_search_icon{
-    
+    color:white;
+    top:6px;
+    right:10px;
+    position:absolute;
 }
