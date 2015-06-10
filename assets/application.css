@@ -702,4 +702,6 @@ h1 {
 .store_Search_div{
     position:relative;
     height:30px;
+    margin-left:37px;
+    display:inline;
 }
