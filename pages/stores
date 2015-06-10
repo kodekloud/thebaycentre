@@ -109,6 +109,7 @@
             alpha_list = new Array;
             alpha_array = new Array;
              $.each( collection , function( key, val ) {
+                 console.log(val)
                  first_letter = (val.name).charAt(0)
                  if (jQuery.inArray(first_letter, alpha_list)== -1){
                      obj = {};
