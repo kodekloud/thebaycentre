@@ -100,7 +100,9 @@
 </script>
 </head>
 <body>
-
+    <div id="loading_screen">
+            <img class="loading_gif" alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+        </div>
     <header>
     
     
@@ -257,9 +259,7 @@
         
     </header>
     <div id="main_container">
-        <div id="loading_screen">
-            <img class="loading_gif" alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
-        </div>
+        
         <img id="left_image" />
         <img id="right_image" />
         <div id="page_content">{{yield}}</div>
