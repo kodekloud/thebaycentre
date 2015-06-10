@@ -126,32 +126,32 @@
           renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
           
           
-          var cat_array = new Array;
-          if (store_search_results.stores.length > 0 ){
-            $.each( store_search_results.stores , function( key, val ) {
-              $.each( val.categories , function( key2, val2 ) {
-                cat_array.push(val2)
-              }) 
-            })
-            cat_array = jQuery.unique( cat_array );
-            full_cat_array = new Array;
-            $.each( cat_array , function( key, val ) {
-                full_cat_array.push(getCategoryDetails(val))
-            })
+        //   var cat_array = new Array;
+        //   if (store_search_results.stores.length > 0 ){
+        //     $.each( store_search_results.stores , function( key, val ) {
+        //       $.each( val.categories , function( key2, val2 ) {
+        //         cat_array.push(val2)
+        //       }) 
+        //     })
+        //     cat_array = jQuery.unique( cat_array );
+        //     full_cat_array = new Array;
+        //     $.each( cat_array , function( key, val ) {
+        //         full_cat_array.push(getCategoryDetails(val))
+        //     })
             
             
-            $.each( full_cat_array , function( key, val ) {
-                newStoreIds = []
-                 $.each( store_search_results.stores , function( key2, val2 ) {
+        //     $.each( full_cat_array , function( key, val ) {
+        //         newStoreIds = []
+        //          $.each( store_search_results.stores , function( key2, val2 ) {
                      
-                     if (jQuery.inArray(val.id, val2.categories)== -1){
-                         newStoreIds.push(val2.id)
-                     }
-                 })
-                val.store_ids = newStoreIds
-            })
-            $("#cat_stores_container").html($("#backup_cat_stores_container").html())
-            renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
+        //              if (jQuery.inArray(val.id, val2.categories)== -1){
+        //                  newStoreIds.push(val2.id)
+        //              }
+        //          })
+        //         val.store_ids = newStoreIds
+        //     })
+        //     $("#cat_stores_container").html($("#backup_cat_stores_container").html())
+        //     renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
           }
            
           
