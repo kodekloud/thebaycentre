@@ -733,12 +733,12 @@ h1 {
 /***********SHARE THIS**************/
 
 .stButton{
-    width:20px !important;
+    width:100px !important;
 }
 .stButton .chicklets{
     background-size:contain !important;
-    height:20px !important;
-    line-height:20px !important;
+    height:100px !important;
+    line-height:100px !important;
 }
 
 .facebook{
