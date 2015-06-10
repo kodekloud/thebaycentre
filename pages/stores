@@ -123,15 +123,10 @@
               if (store_search_results.stores.length > 0 ){
                 $.each( store_search_results.stores , function( key, val ) {
                   $.each( val.categories , function( key2, val2 ) {
-                    cat_array.push(val2)
+                    cat_array.push(getCategoryDetails(val2))
                   }) 
                 })
-                cat_array = jQuery.unique( cat_array );
-                full_cat_array = new Array;
-                $.each( cat_array , function( key, val ) {
-                    full_cat_array.push(getCategoryDetails(val))
-                })
-                
+                full_cat_array = jQuery.unique( cat_array );
                 
                 $.each( full_cat_array , function( key, val ) {
                     newStoreIds = []
