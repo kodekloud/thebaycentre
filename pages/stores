@@ -118,8 +118,8 @@
           var cat_array = new Array;
           
            $.each( store_search_results , function( key, val ) {
-               $.each( val.categories , function( key, val ) {
-                   console.log(val)
+               $.each( val.categories , function( key, val2 ) {
+                   console.log(val2)
                })
            })
           
