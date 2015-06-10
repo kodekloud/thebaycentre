@@ -42,7 +42,9 @@
             <div class="tab_item">Alphabetical &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></div>
         </li>
     </ul>
-    <input id="search_stores" type="text" placeholder="search for a store"/>
+    
+    <input style="width:265px" type="text" id="search_stores" class="search_input" placeholder="search for a store">
+    <i class="fa fa-search search_icon"></i>
     <button class="gray_pill">see all stores</button>
     <button class="gray_pill">view map</button>
     <ul class="tab_content">
