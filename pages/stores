@@ -122,8 +122,10 @@
     }
 
     function see_all_stores(){
+        $("#loading_overlay").show();
         $("#search_stores").val('')
         $("#search_stores").trigger("input")
+        $("#loading_overlay").hide();
     }
         
 
