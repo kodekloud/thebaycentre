@@ -122,7 +122,9 @@
               $.each( val.categories , function( key2, val2 ) {
                 cat_array.push(val2)
               }) 
-            })    
+            })
+            cat_array = jQuery.unique( cat_array );
+            console.log(cat_array)
           }
            
           
