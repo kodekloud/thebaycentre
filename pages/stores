@@ -133,17 +133,15 @@
             $.each( full_cat_array , function( key, val ) {
                 newStoreIds = []
                  $.each( store_search_results.stores , function( key2, val2 ) {
-                     if (val2.categories){
-                        if (jQuery.inArray(val.id, val2.categories)== -1){
-                         newStoreIds.push(val2.id)
-                        }    
-                     }
                      
+                     if (jQuery.inArray(val.id, val2.categories)== -1){
+                         newStoreIds.push(val2.id)
+                     }
                  })
                 val.store_ids = newStoreIds
             })
             $("#cat_stores_container").html($("#backup_stores_container").html())
-            renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
+            renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
           }
            
           
