@@ -54,7 +54,7 @@ h1 {
 }
 
 
-.loading_screen{
+#loading_screen{
     position:absolute;
     background:white;
     width:100%;
