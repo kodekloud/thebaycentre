@@ -700,7 +700,7 @@ h1 {
 .store_search_icon{
     color:white;
     top:6px;
-    right:10px;
+    right:-28px;
     position:absolute;
     font-size:28px !important;
 }
