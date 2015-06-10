@@ -140,8 +140,7 @@
         }
         
         function renderPageData(container, template, collection, type){
-            console.log(container)
-            console.log(template)
+            
             var item_list = [];
             var item_rendered = [];
             var template_html = $(template).html();
