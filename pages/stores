@@ -1,3 +1,9 @@
+<script>
+     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner3.jpg");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner2.jpg");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner1.jpg");
+</script>
+
 <style>
     .tabs{
         width:100%;
@@ -262,7 +268,10 @@
         $("#"+clicked + "_content li").show()
     });
     
-    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner3.jpg");
-    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner2.jpg");
-    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner1.jpg");
+   
 </script>
+
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher:'12345',});</script>
