@@ -129,6 +129,7 @@
                 full_cat_array.push(getCategoryDetails(val))
             })
             
+            console.log(full_cat_array)
           }
            
           
