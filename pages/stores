@@ -135,7 +135,7 @@
                  $.each( store_search_results.stores , function( key2, val2 ) {
                      if (jQuery.inArray(val.id, val2.categories)== -1){
                          newStoreIds.push(val2.id)
-                     })
+                     }
                  })
                 val.store_ids = newStoreIds
             })
