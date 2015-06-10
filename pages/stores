@@ -124,6 +124,7 @@
               }) 
             })
             cat_array = jQuery.unique( cat_array );
+            console.log(cat_array)
           }
            
           
