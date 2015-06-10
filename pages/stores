@@ -67,18 +67,6 @@
                     </div>
                 </script>
             </div>
-            
-            
-            <div class="cat_stores_container" id="search_stores_container">
-                <script id="search_stores_template" type="x-tmpl-mustache/text">
-                    <div class="cat_div" id="cat_{{id}}" onclick="javascript:show_stores('{{id}}')">
-                        {{name}} ({{count}})
-                        <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
-                    </div>
-                    <div class="stores_div" id="cat_{{id}}_stores">
-                    </div>
-                </script>
-            </div>
         </li>
     </ul>
 </div>
@@ -112,7 +100,8 @@
           var alpha_array = generateAlphaStoreList(alpha_stores);
           console.log(alpha_array)
           var test = $("#alpha_stores_template").html()
-          renderPageData("#search_stores_container","#search_stores_template", alpha_array, "cats");
+          console.log(test)
+          renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
         });
         
         function renderAll(){
