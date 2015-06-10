@@ -84,7 +84,7 @@
 </div>
 
 <div style="display:none" id="backup_cat_stores_container">
-    <script id="alpha_stores_template" type="x-tmpl-mustache/text">
+    <script id="cat_stores_template" type="x-tmpl-mustache/text">
         <div class="cat_div" id="cat_{{id}}" onclick="javascript:show_stores('{{id}}')">
             {{name}} ({{count}})
             <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
