@@ -112,7 +112,6 @@
           var alpha_array = generateAlphaStoreList(alpha_stores);
           console.log(alpha_array)
           var test = $("#alpha_stores_template").html()
-          console.log(test)
           renderPageData("#search_stores_container","#search_stores_template", alpha_array, "cats");
         });
         
