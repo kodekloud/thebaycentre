@@ -128,16 +128,16 @@
                 })
                 full_cat_array = jQuery.unique( cat_array );
                 
-                // $.each( full_cat_array , function( key, val ) {
-                //     newStoreIds = []
-                //      $.each( store_search_results.stores , function( key2, val2 ) {
+                $.each( full_cat_array , function( key, val ) {
+                    newStoreIds = []
+                     $.each( store_search_results.stores , function( key2, val2 ) {
                          
-                //          if (jQuery.inArray(val.id, val2.categories)== -1){
-                //              newStoreIds.push(val2.id)
-                //          }
-                //      })
-                //     val.store_ids = newStoreIds
-                // })
+                         if (jQuery.inArray(val.id, val2.categories)== -1){
+                             newStoreIds.push(val2.id)
+                         }
+                     })
+                    val.store_ids = newStoreIds
+                })
                 
               }
           }
