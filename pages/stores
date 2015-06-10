@@ -33,12 +33,9 @@
         </div>
     </div>
 </div>
-<div class="pull-right hidden-phone" style="margin-top:-25px">
-                                <span class='st_facebook'></span>
-                                <span class='st_pinterest'></span>
-                                <span class='st_twitter'></span>
-                                <span class='st_sharethis'></span>   
-                            </div>
+<div class="share_this_icon_div">
+    <span class='st_sharethis'></span>   
+</div>
 <div class="tab_container">
     <ul class="tabs">
         <li id="tab_1" style="background:white">
