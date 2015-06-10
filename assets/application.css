@@ -686,7 +686,11 @@ h1 {
 }
 
 .store_search_input{
-    
+    background:#c7c8ca;
+    border:solid #c7c8ca;
+    border-radius:50px;
+    height:40px;
+    color:white;
 }
 .store_search_icon{
     
