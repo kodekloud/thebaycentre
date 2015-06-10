@@ -122,10 +122,10 @@
     }
 
     function see_all_stores(){
-        $("#loading_overlay").show();
+    
         $("#search_stores").val('')
         $("#search_stores").trigger("input")
-        $("#loading_overlay").hide();
+     
     }
         
 
@@ -134,7 +134,7 @@
         
         
         $("#search_stores").on("input", function() {
-          $("#loading_overlay").show();
+    
           var store_search_results = getSearchResults($('#search_stores').val(),10,100);
           if ($('#search_stores').val() == ""){
             var alpha_stores = getStoresList();
@@ -169,7 +169,7 @@
           renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
           $("#cat_stores_container").html($("#backup_cat_stores_container").html())
           renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
-          $("#loading_overlay").hide();
+          
         });
         
         function renderAll(){
