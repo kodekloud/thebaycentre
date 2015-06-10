@@ -113,10 +113,21 @@
           var alpha_array = generateAlphaStoreList(alpha_stores);
           $("#alpha_stores_container").html($("#backup_stores_container").html())
           renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
+          
+          
+          var cat_array = new Array;
+          
+           $.each( store_search_results , function( key, val ) {
+               $.each( val.categories , function( key, val ) {
+                   console.log(val)
+               })
+           })
+          
+          
+          
         });
         
         function renderAll(){
-            var category_stores = getStoresListByCategory();
             var categories = getStoreCategories();
             var alpha_stores = getStoresList();  
             renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
