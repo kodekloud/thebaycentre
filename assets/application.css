@@ -63,7 +63,9 @@ h1 {
     text-align:center;
 }
 
-.loading_gif{}
+.loading_gif{
+    margin-top:50%;
+}
 
 .header_link{
     font-family:montserrat-regular;
