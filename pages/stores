@@ -116,11 +116,13 @@
        }
     }
 
-    $(document).ready(function() {
-        
-        function see_all_stores(){
+    function see_all_stores(){
             $("#search_stores").val()=""
         }
+        
+
+    $(document).ready(function() {
+        
         
         
         $("#search_stores").on("input", function() {
