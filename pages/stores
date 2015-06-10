@@ -124,7 +124,11 @@
               }) 
             })
             cat_array = jQuery.unique( cat_array );
-            console.log(cat_array)
+            
+            $.each( cat_array , function( key, val ) {
+                console.log(val)
+            })
+            
           }
            
           
