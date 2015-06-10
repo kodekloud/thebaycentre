@@ -49,7 +49,7 @@
     <i class="fa fa-search store_search_icon"></i>
     </div>
     <button class="gray_pill" onclick="see_all_stores()">see all stores</button>
-    <button class="gray_pill">view map</button>
+    <button class="gray_pill" onclick="window.location.href='/map'">view map</button>
     <ul class="tab_content">
         <div id="loading_overlay">
             <img class="loading_gif" alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
