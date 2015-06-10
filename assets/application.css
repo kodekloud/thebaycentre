@@ -732,7 +732,9 @@ h1 {
 
 /***********SHARE THIS**************/
 .share_this_icon_div{
-    
+    position:absolute;
+    right:0;
+    top:520px;
 }
 .stButton{
     width:100px !important;
