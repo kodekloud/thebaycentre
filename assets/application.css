@@ -736,8 +736,9 @@ h1 {
     width:100px !important;
 }
 .stButton .chicklets{
-    background-size:contain !important;
+    /*background-size:contain !important;*/
     height:100px !important;
+    width:500px;
     line-height:100px !important;
 }
 
