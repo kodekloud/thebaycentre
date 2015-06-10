@@ -119,7 +119,9 @@
           
           if (store_search_results.stores.length > 0 ){
             $.each( store_search_results.stores , function( key, val ) {
-               console.log(val)
+              $.each( val.categories , function( key2, val2 ) {
+              
+              }) 
             })    
           }
            
