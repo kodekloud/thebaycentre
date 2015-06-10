@@ -91,7 +91,12 @@
     $(document).ready(function() {
         $("#search_stores").on("input", function() {
           var store_search_results = getSearchResults($('#search_stores').val(),10,100);
-          var alpha_stores = (store_search_results.stores)
+          if ($('#search_stores').val() == ""){
+            var alpha_stores = getStoresList();  
+          } else {
+            var alpha_stores = (store_search_results.stores)  
+          }
+          
           var alpha_array = generateAlphaStoreList(alpha_stores);
           console.log(alpha_array)
           renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
@@ -100,7 +105,7 @@
         function renderAll(){
             var category_stores = getStoresListByCategory();
             var categories = getStoreCategories();
-            var alpha_stores = getStoresList();
+            
             renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
             var alpha_array = generateAlphaStoreList(alpha_stores);
             renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
