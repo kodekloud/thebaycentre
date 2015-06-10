@@ -129,7 +129,13 @@
                 full_cat_array.push(getCategoryDetails(val))
             })
             
-            console.log(full_cat_array)
+            
+            $.each( full_cat_array , function( key, val ) {
+                $.each( val.store_ids , function( key, val ) {
+                    
+                })
+            })
+            
           }
            
           
