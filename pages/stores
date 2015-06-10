@@ -139,7 +139,8 @@
                  })
                 val.store_ids = newStoreIds
             })
-            
+            $("#cat_stores_container").html($("#backup_stores_container").html())
+            renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
           }
            
           
