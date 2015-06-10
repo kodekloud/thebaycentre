@@ -691,6 +691,7 @@ h1 {
     border-radius:50px;
     height:40px;
     color:white;
+    width:100%;
 }
 .store_search_icon{
     color:white;
@@ -698,4 +699,6 @@ h1 {
     right:10px;
     position:absolute;
 }
-.store_Search_div{}
+.store_Search_div{
+    position:relative;
+}
