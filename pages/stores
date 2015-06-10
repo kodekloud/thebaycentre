@@ -137,6 +137,7 @@
                          newStoreIds.push(val2.id)
                      })
                  })
+                val.store_ids = newStoreIds
             })
             
           }
