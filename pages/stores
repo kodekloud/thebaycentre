@@ -43,8 +43,8 @@
         </li>
     </ul>
     
-    <input style="width:265px" type="text" id="search_stores" class="store_search_input" placeholder="search for a store">
-    <i class="fa fa-search search_icon"></i>
+    <input type="text" id="search_stores" class="store_search_input" placeholder="search for a store">
+    <i class="fa fa-search store_search_icon"></i>
     <button class="gray_pill">see all stores</button>
     <button class="gray_pill">view map</button>
     <ul class="tab_content">
