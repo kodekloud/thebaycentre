@@ -105,7 +105,8 @@
         $("#search_stores").on("input", function() {
           var store_search_results = getSearchResults($('#search_stores').val(),10,100);
           if ($('#search_stores').val() == ""){
-            var alpha_stores = getStoresList();  
+            var alpha_stores = getStoresList();
+            store_search_results.stores = getStoresList();
           } else {
             var alpha_stores = (store_search_results.stores)  
           }
@@ -116,7 +117,6 @@
           
           
           var cat_array = new Array;
-          
           if (store_search_results.stores.length > 0 ){
             $.each( store_search_results.stores , function( key, val ) {
               $.each( val.categories , function( key2, val2 ) {
@@ -124,7 +124,6 @@
               }) 
             })
             cat_array = jQuery.unique( cat_array );
-            console.log(cat_array)
           }
            
           
