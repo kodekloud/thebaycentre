@@ -117,6 +117,12 @@
     }
 
     $(document).ready(function() {
+        
+        function see_all_stores(){
+            $("#search_stores").val()=""
+        }
+        
+        
         $("#search_stores").on("input", function() {
           var store_search_results = getSearchResults($('#search_stores').val(),10,100);
           if ($('#search_stores').val() == ""){
