@@ -702,7 +702,7 @@ h1 {
     top:6px;
     right:10px;
     position:absolute;
-    font-size:28px;
+    font-size:28px !important;
 }
 .store_Search_div{
     position:relative;
