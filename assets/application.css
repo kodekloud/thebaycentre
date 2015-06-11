@@ -800,5 +800,6 @@ h1 {
 .store_detail_description{
     color:#6d6e71;
     font-family:lora-regular;
-    font-size:19pt;
+    font-size:14pt;
+    line-height:26pt;
 }
