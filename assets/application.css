@@ -895,6 +895,6 @@ h1 {
     max-width:100%;
     max-height:100%;
 }
-.promo_share_this sharethis{
+.promo_share_this >.sharethis{
     background:url("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/dc4d28f03d666b522490b234c8f18b2a/promo_icon_share.png") !important;
 }
