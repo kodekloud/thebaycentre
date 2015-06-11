@@ -771,3 +771,14 @@ h1 {
     margin-left:25px;
     margin-right:25px;
 }
+.detail_left_div{
+    width:738px;
+    display:inline-block;
+    margin-right:52px;
+}
+
+.detail_right_div {
+    width:348px;
+    display:inline-block;
+    vertical-align:top;
+}
