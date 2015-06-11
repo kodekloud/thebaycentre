@@ -899,3 +899,8 @@ h1 {
     background:url("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/dc4d28f03d666b522490b234c8f18b2a/promo_icon_share.png") !important;
     background-repeat:no-repeat !important;
 }
+.store_promo_buttons a, .store_promo_buttons p{
+    color:#6d6e71;
+    font-family:montserrat-regular;
+    font-size:17pt;
+}
