@@ -840,8 +840,13 @@ h1 {
     
 }
 .hours_day{
-    
+    font-family:lora-regular;
+    font-size:17pt;
+    display:inline-block;
 }
 .hours_time{
-    
+    font-family:lora-italic;
+    font-size:17pt;
+    display:inline-block;
+    text-align:right;
 }
