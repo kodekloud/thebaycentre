@@ -786,3 +786,10 @@ h1 {
     height:479px;
     width:738px;
 }
+
+.store_detail_title{
+    font-family:railway-regular;
+    font-size:18pt;
+    color:#6d6e71;
+}
+
