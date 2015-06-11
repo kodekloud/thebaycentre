@@ -847,7 +847,8 @@ h1 {
     margin-bottom:10px;
 }
 .hours_time{
-    font-family:lora-italic;
+    font-family:lora-regular;
+    font-style:italic;
     font-size:17pt;
     display:inline-block;
     position:absolute;
