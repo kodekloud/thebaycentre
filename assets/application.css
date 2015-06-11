@@ -816,6 +816,7 @@ h1 {
 }
 .contact_object{
     margin-bottom:13px;
+    cursor:pointer;
     
 }
 .contact_object p {
