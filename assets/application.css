@@ -782,3 +782,7 @@ h1 {
     display:inline-block;
     vertical-align:top;
 }
+.map_div{
+    height:479px;
+    width:738px;
+}
