@@ -17,7 +17,13 @@
         margin-right:34px;
     }
 </style>
-
+<div id="pop-over">
+    <span class="pull-left">
+        <p id="pop-over-map-name">Default Name</p>
+        <p id="pop-over-map-phone">Phone Number</p>
+    </span>
+    <span class="pullright"><img alt="arrow" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"></span>
+</div>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
     <div class="missing_out_div">
