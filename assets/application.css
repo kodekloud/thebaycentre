@@ -830,4 +830,6 @@ h1 {
 .hours_div{
     
 }
-.hours_title{}
+.hours_title{
+    margin-top:0;
+}
