@@ -880,5 +880,7 @@ h1 {
     width:354.988px;
 }
 .store_promo_img_div{
-    
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
