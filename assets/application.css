@@ -875,8 +875,10 @@ h1 {
     margin-bottom:92px;
 }
 .promo_left_div{}
-.promo_right_div{}
-.store_promo_img_div{
+.promo_right_div{
     height:354.988px;
     width:354.988px;
+}
+.store_promo_img_div{
+    
 }
