@@ -848,5 +848,5 @@ h1 {
     font-family:lora-italic;
     font-size:17pt;
     display:inline-block;
-    text-align:right;
+    float:right;
 }
