@@ -875,13 +875,14 @@ h1 {
     margin-bottom:92px;
 }
 .promo_left_div{
+    width:738px;
     display:inline-block;
+    margin-right:52px;
 }
 .promo_right_div{
     display:inline-block;
     vertical-align:top;
-    height:354.988px;
-    width:354.988px;
+    width:348px;
 }
 .store_promo_img_div{
     margin-left:auto;
