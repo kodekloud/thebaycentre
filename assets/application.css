@@ -765,3 +765,9 @@ h1 {
     background-repeat:no-repeat !important;
 }
 /***********************************/
+
+/*store details css*/
+.store_detail_content{
+    margin-left:25px;
+    margin-right:25px;
+}
