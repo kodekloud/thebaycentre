@@ -909,4 +909,8 @@ h1 {
     text-transform:uppercase;
     display:inline-block;
     text-decoration:none;
+    margin-left:30px;
+    margin-top:15px;
+    margin-right:45px;
+    vertical-align:top;
 }
