@@ -874,8 +874,12 @@ h1 {
     border-bottom:1px solid #6d6e71;
     margin-bottom:92px;
 }
-.promo_left_div{}
+.promo_left_div{
+    display:inline-block;
+}
 .promo_right_div{
+    display:inline-block;
+    vertical-align:top;
     height:354.988px;
     width:354.988px;
 }
