@@ -843,6 +843,8 @@ h1 {
     font-family:lora-regular;
     font-size:17pt;
     display:inline-block;
+    margin-top:0;
+    margin-bottom:10px;
 }
 .hours_time{
     font-family:lora-italic;
