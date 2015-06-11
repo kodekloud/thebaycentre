@@ -837,14 +837,14 @@ h1 {
     text-transform:uppercase;
 }
 .hours_object{
-    
+    margin-bottom:20px;
 }
 .hours_day{
     font-family:lora-regular;
     font-size:17pt;
     display:inline-block;
     margin-top:0;
-    margin-bottom:10px;
+    margin-bottom:0;
 }
 .hours_time{
     font-family:lora-regular;
@@ -854,5 +854,5 @@ h1 {
     position:absolute;
     right:0;
     margin-top:0;
-    margin-bottom:10px;
+    margin-bottom:0;
 }
