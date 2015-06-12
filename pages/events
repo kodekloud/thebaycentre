@@ -43,6 +43,9 @@
         width:auto;
         margin-left:0
     }
+    .date_block{
+        display:inline-block;
+    }
 </style>
 
 <div class="banner_container">
