@@ -3,7 +3,7 @@
        margin:0;
     }
     
-    .store_promo_ul li{
+    .feature_promo_ul li{
         border:none;
     }
 </style>
