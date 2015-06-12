@@ -167,6 +167,17 @@
             $(container).html(item_rendered.join(''));
         }
         
+        $(".tabs li").click(function(e){
+            var clicked = this.id
+            $(".tabs li").css({"background":"transparent","color":"white"});
+            $(".tabs li").find("div").css("color","white");
+            $(this).css("background","white");
+            $(this).find("div").css("color","#4d4d4f");
+            $(".tab_content li").hide();
+            $("#"+clicked + "_content").show()
+            $("#"+clicked + "_content li").show()
+        });
+        
         loadMallData(renderPageData);
     });
 </script>
