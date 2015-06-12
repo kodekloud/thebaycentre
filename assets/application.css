@@ -395,6 +395,9 @@ h1 {
     display:block;
     position:relative;
 }
+.tabs li{
+    cursor:pointer;
+}
 .tabs li, .tab_content li {
     list-style:none;
     display:inline-block;
