@@ -154,7 +154,7 @@
                      promo_array.push(val)
                  } 
              });
-             promos = promo_array
+            promos = promo_array
             featured_promos = []
             $.each( promos , function( key, val ) {
                 if (val.is_featured == true){
