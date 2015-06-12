@@ -79,11 +79,11 @@
             all_promos = getPromotionsList();
             all_promos = all_promos.reverse();
             promo_array = []
+            feature_promo_array = []
              $.each( all_promos , function( key, val ){
                  today = new Date();
                  webDate = new Date(val.show_on_web_date)
                  if (today >= webDate && val.is_featured == false) {
-                     console.log(val)
                      promo_array.push(val)
                  } 
              });
