@@ -933,6 +933,7 @@ h1 {
     z-index: 1;
     overflow: hidden;
     text-align: center;
+    text-transform:uppercase;
 }
 .feature_promo_header:before, .feature_promo_header:after {
     position: absolute;
@@ -941,7 +942,7 @@ h1 {
     width: 50%;
     height: 1px;
     content: '\a0';
-    background-color: red;
+    background-color: #6d6e71;
 }
 .feature_promo_header:before {
     margin-left: -50%;
