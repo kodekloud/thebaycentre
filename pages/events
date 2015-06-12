@@ -45,6 +45,7 @@
         margin-right:37px;
         padding-left:15px;
         padding-right:15px;
+        vertical-align:top;
     }
     .date_block{
         display:inline-block;
