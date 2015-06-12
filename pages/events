@@ -51,6 +51,7 @@
     }
     .store_detail_title{
         display:inline-block;
+        margin-bottom:0;
     }
     .name_block{
         display:inline-block;
