@@ -95,9 +95,9 @@
 
 
 <script>
-    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/3c5606ef73e9ef9b0a7d0ffe19ae9b7c/promo_banner3.jpg");
-    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/3c5606ef73e9ef9b0a7d0ffe19ae9b7c/promo_banner2.jpg");
-    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/3c5606ef73e9ef9b0a7d0ffe19ae9b7c/promo_banner1.jpg");
+    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner3.jpg");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner2.jpg");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner1.jpg");
     
     $(document).ready(function() {
         function renderPageData(){
