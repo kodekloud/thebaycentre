@@ -105,7 +105,10 @@
                                         </div>
                                        
                                 </div>
-                                <p class="store_detail_title">{{name}}</p>
+                                <div class="name_block">
+                                    <p class="store_detail_title">{{name}}</p>
+                                </div>
+                                
                                 <p class="store_detail_description">{{description}}</p>
                                 
                                 <div class="store_promo_buttons">
