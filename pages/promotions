@@ -19,7 +19,7 @@
 
 
 <div class="store_promo_content">
-    <ul class="store_promo_ul" id="feature_store_promo_container">
+    <ul class="store_promo_ul feature_promo_ul" id="feature_store_promo_container">
         <script id="feature_store_promo_template" type="x-tmpl-mustache/text">
             <li>
                 <div class="promo_left_div">
@@ -40,7 +40,7 @@
         
     </ul>
 
-    <ul class="store_promo_ul feature_promo_ul" id="store_promo_container">
+    <ul class="store_promo_ul" id="store_promo_container">
         <script id="store_promo_template" type="x-tmpl-mustache/text">
             <li>
                 <div class="promo_left_div">
