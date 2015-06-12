@@ -55,6 +55,10 @@
     }
     .name_block{
         display:inline-block;
+        width:65%;
+        height:144px;
+        vertical-align:top;
+        margin-top:30px;
     }
     .store_detail_description{
         margin-top:43px;
