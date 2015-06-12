@@ -83,6 +83,7 @@
                  today = new Date();
                  webDate = new Date(val.show_on_web_date)
                  if (today >= webDate) {
+                     console.log(val)
                      promo_array.push(val)
                  } 
              });
