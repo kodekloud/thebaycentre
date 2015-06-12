@@ -146,8 +146,8 @@
         </li>
         <li id="tab_2_content" style="display:none">
             <div class="store_promo_content">
-                <ul class="store_promo_ul" id="store_promo_container">
-                    <script id="store_promo_template" type="x-tmpl-mustache/text">
+                <ul class="store_promo_ul" id="store_contest_container">
+                    <script id="store_contest_template" type="x-tmpl-mustache/text">
                         <li>
                             <div class="promo_left_div">
                                 <div class="feature_promo_date_div">
