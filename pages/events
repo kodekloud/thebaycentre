@@ -65,14 +65,7 @@
         margin-top:43px;
     }
     
-    .tab_overlay{
-        position:absolute;
-        width:100%;
-        background:black;
-        height:100%;
-        top:0;
-        opacity:0.2;
-    }
+    
 </style>
 
 <div class="banner_container">
