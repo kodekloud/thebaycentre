@@ -78,6 +78,15 @@
                     <script id="store_promo_template" type="x-tmpl-mustache/text">
                         <li>
                             <div class="promo_left_div">
+                                <div class="feature_promo_date_div">
+                                    <div class="feature_promo_date_triangle">&nbsp;</div>
+                         
+                                        <div class="date_block">
+                                            <p class="month_string">{{start_date}}</p>
+                                            <p class="day_string">{{start_day}}</p>
+                                        </div>
+                                       
+                                </div>
                                 <p class="store_detail_title">{{name}}</p>
                                 <p class="store_detail_description">{{description}}</p>
                                 
