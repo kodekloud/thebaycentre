@@ -18,7 +18,26 @@
     .promo_left_div{
         width:729px;
     }
+    
+    .tabs{
+        width:100%;
+        background:transparent;
+    }
+    .tabs li{
+        width:50%;
+        position:relative;
+        bottom:-1px;
+    }
+    .tab_item{
+        border:none;
+    }
+    .tab_content{
+        height:auto;
+        margin-left:39px;
+        margin-right:34px;
+    }
 </style>
+
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
     <div class="missing_out_div">
