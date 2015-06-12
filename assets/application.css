@@ -917,3 +917,9 @@ h1 {
     margin-right:25px;
     vertical-align:top;
 }
+
+/*promotion list*/
+
+.feature_promo_ul li{
+    background:#f1f0ed;
+}
