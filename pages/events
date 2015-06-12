@@ -92,13 +92,13 @@
                                     <div class="feature_promo_date_triangle">&nbsp;</div>
                          
                                         <div class="date_block">
-                                            <p class="month_string">{{start_date}}</p>
-                                            <p class="day_string">{{end_date}}</p>
+                                            <p class="month_string">{{start_month}}</p>
+                                            <p class="day_string">{{start_day}}</p>
                                         </div>
                                         
                                         <div class="date_block">
-                                            <p class="month_string">{{start_date}}</p>
-                                            <p class="day_string">{{end_date}}</p>
+                                            <p class="month_string">{{end_month}}</p>
+                                            <p class="day_string">{{end_day}}</p>
                                         </div>
                                        
                                 </div>
