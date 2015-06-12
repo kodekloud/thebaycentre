@@ -146,6 +146,12 @@
     $(document).ready(function() {
         function render_page_details(){
             var promos = getPromotionsList();
+            featured_promos = []
+            $.each( promos , function( key, val ) {
+                if (val.is_featured == true){
+                    featured_promos.push(val)
+                }
+            })
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", promos, "feature_promos");
             renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
             load_slider("flexslider");
