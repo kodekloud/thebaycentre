@@ -67,7 +67,7 @@
              });
             all_promos = promo_array;
             if (all_promos.length > 0 ) {
-                renderPageData("#store_promo_container","#store_promo_template", all_promos, "promos");    
+                renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
             } else {
                 $("#no_event_container").show();
             } 
