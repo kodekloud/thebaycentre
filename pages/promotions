@@ -7,7 +7,11 @@
         border:none;
     }
     .store_promo_ul li {
-        
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .promo_left_div{
+        width:729px;
     }
 </style>
 <div class="banner_container">
