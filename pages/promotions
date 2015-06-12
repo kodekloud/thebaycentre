@@ -40,7 +40,7 @@
         
     </ul>
     
-    <div id="no_event_container">
+    <div id="no_event_container" style="display:none">
         
     </div>
     
