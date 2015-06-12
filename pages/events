@@ -89,6 +89,11 @@
                                             <p class="month_string">{{start_date}}</p>
                                             <p class="day_string">{{end_date}}</p>
                                         </div>
+                                        
+                                        <div class="date_block">
+                                            <p class="month_string">{{start_date}}</p>
+                                            <p class="day_string">{{end_date}}</p>
+                                        </div>
                                        
                                 </div>
                                 <p class="store_detail_title">{{name}}</p>
