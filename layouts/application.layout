@@ -218,7 +218,7 @@
                     events and contest
                     <div class="dd_submenu" id="s_sub_4">
                         <ul>
-                            <li>current events & contests </li>
+                            <li><a href="/events">current events & contests </a></li>
                             
                         </ul>
                     </div>
