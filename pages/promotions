@@ -141,12 +141,17 @@
                     var pathArray = window.location.pathname.split( '/' );
                     var slug = pathArray[pathArray.length-1];
                     var store_details = getStoreDetailsBySlug(slug);
-                    
-                    if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
-                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg"    
+                    if (val.promotionable_type == "Store"){
+                        if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
+                            val.alt_promo_image_url = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg"    
+                        } else {
+                            val.alt_promo_image_url = getImageURL(store_details.store_front_url);    
+                        }    
                     } else {
-                        val.alt_promo_image_url = getImageURL(store_details.store_front_url);    
+                       val.alt_promo_image_url = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg" 
                     }
+                    
+                    
                     
                 } else {
                     val.alt_promo_image_url = getImageURL(val.promo_image_url);
