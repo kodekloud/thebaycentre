@@ -1,3 +1,8 @@
+<style>
+    .store_promo_ul li{
+        padding-bottom:15px;
+    }
+</style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
     <div class="missing_out_div">
