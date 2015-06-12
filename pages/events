@@ -208,6 +208,13 @@
             all_contests = getContestList();
             all_contests = all_contests.reverse();
             
+            if (all_contests.length > 0) {
+                renderDetailData("#store_contest_container","#store_contest_template", all_contests, "contests");    
+            } else {
+                $("#no_contest_container").show();
+            }
+            
+            
             promo_array = []
             
              $.each( all_promos , function( key, val ){
@@ -222,7 +229,7 @@
                 
              });
             all_promos = promo_array;
-            if (all_promos.length > 0  || feature_promo_array.length > 0) {
+            if (all_promos.length > 0 ) {
                 renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
             } else {
                 $("#no_event_container").show();
