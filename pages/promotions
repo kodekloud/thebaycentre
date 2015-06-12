@@ -43,7 +43,10 @@
     <ul class="store_promo_ul feature_promo_ul" id="feature_store_promo_container">
         <script id="feature_store_promo_template" type="x-tmpl-mustache/text">
             <li>
-                <p class="feature_promo_header">featured deal</p>
+                <div class="line_header_div">
+                    <p>featured deal</p>
+                </div>
+                
                 <div class="promo_left_div">
                     <p class="store_detail_title">{{name}}</p>
                     <p class="store_detail_description">{{description}}</p>
