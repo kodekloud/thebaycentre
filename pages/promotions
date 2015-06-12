@@ -1,6 +1,6 @@
 <style>
-    .store_promo_ul li{
-       
+    .store_promo_content{
+       margin:0;
     }
 </style>
 <div class="banner_container">
