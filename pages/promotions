@@ -66,12 +66,11 @@
                  } 
              });
             all_promos = promo_array;
-            console.log(all_promos)
-            // if (all_promos.length > 0 ) {
-            //     renderPageData("#store_promo_container","#store_promo_template", all_promos, "promos");    
-            // } else {
-            //     $("#no_event_container").show();
-            // } 
+            if (all_promos.length > 0 ) {
+                renderPageData("#store_promo_container","#store_promo_template", all_promos, "promos");    
+            } else {
+                $("#no_event_container").show();
+            } 
         }
         
         function renderDetailData(container, template, collection, type){
