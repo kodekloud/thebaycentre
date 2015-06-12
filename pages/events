@@ -20,7 +20,7 @@
     }
     
     .tabs{
-       
+        width:100%;
         background:transparent;
     }
     .tabs li{
@@ -34,6 +34,10 @@
     .tab_content{
         height:auto;
        
+    }
+    
+    .tab_content li {
+        width:auto;
     }
 </style>
 
