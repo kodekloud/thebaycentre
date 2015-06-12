@@ -184,7 +184,7 @@
                     
                 </ul>
                 
-                <div id="no_event_container" style="display:none">
+                <div id="no_contest_container" style="display:none">
                     No Current contests this week. please check back later. 
                 </div>
         </li>
