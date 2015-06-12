@@ -205,6 +205,9 @@
         function renderPageData(){
             all_promos = getEventsList();
             all_promos = all_promos.reverse();
+            all_contests = getContestList();
+            all_contests = all_contests.reverse();
+            
             promo_array = []
             
              $.each( all_promos , function( key, val ){
