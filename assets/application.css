@@ -402,6 +402,15 @@ h1 {
     list-style:none;
     display:inline-block;
 }
+
+.tab_overlay{
+    position:absolute;
+    width:100%;
+    background:black;
+    height:100%;
+    top:0;
+    opacity:0.2;
+}
 .tabs{
     padding:0;
     background:#73b7aa;
