@@ -55,6 +55,9 @@
     .name_block{
         display:inline-block;
     }
+    .store_detail_description{
+        margin-top:43px;
+    }
 </style>
 
 <div class="banner_container">
