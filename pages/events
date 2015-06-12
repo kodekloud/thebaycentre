@@ -52,6 +52,9 @@
     .store_detail_title{
         display:inline-block;
     }
+    .name_block{
+        display:inline-block;
+    }
 </style>
 
 <div class="banner_container">
