@@ -156,7 +156,7 @@
                 
                 if (val.promotionable_type == "Store"){
                     var store_details = getStoreDetailsByID(val.promotionable_id)
-                    val.store_info = '<a href="/stores/'+store_details.slug+'"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/dc4d28f03d666b522490b234c8f18b2a/promo_icon_web.png" class="store_promo_button_icon" alt="store_promo_button_icon"><p>store info</p></a>'
+                    val.store_info = '<a href="/stores/'+store_details.slug+'"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/591c7592ceb43ac4f0b12c32d6af5630/promo_icon_info.png" class="store_promo_button_icon" alt="store_promo_button_icon"><p>store info</p></a>'
                 }
                 $("#promo_header").show();   
                 var rendered = Mustache.render(template_html,val);
