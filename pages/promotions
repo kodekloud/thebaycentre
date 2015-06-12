@@ -3,6 +3,10 @@
        margin:0;
     }
     
+    .feature_promo_ul{
+        
+    }
+    
     .feature_promo_ul li{
         border:none;
     }
