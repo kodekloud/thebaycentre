@@ -146,6 +146,15 @@
     $(document).ready(function() {
         function render_page_details(){
             var promos = getPromotionsList();
+            promo_array = []
+             $.each( promos , function( key, val ){
+                 today = new Date();
+                 webDate = new Date(val.show_on_web_date);
+                 if (today >= webDate) {
+                     promo_array.push(val)
+                 } 
+             });
+             promos = promo_array
             featured_promos = []
             $.each( promos , function( key, val ) {
                 if (val.is_featured == true){
