@@ -64,6 +64,10 @@
     .store_detail_description{
         margin-top:43px;
     }
+    
+    .tab_overlay{
+        position:absolute;
+    }
 </style>
 
 <div class="banner_container">
