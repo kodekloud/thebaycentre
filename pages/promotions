@@ -86,6 +86,9 @@
                  if (today >= webDate && val.is_featured == false) {
                      promo_array.push(val)
                  } 
+                 if (val.is_featured == true){
+                     feature_promo_array.push(val)
+                 }
              });
             all_promos = promo_array;
             if (all_promos.length > 0 ) {
