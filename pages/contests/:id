@@ -33,13 +33,14 @@
             <script id="promo_title_template" type="x-tmpl-mustache/text">
                 <p class="store_detail_title">{{name}}</p>
                 
-            </script>
+        
         </div>
         <div id="store_detail_left_content_container">
-            <script id="store_detail_left_content_template" type="x-tmpl-mustache/text">
+   
                 <p class="store_detail_description">{{description}}</p>
-            </script>
+            
         </div>
+        </script>
     </div>
     <div class="detail_right_div">
         <div id="store_detail_right_content_container">
