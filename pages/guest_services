@@ -74,6 +74,7 @@ We hope to see you soon at The Bay Centre.
                 // console.log(data.body);
                 $("#page_title").html(data.title)
                 $('#mm_page_content').html(data.body);
+                console.log(data)
                 return data
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
