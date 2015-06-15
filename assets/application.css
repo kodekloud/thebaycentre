@@ -979,5 +979,8 @@ h1 {
     margin-top:0;
 }
 .job_text{
-    
+    font-family:lora-regular;
+    font-size:13pt;
+    color:#6d6e71;
+    margin:0;
 }
