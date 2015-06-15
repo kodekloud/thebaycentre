@@ -70,7 +70,6 @@ We hope to see you soon at The Bay Centre.
             
         prefix = get_prefix();
         var pages_json = prefix+"/pages/" + slug + ".json"
-        console.log(pages_json)
         $.getJSON(pages_json).done(function(data) {
             //var pages_data = JSON.parse(data);
             // console.log(data.body);
