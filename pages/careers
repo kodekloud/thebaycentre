@@ -1,9 +1,10 @@
 <style>
     .store_promo_content{
+        
        margin:0;
     }
     
-    .feature_promo_ul{
+    .store_promo_ul{
         margin-top:65px;
     }
     
