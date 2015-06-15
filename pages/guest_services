@@ -84,7 +84,7 @@ We hope to see you soon at The Bay Centre.
                     url: pages_json, 
                     dataType: 'json',
                     success: function(json){ 
-                        console.log(data)
+                        console.log(json)
                     } 
                 });
             })
