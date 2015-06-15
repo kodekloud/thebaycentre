@@ -139,7 +139,7 @@
         
         $("#search_stores").keypress(function(event) {
             if (event.keyCode == 13) {
-             
+                search()
             }
          
           }
