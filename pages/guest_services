@@ -83,7 +83,7 @@ We hope to see you soon at The Bay Centre.
             console.log(name)
             console.log(html)
             console.log(slug)
-            $("#cat_stores_container").append('<div class="cat_div" id="cat_'+slug+'" onclick="javascript:show_stores('+slug+')">'+name+'<i id="icon_'+slug+'" class="fa fa-plus list_icon"></i>=</div>=<div class="stores_div" id="cat_'+slug+'_stores"></div>')
+            $("#cat_stores_container").append('<div class="cat_div" id="cat_'+slug+'" onclick="javascript:show_stores('+slug+')">'+name+'<i id="icon_'+slug+'" class="fa fa-plus list_icon"></i></div><div class="stores_div" id="cat_'+slug+'_stores">'+html+'</div>')
             
         }
         
