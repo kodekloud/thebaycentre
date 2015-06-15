@@ -119,8 +119,7 @@ We hope to see you soon at The Bay Centre.
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
                 
-                var title = val.title.split(" - ")
-                console.log(title)
+                var title = val.title.split(" - ");
                 val.title = title[1]
                 
                 var rendered = Mustache.render(template_html,val);
