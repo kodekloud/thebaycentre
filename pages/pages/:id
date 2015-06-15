@@ -82,14 +82,14 @@
         }
         
         function renderpageHTML(){
-            alert("iyihdfas")
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 renderData("#promo_title_container", "#promo_title_template", data, "title")
-                console.log(data)
+                renderData("#promo_title_container", "#promo_title_template", data, "title")
+                
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
