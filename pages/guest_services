@@ -63,10 +63,11 @@ We hope to see you soon at The Bay Centre.
     $(document).ready(function() {
         
         function renderAll(){
+            prefix = get_prefix();
             var page_array = ["baycentre-guest-services-free-wifi","baycentre-guest-services-wheelchair-baby","baycentre-guest-services-lost-found","baycentre-guest-services-job-opportunity","baycentre-guest-services-gift-cards","baycentre-guest-services-faxing-photocopying","baycentre-guest-services-bus-passes-tickets","baycentre-guest-services-visitor-information"]
             full_page_array = []
             $.each( page_array , function( key, val ) {
-                prefix = get_prefix();
+                
                 var pages_json = prefix+"/pages/" + val + ".json"
                 $.getJSON(pages_json).done(function(data) {
                     //var pages_data = JSON.parse(data);
