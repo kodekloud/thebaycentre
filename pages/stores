@@ -182,7 +182,7 @@
           $("#cat_stores_container").html($("#backup_cat_stores_container").html())
           renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
           
-        });
+    
         
         function renderAll(){
             var categories = getStoreCategories();
