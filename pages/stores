@@ -128,7 +128,7 @@
     function see_all_stores(){
     
         $("#search_stores").val('')
-        var e = jQuery.Event("keypress");
+        var e = jQuery.event("keypress");
         e.keyCode = $.ui.keyCode.ENTER;
         $("#search_stores").trigger(e);
      
