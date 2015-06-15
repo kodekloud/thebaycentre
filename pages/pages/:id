@@ -88,6 +88,7 @@
             var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 renderPageData("#promo_title_container", "#promo_title_template", data, "title")
+                console.log(data)
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
