@@ -90,7 +90,7 @@ We hope to see you soon at The Bay Centre.
             $.each( collection , function( key, val ) {
                 
                 data = renderpageHTML(val)
-                console.log(val)
+                console.log(data)
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
