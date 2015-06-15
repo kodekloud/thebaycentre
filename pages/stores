@@ -145,12 +145,12 @@
           });
           
           
-          function search(){
-              var store_search_results = getSearchResults($('#search_stores').val(),10,100);
-              if ($('#search_stores').val() == ""){
+        function search(){
+            var store_search_results = getSearchResults($('#search_stores').val(),10,100);
+            if ($('#search_stores').val() == ""){
                 var alpha_stores = getStoresList();
                 var full_cat_array = getStoreCategories();
-              } else {
+            } else {
                 var alpha_stores = (store_search_results.stores)  
                 var cat_array = new Array;
                   if (store_search_results.stores.length > 0 ){
@@ -172,9 +172,9 @@
                         val.store_ids = newStoreIds
                     })
                     
-                  }    
-          }
-          }
+                  }
+            }    
+        }
           
           var alpha_array = generateAlphaStoreList(alpha_stores);
           $("#alpha_stores_container").html($("#backup_alpha_stores_container").html())
