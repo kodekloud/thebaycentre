@@ -29,6 +29,8 @@
 <div class="cat_div">
     regular hours
 </div>
+<div class="stores_div" id="regular_hours">
+</div>
 
 <div class="cat_div">
     extended shopping hours start june 21, 2015
@@ -36,6 +38,8 @@
 
 <div class="cat_div">
     holiday_hours
+</div>
+<div class="stores_div" id="hiliday_hours">
 </div>
 
 
