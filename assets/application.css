@@ -964,7 +964,11 @@ h1 {
     margin-top:50px;
 }
 .job_store_name{
-    
+    font-family:railway-regular;
+    text-transform:uppercase;
+    color:#6d6e71;
+    font-size:21pt;
+    margin-top:0;
 }
 .job_h2{
     
