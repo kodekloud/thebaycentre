@@ -128,7 +128,9 @@
     function see_all_stores(){
     
         $("#search_stores").val('')
-        search();
+        var e = jQuery.Event("keydown");
+        e.which = 13; // # Some key code value
+        $("#search_stores").trigger(e);
      
     }
         
