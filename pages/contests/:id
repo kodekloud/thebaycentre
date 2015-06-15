@@ -40,7 +40,7 @@
                 <p class="store_detail_description">{{description}}</p>
             
         </div>
-        </script>
+            </script>
     </div>
     <div class="detail_right_div">
         <div id="store_detail_right_content_container">
