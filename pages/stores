@@ -130,7 +130,7 @@
         $("#search_stores").val('')
         $("#search_stores").focus();
         var e = jQuery.Event("keypress");
-        e.keyCode = $.ui.keyCode.ENTER;
+        e.which = 13; 
         $("#search_stores").trigger(e);
      
     }
