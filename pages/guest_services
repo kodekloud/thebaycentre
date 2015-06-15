@@ -5,6 +5,9 @@
         font-size:14pt;
         line-height:26pt;
     }
+    .stores_div{
+        padding-top:61px;
+    }
 </style>
 
 <div class="banner_container">
