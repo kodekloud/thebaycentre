@@ -154,8 +154,6 @@
                     }
                     
                 } else {
-                    var title = val.title.split(" - ");
-                    val.title = title[1]
                     if(val.image_url.indexOf('missing.png') > -1 || val.image_url.length === 0){
                         val.page_image = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg"    
                     } else {
