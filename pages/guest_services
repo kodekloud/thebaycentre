@@ -76,7 +76,7 @@ We hope to see you soon at The Bay Centre.
                     // $("#page_title").html(data.title)
                     // $('#mm_page_content').html(data.body);
                 
-                    renderblock(data.title, data.body, vao)
+                    renderblock(data.title, data.body, val)
                 })
                 
                 
