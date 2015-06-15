@@ -78,7 +78,7 @@
             
             console.log(contest_details)
        
-            renderDetailData()
+            renderDetailData("#promo_title_container", "#promo_title_template", contest_details, "contest")
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
         }
