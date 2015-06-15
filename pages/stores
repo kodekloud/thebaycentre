@@ -125,7 +125,11 @@
        }
     }
 
-    function see_all_stores(){
+    
+
+    $(document).ready(function() {
+        
+        function see_all_stores(){
     
         $("#search_stores").val('')
         $("#search_stores").focus();
@@ -135,10 +139,6 @@
         $("#search_stores").trigger(e);
      
     }
-        
-
-    $(document).ready(function() {
-        
         
         
         $("#search_stores").keypress(function(event) {
