@@ -197,7 +197,7 @@
                     <div class="dd_submenu" id="s_sub_2">
                         <ul>
                             <li><a href="/hours">hours</a></li>
-                            <li>getting here</li>
+                            <li><a href="/pages/baycentre-getting-here">getting here</a></li>
                             <li>parking</li>
                             <li><a href="/guest_services">guest services</a></li>
                             <li><a href="/pages/baycentre-guest-services-visitor-information">visitor information</a></li>
