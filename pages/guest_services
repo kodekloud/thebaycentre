@@ -61,6 +61,7 @@ We hope to see you soon at The Bay Centre.
     full_page_array = new Array
     $.each( page_array , function( key, val ) {
         var data = renderpageHTML(val)
+        full_page_array.push(data)
     })
     
     
