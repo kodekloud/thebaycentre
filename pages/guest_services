@@ -58,30 +58,37 @@ We hope to see you soon at The Bay Centre.
     
     var page_array = ["baycentre-guest-services-free-wifi","baycentre-guest-services-wheelchair-baby","baycentre-guest-services-lost-found","baycentre-guest-services-job-opportunity","baycentre-guest-services-gift-cards","baycentre-guest-services-faxing-photocopying","baycentre-guest-services-bus-passes-tickets","baycentre-guest-services-visitor-information"]
     
+    full_page_array = new Array
+    $.each( page_array , function( key, val ) {
+        var data = renderpageHTML(val)
+    })
+    
+    
+    function renderpageHTML(slug){
+            
+        prefix = get_prefix();
+        var pages_json = prefix+"/pages/" + slug + ".json"
+        console.log(pages_json)
+        $.getJSON(pages_json).done(function(data) {
+            //var pages_data = JSON.parse(data);
+            // console.log(data.body);
+            $("#page_title").html(data.title)
+            $('#mm_page_content').html(data.body);
+            return data
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                
+            }
+        }); 
+    }
+    
     $(document).ready(function() {
         function renderAll(){
             renderPageData("#cat_stores_container","#cat_stores_template",page_array, "pages")
         }
         
         
-        function renderpageHTML(slug){
-            
-            prefix = get_prefix();
-            var pages_json = prefix+"/pages/" + slug + ".json"
-            console.log(pages_json)
-            $.getJSON(pages_json).done(function(data) {
-                //var pages_data = JSON.parse(data);
-                // console.log(data.body);
-                $("#page_title").html(data.title)
-                $('#mm_page_content').html(data.body);
-                console.log(data)
-                return data
-            }).fail(function(jqXHR) {
-                if (jqXHR.status == 404) {
-                    
-                }
-            }); 
-        }
+        
         
         
         function renderPageData(container, template, collection, type){
@@ -91,9 +98,7 @@ We hope to see you soon at The Bay Centre.
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
                 
-                data = renderpageHTML(val)
-                console.log(val)
-                console.log(data)
+               
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
