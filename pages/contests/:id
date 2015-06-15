@@ -75,11 +75,7 @@
             
            
 
-            renderDetailData("#store_detail_right_content_container", "#store_detail_right_content_template", promo_details, "prop_promo")
-            $("#contact_map").hide();
-            $("#contact_phone").hide();
-            $("#contact_website").hide();
-            $(".map_div").hide();
+            
             console.log(contest_details)
        
             
