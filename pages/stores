@@ -125,27 +125,14 @@
        }
     }
 
+    function see_all_stores(){
     
-        
-
-    $(document).ready(function() {
-        
-        function see_all_stores(){
+        $("#search_stores").val('')
+        search();
+     
+    }
     
-            $("#search_stores").val('')
-            search();
-         
-        }
-        
-        $("#search_stores").keypress(function(event) {
-            if (event.keyCode == 13) {
-                search();
-            }
-         
-        });
-          
-          
-        function search(){
+    function search(){
             var store_search_results = getSearchResults($('#search_stores').val(),10,100);
             if ($('#search_stores').val() == ""){
                 var alpha_stores = getStoresList();
@@ -181,6 +168,21 @@
           $("#cat_stores_container").html($("#backup_cat_stores_container").html())
           renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
         }
+        
+
+    $(document).ready(function() {
+        
+        
+        
+        $("#search_stores").keypress(function(event) {
+            if (event.keyCode == 13) {
+                search();
+            }
+         
+        });
+          
+          
+        
           
           
           
