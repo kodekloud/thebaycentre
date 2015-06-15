@@ -141,7 +141,6 @@
         
         
         $("#search_stores").keypress(function(event) {
-            console.log(event)
             if (event.keyCode == 13) {
                 search();
             }
