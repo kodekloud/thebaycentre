@@ -26,6 +26,17 @@ Featuring Aerosoles, BCBGMAXAZRIA, Club Monaco, Earls Restaurant, Eco Chic Aveda
 We hope to see you soon at The Bay Centre.
     </p>
     
+    <div class="cat_stores_container" id="cat_stores_container">
+        <script id="cat_stores_template" type="x-tmpl-mustache/text">
+            <div class="cat_div" id="cat_{{id}}" onclick="javascript:show_stores('{{id}}')">
+                {{name}} ({{count}})
+                <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
+            </div>
+            <div class="stores_div" id="cat_{{id}}_stores">
+            </div>
+        </script>
+    </div>
+    
 </div>
 
 <script>
