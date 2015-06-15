@@ -25,6 +25,7 @@ Featuring Aerosoles, BCBGMAXAZRIA, Club Monaco, Earls Restaurant, Eco Chic Aveda
 <br>
 We hope to see you soon at The Bay Centre.
     </p>
+    
 </div>
 
 <script>
@@ -32,4 +33,15 @@ We hope to see you soon at The Bay Centre.
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner1.jpg");
     
+    function show_stores(id){
+       if ($("#cat_"+id+"_stores").is(":visible")){
+           $("#cat_"+id+"_stores").slideUp();
+           $("#icon_"+id).removeClass("fa-minus")
+           $("#icon_"+id).addClass("fa-plus")
+       } else {
+           $("#cat_"+id+"_stores").slideDown();
+           $("#icon_"+id).removeClass("fa-plus")
+           $("#icon_"+id).addClass("fa-minus")
+       }
+    }
 </script>
