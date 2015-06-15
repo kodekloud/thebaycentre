@@ -30,6 +30,9 @@
     regular hours
 </div>
 <div class="stores_div" id="regular_hours">
+    <script id="regular_hours_template" type="x-tmpl-mustache/text">
+        
+    </script>
 </div>
 
 <div class="cat_div">
@@ -39,7 +42,10 @@
 <div class="cat_div">
     holiday_hours
 </div>
-<div class="stores_div" id="hiliday_hours">
+<div class="stores_div" id="holiday_hours">
+    <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+        
+    </script>
 </div>
 
 
