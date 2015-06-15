@@ -60,7 +60,7 @@ We hope to see you soon at The Bay Centre.
     
     $(document).ready(function() {
         function renderAll(){
-            
+            renderPageData("#","#",page_array, "pages")
         }
         
         function renderPageData(container, template, collection, type){
