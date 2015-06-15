@@ -198,7 +198,7 @@
                         <ul>
                             <li><a href="/hours">hours</a></li>
                             <li><a href="/pages/baycentre-getting-here">getting here</a></li>
-                            <li>parking</li>
+                            <li><a href="/pages/baycentre-parking">parking</a></li>
                             <li><a href="/guest_services">guest services</a></li>
                             <li><a href="/pages/baycentre-guest-services-visitor-information">visitor information</a></li>
                         </ul>
@@ -240,12 +240,12 @@
                         <ul>
                             <li><a href="/pages/baycentre-guest-services-gift-cards">Gift Cards</a> </li>
                             <li><a href="/careers">Job Opportunities</a>  </li>
-                            <li>Leasing Opportunities</li>
-                            <li>Sustainability</li>
-                            <li>Community Partners</li>
-                            <li>Security</li>
-                            <li>news</li>
-                            <li>Contact Us</li>
+                            <li><a href="/pages/baycentre-leasing-opportunities">Leasing Opportunities</a> </li>
+                            <li><a href="/pages/baycentre-sustainability">Sustainability</a> </li>
+                            <li><a href="/pages/baycentre-community-partners">Community Partners</a> </li>
+                            <li><a href="/pages/baycentre-security">Security</a> </li>
+                            <li><a href="/pages/baycentre-news">news</a> </li>
+                            <li><a href="/contact_us">Contact Us</a> </li>
                         </ul>
                     </div>
                     
