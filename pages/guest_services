@@ -27,8 +27,14 @@ We hope to see you soon at The Bay Centre.
     </p>
     
     <div class="cat_stores_container" id="cat_stores_container">
-      
-            
+        <script id="cat_stores_template" type="x-tmpl-mustache/text">
+            <div class="cat_div" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
+                {{name}}
+                <i id="icon_{{slug}}" class="fa fa-plus list_icon"></i>
+            </div>
+            <div class="stores_div" id="cat_{{slug}}_stores">
+            </div>
+        </script>
     </div>
     
 </div>
@@ -65,19 +71,39 @@ We hope to see you soon at The Bay Centre.
                 
                 var pages_json = prefix+"/pages/" + val + ".json"
                 $.getJSON(pages_json).then(function(data) {
-                    renderblock(data.title, data.body, val)
+                    //var pages_data = JSON.parse(data);
+                    // console.log(data.body);
+                    // $("#page_title").html(data.title)
+                    // $('#mm_page_content').html(data.body);
+                    renderPageData("#cat_stores_container","#cat_stores_template",data, "pages")
                 })
                 
                 
                 
             })
-           
-        }
-        
-        function renderblock(name, html, slug){
-            $("#cat_stores_container").append('<div class="cat_div" id="cat_'+slug+'" onclick="javascript:show_stores('+'+slug+'+')">'+name+'<i id="icon_'+slug+'" class="fa fa-plus list_icon"></i></div><div class="stores_div" id="cat_'+slug+'_stores">'+html+'</div>')
             
         }
+        
+        
+        
+        
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            $.each( collection , function( key, val ) {
+                
+               console.log(val)
+                
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
         
         loadMallData(renderAll); 
     })
