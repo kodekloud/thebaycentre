@@ -86,7 +86,9 @@ We hope to see you soon at The Bay Centre.
         }
         
         function renderblock(name, html, slug){
-            
+            console.log(name)
+            console.log(html)
+            console.log(slug)
         }
         
         
