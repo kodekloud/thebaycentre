@@ -80,7 +80,7 @@
             $("#contact_phone").hide();
             $("#contact_website").hide();
             $(".map_div").hide();
-            
+            console.log(contest_details)
        
             
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
