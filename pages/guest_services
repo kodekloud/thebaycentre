@@ -64,21 +64,19 @@ We hope to see you soon at The Bay Centre.
         }
         
         
-        function renderpageHTML(slug, id){
+        function renderpageHTML(slug){
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 //var pages_data = JSON.parse(data);
                 // console.log(data.body);
-                
-                document.title = data.title;
-                $("#active_breadcrumb").html(data.title)
                 $("#page_title").html(data.title)
                 $('#mm_page_content').html(data.body);
+                return data
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
-                    $("#404_msg").fadeIn("fast");
+                    
                 }
             }); 
         }
