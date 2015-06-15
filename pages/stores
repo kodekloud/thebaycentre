@@ -129,10 +129,9 @@
     
         $("#search_stores").val('')
         $("#search_stores").focus();
-        var e = jQuery.Event("keypress");
-        e.which = 13; 
-        console.log(e)
-        $("#search_stores").trigger(e);
+        $('#search_stores').trigger(
+            jQuery.Event( 'keypress', { keyCode: 13, which: 13 } )
+        );
      
     }
         
