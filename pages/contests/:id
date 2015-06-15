@@ -64,22 +64,11 @@
     var pathArray = window.location.pathname.split( '/' );
     var slug = pathArray[pathArray.length-1];
     contest_details = getContestBySlug(slug);
-    if (promo_details.eventable_type == "Store"){
-        var store_details = getStoreDetailsByID(promo_details.eventable_id)
-        if (store_details.gallery ){
-            $("#main_image").attr("src", "http://cdn.mallmaverick.com/"+store_details.gallery[0]);
-            $("#left_image").attr("src", "http://cdn.mallmaverick.com/"+store_details.gallery[1]);
-            $("#right_image").attr("src", "http://cdn.mallmaverick.com/"+store_details.gallery[2]);
-        } else {
-            $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner1.jpg");
-            $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner3.jpg");
-            $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner2.jpg");
-        }
-    } else {
-        $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner1.jpg");
-        $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner3.jpg");
-        $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner2.jpg");
-    }
+
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner1.jpg");
+    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner3.jpg");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner2.jpg");
+
     
     $(document).ready(function() {
         function renderPageData(){
