@@ -75,6 +75,7 @@ We hope to see you soon at The Bay Centre.
         function renderAll(){
             var prefix = get_prefix();
             var page_array = ["baycentre-guest-services-free-wifi","baycentre-guest-services-wheelchair-baby","baycentre-guest-services-lost-found","baycentre-guest-services-job-opportunity","baycentre-guest-services-gift-cards","baycentre-guest-services-faxing-photocopying","baycentre-guest-services-bus-passes-tickets","baycentre-guest-services-visitor-information"]
+            page_array = page_array.reversed()
             full_page_array = []
             $.ajaxSetup({
                 async: false
