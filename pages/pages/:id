@@ -72,7 +72,9 @@
 <script src="http://kodekloud.s3.amazonaws.com/sites/5422419e4a616d74d9030000/e1fb5e17ab727d248230fbcb51da868f/jquery.panzoom.min.js"></script>
 
 <script>
-    
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner1.jpg");
+    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner3.jpg");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
     
     
     $(document).ready(function() {
@@ -99,9 +101,6 @@
             $.getJSON(pages_json).done(function(data) {
                 renderData("#promo_title_container", "#promo_title_template", data, "title")
                 renderData("#store_detail_right_content_container", "#store_detail_right_content_template", data, "image")
-                $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner1.jpg");
-    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner3.jpg");
-    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
                
                 
             }).fail(function(jqXHR) {
