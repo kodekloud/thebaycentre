@@ -131,8 +131,21 @@
         search();
      
     }
-    
-    function search(){
+        
+
+    $(document).ready(function() {
+        
+        
+        
+        $("#search_stores").keypress(function(event) {
+            if (event.keyCode == 13) {
+                search();
+            }
+         
+        });
+          
+          
+        function search(){
             var store_search_results = getSearchResults($('#search_stores').val(),10,100);
             if ($('#search_stores').val() == ""){
                 var alpha_stores = getStoresList();
@@ -168,6 +181,18 @@
           $("#cat_stores_container").html($("#backup_cat_stores_container").html())
           renderPageData("#cat_stores_container","#cat_stores_template", full_cat_array, "cats");
         }
+          
+          
+          
+    
+        
+        function renderAll(){
+            var categories = getStoreCategories();
+            var alpha_stores = getStoresList();  
+            renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
+            var alpha_array = generateAlphaStoreList(alpha_stores);
+            renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
+        }
         
         
         function generateAlphaStoreList (collection){
@@ -201,36 +226,6 @@
             return(alpha_array)
         
         }
-        
-        
-
-    $(document).ready(function() {
-        
-        
-        
-        $("#search_stores").keypress(function(event) {
-            if (event.keyCode == 13) {
-                search();
-            }
-         
-        });
-          
-          
-        
-          
-          
-          
-    
-        
-        function renderAll(){
-            var categories = getStoreCategories();
-            var alpha_stores = getStoresList();  
-            renderPageData("#cat_stores_container","#cat_stores_template", categories, "cats");
-            var alpha_array = generateAlphaStoreList(alpha_stores);
-            renderPageData("#alpha_stores_container","#alpha_stores_template", alpha_array, "cats");
-        }
-        
-        
         
         function renderPageData(container, template, collection, type){
             
