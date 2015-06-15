@@ -137,7 +137,7 @@
         
         
         
-        $("#search_stores").on("input", function() {
+        $("#search_stores").keypress(function(event) {
         console.log(input)
           var store_search_results = getSearchResults($('#search_stores').val(),10,100);
           if ($('#search_stores').val() == ""){
