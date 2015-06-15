@@ -85,7 +85,7 @@ We hope to see you soon at The Bay Centre.
             renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
         }
         
-        
+        function renderblock(name, html, slug)
         
         
         
