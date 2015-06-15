@@ -132,7 +132,7 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
-                if ((val.promo_image_url).indexOf('missing.png') > -1){
+            
                     if (val.jobable_type == "Store"){
                         var store_details = getStoreDetailsByID(val.jobabable_id)
                         if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
@@ -145,13 +145,10 @@
                     }
                     
                     
-                    
-                } else {
-                    val.alt_promo_image_url = getImageURL(val.promo_image_url);
-                }
+               
                 
-                if (val.promotionable_type == "Store"){
-                    var store_details = getStoreDetailsByID(val.promotionable_id)
+                if (val.jobable_type == "Store"){
+                    var store_details = getStoreDetailsByID(val.jobable_id)
                     val.store_info = '<a href="/stores/'+store_details.slug+'"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/591c7592ceb43ac4f0b12c32d6af5630/promo_icon_info.png" class="store_promo_button_icon" alt="store_promo_button_icon"><p>store info</p></a>'
                 }
                 $("#promo_header").show();   
