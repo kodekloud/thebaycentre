@@ -1,7 +1,10 @@
 <style>
     .store_detail_description{
         margin-top:15px;
-        
+        color:#6d6e71 !important;
+        font-family:lora-regular !important;
+        font-size:14pt !important;
+        line-height:26pt !important;
     }
 </style>
 <div class="banner_container">
