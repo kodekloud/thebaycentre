@@ -65,7 +65,7 @@ We hope to see you soon at The Bay Centre.
         
         
         function renderpageHTML(slug){
-            var slug = pathArray[pathArray.length-1];
+            
             prefix = get_prefix();
             var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
