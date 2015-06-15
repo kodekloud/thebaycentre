@@ -30,7 +30,7 @@
         <div id="promo_title_container">
             <script id="promo_title_template" type="x-tmpl-mustache/text">
                 <p class="store_detail_title">{{title}}</p>
-                <p class="store_detail_description">{{html}}</p>
+                <p class="store_detail_description">{{{body}}}</p>
                 
             </script>
         </div>
