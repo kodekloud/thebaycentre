@@ -37,7 +37,6 @@
         </div>
         <div id="store_detail_left_content_container">
             <script id="store_detail_left_content_template" type="x-tmpl-mustache/text">
-                <p class="promo_dates">{{date_string}}</p>
                 <p class="store_detail_description">{{description}}</p>
             </script>
         </div>
@@ -46,7 +45,7 @@
         <div id="store_detail_right_content_container">
             <script id="store_detail_right_content_template" type="x-tmpl-mustache/text">
                 <a href="{{alt_store_front_url}}" rel="lightbox-gallery" title="{{name}}">
-                    <img class="store_front" alt="photo_{{name}}" src="{{alt_store_front_url}}"/>
+                    <img class="store_front" alt="photo_{{name}}" src="http://mallmaverick.com/{{photo_url}}"/>
                 </a>
                 
             </script>
@@ -78,7 +77,7 @@
             
             console.log(contest_details)
        
-            
+            renderDetailData()
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
         }
