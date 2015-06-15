@@ -1,6 +1,7 @@
 <style>
     .store_detail_description{
         margin-top:90px;
+        margin-bottom:47px;
     }
 </style>
 <div class="banner_container">
