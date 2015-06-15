@@ -44,7 +44,7 @@
         <div id="store_detail_right_content_container">
             <script id="store_detail_right_content_template" type="x-tmpl-mustache/text">
                 <a href="{{alt_store_front_url}}" rel="lightbox-gallery" title="{{name}}">
-                    <img class="store_front" alt="photo_{{name}}" src="{{photo_url}}"/>
+                    <img class="store_front" alt="photo_{{name}}" src="http://mallmaverick.com/{{photo_url}}"/>
                 </a>
                 
             </script>
@@ -99,7 +99,7 @@
                 if ((val.photo_url).indexOf('missing.png') > -1){
                     val.photo_url = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg"
                 } else {
-                    val.photo_url = getImageURL(val.photo_url);
+                    // val.photo_url = getImageURL(val.photo_url);
                 }
 
                 
