@@ -1,6 +1,6 @@
 <style>
     .stores_div p {
-        
+        line-height:0;
     }
 </style>
 
