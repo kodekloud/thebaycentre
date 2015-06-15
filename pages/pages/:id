@@ -85,6 +85,7 @@
             var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 renderData("#promo_title_container", "#promo_title_template", data, "title")
+                renderData("#store_detail_right_content_container", "#store_detail_right_content_template", data, "image")
                
                 
             }).fail(function(jqXHR) {
