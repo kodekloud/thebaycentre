@@ -120,6 +120,7 @@ We hope to see you soon at The Bay Centre.
             $.each( collection , function( key, val ) {
                 
                 var title = val.title.split(" - ")
+                title - title[1]
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
