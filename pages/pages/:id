@@ -154,7 +154,7 @@
                     }
                     
                 } else {
-                    if (val.title.contains(" - ")){
+                    if (val.title..indexOf(" - ") >= 0){
                         var title = val.title.split(" - ");
                         val.title = title[1]
                     } 
