@@ -84,7 +84,7 @@
             })
             hours = prop_hours
             renderpageHTML();
-            
+            renderData("#store_detail_hours_container","#store_detail_hours_template", hours, "store_hours")
         }
         
         function renderpageHTML(){
