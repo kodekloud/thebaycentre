@@ -129,11 +129,13 @@
                 item_rendered.push(rendered);
 
             
-            $(container).show();
-            $(container).html(item_rendered.join(''));
-        });
+                $(container).show();
+                $(container).html(item_rendered.join(''));
+            });
+        }
         
         loadMallData(renderPageData);
+        
         
     });
 </script>
