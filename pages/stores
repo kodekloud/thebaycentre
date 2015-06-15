@@ -139,6 +139,13 @@
         
         $("#search_stores").keypress(function(event) {
             if (event.keyCode == 13) {
+             
+            }
+         
+          }
+          
+          
+          function search(){
               var store_search_results = getSearchResults($('#search_stores').val(),10,100);
               if ($('#search_stores').val() == ""){
                 var alpha_stores = getStoresList();
@@ -166,8 +173,6 @@
                     })
                     
                   }    
-            }
-         
           }
           
           var alpha_array = generateAlphaStoreList(alpha_stores);
