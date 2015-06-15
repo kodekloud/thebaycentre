@@ -101,7 +101,7 @@
     
     $(document).ready(function() {
         function renderPageData(){
-            all_promos = getPromotionsList();
+            all_promos = getJobsList();
             all_promos = all_promos.reverse();
             promo_array = []
             feature_promo_array = []
