@@ -68,6 +68,7 @@
                 disableAll: true,
                 // regions: ,
                 tooltipsMode:'custom',
+                loadingText: "loading...",
                 zoom: true,
                 zoomButtons: {'show': true,'location': 'left' },
                 pan:true,
