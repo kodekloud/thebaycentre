@@ -990,10 +990,10 @@ h1 {
 .hour_line{
     
 }
-.hour_line p:nth-child(1){
+.hour_line:nth-child(1){
     margin-top:20px;
 }
-.hour_line p:nth-child(last){
+.hour_line:nth-child(last){
     margin-bottom:45px;
 }
 .hour_line p {
