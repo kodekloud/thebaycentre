@@ -39,7 +39,7 @@
             $.each( stores , function( key, val ) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     reg = "{"+val.svgmap_region+": {tooltip: 'TEST'}}"
-                    regions.push(reg)
+                    regions = (reg)
                 }
     
             });
@@ -57,6 +57,7 @@
         
         
         function load_map(regions){
+            
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
