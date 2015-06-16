@@ -993,7 +993,7 @@ h1 {
 .hour_line:nth-child(1){
     margin-top:20px;
 }
-.hour_line:nth-last-child(){
+.hour_line:nth-last-child(1){
     margin-bottom:45px;
 }
 .hour_line p {
