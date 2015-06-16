@@ -68,7 +68,7 @@
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 disableAll: true,
-                regions: {get_region()},
+                regions: get_region(),
                 tooltipsMode:'custom',
                 zoom: true,
                 zoomButtons: {'show': true,'location': 'left' },
