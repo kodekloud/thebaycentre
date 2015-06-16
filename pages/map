@@ -32,21 +32,33 @@
 
 
 <script>
+    $(document).ready(function() {
+        function renderAll (){}
+        function renderPageData(container, template, collection, type){
+            
+        }
+        
+        function load_map(){
+            var map = $('#mapsvg').mapSvg({
+                source: getSVGMapURL(),    // Path to SVG map
+                colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
+                disableAll: true,
+                regions: {
+                    "stores_x5F_3_x5F_6_2_": {tooltip:"<p>TEST TOOLTIP</p>",attr:{href:'/stores'}},
+                        
+                },
+                tooltipsMode:'custom',
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'left' },
+                pan:true,
+                cursor:'pointer',
+                responsive:true,
+                zoomLimit: [0,10]
+            });
+        }
+        loadMallData(renderAll);  
+    })
     
-    $('#mapsvg').mapSvg({
-        source: getSVGMapURL(),    // Path to SVG map
-        colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
-        disableAll: true,
-        regions: {
-            "stores_x5F_3_x5F_6_2_": {tooltip:"<p>TEST TOOLTIP</p>",attr:{href:'/stores'}},
-                
-        },
-        tooltipsMode:'custom',
-        zoom: true,
-        zoomButtons: {'show': true,'location': 'left' },
-        pan:true,
-        cursor:'pointer',
-        responsive:true,
-        zoomLimit: [0,10]
-    });
+    
+    
 </script>
