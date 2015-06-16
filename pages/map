@@ -34,7 +34,18 @@
 <script>
     $(document).ready(function() {
         function renderAll (){
-            load_map()
+            var stores = getStoresList();
+            regions = []
+            $.each( stores , function( key, val ) {
+                
+    
+            });
+            
+            
+            
+            
+            console.log(regions)
+            // load_map()
         }
         function renderPageData(container, template, collection, type){
             
