@@ -42,7 +42,7 @@
                     
                     obj = {};
                     obj = "{stores_x5F_3_x5F_6_2_ : {tooltip : 'test'}}"
-                    regions = regions[obj]
+                    regions[obj] = obj
                     _item = $("#stores_x5F_3_x5F_6_2_")
                 }
     
