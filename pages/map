@@ -50,6 +50,7 @@
             
             
             load_map(regions)
+            _item.name = "test"
             map.regionAdd(_item)
             // load_map()
         }
