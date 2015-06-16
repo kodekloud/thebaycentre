@@ -41,7 +41,7 @@
                     // reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
                     reg = "regions: {stores_x5F_3_x5F_6_2_ : {tooltip: 'TEST'}}"
                     regions = (reg)
-                    _item = document.getElementById("stores_x5F_3_x5F_6_2_")
+                    _item = document.getElementById("#stores_x5F_3_x5F_6_2_")
                 }
     
             });
