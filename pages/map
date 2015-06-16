@@ -50,9 +50,7 @@
             
             
             load_map(regions)
-            _item.name = "test"
-            map.regionAddById("stores_x5F_3_x5F_6_2_")
-            // load_map()
+       
         }
         function renderPageData(container, template, collection, type){
             
@@ -66,7 +64,7 @@
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 disableAll: true,
-                // regions: ,
+                regions: reg,
                 tooltipsMode:'custom',
                 loadingText: "loading...",
                 zoom: true,
