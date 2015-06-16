@@ -57,6 +57,7 @@
         }
         
         
+        
     
         function load_map(reg){
             map = $('#mapsvg').mapSvg({
