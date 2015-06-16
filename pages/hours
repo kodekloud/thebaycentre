@@ -31,8 +31,8 @@
 </div>
 <div class="stores_div" id="regular_hours">
     <script id="regular_hours_template" type="x-tmpl-mustache/text">
-        <p class="hours_day">{{day}}</p>
-        <p class="hours_time">{{hour_string}}</p>
+        <p class="">{{day}}</p>
+        <p class="">{{hour_string}}</p>
     </script>
 </div>
 
@@ -45,8 +45,8 @@
 </div>
 <div class="stores_div" id="holiday_hours">
     <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-        <p class="hours_day">{{day}}</p>
-        <p class="hours_time">{{hour_string}}</p>
+        <p class="">{{day}}</p>
+        <p class="">{{hour_string}}</p>
     </script>
 </div>
 
