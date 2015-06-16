@@ -48,6 +48,7 @@
             
             $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),
+                regions: {stores_x5F_3_x5F_6_2_: {tooltip: "test"}}
             });
             
             
