@@ -33,7 +33,9 @@
 
 <script>
     $(document).ready(function() {
-        function renderAll (){}
+        function renderAll (){
+            load_map()
+        }
         function renderPageData(container, template, collection, type){
             
         }
