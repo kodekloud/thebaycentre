@@ -46,11 +46,13 @@
     
             });
             
-            
+            $('#mapsvg').mapSvg({
+                source: getSVGMapURL(),
+            });
             
             
             load_map(regions)
-       
+            
         }
         function renderPageData(container, template, collection, type){
             
