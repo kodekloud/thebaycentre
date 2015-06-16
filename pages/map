@@ -41,7 +41,7 @@
                     // reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
                     
                     obj = {};
-                    obj = "{tooltip : 'test'}"
+                    obj["tooltip"] = "test"
                     regions["stores_x5F_3_x5F_6_2_"] = obj
                     _item = $("#stores_x5F_3_x5F_6_2_")
                 }
