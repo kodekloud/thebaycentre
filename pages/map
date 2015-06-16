@@ -51,7 +51,7 @@
            
             console.log(obj)
             
-            // load_map(obj)
+            load_map(obj)
             
         }
         function renderPageData(container, template, collection, type){
