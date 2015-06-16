@@ -402,7 +402,7 @@ h1 {
 .tabs li, .tab_content li {
     list-style:none;
     display:inline-block;
-    background:white;
+    
 }
 
 .tab_overlay{
@@ -455,6 +455,7 @@ h1 {
 .tab_content li {
     margin-top:0px;
     width:100%;
+    background:white;
 }
 .feature_slider_container{
     width:100%;
