@@ -48,7 +48,7 @@
             
             
             
-            load_map(regions)map.
+            load_map(regions)
             // load_map()
         }
         function renderPageData(container, template, collection, type){
