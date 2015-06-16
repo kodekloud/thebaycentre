@@ -987,8 +987,9 @@ h1 {
     color:#6d6e71;
     margin:0;
 }
-.hour_line{
-    
+.inside_page_container{
+    padding-left:25px;
+    padding-right:25px;
 }
 .hour_line:nth-child(1){
     margin-top:20px;
