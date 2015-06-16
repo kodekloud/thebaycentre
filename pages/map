@@ -61,7 +61,7 @@
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
-                disableAll: true,
+                // disableAll: true,
                 reg,
                 tooltipsMode:'custom',
                 zoom: true,
