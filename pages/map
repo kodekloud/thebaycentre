@@ -18,6 +18,9 @@
 </div>
 
 
+<div class="" id="mapsvg"></div>
+
+
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/138b043444ee6b5e381a27b2103d101a/raphael.js"></script>
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/138b043444ee6b5e381a27b2103d101a/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/138b043444ee6b5e381a27b2103d101a/mallmaverick_svgmap.js"></script>
