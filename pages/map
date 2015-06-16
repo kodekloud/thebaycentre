@@ -38,7 +38,7 @@
             regions = []
             $.each( stores , function( key, val ) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
-                    reg = val.svgmap_region+": {tooltip: '<p>TEST</p>'}"
+                    reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
                     regions = (reg)
                 }
     
@@ -62,7 +62,7 @@
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 // disableAll: true,
-                regions: { console.log(regions)
+                regions: { 
                         
                 },
                 tooltipsMode:'combined',
