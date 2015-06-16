@@ -41,6 +41,7 @@
         },
         tooltipsMode:'custom',
         zoom: true,
+        zoomButtons: {'show': true,'location': 'left' },
         pan:true,
         cursor:'pointer',
         responsive:true,
