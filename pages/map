@@ -57,12 +57,12 @@
         
     
         function load_map(regions){
-        
+            test = $("#testme").val()
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 // disableAll: true,
-                regions:{ $("#testme").val()},
+                regions:{ },
                 tooltipsMode:'custom',
                 zoom: true,
                 zoomButtons: {'show': true,'location': 'left' },
