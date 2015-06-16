@@ -56,7 +56,7 @@
         }
         
         function get_regions(){
-            return "{stores_x5F_3_x5F_6_2_ : {tooltip: TEST}}"
+            return "{'stores_x5F_3_x5F_6_2_' : {tooltip: TEST}}"
         }
         
         
