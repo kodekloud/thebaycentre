@@ -33,7 +33,7 @@
 
 <script>
     function add_region(){
-            map.regionAdd({regions:{stores_x5F_3_x5F_6_2_:{tooltip:"test"}}})
+            map.get_coords('stores_x5F_3_x5F_6_2_')
         }
     $(document).ready(function() {
         function renderAll (){
