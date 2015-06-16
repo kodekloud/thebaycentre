@@ -37,17 +37,7 @@
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
         regions: {
-                "path6":{disabled: true},
-                {% for store in site.property.stores %}
-                    {% if store.svgmap_region != nil %}
-        				"{{ store.svgmap_region }}":{
-                            tooltip:"{% for file in store.store_files %}<img src='{{file.file_url}}'>{% else %}{% if store.store_front_url contains 'original/missing.png' %}{% else %}<img src='{{store.store_front_url}}'/>{% endif %}{% endfor %}<label class='store_name_map'>{{ store.name }}</label><div class='map_contact'>{% if store.phone %}<div class='map_contact_section'><img class='map_contact_phone_icon' src='{{2027 | get_image_url}}'><label class='map_contact_label'>{{store.phone}}</label><label class='map_label_right'>CLICK FOR MORE DETAIL</label></div>{% endif %}</div>",
-                        attr:{
-        						href:'/stores/{{store.slug}}'
-        					}
-        				},
-        			{% endif %}
-        		{% endfor %}
+                
         },
         tooltipsMode:'custom',
         zoom: true,
