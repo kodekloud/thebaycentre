@@ -40,7 +40,7 @@
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     // reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
                     obj = {};
-                    obj["regions"] = "test"
+                    obj["regions"] = "stores_x5F_3_x5F_6_2_"
                     _item = $("#stores_x5F_3_x5F_6_2_")
                 }
     
@@ -49,7 +49,7 @@
            
             
             
-            load_map(regions)
+            load_map(obj)
             
         }
         function renderPageData(container, template, collection, type){
