@@ -61,13 +61,10 @@
             
         }
         function renderData(container, template, collection, type){
-             var item_list = [];
+            var item_list = [];
             var item_rendered = [];
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-            
-            
-            
             $.each( collection , function( key, val ) {
                switch(val.day_of_week) {
                     case 0:
