@@ -54,7 +54,7 @@
            
             console.log(regions)
             
-            load_map(obj)
+            load_map(regions)
             
         }
         function renderPageData(container, template, collection, type){
