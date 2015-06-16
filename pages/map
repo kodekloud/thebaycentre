@@ -40,6 +40,10 @@
             
         }
         
+        function add_region(){
+            map.regionAdd({regions:{stores_x5F_3_x5F_6_2_:{tooltip:"test"}}})
+        }
+        
         function load_map(){
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
