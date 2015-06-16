@@ -56,7 +56,7 @@
         }
         
         function get_regions(){
-            return "{'stores_x5F_3_x5F_6_2_' : {tooltip: TEST}}"
+            return "{'stores_x5F_3_x5F_6_2_' : {tooltip: 'TEST'}}"
         }
         
         
@@ -66,7 +66,7 @@
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 // disableAll: true,
-                regions:  {'stores_x5F_3_x5F_6_2_' : {tooltip: 'TEST'}},
+                regions: get_regions(),
                 tooltipsMode:'custom',
                 zoom: true,
                 zoomButtons: {'show': true,'location': 'left' },
