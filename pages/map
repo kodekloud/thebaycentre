@@ -65,7 +65,7 @@
                 regions: { regions
                         
                 },
-                tooltipsMode:'custom',
+                tooltipsMode:'combined',
                 zoom: true,
                 zoomButtons: {'show': true,'location': 'left' },
                 pan:true,
