@@ -31,8 +31,10 @@
 </div>
 <div class="" id="regular_hours">
     <script id="regular_hours_template" type="x-tmpl-mustache/text">
-        <p class="">{{day}}</p>
-        <p class="">{{hour_string}}</p>
+        <div class="hour_line">
+            <p class="">{{day}}</p>
+            <p class="">{{hour_string}}</p>
+        </div>
     </script>
 </div>
 
