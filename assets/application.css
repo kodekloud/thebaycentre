@@ -992,5 +992,9 @@ h1 {
 }
 .hour_line p {
     display:inline-block;
-    width: 20%;
+    width: 30%;
+    color:#6d6e71;
+    font-family:lora-regular;
+    font-size:14pt;
+    line-height:26pt;
 }
