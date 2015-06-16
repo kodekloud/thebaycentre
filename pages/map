@@ -51,7 +51,7 @@
             
             load_map(regions)
             _item.name = "test"
-            map.regionAdd("stores_x5F_3_x5F_6_2_")
+            map.regionAddById("stores_x5F_3_x5F_6_2_")
             // load_map()
         }
         function renderPageData(container, template, collection, type){
