@@ -46,7 +46,7 @@
             });
             
             
-            console.log(regions)
+            
             
             load_map(regions)
             // load_map()
@@ -58,7 +58,7 @@
         
         
         function load_map(regions){
-            
+            console.log(regions)
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
