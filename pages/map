@@ -70,7 +70,7 @@
                 zoomButtons: {'show': true,'location': 'left' },
                 pan:true,
                 cursor:'pointer',
-                responsive:true,
+                responsive:false,
                 zoomLimit: [0,10]
             });
         }
