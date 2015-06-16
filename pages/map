@@ -37,7 +37,7 @@
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
         regions: {
-            svgmap_region: {tooltip:"<p>TEST TOOLTIP</p>",attr:{href:'/stores'}}
+            "(stores_x5F_3_x5F_6_2_)": {tooltip:"<p>TEST TOOLTIP</p>",attr:{href:'/stores'}},
                 
         },
         tooltipsMode:'custom',
