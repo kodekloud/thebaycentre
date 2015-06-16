@@ -43,7 +43,7 @@
                     obj = {};
                     obj = "{stores_x5F_3_x5F_6_2_ : {tooltip : 'test'}}"
                     
-                    
+                    regions.push(obj)
                     
                     
                     _item = $("#stores_x5F_3_x5F_6_2_")
@@ -52,7 +52,7 @@
             });
             
            
-            console.log(obj)
+            console.log(regions)
             
             load_map(obj)
             
