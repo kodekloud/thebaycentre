@@ -38,12 +38,9 @@
             regions = {}
             $.each( stores , function( key, val ) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
-                    // reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
-                    
                     obj = {};
                     obj["tooltip"] = "test"
-                    regions["stores_x5F_3_x5F_6_2_"] = obj
-                    _item = $("#stores_x5F_3_x5F_6_2_")
+                    regions[val.svgmap_region] = obj
                 }
     
             });
