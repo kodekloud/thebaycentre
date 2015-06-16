@@ -19,7 +19,7 @@
 
 
 <div class="" id="mapsvg"></div>
-<input type="hidden" id ="testme" value="stores_x5F_3_x5F_6_2_ : {tooltip: 'TEST'}"
+<input type="hidden" id ="testme" value="stores_x5F_3_x5F_6_2_ : {tooltip: 'TEST'}"/>
 
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/138b043444ee6b5e381a27b2103d101a/raphael.js"></script>
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/138b043444ee6b5e381a27b2103d101a/jquery.mousewheel.js"></script>
