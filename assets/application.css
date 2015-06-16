@@ -402,6 +402,7 @@ h1 {
 .tabs li, .tab_content li {
     list-style:none;
     display:inline-block;
+    background:white;
 }
 
 .tab_overlay{
