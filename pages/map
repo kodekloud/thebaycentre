@@ -41,7 +41,7 @@
         }
         
         function load_map(){
-            var map = $('#mapsvg').mapSvg({
+            map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 disableAll: true,
