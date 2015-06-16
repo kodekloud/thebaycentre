@@ -32,12 +32,17 @@
 
 
 <script>
-    function add_region(){
-            map.get_coords('stores_x5F_3_x5F_6_2_')
+    $(document).ready(function() {
+        function renderAll (){
+            load_map()
+        }
+        function renderPageData(container, template, collection, type){
+            
         }
         
         
-    function load_map(){
+        
+        function load_map(regions){
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
@@ -55,18 +60,7 @@
                 zoomLimit: [0,10]
             });
         }
-        load
-    $(document).ready(function() {
-        function renderAll (){
-            load_map()
-        }
-        function renderPageData(container, template, collection, type){
-            
-        }
-        
-        
-        
-        MallData(renderAll);  
+        loadMallData(renderAll);  
     })
     
     
