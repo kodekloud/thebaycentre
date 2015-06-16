@@ -45,7 +45,7 @@
             });
             
             
-            
+            console.log(regions)
             
             load_map(regions)
             // load_map()
