@@ -991,5 +991,6 @@ h1 {
     
 }
 .hour_line p {
-    
+    display:inline-block;
+    width: 20%;
 }
