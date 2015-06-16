@@ -47,8 +47,10 @@
 </div>
 <div class="" id="holiday_hours">
     <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-        <p class="">{{holiday_name}} ({{hol}})</p>
-        <p class="">{{hour_string}}</p>
+        <div class="hour_line">
+            <p class="">{{holiday_name}} ({{hol}})</p>
+            <p class="">{{hour_string}}</p>
+        </div>
     </script>
 </div>
 
