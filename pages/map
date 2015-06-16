@@ -40,17 +40,18 @@
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     // reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
                     obj = {};
-                    obj["regions"]["stores_x5F_3_x5F_6_2_"] = "tooltip:'test'"
-                  
+                    
+                    
+                    
                     _item = $("#stores_x5F_3_x5F_6_2_")
                 }
     
             });
             
            
+            console.log(obj)
             
-            
-            load_map(obj)
+            // load_map(obj)
             
         }
         function renderPageData(container, template, collection, type){
