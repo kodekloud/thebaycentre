@@ -29,7 +29,7 @@
 <div class="cat_div">
     regular hours
 </div>
-<div class="stores_div" id="regular_hours">
+<div class="" id="regular_hours">
     <script id="regular_hours_template" type="x-tmpl-mustache/text">
         <p class="">{{day}}</p>
         <p class="">{{hour_string}}</p>
