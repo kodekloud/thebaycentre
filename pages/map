@@ -42,7 +42,7 @@
                       $("#tooltip_image_"+val.id).show()   
                     } 
                     obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><img class='tooltip_image' id='tooltip_image_'"+val.id+"' src='"val.store_front_url"'/><p class='tooltip_name'>"+val.name+"</p></div>"
+                    obj["tooltip"] = "<div class='tooltip_div'><img class='tooltip_image' id='tooltip_image_'"+val.id+"' src='"+val.store_front_url+"'/><p class='tooltip_name'>"+val.name+"</p></div>"
                     obj["attr"] = {}
                     obj["attr"]["href"] = "/stores/"+val.slug
                     regions[val.svgmap_region] = obj
