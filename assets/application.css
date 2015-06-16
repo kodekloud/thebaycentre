@@ -990,6 +990,9 @@ h1 {
 .hour_line{
     
 }
+.hour_line p:nth-child(1){
+    margin-top:20px;
+}
 .hour_line p {
     display:inline-block;
     width: 30%;
