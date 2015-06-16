@@ -40,7 +40,7 @@
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     // reg = "'"+val.svgmap_region+"' : {tooltip: '<p>TEST</p>'}"
                     obj = {};
-                    obj["regions"]["stores_x5F_3_x5F_6_2_"] = "tooltip:test"
+                    obj["regions"]["stores_x5F_3_x5F_6_2_"] = "tooltip:'test'"
                     obj["regions"]["stores_x5F_3_x5F_6_2_"]["tooltip"] = "TEST"
                     _item = $("#stores_x5F_3_x5F_6_2_")
                 }
