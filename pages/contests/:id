@@ -70,11 +70,6 @@
     
     $(document).ready(function() {
         function renderPageData(){
-            
-           
-
-            
-            console.log(contest_details)
        
             renderDetailData("#promo_title_container", "#promo_title_template", contest_details, "contest")
             renderDetailData("#store_detail_right_content_container", "#store_detail_right_content_template", contest_details, "contest")
