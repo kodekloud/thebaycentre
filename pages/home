@@ -224,7 +224,9 @@
             stores = getStoresList();
             new_stores = []
              $.each( stores , function( key, val ) {
-                 if (val.is_coming_soon_store == true)
+                 if (val.is_coming_soon_store == true){
+                     console.log(val)
+                 }
              });
             
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", featured_promos, "feature_promos");
