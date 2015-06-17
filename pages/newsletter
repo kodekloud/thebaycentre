@@ -35,7 +35,7 @@
         border:none;
         background:transparent;
         color:white;
-        width:93%;
+        width:200px;
     }
     
 </style>
