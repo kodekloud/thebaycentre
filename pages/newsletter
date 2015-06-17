@@ -50,7 +50,7 @@
     <div class="newsletter_row">
         <p>
             <label for="news_email">Email*</label><br />
-            <input id="news_email" name="cm-iixuu-iixuu" type="email" type="text" required/>
+            <input id="news_email" name="cm-iixuu-iixuu" type="email" required/>
         </p>
         <p>
             <label for="news_postal">Postal Code</label><br />
