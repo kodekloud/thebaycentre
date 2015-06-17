@@ -1011,6 +1011,9 @@ h1 {
 
 /*map page css */
 
+.map_tooltip{
+    padding:0;
+}
 .tooltip_div{
     background:black;
     padding:0;
