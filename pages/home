@@ -172,7 +172,7 @@
             renderHomePageData("#banner_hours_container", "#banner_hours_template", banner_hours, "banner_hours") 
             
             $(".loading_overlay").hide();
-            $(".page_content").show();
+            $("#page_content").show();
             
         }
         loadMallData(render_page_details);  
