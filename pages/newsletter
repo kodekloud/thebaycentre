@@ -32,6 +32,17 @@
 <form id="newsletter_form">
     <input id="hidden_source" name="cm-f-jhtykd" type="hidden" />
     <input id="hidden_agree_text" name="cm-f-jhtykh" type="hidden" />
+    <input id="full_name" name="cm-name" type="hidden" />
+    <div class="newsletter_row">
+        <p>
+            <label for="first_name">Name</label><br />
+            <input id="first_name"type="text" />
+        </p>
+        <p>
+            <label for="fieldName">Name</label><br />
+            <input id="fieldName" name="cm-name" type="text" />
+        </p>
+    </div>
 </form>
 
 <form action="http://mobilefringe.createsend.com/t/d/s/iixuu/" method="post" id="subForm">
@@ -42,14 +53,6 @@
     <p>
         <label for="fieldEmail">Email</label><br />
         <input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required />
-    </p>
-    <p>
-        <label for="fieldjhtykd">source</label><br />
-        <input id="fieldjhtykd" name="cm-f-jhtykd" type="text" />
-    </p>
-    <p>
-        <label for="fieldjhtykh">agree text</label><br />
-        <input id="fieldjhtykh" name="cm-f-jhtykh" type="text" />
     </p>
     <p>
         <label for="fieldjkyulh">Age</label><br />
