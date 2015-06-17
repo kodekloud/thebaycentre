@@ -43,7 +43,7 @@ function drop_pin(value){
             marks = map.marksGet();
             $.each(marks, function (key, val){
                 console.log(val)
-                map.markDelete(val)
+                // map.markDelete(val)
             })
             value = value.split('/')
             var coords = map.get_coords(value[0]);
