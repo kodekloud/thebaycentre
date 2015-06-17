@@ -1012,7 +1012,7 @@ h1 {
 /*map page css */
 
 .map_tooltip{
-    padding:0;
+    padding:0 !important;
 }
 .tooltip_div{
     background:black;
