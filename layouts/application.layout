@@ -257,8 +257,8 @@
         
     </header>
     <div class="loading_overlay">
-            LOADING
-        </div>
+            <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
+    </div>
     <div id="main_container">
         
         <img id="left_image" />
