@@ -76,6 +76,8 @@
             
             renderData("#regular_hours","#regular_hours_template",reg_hours, "reg_hours")
             renderData("#holiday_hours","#holiday_hours_template",holiday_hours, "holiday_hours")
+            $(".loading_overlay").hide();
+            $("#page_content").show();
             
         }
         function renderData(container, template, collection, type){
