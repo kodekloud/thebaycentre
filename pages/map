@@ -39,7 +39,8 @@
 
 <script>
 
-function drop_pin(id, slug){
+function drop_pin(value){
+            value = value.split('/')
             var coords = map.get_coords(id);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
