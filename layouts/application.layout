@@ -176,8 +176,8 @@
                         <a href="" target="_blank"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/header_social_blog.png" class="header_icon" alt="blog" id="header_blog"></a>
             </div>
         </div>
-        <div >
-            <a href="/home"><img class="site_logo" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/BAY_logo.png"></a>  
+        <div id="logo_container">
+            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<a href="/home"><img class="site_logo" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/BAY_logo.png"></a>{% endraw %}</script>  
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
