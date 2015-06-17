@@ -13,6 +13,12 @@
         </div>
     </div>
 </div>
+
+<form id="newsletter_form">
+    
+</form>
+
+
 <script>
     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/389e126f6eee4f2c99cc11b9512c8940/contact_banner1.jpg");
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/389e126f6eee4f2c99cc11b9512c8940/contact_banner3.jpg");
