@@ -172,9 +172,10 @@
             
             var banner_hours = getTodaysHours();
             renderHomePageData("#banner_hours_container", "#banner_hours_template", banner_hours, "banner_hours") 
-            load_slider("flexslider");
+            
             $(".loading_overlay").hide();
             $("#page_content").show();
+            load_slider("flexslider");
             
         }
         loadMallData(render_page_details);  
