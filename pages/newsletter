@@ -15,7 +15,9 @@
 </div>
 
 <form id="newsletter_form">
-    
+    <p class="store_detail_title">
+        STAY INFORMED
+    </p>
 </form>
 
 
