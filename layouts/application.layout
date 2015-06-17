@@ -751,7 +751,7 @@
      $(document).ready(function() {
         function renderAll(){
             var propertyDetails = getPropertyDetails();
-            renderPageData("#logo_container","#logo_template", propertyDetails, "logo")
+            // renderPageData("#logo_container","#logo_template", propertyDetails, "logo")
             var today_hours = getTodaysHours()
             renderPageData("#find_left_div", "#find_left_template", propertyDetails, "footer_logo")
             renderPageData("#today_hour_container", "#today_hour_template", today_hours, "hours")
