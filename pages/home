@@ -131,7 +131,7 @@
         
     
     function load_slider(slider){
-        
+            $('.item').first().addClass('active');
             $('.'+slider).flexslider({
                 animation: "slide",
                 controlNav: false,
