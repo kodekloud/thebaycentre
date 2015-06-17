@@ -40,11 +40,7 @@
 <script>
 
 function drop_pin(value){
-            marks = map.marksGet();
-            $.each(map.marksGet(), function (key, val){
-                console.log(val)
-              
-            })
+            map.marksHide();
             value = value.split('/')
             var coords = map.get_coords(value[0]);
             var height = parseInt(coords["height"])
