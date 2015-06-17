@@ -94,7 +94,7 @@ function drop_pin(value){
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
-                viewBox: [3000,0,6000,6000],
+                // viewBox: [3000,0,6000,6000],
                 disableAll: true,
                 height:800,
                 width:1193,
