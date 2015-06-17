@@ -125,7 +125,7 @@
             $(".tab_content li").hide();
             $("#"+clicked + "_content").show()
             $("#"+clicked + "_content li").show()
-            // load_slider("flexslider3")
+            load_slider("flexslider3")
         
         });
         
