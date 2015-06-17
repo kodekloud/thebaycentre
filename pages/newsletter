@@ -68,29 +68,7 @@
 </form>
 
 <form action="http://mobilefringe.createsend.com/t/d/s/iixuu/" method="post" id="subForm">
-    <p>
-        <label for="fieldName">Name</label><br />
-        <input id="fieldName" name="cm-name" type="text" />
-    </p>
-    <p>
-        <label for="fieldEmail">Email</label><br />
-        <input id="fieldEmail" name="cm-iixuu-iixuu" type="email" required />
-    </p>
-    <p>
-        <label for="fieldjkyulh">Age</label><br />
-        <input id="fieldjkyulh" name="cm-f-jkyulh" type="text" />
-    </p>
-    <p>
-        <label for="fieldjkyulk">Gender</label><br />
-        <input id="fieldjkyulk" name="cm-f-jkyulk" type="text" />
-    </p>
-    <p>
-        <label for="fieldjkyulu">Postal Code</label><br />
-        <input id="fieldjkyulu" name="cm-f-jkyulu" type="text" />
-    </p>
-    <p>
-        <button type="submit">Subscribe</button>
-    </p>
+
 </form>
 
 <p class="store_detail_title">
