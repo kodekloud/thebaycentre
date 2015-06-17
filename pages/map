@@ -41,8 +41,8 @@
 
 function drop_pin(value){
             marks = map.marksGet();
-            $.each(marks, function (key, val){
-                console.log(val)
+            $.each(map.marksGet(), function (object){
+                console.log(object)
                 // map.markDelete(val)
             })
             value = value.split('/')
