@@ -35,17 +35,17 @@
     <input id="full_name" name="cm-name" type="hidden" />
     <div class="newsletter_row">
         <p>
-            <label for="first_name">Name</label><br />
+            <label for="first_name">First Name*</label><br />
             <input id="first_name" type="text" required/>
         </p>
         <p>
-            <label for="last_name">Name</label><br />
+            <label for="last_name">Last Name*</label><br />
             <input id="last_name" type="text" required/>
         </p>
     </div>
     <div class="newsletter_row">
         <p>
-            <label for="news_email">Email</label><br />
+            <label for="news_email">Email*</label><br />
             <input id="news_email" name="cm-iixuu-iixuu" type="email" type="text" required/>
         </p>
         <p>
