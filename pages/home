@@ -279,7 +279,7 @@
                         val.start_day = start.getDate()
                         val.date_string = val.start_month + " " + val.start_day
                     } else {
-                        val.date_string = "Opening soon"
+                        val.start_month  = "Opening soon"
                     }
                     
                 }
