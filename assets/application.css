@@ -1019,6 +1019,7 @@ h1 {
     font-family:lora-regular;
     font-size:16pt;
     line-height:26pt;
+    margin:none;
 }
 .map_container{
     
