@@ -20,7 +20,7 @@
 <div class="store_select">
     <select id="store_select_container" onchange="javascript:drop_pin(this.value)">
         <script id="store_select_template" type="x-tmpl-mustache/text">
-            <option value='{{id}}'>{{name}}</option>
+            <option value='{{svgmap_region}}'>{{name}}</option>
         </script>
     </select>
 </div>
