@@ -10,7 +10,7 @@
     }
     .newsletter_row p{
         width:40%;
-        display:inline;
+        display:inline-block;
         line-height:59px;
     font-family:montserrat-regular;
     font-size:16px;
