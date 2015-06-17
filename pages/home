@@ -2,7 +2,7 @@
     .feature_promo_date_div{
         width:auto;
         margin-left:0;
-        margin-right:37px;
+        margin-right:10px;
         padding-left:15px;
         padding-right:15px;
         vertical-align:top;
