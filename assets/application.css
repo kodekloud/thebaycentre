@@ -1016,6 +1016,9 @@ h1 {
 }
 .tooltip_div p {
     color:white;
+    font-family:lora-regular;
+    font-size:16pt;
+    line-height:26pt;
 }
 .map_container{
     
