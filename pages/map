@@ -49,7 +49,7 @@ function drop_pin(value){
             map.setMarks([{ xy: [coords["x"] - 25 + x_offset, coords["y"] - 85 + y_offset],
                       attrs: {
                                 href: '/stores/'+value[1],
-                                src:  'http://cdn.mallmaverick.com/system/sites/map_markers/000/000/056/original/map_pincopy.png?1423594955'     // image for marker
+                                src:  'http://assets.kodekloud.io/sites/556628266e6f640eb3000000/103b482360f9f2e6f9c50b2426af6d61/pin_baycentre.png'     // image for marker
                               }
                     }
                     ])
