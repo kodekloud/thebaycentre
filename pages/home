@@ -12,6 +12,10 @@
     .date_block{
         display:inline-block;
     }
+    
+    .promo_description_div{
+        width:780px;
+    }
 </style>
 
 <div class="banner_container">
