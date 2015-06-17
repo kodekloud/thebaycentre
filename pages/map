@@ -109,8 +109,7 @@ function drop_pin(value){
                 zoomLimit: [0,10]
             });
             
-            $(".loading_overlay").hide();
-            $("#page_content").show();
+            
         }
         loadMallData(renderAll);  
     })
