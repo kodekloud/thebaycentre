@@ -59,9 +59,10 @@ h1 {
     height:100%;
     width:100%;
     background:white;
+    z-index:999999999999999999999999999999;
 }
 
-.loading_gif{
+.loading_overlay img{
     margin-top:100px;
 }
 
