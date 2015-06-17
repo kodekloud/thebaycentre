@@ -27,6 +27,21 @@
         
     }
     
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    red;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    red;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    red;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    red;
+}
+    
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
