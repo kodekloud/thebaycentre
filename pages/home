@@ -271,6 +271,17 @@
             }
             
             $.each( collection , function( key, val ) {
+                if (type == "stores"){
+                    if (val.new_store_open_date){
+                        start = new Date (val.new_store_open_date); 
+                        start.setDate(start.getDate()+1);
+                        val.start_month = get_month(start.getMonth())
+                        val.start_day = start.getDate()
+                        val.date_string = val.start_month + " " + val.start_day
+                    }
+                    
+                }
+                
                 if (type == "feature_promos"){
                     if (val.description.length > 110) {
                        val.description =  val.description.substring(0,300)+'...';
