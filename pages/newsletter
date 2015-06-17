@@ -26,6 +26,9 @@
         padding-left:10px;
         
     }
+    .news_subscribe{
+        
+    }
     
 </style>
 <div class="banner_container">
