@@ -86,7 +86,7 @@
         </p>
     </div>
     
-     <button type="submit">Subscribe</button>
+     <button class="news_subscribe" type="submit">Subscribe</button>
 </form>
 
 <form action="http://mobilefringe.createsend.com/t/d/s/iixuu/" method="post" id="subForm">
