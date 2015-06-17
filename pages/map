@@ -47,7 +47,7 @@ function drop_pin(id, slug){
             var y_offset = (parseInt(height) /2);
             map.setMarks([{ xy: [coords["x"] - 25 + x_offset, coords["y"] - 85 + y_offset],
                       attrs: {
-                                href: '/stores/'+slug
+                                href: '/stores/'+slug,
                                 src:  'http://cdn.mallmaverick.com/system/sites/map_markers/000/000/056/original/map_pincopy.png?1423594955'     // image for marker
                               }
                     }
