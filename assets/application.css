@@ -457,7 +457,7 @@ h1 {
 }
 .tab_content li {
     margin-top:0px;
-    width:100%;
+    width:100% !important;
     background:white;
 }
 .feature_slider_container{
