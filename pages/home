@@ -1,4 +1,16 @@
-
+<style>
+    .feature_promo_date_div{
+        width:auto;
+        margin-left:0;
+        margin-right:37px;
+        padding-left:15px;
+        padding-right:15px;
+        vertical-align:top;
+    }
+    .date_block{
+        display:inline-block;
+    }
+</style>
 
 <div class="banner_container">
     <img src="http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide1.jpg" class="main_image" alt="">
