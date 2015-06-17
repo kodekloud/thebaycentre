@@ -2,6 +2,9 @@
     .store_detail_title{
         margin-bottom:20px;
     }
+    .store_detail_description{
+        margin-top:20px;
+    }
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
