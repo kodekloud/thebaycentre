@@ -36,6 +36,8 @@
         color:white;
         width:200px;
         border-radius:50px;
+        margin-top:20px;
+        margin-bottom:60px;
     }
     
 </style>
