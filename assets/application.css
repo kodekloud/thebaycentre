@@ -1016,7 +1016,7 @@ h1 {
 }
 .tooltip_div{
     background:black;
-    padding:0;
+    padding:10px;
 }
 .tooltip_div p {
     color:white;
