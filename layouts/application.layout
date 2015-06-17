@@ -177,7 +177,7 @@
             </div>
         </div>
         <div id="logo_container">
-            <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<a href="/home"><img class="site_logo" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/BAY_logo.png"></a>{% endraw %}</script>  
+            <a href="/home"><img class="site_logo" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/BAY_logo.png"></a>
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
