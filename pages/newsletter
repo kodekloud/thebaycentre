@@ -30,6 +30,8 @@
     Sign up to be notified on promotions, contests, events, new stores, sales and fashion trends.
 </div>
 <form id="newsletter_form">
+    <input id="hidden_source" name="cm-f-jhtykd" type="hidden" />
+    <input id="hidden_agree_text" name="cm-f-jhtykh" type="hidden" />
 </form>
 
 <form action="http://mobilefringe.createsend.com/t/d/s/iixuu/" method="post" id="subForm">
