@@ -16,6 +16,9 @@
     .promo_description_div{
         width:780px;
     }
+    .flex-direction-nav{
+        top:-80px !impoprtant;
+    }
 </style>
 
 <div class="banner_container">
