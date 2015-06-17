@@ -27,21 +27,6 @@
         
     }
     
-    ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    red;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    red;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    red;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    red;
-}
-    
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
@@ -73,31 +58,31 @@
     <div class="newsletter_row">
         <p>
             <label for="first_name">First Name*</label><br />
-            <input id="first_name" type="text" required placeholder="First Name"/>
+            <input id="first_name" type="text" required/>
         </p>
         <p>
             <label for="last_name">Last Name*</label><br />
-            <input id="last_name" type="text" required placeholder="Last Name"/>
+            <input id="last_name" type="text" required/>
         </p>
     </div>
     <div class="newsletter_row">
         <p>
             <label for="news_email">Email*</label><br />
-            <input id="news_email" name="cm-iixuu-iixuu" type="email" required placeholder="Email"/>
+            <input id="news_email" name="cm-iixuu-iixuu" type="email" required/>
         </p>
         <p>
             <label for="news_postal">Postal Code</label><br />
-        <input id="news_postal" name="cm-f-jkyulu" type="text" placeholder="Postal Code"/>
+        <input id="news_postal" name="cm-f-jkyulu" type="text" />
         </p>
     </div>
     <div class="newsletter_row">
         <p>
             <label for="news_age">Age</label><br />
-            <input id="news_age" name="cm-f-jkyulh" type="text" placeholder="Age"/>
+            <input id="news_age" name="cm-f-jkyulh" type="text" />
         </p>
         <p>
             <label for="news_gender">Gender</label><br />
-            <input id="news_gender" name="cm-f-jkyulk" type="text" placeholder="Gender"/>
+            <input id="news_gender" name="cm-f-jkyulk" type="text" />
         </p>
     </div>
     
