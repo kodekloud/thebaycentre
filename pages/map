@@ -17,6 +17,13 @@
     <span class='st_sharethis'></span>   
 </div>
 
+<div class="store_select">
+    <select id="store_select_container" onchange="javascript:drop_pin(this.value)">
+        <script id="store_select_template" type="x-tmpl-mustache/text">
+            <option>
+        </script>
+    </select>
+</div>
 
 <div class="map_container" id="mapsvg"></div>
 <input type="hidden" id ="testme" value="stores_x5F_3_x5F_6_2_ : {tooltip: 'TEST'}"/>
