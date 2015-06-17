@@ -8,6 +8,10 @@
     .newsletter_form{
         
     }
+    .newsletter_row{
+        width:50%;
+        display:inline;
+    }
     
 </style>
 <div class="banner_container">
