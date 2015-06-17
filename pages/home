@@ -225,7 +225,7 @@
             new_stores = []
              $.each( stores , function( key, val ) {
                  if (val.is_coming_soon_store == true){
-                     console.log(val)
+                     new_stores.push(val)
                  }
              });
             
