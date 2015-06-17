@@ -41,7 +41,7 @@
             <div class="feature_slider_container flexslider" id="feature_slider_container">
                 <ul class="feature_slider_ul slides" id="feature_slider_ul">
                     <script id="feature_slider_template" type="x-tmpl-mustache/text">
-                        <li class="">
+                        <li class="feature_promo item">
                             <div class="feature_promo_left_div">
                             <div class="feature_promo_date_div">
                                 <div class="feature_promo_date_triangle">&nbsp;</div>
