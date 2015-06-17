@@ -53,6 +53,16 @@
         <input id="news_postal" name="cm-f-jkyulu" type="text" />
         </p>
     </div>
+    <div class="newsletter_row">
+        <p>
+            <label for="news_age">Age</label><br />
+            <input id="news_age" name="cm-f-jkyulh" type="text" />
+        </p>
+        <p>
+            <label for="news_gender">Gender</label><br />
+            <input id="news_gender" name="cm-f-jkyulk" type="text" />
+        </p>
+    </div>
 </form>
 
 <form action="http://mobilefringe.createsend.com/t/d/s/iixuu/" method="post" id="subForm">
