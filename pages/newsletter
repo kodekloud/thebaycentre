@@ -36,11 +36,11 @@
     <div class="newsletter_row">
         <p>
             <label for="first_name">Name</label><br />
-            <input id="first_name"type="text" />
+            <input id="first_name" type="text" />
         </p>
         <p>
-            <label for="fieldName">Name</label><br />
-            <input id="fieldName" name="cm-name" type="text" />
+            <label for="last_name">Name</label><br />
+            <input id="last_name" type="text" />
         </p>
     </div>
 </form>
