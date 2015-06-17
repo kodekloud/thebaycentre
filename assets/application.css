@@ -1013,6 +1013,7 @@ h1 {
 
 .tooltip_div{
     background:black;
+    padding:0;
 }
 .tooltip_div p {
     color:white;
