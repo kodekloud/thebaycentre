@@ -27,7 +27,15 @@
         
     }
     .news_subscribe{
-        
+        font-family:montserrat-regular;
+        font-size:16px;
+        margin-left:37px;
+        text-transform:uppercase;
+        height:50px;
+        border:none;
+        background:transparent;
+        color:white;
+        width:93%;
     }
     
 </style>
