@@ -53,7 +53,9 @@ h1 {
     
 }
 
-
+.clone{
+    display:none !important;
+}
 .loading_overlay{
     position:absolute;
     height:100%;
