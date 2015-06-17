@@ -64,6 +64,9 @@ h1 {
 
 .loading_overlay img{
     margin-top:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .header_link{
