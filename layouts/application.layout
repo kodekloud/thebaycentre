@@ -229,7 +229,7 @@
                     <div class="dd_submenu" id="s_sub_5">
                         <ul>
                             <li>Blog </li>
-                            <li>Enewsletter </li>
+                            <li><a href="/newsletter">Enewsletter</a></li>
                         </ul>
                     </div>
                     
