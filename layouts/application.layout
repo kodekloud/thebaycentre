@@ -257,7 +257,9 @@
         
     </header>
     <div id="main_container">
-        
+        <div class="loading_overlay">
+            LOADING
+        </div>
         <img id="left_image" />
         <img id="right_image" />
         <div id="page_content">{{yield}}</div>
