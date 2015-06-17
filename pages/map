@@ -18,7 +18,7 @@
 </div>
 
 
-<div class="" id="mapsvg"></div>
+<div class="map_container" id="mapsvg"></div>
 <input type="hidden" id ="testme" value="stores_x5F_3_x5F_6_2_ : {tooltip: 'TEST'}"/>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
@@ -75,6 +75,7 @@ function drop_pin(id){
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 disableAll: true,
+                height:600px
                 regions: reg,
                 tooltipsMode:'custom',
                 loadingText: "loading...",
