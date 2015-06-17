@@ -39,7 +39,7 @@
 
 <script>
 
-function drop_pin(id){
+function drop_pin(id, slug){
             var coords = map.get_coords(id);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
@@ -47,6 +47,7 @@ function drop_pin(id){
             var y_offset = (parseInt(height) /2);
             map.setMarks([{ xy: [coords["x"] - 25 + x_offset, coords["y"] - 85 + y_offset],
                       attrs: {
+                                href: ''
                                 src:  'http://cdn.mallmaverick.com/system/sites/map_markers/000/000/056/original/map_pincopy.png?1423594955'     // image for marker
                               }
                     }
