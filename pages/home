@@ -183,8 +183,20 @@
             $(".tab_content li").hide();
             $("#"+clicked + "_content").show()
             $("#"+clicked + "_content li").show()
-            load_slider("flexslider3")
-            load_slider("flexslider2")
+            switch(clicked) {
+                        case "tab_1":
+                            load_slider("flexslider")
+                            break;
+                        case "tab_2":
+                            load_slider("flexslider2")
+                            break;
+                        case "tab_3":
+                            load_slider("flexslider3")
+                            break;
+                        
+                    }
+            
+            
         
         });
         
