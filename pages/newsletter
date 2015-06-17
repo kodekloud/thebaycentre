@@ -33,9 +33,10 @@
         text-transform:uppercase;
         height:50px;
         border:none;
-        background:transparent;
+        background:#c7c8ca;
         color:white;
         width:200px;
+        border-radius:50px;
     }
     
 </style>
