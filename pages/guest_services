@@ -104,6 +104,9 @@ We hope to see you soon at The Bay Centre.
             
             renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
             
+            $(".loading_overlay").hide();
+            $("#page_content").show();
+            
         }
         
         function add_to_page_array (data){
