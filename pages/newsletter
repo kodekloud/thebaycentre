@@ -41,7 +41,7 @@
     }
     
 </style>
-<div class="banner_container">
+<div class="banner_container" style="margin-bottom:60px">
     <img src="" id="main_image" class="main_image" alt="">
     <div class="missing_out_div">
         <p onclick="javascript:toggle_news_form()">Fear of missing out?<i id="fear_caret" class="fa fa-caret-down"></i></p>
