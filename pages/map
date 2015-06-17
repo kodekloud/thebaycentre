@@ -72,6 +72,8 @@ function drop_pin(value){
             });
             renderPageData("#store_select_container","#store_select_template",stores, "stores")
             load_map(regions)
+            $(".loading_overlay").hide();
+            $("#page_content").show();
             
         }
         function renderPageData(container, template, collection, type){
@@ -85,6 +87,8 @@ function drop_pin(value){
             });
             $(container).show();
             $(container).html(item_rendered.join(''));
+            
+            
         }
         
         
