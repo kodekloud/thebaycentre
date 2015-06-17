@@ -49,8 +49,8 @@
             <input id="news_email" name="cm-iixuu-iixuu" type="email" type="text" required/>
         </p>
         <p>
-            <label for="last_name">Name</label><br />
-            <input id="last_name" type="text" />
+            <label for="news_postal">Postal Code</label><br />
+        <input id="news_postal" name="cm-f-jkyulu" type="text" />
         </p>
     </div>
 </form>
