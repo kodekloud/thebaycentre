@@ -7,6 +7,7 @@
         padding-right:15px;
         vertical-align:top;
         min-width:144px;
+        text-align:center;
     }
     .date_block{
         display:inline-block;
