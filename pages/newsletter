@@ -58,31 +58,31 @@
     <div class="newsletter_row">
         <p>
             <label for="first_name">First Name*</label><br />
-            <input id="first_name" type="text" required/>
+            <input id="first_name" type="text" required placeholder="First Name"/>
         </p>
         <p>
             <label for="last_name">Last Name*</label><br />
-            <input id="last_name" type="text" required/>
+            <input id="last_name" type="text" required placeholder="Last Name"/>
         </p>
     </div>
     <div class="newsletter_row">
         <p>
             <label for="news_email">Email*</label><br />
-            <input id="news_email" name="cm-iixuu-iixuu" type="email" required/>
+            <input id="news_email" name="cm-iixuu-iixuu" type="email" required placeholder="Email"/>
         </p>
         <p>
             <label for="news_postal">Postal Code</label><br />
-        <input id="news_postal" name="cm-f-jkyulu" type="text" />
+        <input id="news_postal" name="cm-f-jkyulu" type="text" placeholder="Postal Code"/>
         </p>
     </div>
     <div class="newsletter_row">
         <p>
             <label for="news_age">Age</label><br />
-            <input id="news_age" name="cm-f-jkyulh" type="text" />
+            <input id="news_age" name="cm-f-jkyulh" type="text" placeholder="Age"/>
         </p>
         <p>
             <label for="news_gender">Gender</label><br />
-            <input id="news_gender" name="cm-f-jkyulk" type="text" />
+            <input id="news_gender" name="cm-f-jkyulk" type="text" placeholder="Gender"/>
         </p>
     </div>
     
