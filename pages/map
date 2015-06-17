@@ -75,7 +75,7 @@ function drop_pin(id){
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#99CA3C"},
                 disableAll: true,
-                height:600px
+                height:600,
                 regions: reg,
                 tooltipsMode:'custom',
                 loadingText: "loading...",
