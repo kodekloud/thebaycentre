@@ -1046,4 +1046,7 @@ h1 {
     padding-left:37px;
     text-transform:uppercase;
     height:50px;
+    border:none;
+    background:transparent;
+    color:white;
 }
