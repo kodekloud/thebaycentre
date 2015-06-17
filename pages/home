@@ -97,7 +97,7 @@
         <li id="tab_2_content" style="display:none">
             <div class="feature_slider_container flexslider2" id="store_slider_container">
                 <ul class="feature_slider_ul slides" id="store_slider_ul">
-                    <script id="feature_slider_template" type="x-tmpl-mustache/text">
+                    <script id="store_slider_template" type="x-tmpl-mustache/text">
                         <li class="feature_promo item">
                             <div class="feature_promo_left_div">
                             <div class="feature_promo_date_div">
@@ -231,7 +231,7 @@
             
             renderHomePageData("#feature_slider_ul", "#feature_slider_template", featured_promos, "feature_promos");
             renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
-            
+            renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
             
             
             var featureList = getFeatureList();
