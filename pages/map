@@ -31,9 +31,9 @@
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/138b043444ee6b5e381a27b2103d101a/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74141f4e7fc21d1457d2be79b85990c1/mallmaverick_svgmap.js"></script>
 <script>
-    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner3.jpg");
-    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner2.jpg");
-    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner1.jpg");
+    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74141f4e7fc21d1457d2be79b85990c1/store_banner3.jpg");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74141f4e7fc21d1457d2be79b85990c1/store_banner2.jpg");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74141f4e7fc21d1457d2be79b85990c1/store_banner1.jpg");
 </script>
 
 
