@@ -1181,6 +1181,8 @@ h1 {
     display:inline-block;
     width:33%;
     vertical-align:top;
+    color:#6d6e71;
+    text-transform:uppercase;
 }
 .contact_title{
     font-family:railway-regular;
