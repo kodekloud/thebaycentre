@@ -259,6 +259,18 @@
                 $("#no_stores").show()
             }
             
+            if (featured_promos.length > 0 ){
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", featured_promos, "feature_promos");
+            } else {
+                $("#no_features").show()
+            }
+            
+            if (promo_array.length > 0 ){
+                renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
+            } else {
+                $("#no_promos").show()
+            }
+            
             
             
             
