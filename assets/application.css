@@ -87,8 +87,13 @@ h1 {
     color:#6d6e71;
     text-transform:uppercase;
     margin-top:176px;
+    margin-bottom:20px;
 }
 
+.popup_subtitle {
+    margin-top:0;
+    margin-bottom:47px;
+}
 
 .no_data_div{
     display:none;
