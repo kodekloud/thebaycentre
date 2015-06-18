@@ -134,6 +134,9 @@ h1 {
     text-transform:uppercase;
     
 }
+#popup_agree_terms{
+    font-family:montserrate-regular;
+}
 .no_data_div{
     display:none;
     text-align:center;
