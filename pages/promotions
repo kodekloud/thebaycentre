@@ -138,7 +138,7 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
-                if ((val.promo_image_url).indexOf('missing.png') > -1){
+                
                     if (val.promotionable_type == "Store"){
                         var store_details = getStoreDetailsByID(val.promotionable_id)
                         if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
@@ -151,10 +151,7 @@
                     }
                     
                     
-                    
-                } else {
-                    val.alt_promo_image_url = getImageURL(val.promo_image_url);
-                }
+             
                 
                 if (val.promotionable_type == "Store"){
                     var store_details = getStoreDetailsByID(val.promotionable_id)
