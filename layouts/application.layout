@@ -383,7 +383,7 @@
     
     $("#popup_form").submit(function(e){
         e.preventDefault();
-        $("#hidden_agree_text").val($("#newsletter_agree_terms").attr("value"));
+        $("#hidden_agree_text").val($("#popup_agree_terms").attr("value"));
         $("#hidden_source").val(window.location.href)
          $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
