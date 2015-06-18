@@ -104,7 +104,10 @@ h1 {
     color:#6d6e71;
     margin-top:0;
     margin-bottom:39px;
-    font-size:19pt;
+    font-size:15pt;
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
 }
 .no_data_div{
     display:none;
