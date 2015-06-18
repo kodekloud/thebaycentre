@@ -275,7 +275,7 @@
                     <input id="popup_email" type="text" name="cm-iixuu-iixuu" required />
                     <button class="popup_subscribe" type="submit">sign up</button>   
                 </div>
-                <input id="popup_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">Yes, I consent to receive your Commercial Electronic Messages; and i acknowledge i have read and understand the <a href='/pages/baycentre-privacy-policy' target='_blank'>Privacy Terms & Conditions</a>.</p> </input>
+                <input id="popup_agree_terms" type="checkbox" required value="Yes, I consent to receive your Commercial Electronic Messages; and i acknowledge i have read and understand the <a href='/pages/baycentre-privacy-policy' target='_blank'>Privacy Terms & Conditions</a>">Yes, I consent to receive your Commercial Electronic Messages; and i acknowledge i have read and understand the <a href='/pages/baycentre-privacy-policy' target='_blank'>Privacy Terms & Conditions</a>.</p> </input>
             </form>
             
             <p class="popup_cancel">No Thanks</p>
