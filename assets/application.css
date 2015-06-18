@@ -1183,7 +1183,9 @@ h1 {
     vertical-align:top;
 }
 .contact_title{
-    
+    font-family:railway-regular;
+    font-size:18pt;
+    font-size:28pt;
 }
 .contact_address{
     
