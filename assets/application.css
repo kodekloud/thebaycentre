@@ -351,6 +351,10 @@ h1 {
     text-decoration:none;
 }
 
+.dd_submenu ul li a:visited{
+    color:#4d4d4f;
+}
+
 .dd_submenu ul li:hover{
     text-decoration:underline;
 }
