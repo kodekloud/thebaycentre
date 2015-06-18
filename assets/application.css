@@ -110,7 +110,9 @@ h1 {
     width:65%;
 }
 #popup_form{
-    
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
 }
 .no_data_div{
     display:none;
