@@ -115,7 +115,14 @@ h1 {
     margin-right:auto;
 }
 #popup_email{
-    
+    font-family:lora-regular;
+    color:#6d6e71;
+    width:365px;
+    height:40px;
+    margin-right:25px;
+    font-size:19pt;
+    padding-left:20px;
+    margin-bottom:42px;
 }
 .no_data_div{
     display:none;
