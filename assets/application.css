@@ -139,6 +139,15 @@ h1 {
     font-size:14pt;
     color:#6e6d71;
 }
+.popup_cancel{
+    font-size:montserrat-regular;
+    text-transform:uppercase;
+    margin-top:59px;
+    margin-bottom:0;
+    font-size:19pt;
+    
+    
+}
 .no_data_div{
     display:none;
     text-align:center;
