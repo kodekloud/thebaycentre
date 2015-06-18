@@ -1179,7 +1179,7 @@ h1 {
 }
 .contact_first_row{
     margin-top:98px;
-    border-bottom:1pt solid #77787b;
+    border-bottom:2pt solid lightgray;
 }
 .contact_column{
     display:inline-block;
