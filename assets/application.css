@@ -1213,8 +1213,11 @@ h1 {
     font-family:railway-regular;
     color:#6d6e71;
     font-size:15pt;
+    padding-bottom:73px;
+    border-bottom:1px solid #77787b;
 }
 .contact_subtitle{
+    margin-top:41px;
     font-family:montserrat-regular;
     font-size:14pt;
     color:#231f20;
