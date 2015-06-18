@@ -1179,6 +1179,8 @@ h1 {
 }
 .contact_first_row{
     margin-top:98px;
+    margin-bottom:1pt solid ##77787b
+;
 }
 .contact_column{
     display:inline-block;
