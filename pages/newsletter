@@ -128,7 +128,7 @@
         $("#hidden_agree_text").val($("#newsletter_agree_terms").attr("value"));
         $("#hidden_source").val(window.location.href)
         var full_name = $("#first_name").val() + " " + $("#last_name").val();
-        
+        $("#full_name").val(full_name)
          $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
           $(this).serialize(),
