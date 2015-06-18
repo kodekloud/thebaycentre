@@ -1193,7 +1193,9 @@ h1 {
     font-size:24pt;
 }
 .contact_address{
-    
+    font-family:lora-regular;
+    font-size:14pt
+    color:#6e6d71;
 }
 .contact_number{
     
