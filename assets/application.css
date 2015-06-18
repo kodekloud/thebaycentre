@@ -1196,6 +1196,8 @@ h1 {
     font-family:lora-regular;
     font-size:14pt;
     color:#6e6d71;
+    margin-top:0;
+    margin-bottom:10px;
 }
 .contact_number{
     font-family:lora-regular;
