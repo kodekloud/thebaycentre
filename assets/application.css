@@ -119,10 +119,19 @@ h1 {
     color:#6d6e71;
     width:365px;
     height:40px;
-    margin-right:25px;
+    margin-right:5px;
     font-size:19pt;
     padding-left:20px;
     margin-bottom:42px;
+}
+.popup_subscribe{
+    background:#6e6d71;
+    font-family:lora-regular;
+    color:white;
+    height:43px;
+    vertical-align:top;
+    width:120px;
+    
 }
 .no_data_div{
     display:none;
