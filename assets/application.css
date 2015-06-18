@@ -1178,7 +1178,9 @@ h1 {
     margin-top:98px;
 }
 .contact_column{
-    
+    display:inline-block;
+    width:33%;
+    vertical-align:top;
 }
 .contact_title{
     
