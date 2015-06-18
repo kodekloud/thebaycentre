@@ -383,14 +383,14 @@
 <script>
     var p = window.location.pathname;
 
-    if (p.length === 0 || p === "/" || p.match(/^\/?index/)) {                
+                
         if (getCookie("visited") != "yes"){
             $(".popup_overlay").show();
             var a = new Date();
             a = new Date(a.getTime() +1000*60*60*24*30);
             document.cookie = 'visited=yes; expires='+a.toGMTString()+';'; ;
         }      
-    } 
+    
     
     function getCookie(name) {
       var value = "; " + document.cookie;
