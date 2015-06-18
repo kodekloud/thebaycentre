@@ -1185,6 +1185,8 @@ h1 {
 }
 .contact_row{
      border-bottom:3pt solid lightgray;
+     padding-bottom:98px;
+     margin-bottom:94px;
 }
 .contact_column{
     display:inline-block;
