@@ -62,6 +62,30 @@
             <p class="contact_number">F 250.381.4814</p>
         </div>
     </div>
+    
+    <div class="contact_row">
+        <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>   Denique legendos ur set. audiam inermis ex pri. ut soluta deserunt vis. aliquid admodum consulatu at vis.diam alienum an. Eu</p>
+            <p class="contact_subtitle">darlene hollstein</p>
+            <p class="contact_number">General Manager</p>
+            <p class="contact_number">P 250.952.5690</p>
+            <p class="contact_number">F 250.381.4814</p>
+        </div>
+        <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>   Denique legendos ur set. audiam inermis ex pri. ut soluta deserunt vis. aliquid admodum consulatu at vis.diam alienum an. Eu</p>
+            <p class="contact_subtitle">Adrienne lockstead</p>
+            <p class="contact_number">Marketing Manager</p>
+            <p class="contact_number">P 250.952.5690</p>
+            <p class="contact_number">F 250.381.4814</p>
+        </div>
+        <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>   Denique legendos ur set. audiam inermis ex pri. ut soluta deserunt vis. aliquid admodum consulatu at vis.diam alienum an. Eu</p>
+            <p class="contact_subtitle">Name</p>
+            <p class="contact_number">Title</p>
+            <p class="contact_number">P 250.952.5690</p>
+            <p class="contact_number">F 250.381.4814</p>
+        </div>
+    </div>
 
 </div>
 
