@@ -249,12 +249,12 @@
             renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
             
             if (new_stores.length > 0 ){
-                
+                renderHomePageData("#store_slider_ul", "#store_slider_template", new_stores, "stores")
             } else {
                 $("#no_stores").show()
             }
             
-            renderHomePageData("#store_slider_ul", "#store_slider_template", new_stores, "stores")
+            
             
             
             var featureList = getFeatureList();
