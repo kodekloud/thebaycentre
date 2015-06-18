@@ -134,7 +134,7 @@ h1 {
     text-transform:uppercase;
     
 }
-#popup_agree_terms{
+.checkbox_label{
     font-family:montserrate-regular;
 }
 .no_data_div{
