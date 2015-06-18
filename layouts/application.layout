@@ -381,7 +381,22 @@
 <script type="text/javascript" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/collapser.js"></script>
 
 <script>
+    var p = window.location.pathname;
+
+    if (p.length === 0 || p === "/" || p.match(/^\/?index/)) {                
+        if (getCookie("visited") != "yes"){
+            $(".popup_overlay").show();
+            var a = new Date();
+            a = new Date(a.getTime() +1000*60*60*24*30);
+            document.cookie = 'visited=yes; expires='+a.toGMTString()+';'; ;
+        }      
+    } 
     
+    function getCookie(name) {
+      var value = "; " + document.cookie;
+      var parts = value.split("; " + name + "=");
+      if (parts.length == 2) return parts.pop().split(";").shift();
+    }
     
     $("#popup_form").submit(function(e){
         e.preventDefault();
