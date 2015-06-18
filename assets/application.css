@@ -1188,12 +1188,13 @@ h1 {
     width:33%;
     vertical-align:top;
     color:#6d6e71;
-    text-transform:uppercase;
+    
 }
 .contact_title{
     font-family:railway-regular;
     margin-bottom:44px;
     font-size:24pt;
+    text-transform:uppercase;
 }
 
 .contact_number{
