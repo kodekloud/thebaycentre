@@ -314,6 +314,7 @@ h1 {
     top:-35px;
 }
 .main_menu li{
+    font-family:montserrat-regular;
     list-style:none;
     display:inline-block;
     margin-left:40px;
