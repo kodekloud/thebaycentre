@@ -76,8 +76,8 @@ h1 {
 
 .popup_close_x{
     position:absolute;
-    top:0;
-    right:0;
+    top:20px;
+    right:20px;
 }
 
 
