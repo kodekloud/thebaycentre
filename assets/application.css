@@ -60,6 +60,9 @@ h1 {
     padding:20px;
     position:fixed;
     z-index:999999999999999999999999999999;
+    margin: 5% auto;
+left: 0;
+right: 0;
     
 }
 
