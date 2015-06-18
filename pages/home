@@ -96,7 +96,7 @@
             </div>
         </li>
         <li id="tab_2_content" style="display:none">
-            <div id="no_features" class="no_data_div">
+            <div id="no_stores" class="no_data_div">
                 <p>None available at the moment. Please check again later</p>
             </div>
             <div class="feature_slider_container flexslider2" id="store_slider_container">
