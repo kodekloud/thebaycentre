@@ -53,6 +53,9 @@ h1 {
     
 }
 
+.icheckbox_square-grey{
+    margin-right:10px;
+}
 
 .loading_overlay{
     position:absolute;
