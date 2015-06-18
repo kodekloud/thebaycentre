@@ -1190,7 +1190,8 @@ h1 {
 }
 .contact_column{
     display:inline-block;
-    width:33%;
+    width:30%;
+    margin-right:35px;
     vertical-align:top;
     color:#6d6e71;
     
