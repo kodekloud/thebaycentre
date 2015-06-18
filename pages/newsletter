@@ -99,7 +99,7 @@
         </p>
     </div>
     
-    <input id="newsletter_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.</input>
+    <input id="newsletter_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre">Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.</input><br>
     
     <button class="news_subscribe" type="submit">Subscribe</button>
 </form>
