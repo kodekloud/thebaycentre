@@ -269,6 +269,8 @@
             <p class="popup_subtitle">Sales. Events. Fashion news</p>
             <p class="popup_text">Dont mill out on exclusive content and giveaways sent straight to your inbox.</p>
             <form id="popup_form">
+                <input id="hidden_source" name="cm-f-jhtykd" type="hidden" />
+                <input id="hidden_agree_text" name="cm-f-jhtykh" type="hidden" />
                 <div class="popup_row">
                     <input id="popup_email" type="text" name ="name="cm-iixuu-iixuu"" required />
                     <button class="popup_subscribe" type="submit">Subscribe</button>   
@@ -379,7 +381,23 @@
 <script>
     
     
-    
+    $("#popup_form").submit(function(e){
+        e.preventDefault();
+        $("#hidden_agree_text").val($("#newsletter_agree_terms").attr("value"));
+        $("#hidden_source").val(window.location.href)
+         $.getJSON(
+            "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
+          $(this).serialize(),
+            function (data) {
+                if (data.Status === 400) {
+                    e.preventDefault();
+                    alert("Please try again later.");
+                } else {
+                    alert("Thank you for signing up!")
+                    dismiss_popup();
+                }
+        });  
+    })
    
     
     $("#banner_newsletter").submit(function(e){
