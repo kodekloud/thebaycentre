@@ -56,6 +56,13 @@ h1 {
 
 .no_data_div{
     display:none;
+    text-align:center;
+}
+
+.no_data_div p {
+    font-family:railway-regular;
+    font-size:20pt;
+    color:#4d4d4f;
 }
 
 .icheckbox_square-grey{
