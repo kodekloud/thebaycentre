@@ -74,6 +74,12 @@ h1 {
     position:relative;
 }
 
+.popup_close_x{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
 
 .popup_title{
     font-family:railway-light;
