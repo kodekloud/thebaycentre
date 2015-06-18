@@ -1179,7 +1179,8 @@ h1 {
 }
 .contact_first_row{
     margin-top:98px;
-    border-bottom:2pt solid lightgray;
+    border-bottom:3pt solid lightgray;
+    padding-bottom:90px;
 }
 .contact_column{
     display:inline-block;
