@@ -403,7 +403,7 @@
    
     
     function dismiss_popup(){
-        
+        $(".popup_overlay").hide()
     }
     
     $("#banner_newsletter").submit(function(e){
