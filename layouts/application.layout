@@ -264,7 +264,7 @@
     </div>
     <div class="popup_overlay">
         <div class="popup_div">
-            popup
+            <img class="popup_close_x" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/icon_close.png" alt="close popup" />
         </div>
     </div>
     <div id="main_container">
