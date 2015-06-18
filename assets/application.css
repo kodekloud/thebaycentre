@@ -1183,6 +1183,9 @@ h1 {
     padding-bottom:90px;
     margin-bottom:90px;
 }
+.contact_row{
+     border-bottom:3pt solid lightgray;
+}
 .contact_column{
     display:inline-block;
     width:33%;
