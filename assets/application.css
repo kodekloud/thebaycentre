@@ -93,6 +93,9 @@ h1 {
 .popup_subtitle {
     margin-top:0;
     margin-bottom:47px;
+    font-family:lora-italic;
+    color:#6d6e71;
+    font-size:27pt;
 }
 
 .no_data_div{
