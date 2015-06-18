@@ -135,7 +135,8 @@ h1 {
     
 }
 .checkbox_label{
-    font-family:montserrate-regular;
+    font-family:montserrat-regular;
+    font-size:17pt;
 }
 .no_data_div{
     display:none;
