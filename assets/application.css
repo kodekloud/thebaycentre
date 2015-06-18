@@ -1173,7 +1173,10 @@ h1 {
 }
 
 /*contact us*/
-
+.contact_us_container{
+    margin-left:25px;
+    margin-right:25px;
+}
 .contact_first_row{
     margin-top:98px;
 }
