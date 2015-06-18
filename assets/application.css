@@ -98,6 +98,14 @@ h1 {
     font-size:27pt;
 }
 
+
+.popup_text{
+    font-family:lora-regular;
+    color:#6d6e71;
+    margin-top:0;
+    margin-bottom:39px;
+    font-size:19pt;
+}
 .no_data_div{
     display:none;
     text-align:center;
