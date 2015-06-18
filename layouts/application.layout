@@ -801,7 +801,7 @@
         }
         
         $('input').iCheck({
-            checkboxClass: 'icheckbox_square-square',
+            checkboxClass: 'icheckbox_square-black',
             radioClass: 'iradio_square',
             increaseArea: '20%' // optional
           });
