@@ -400,6 +400,10 @@
     })
    
     
+    function dismiss_popup(){
+        
+    }
+    
     $("#banner_newsletter").submit(function(e){
         e.preventDefault();
         $("#banner_terms").val($("#agree_terms").attr("value"));
