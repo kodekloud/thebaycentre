@@ -137,7 +137,7 @@ h1 {
 .checkbox_label{
     font-family:montserrat-regular;
     font-size:17pt;
-    background:#6e6d71;
+    color:#6e6d71;
 }
 .no_data_div{
     display:none;
