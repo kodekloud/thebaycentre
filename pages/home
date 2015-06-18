@@ -59,7 +59,9 @@
     
     <ul class="tab_content">
         <li id="tab_1_content">
-            
+            <div id="no_features" class="no_data_div">
+                <p>None available at the moment. Please check again later</p>
+            </div>
             <div class="feature_slider_container flexslider" id="feature_slider_container">
                 <ul class="feature_slider_ul slides" id="feature_slider_ul">
                     <script id="feature_slider_template" type="x-tmpl-mustache/text">
@@ -129,6 +131,9 @@
             </div>
         </li>
         <li id="tab_3_content" style="display:none">
+            <div id="no_promos" class="no_data_div">
+                <p>None available at the moment. Please check again later</p>
+            </div>
             <div class="feature_slider_container flexslider3" id="current_promo_slider_container">
                 <ul class="feature_slider_ul slides" id="promo_slider_ul">
                     <script id="current_promo_slider_template" type="x-tmpl-mustache/text">
