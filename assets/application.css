@@ -1358,14 +1358,15 @@ h1 {
         width:100%;
     }
     .feature_image:nth-child(2) img, .feature_image:nth-child(4) img {
-        width:50%;
+        width:49%;
     }
     .feature_image:nth-child(3){
         float:none;
     }
     .feature_image:nth-child(3) img {
-        width: 50%;
+        width: 49%;
         float:right;
+        margin-left:1px;
     }
     .feature_image:nth-child(5) img {
         width:100%;
