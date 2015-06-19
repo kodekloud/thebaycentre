@@ -1333,5 +1333,6 @@ h1 {
     }
     .promo_title{
         font-size:8pt;
+        margin-bottom:0;
     }
 }
