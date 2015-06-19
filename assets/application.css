@@ -1482,4 +1482,7 @@ h1 {
     .header_link{
         display:none;
     }
+    .search_social_div{
+        float:none;
+    }
 }
