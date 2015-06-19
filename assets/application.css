@@ -1306,7 +1306,9 @@ h1 {
         width:100%;
     }
     #banner_newsletter{
-        font-size:8px;
+        font-size:8px !important;
     }
-    
+    .hidden_newsletter_form{
+        padding-top:0;
+    }
 }
