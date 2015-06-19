@@ -1500,6 +1500,9 @@ h1 {
         margin-left:0;
     }
     #search_input{
-        
+        height:30px;
+    }
+    .search_icon{
+        top:9px;
     }
 }
