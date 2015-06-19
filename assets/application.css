@@ -1452,6 +1452,7 @@ h1 {
     #fieldEmail{
         width: 60%;
         margin-right:10px;
+        font-size:10px;
     }
     
 }
