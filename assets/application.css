@@ -1247,7 +1247,7 @@ h1 {
         display:none;
     }
     
-    #page_content{
+    #page_content, #main_container{
         width:100%;
     }
 }
