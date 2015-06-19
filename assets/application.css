@@ -1253,4 +1253,7 @@ h1 {
     .flex-direction-nav {
         display:none !important;
     }
+    .menu_container{
+        width:100%;
+    }
 }
