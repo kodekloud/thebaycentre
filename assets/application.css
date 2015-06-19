@@ -1414,11 +1414,12 @@ h1 {
     }
     .newsletter_container{
         margin:0;
-        width:60%;
+        width:100%;
         margin-left:25px;
     }
     .today_hour_container{
         margin:0;
+        width:100%;
     }
     .footer_site_logo{
         height:auto;
