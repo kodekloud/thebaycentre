@@ -1359,6 +1359,7 @@ h1 {
     }
     .feature_image:nth-child(2) img, .feature_image:nth-child(4) img {
         width:49%;
+        padding-left:1px;
     }
     .feature_image:nth-child(3){
         float:none;
@@ -1367,6 +1368,7 @@ h1 {
         width: 49%;
         float:right;
         margin-left:1px;
+        padding-right:1px;
     }
     .feature_image:nth-child(5) img {
         width:100%;
