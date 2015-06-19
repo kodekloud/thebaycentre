@@ -1420,6 +1420,7 @@ h1 {
     .today_hour_container{
         margin:0;
         width:100%;
+        margin-bottom:30px;
     }
     .footer_site_logo{
         height:auto;
