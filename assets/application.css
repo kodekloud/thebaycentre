@@ -1513,4 +1513,10 @@ h1 {
     .menu_items_container{
         display:none;
     }
+    .site_logo{
+        position:absolute;
+        width:60%;
+        bottom:0;
+        left:0;
+    }
 }
