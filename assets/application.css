@@ -1320,4 +1320,7 @@ h1 {
     .date_block{
         margin-top:5px;
     }
+    .day_string{
+        font-size:25pt;
+    }
 }
