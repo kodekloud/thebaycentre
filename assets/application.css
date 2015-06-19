@@ -1445,5 +1445,8 @@ h1 {
     .footer_bottom_container{
         width:100%;
     }
+    .footer_title{
+        font-size:10px;
+    }
     
 }
