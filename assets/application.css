@@ -1354,4 +1354,7 @@ h1 {
         margin:0;
         padding:0;
     }
+    .feature_image:nth-child(1) img {
+        width:100%;
+    }
 }
