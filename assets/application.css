@@ -1271,6 +1271,8 @@ h1 {
     }
     .tab_item{
         line-height:15px;
+        text-align:left;
+        padding-left:10px;
     }
     
 }
