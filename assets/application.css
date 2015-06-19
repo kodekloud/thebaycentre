@@ -1300,4 +1300,8 @@ h1 {
         margin-left:5px;
     }
     
+    #banner_email, #banner_submit{
+        width:100%;
+    }
+    
 }
