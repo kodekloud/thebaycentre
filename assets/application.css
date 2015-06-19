@@ -1396,4 +1396,7 @@ h1 {
     footer {
         margin-top:40px;
     }
+    .footer_logos{
+        width:100%;
+    }
 }
