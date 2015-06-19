@@ -1311,4 +1311,7 @@ h1 {
     .hidden_newsletter_form{
         padding-top:0;
     }
+    .feature_promo_date_div{
+        margin-right:0;
+    }
 }
