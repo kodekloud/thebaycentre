@@ -1313,5 +1313,7 @@ h1 {
     }
     .feature_promo_date_div{
         margin-right:0;
+        padding-left:5px;
+        padding-right:5px;
     }
 }
