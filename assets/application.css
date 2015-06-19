@@ -1453,9 +1453,11 @@ h1 {
     }
     #fieldEmail{
         width: 60%;
-        margin-right:12px;
+        margin-right:10px;
         font-size:10px;
         height:22px;
+        margin-left:1px;
+      
     }
     #news_submit{
         width:20%;
