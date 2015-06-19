@@ -1267,8 +1267,9 @@ h1 {
         width:25%;
         display:inline-block;
         font-size:10px;
+        vertical-align:top;
     }
     .tab_item{
-        line-height:auto;
+        line-height:15px;
     }
 }
