@@ -1236,6 +1236,9 @@ h1 {
     text-transform:uppercase;
 }
 
+.today_p {
+    margin-top:40px
+}
 
 
 /*mobile css*/
