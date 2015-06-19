@@ -1360,6 +1360,9 @@ h1 {
     .feature_image:nth-child(2) img, .feature_image:nth-child(4) img {
         width:50%;
     }
+    .feature_image:nth-child(3){
+        float:none;
+    }
     .feature_image:nth-child(3) img {
         width: 50%;
         float:right;
