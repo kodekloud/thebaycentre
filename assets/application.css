@@ -1409,4 +1409,7 @@ h1 {
     .bottom_social_container{
         display:none;
     }
+    .newsletter_container{
+        margin:0;
+    }
 }
