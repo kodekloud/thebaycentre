@@ -1492,6 +1492,9 @@ h1 {
     .search_div{
         margin-bottom:20px
     }
+    .header_icon{
+        height:35px;
+    }
     .search_div, .header_social_icons{
         margin-left:0;
     }
