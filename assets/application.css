@@ -1246,4 +1246,8 @@ h1 {
     #right_image{
         display:none;
     }
+    
+    #page_content{
+        width:100%;
+    }
 }
