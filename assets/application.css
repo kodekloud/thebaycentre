@@ -1426,7 +1426,8 @@ h1 {
         font-size:14pt;
         margin-bottom:25px;
     }
-    .footer_h2{
+    .footer_h2, .top_footer_text{
         font-size:12px;
     }
+    
 }
