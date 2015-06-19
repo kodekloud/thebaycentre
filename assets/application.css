@@ -1420,5 +1420,6 @@ h1 {
     .footer_site_logo{
         height:auto;
         width:130px;
+        margin-top:0;
     }
 }
