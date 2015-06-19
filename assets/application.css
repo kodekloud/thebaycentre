@@ -1441,4 +1441,7 @@ h1 {
     .footer_last_container{
         font-size:5.5pt;
     }
+    .footer_bottom_container{
+        width:100%;
+    }
 }
