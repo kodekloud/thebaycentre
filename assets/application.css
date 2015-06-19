@@ -1414,6 +1414,7 @@ h1 {
     }
     .newsletter_container{
         margin:0;
+        width:50%;
     }
     .today_hour_container{
         margin:0;
@@ -1444,4 +1445,5 @@ h1 {
     .footer_bottom_container{
         width:100%;
     }
+    
 }
