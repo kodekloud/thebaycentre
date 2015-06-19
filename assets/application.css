@@ -1364,4 +1364,7 @@ h1 {
         width: 50%;
         float:right;
     }
+    .feature_image:nth-child(5) img {
+        width:100%;
+    }
 }
