@@ -1269,7 +1269,7 @@ h1 {
         right:-5px;
     }
     .today_p{
-        margin-top:30px;
+        margin-top:30px !important;
     }
     .tabs{
         bottom:20px;
