@@ -1414,7 +1414,8 @@ h1 {
     }
     .newsletter_container{
         margin:0;
-        width:50%;
+        width:60%;
+        margin-left:15px;
     }
     .today_hour_container{
         margin:0;
@@ -1447,6 +1448,9 @@ h1 {
     }
     .footer_title, .footer_text{
         font-size:10px;
+    }
+    #fieldEmail{
+        width: 60%;
     }
     
 }
