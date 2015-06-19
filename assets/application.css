@@ -1373,4 +1373,8 @@ h1 {
     .feature_image:nth-child(5) img {
         width:100%;
     }
+    .socialize_text{
+        margin-top:25px;
+        font-size:10pt;
+    }
 }
