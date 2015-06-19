@@ -1303,5 +1303,8 @@ h1 {
     #banner_email, #banner_submit{
         width:100%;
     }
+    #banner_newsletter{
+        font-size:8px;
+    }
     
 }
