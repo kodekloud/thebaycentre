@@ -1292,6 +1292,10 @@ h1 {
         width:150px;
         z-index:9999999;
     }
+    .missing_out_div p{
+        line-height:40px;
+        font-size:8pt;
+    }
     #fear_caret{
         margin-left:5px;
     }
