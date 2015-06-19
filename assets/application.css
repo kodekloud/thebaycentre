@@ -1250,4 +1250,7 @@ h1 {
     #page_content, #main_container{
         width:100%;
     }
+    .flex-direction-nav {
+        display:none !important;
+    }
 }
