@@ -1290,6 +1290,7 @@ h1 {
     .missing_out_div{
         height:40px;
         width:150px;
+        z-index:9999999;
     }
     
 }
