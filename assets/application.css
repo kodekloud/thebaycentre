@@ -1428,6 +1428,7 @@ h1 {
     }
     .footer_h2, .top_footer_text{
         font-size:12px;
+        margin-bottom:20px;
     }
     .find_right_div{
         width:59%;
