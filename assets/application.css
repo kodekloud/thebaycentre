@@ -1237,7 +1237,7 @@ h1 {
 }
 
 .today_p {
-    margin-top:40px
+    margin-top:40px !important;
 }
 
 
