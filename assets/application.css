@@ -1406,4 +1406,7 @@ h1 {
         width:50%;
         margin-right:10px;
     }
+    .bottom_social_container{
+        display:none;
+    }
 }
