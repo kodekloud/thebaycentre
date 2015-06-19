@@ -1235,3 +1235,10 @@ h1 {
     color:#231f20;
     text-transform:uppercase;
 }
+
+
+
+/*mobile css*/
+@media (max-width: 767px) {
+    
+}
