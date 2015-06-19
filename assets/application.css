@@ -1444,7 +1444,9 @@ h1 {
         font-size:5.5pt;
     }
     .footer_bottom_container{
-        width:100%;
+        width:90%;
+        padding-left:10px;
+        padding-right:10px;
     }
     .footer_title, .footer_text{
         font-size:10px;
