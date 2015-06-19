@@ -1489,6 +1489,9 @@ h1 {
         float:none;
         text-align:center;
     }
+    .search_div, .header_social_icons{
+        margin-left:0;
+    }
     #search_input{
         
     }
