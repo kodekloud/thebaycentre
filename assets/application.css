@@ -1479,4 +1479,7 @@ h1 {
     body{
         margin:0;
     }
+    .header_link{
+        display:none;
+    }
 }
