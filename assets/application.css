@@ -1267,6 +1267,7 @@ h1 {
     }
     .menu_container{
         width:100%;
+        position:relative;
     }
     #banner_hours_container{
         top:160px;
