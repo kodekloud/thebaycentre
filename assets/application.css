@@ -1350,4 +1350,8 @@ h1 {
     .read_more_btn{
         display:none;
     }
+    .feature_container{
+        margin:0;
+        padding:0;
+    }
 }
