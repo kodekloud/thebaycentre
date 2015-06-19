@@ -1487,6 +1487,7 @@ h1 {
     }
     .search_social_div{
         float:none;
+        text-align:center;
     }
     #search_input{
         
