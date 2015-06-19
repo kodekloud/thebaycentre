@@ -1268,4 +1268,7 @@ h1 {
         display:inline-block;
         font-size:10px;
     }
+    .tab_item{
+        line-height:auto;
+    }
 }
