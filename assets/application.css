@@ -1240,6 +1240,9 @@ h1 {
     margin-top:40px !important;
 }
 
+#mobile_insta_feed{
+    display:nne;
+}
 
 /*mobile css*/
 @media (max-width: 767px) {
