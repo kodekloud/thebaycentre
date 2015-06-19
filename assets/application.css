@@ -1475,4 +1475,7 @@ h1 {
         margin-right:0 !important;
     }
     
+    body{
+        margin:0;
+    }
 }
