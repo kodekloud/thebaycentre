@@ -1266,5 +1266,6 @@ h1 {
         height:auto;
         width:25%;
         display:inline-block;
+        font-size:10px;
     }
 }
