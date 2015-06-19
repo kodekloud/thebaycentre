@@ -1494,6 +1494,7 @@ h1 {
     }
     .header_icon{
         height:35px;
+        margin:7px;
     }
     .search_div, .header_social_icons{
         margin-left:0;
