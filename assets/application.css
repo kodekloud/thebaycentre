@@ -1402,4 +1402,8 @@ h1 {
     .find_us_div{
         margin-top:40px;
     }
+    .find_left_div{
+        width:50%;
+        margin-right:10px;
+    }
 }
