@@ -1320,6 +1320,9 @@ h1 {
     .date_block{
         margin-top:5px;
     }
+    .month_string{
+        font-size:9pt;
+    }
     .day_string{
         font-size:25pt;
     }
