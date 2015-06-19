@@ -1265,5 +1265,6 @@ h1 {
     .tabs li{
         height:auto;
         width:25%;
+        display:inline-block;
     }
 }
