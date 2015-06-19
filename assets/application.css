@@ -1263,6 +1263,7 @@ h1 {
         font-size:7pt;
         height:100px;
         width:100px;
+        right:0;
     }
     .tabs{
         bottom:20px;
