@@ -1292,5 +1292,8 @@ h1 {
         width:150px;
         z-index:9999999;
     }
+    #fear_caret{
+        margin-left:5px;
+    }
     
 }
