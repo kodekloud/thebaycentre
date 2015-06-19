@@ -1465,5 +1465,8 @@ h1 {
     #agree_terms_lbl{
         font-size:10px;
     }
+    .icheckbox_square-grey{
+        margin-right:0 !important;
+    }
     
 }
