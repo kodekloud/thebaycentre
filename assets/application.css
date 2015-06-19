@@ -1335,4 +1335,7 @@ h1 {
         font-size:8pt;
         margin-bottom:0;
     }
+    .read_more_btn{
+        display:none;
+    }
 }
