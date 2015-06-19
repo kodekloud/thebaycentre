@@ -303,6 +303,8 @@
 
 <!-- SnapWidget -->
 <iframe id="insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIxMHw1fDF8fHllc3wxMHxmYWRlT3V0fG9uU3RhcnR8eWVzfG5v&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1150px; height:230px"></iframe>
+
+<iframe id="mobile_insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDEzMHwzfDF8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=190615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
     </div>
     <footer>
         <div class="footer_logo_div">
