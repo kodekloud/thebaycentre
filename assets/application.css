@@ -1335,6 +1335,9 @@ h1 {
         font-size:8pt;
         margin-bottom:0;
     }
+    .promo_description{
+        font-size:8pt;
+    }
     .read_more_btn{
         display:none;
     }
