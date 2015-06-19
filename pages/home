@@ -37,7 +37,7 @@
     </div>
     <div id="banner_hours_container">
         <script id="banner_hours_template" type="x-tmpl-mustache/text">
-            <p style="margin-top:40px">{{status}} Today </p>
+            <p class="today_p">{{status}} Today </p>
             <p>{{open_time}}-{{close_time}}</p>
             <a href="/hours">see all<br>hours ></a>
         </script>
