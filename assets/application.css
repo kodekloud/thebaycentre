@@ -1455,5 +1455,8 @@ h1 {
         font-size:10px;
         height:22px;
     }
+    #news_submit{
+        width:20%;
+    }
     
 }
