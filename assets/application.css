@@ -1246,7 +1246,9 @@ h1 {
     #right_image{
         display:none;
     }
-    
+    #main_image{
+        width:100%;
+    }
     #page_content, #main_container{
         width:100%;
     }
