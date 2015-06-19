@@ -42,8 +42,8 @@
 }
 body{
     overflow-x:hidden;
-    margin-left:0;
-    margin-right:0;
+   
+    margin:0;
 }
 footer{
     margin-top:91px;
