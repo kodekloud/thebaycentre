@@ -1430,9 +1430,10 @@ h1 {
         font-size:12px;
     }
     .find_right_div{
-        
+        width:59%;
     }
     #footer_map{
-        
+        width:100%;
+        height:290px;
     }
 }
