@@ -1287,5 +1287,9 @@ h1 {
         padding-left:5px;
        
     }
+    .missing_out_div{
+        height:40px;
+        width:150px;
+    }
     
 }
