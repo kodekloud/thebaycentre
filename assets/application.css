@@ -1257,6 +1257,7 @@ h1 {
     }
     #page_content, #main_container{
         width:100%;
+        overflow:hidden;
     }
     .flex-direction-nav {
         display:none !important;
