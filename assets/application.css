@@ -1509,4 +1509,7 @@ h1 {
         margin-top:10px;
         width:80%;
     }
+    .menu_items_container{
+        display:none;
+    }
 }
