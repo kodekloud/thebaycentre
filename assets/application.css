@@ -1299,7 +1299,9 @@ h1 {
     #fear_caret{
         margin-left:5px;
     }
-    
+    #banner_submit{
+        margin-bottom:5px;
+    }
     #banner_email, #banner_submit{
         width:100%;
     }
