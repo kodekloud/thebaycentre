@@ -1405,7 +1405,7 @@ h1 {
         padding:0;
     }
     .find_left_div{
-        width:50%;
+        width:35%;
         margin-right:10px;
     }
     .bottom_social_container{
@@ -1428,6 +1428,9 @@ h1 {
     }
     .footer_h2, .top_footer_text{
         font-size:12px;
+    }
+    .find_right_div{
+        
     }
     #footer_map{
         
