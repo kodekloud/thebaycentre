@@ -459,13 +459,11 @@
             $(".mobile_menu").slideUp();
             // $("body").css("overflow-y","visible");
             $("#main_container").show();
-            $("#"+id+"_arrow").removeClass("fa-chevron-up");
-            $("#"+id+"_arrow").addClass("fa-chevron-down")
+            
         } else {
             
             $(".mobile_menu").slideDown(function(){$("#main_container").hide();});
-            $("#"+id+"_arrow").removeClass("fa-chevron-down");
-            $("#"+id+"_arrow").addClass("fa-chevron-up")
+            
             // $("body").css("overflow-y","hidden");
             
         }
@@ -474,8 +472,12 @@
     function toggle_mobile_submenu(id){
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
+            $("#"+id+"_arrow").removeClass("fa-chevron-up");
+            $("#"+id+"_arrow").addClass("fa-chevron-down")
         } else {
             $("#"+id).slideDown();
+            $("#"+id+"_arrow").removeClass("fa-chevron-down");
+            $("#"+id+"_arrow").addClass("fa-chevron-up")
         }
     }
 
