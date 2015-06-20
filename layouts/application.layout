@@ -404,10 +404,10 @@
     function toggle_mobile_menu(){
         if ($(".mobile_menu").is(":visible")){
             $(".mobile_menu").slideUp();
-            // $("body").css("overflow-y","visible");
+            $("body").css("overflow-y","visible");
         } else {
             $(".mobile_menu").slideDown();  
-            // $("body").css("overflow-y","hidden");
+            $("body").css("overflow-y","hidden");
         }
     }
 
