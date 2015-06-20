@@ -407,7 +407,7 @@
 <script>
 
     function toggle_mobile_menu(){
-        
+        $(".mobile_menu").animate({"right":"0"}, "fast").addClass('visible'); 
     }
 
 
