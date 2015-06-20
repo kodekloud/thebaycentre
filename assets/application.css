@@ -1299,11 +1299,12 @@ h1 {
         position:relative;
     }
     #banner_hours_container{
-        top:160px;
+        bottom:0px;
+        position:absolute;
         font-size:7pt;
         height:100px;
         width:100px;
-        right:0px;
+        right:-15px;
     }
     .today_p{
         margin-top:30px !important;
