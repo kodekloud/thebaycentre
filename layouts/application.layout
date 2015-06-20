@@ -182,7 +182,7 @@
         <div id="logo_container">
             <a href="/home"><img class="site_logo" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/BAY_logo.png"></a>
         </div>
-        <div class="mobile_menu_btn" onclick="javascript:toggle_mobile_menu">
+        <div class="mobile_menu_btn" onclick="javascript:toggle_mobile_menu()">
             <img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/menu.png"/>
         </div>
         <div class="menu_items_container">
