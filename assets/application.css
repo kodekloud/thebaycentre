@@ -1280,6 +1280,12 @@ h1 {
         height:100%;
         z-index:999999999999999;
     }
+    .mobile_menu ul{
+        padding:0;
+    }
+    .mobile_menu ul li{
+        list-style:none;
+    }
     .mobile_submenu{
         display:none;
     }
