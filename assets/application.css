@@ -1270,7 +1270,7 @@ h1 {
     }
     
     .mobile_menu{
-        position:absolute;
+        /*position:absolute;*/
         background:white;
         display:none;
         width:100%;
