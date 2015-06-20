@@ -1272,6 +1272,9 @@ h1 {
         height:100%;
         z-index:999999999999999;
     }
+    .mobile_submenu{
+        display:none;
+    }
     #left_image{
         display:none;
     }
