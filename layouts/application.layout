@@ -415,6 +415,7 @@
 
     function toggle_mobile_menu(){
         if ($(".mobile_menu").is(":visible")){
+            $("#main_container").show();
             $(".mobile_menu").slideUp();
             // $("body").css("overflow-y","visible");
             $("#main_container").show();
