@@ -1302,6 +1302,8 @@ h1 {
     .mobile_submenu_li{
         list-style:none;
         border-bottom:1px solid lightgray;
+        padding-top:16px;
+        padding-bottom:16px;
     }
     .mobile_submenu{
         display:none;
