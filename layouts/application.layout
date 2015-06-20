@@ -408,7 +408,7 @@
 
     function toggle_mobile_menu(){
         console.log("iuyiuiuiui")
-        $(".mobile_menu").animate({"right":"0"}, "fast").addClass('visible'); 
+        $(".mobile_menu").animate({"left":"0"}, "slow").addClass('visible'); 
     }
 
 
