@@ -1267,7 +1267,7 @@ h1 {
     .mobile_menu{
         position:absolute;
         background:white;
-        left:100%;
+        display:none;
         width:100%;
         height:100%;
         z-index:999999999999999;
