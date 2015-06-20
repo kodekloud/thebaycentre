@@ -266,7 +266,7 @@
         <ul>
             <li>
                 menu item 1
-                <div class="" id="">
+                <div class="mobile_submenu" id="mobile_sub_1">
                     <ul>
                         <li><a href="/pages/baycentre-guest-services-gift-cards">Gift Cards</a> </li>
                         <li><a href="/careers">Job Opportunities</a>  </li>
