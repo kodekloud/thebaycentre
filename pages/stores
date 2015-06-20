@@ -21,6 +21,9 @@
             height:25px;
             color:black !important;
         }
+        .cat_div{
+            height:auto;
+        }
     }
 </style>
 
