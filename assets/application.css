@@ -1264,6 +1264,9 @@ h1 {
     .mobile_menu_btn{
         display:block;
     }
+    .mobile_menu{
+        
+    }
     #left_image{
         display:none;
     }
