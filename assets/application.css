@@ -1304,7 +1304,7 @@ h1 {
         position:relative;
     }
     #banner_hours_container{
-        bottom:0px;
+        top:155px;
         position:absolute;
         font-size:7pt;
         height:100px;
