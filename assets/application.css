@@ -1249,6 +1249,9 @@ h1 {
 
 .mobile_menu_btn{
     display:none;
+    position:absolute;
+    bottom:15px;
+    right:15px;
 }
 
 .mobile_menu_btn{
