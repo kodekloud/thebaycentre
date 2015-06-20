@@ -1285,6 +1285,7 @@ h1 {
     }
     .mobile_menu ul li{
         list-style:none;
+        border-bottom:1px solid lightgray;
     }
     .mobile_submenu{
         display:none;
