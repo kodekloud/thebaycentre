@@ -404,8 +404,10 @@
     function toggle_mobile_menu(){
         if ($(".mobile_menu").hasClass("visible")){
             $(".mobile_menu").animate({"left":"100%"}, "slow").removeClass('visible'); 
+            $("body").css("overflow-y","visible");
         } else {
             $(".mobile_menu").animate({"left":"0"}, "slow").addClass('visible');     
+            $("body").css("overflow-y","hidden");
         }
     }
 
