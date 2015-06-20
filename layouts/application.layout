@@ -264,7 +264,7 @@
     </header>
     <div class="mobile_menu">
         <ul>
-            <li>
+            <li onclick="javascript:toggle_mobile_submenu('mobile_sub_1')">
                 menu item 1
                 <div class="mobile_submenu" id="mobile_sub_1">
                     <ul>
