@@ -294,6 +294,14 @@
                     </ul>
                 </div>
             </li>
+            <li class="mobile_menu_li" onclick="javascript:toggle_mobile_submenu('mobile_sub_4')">
+                <p>plan your visit</p>
+                <div class="mobile_submenu" id="mobile_sub_4">
+                    <ul>
+                        <li class="mobile_submenu_li"><a href="/events">current events & contests </a></li>
+                    </ul>
+                </div>
+            </li>
         </ul>
     </div>
     <div class="loading_overlay">
