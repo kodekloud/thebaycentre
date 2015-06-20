@@ -1592,5 +1592,10 @@ h1 {
         margin-left:20px;
         width:80%;
         margin-bottom:20px;
+        
+    }
+    .gray_pill{
+        width:90%;
+        margin-bottom:20px;
     }
 }
