@@ -463,7 +463,9 @@
             $("#"+id+"_arrow").addClass("fa-chevron-down")
         } else {
             
-            $(".mobile_menu").slideDown(function(){$("#main_container").hide();});  
+            $(".mobile_menu").slideDown(function(){$("#main_container").hide();});
+            $("#"+id+"_arrow").removeClass("fa-chevron-down");
+            $("#"+id+"_arrow").addClass("fa-chevron-up")
             // $("body").css("overflow-y","hidden");
             
         }
