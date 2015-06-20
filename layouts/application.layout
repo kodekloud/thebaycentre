@@ -268,11 +268,9 @@
                 find a store
                 <div class="mobile_submenu" id="mobile_sub_1">
                     <ul>
-                        <ul>
-                            <li><a href="/stores">Store Directory</a></li>
-                            <li>Centre Directory</li>
-                            <li><a href="/map">Interactive Map</a></li>
-                        </ul>
+                        <li><a href="/stores">Store Directory</a></li>
+                        <li>Centre Directory</li>
+                        <li><a href="/map">Interactive Map</a></li>
                     </ul>
                 </div>
             </li>
