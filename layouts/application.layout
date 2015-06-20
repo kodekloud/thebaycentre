@@ -402,11 +402,11 @@
 <script>
 
     function toggle_mobile_menu(){
-        if ($(".mobile_menu").hasClass("visible")){
-            $(".mobile_menu").animate({"left":"100%"}, "slow").removeClass('visible'); 
+        if ($(".mobile_menu").is(":visible")){
+            $(".mobile_menu").slideUp();
             $("body").css("overflow-y","visible");
         } else {
-            $(".mobile_menu").animate({"left":"0"}, "slow").addClass('visible');     
+            $(".mobile_menu").slideDown();  
             $("body").css("overflow-y","hidden");
         }
     }
