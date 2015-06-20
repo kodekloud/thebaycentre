@@ -1288,6 +1288,9 @@ h1 {
         width:100%;
         overflow:hidden;
     }
+    .banner_container{
+        position:relative;
+    }
     .flex-direction-nav {
         display:none !important;
     }
