@@ -410,7 +410,11 @@
     }
 
     function toggle_mobile_submenu(id){
-        
+        if ($("#"+id).is(":visible")){
+            $("#"+id).slideUp();
+        } else {
+            $("#"+id).slideDown();
+        }
     }
 
 
