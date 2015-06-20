@@ -412,9 +412,11 @@
         } else {
             $(".mobile_menu").animate({"left":"0"}, "slow").addClass('visible');     
         }
-        
     }
 
+    function toggle_mobile_submenu(id){
+        
+    }
 
 
     var p = window.location.pathname;
