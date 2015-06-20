@@ -417,9 +417,11 @@
         if ($(".mobile_menu").is(":visible")){
             $(".mobile_menu").slideUp();
             // $("body").css("overflow-y","visible");
+            $("#main_container").show();
         } else {
             $(".mobile_menu").slideDown();  
             // $("body").css("overflow-y","hidden");
+            $("#main_container").hide();
         }
     }
 
