@@ -1288,8 +1288,10 @@ h1 {
     .mobile_menu ul{
         padding:0;
     }
+    mob
     .mobile_menu p{
         border-bottom:1px solid lightgray;
+        margin-bottom:10px;
     }
     .mobile_submenu_li{
         list-style:none;
