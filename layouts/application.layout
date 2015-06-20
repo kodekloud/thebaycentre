@@ -407,8 +407,12 @@
 <script>
 
     function toggle_mobile_menu(){
+        if ($(".slide_in_menu").hasClass("visible")){
+            $(".mobile_menu").animate({"left":"100%"}, "slow").removeClass('visible'); 
+        } else {
+            $(".mobile_menu").animate({"left":"0"}, "slow").addClass('visible');     
+        }
         
-        $(".mobile_menu").animate({"left":"0"}, "slow").addClass('visible'); 
     }
 
 
