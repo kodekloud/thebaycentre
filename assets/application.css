@@ -1291,8 +1291,9 @@ h1 {
     .mobile_menu ul{
         padding:0;
     }
-    .mobile_menu_li{
-        
+    .mobile_submenu_li a{
+        text-decoration:none;
+        color:#4d4d4f;
     }
     .mobile_menu_li p{
         border-bottom:1px solid lightgray;
