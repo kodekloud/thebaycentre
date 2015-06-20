@@ -1247,8 +1247,15 @@ h1 {
     width:265px;
 }
 
+.mobile_menu_btn{
+    display:none;
+}
+
 /*mobile css*/
 @media (max-width: 767px) {
+    .mobile_menu_btn{
+        display:block;
+    }
     #left_image{
         display:none;
     }
