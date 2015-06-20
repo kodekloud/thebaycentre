@@ -420,8 +420,8 @@
             // $("body").css("overflow-y","visible");
             $("#main_container").show();
         } else {
-            $("#main_container").hide();
-            $(".mobile_menu").slideDown();  
+            
+            $(".mobile_menu").slideDown(function(){$("#main_container").hide();});  
             // $("body").css("overflow-y","hidden");
             
         }
