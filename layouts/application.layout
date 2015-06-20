@@ -265,7 +265,7 @@
     <div class="mobile_menu">
         <ul>
             <li class="mobile_menu_li" onclick="javascript:toggle_mobile_submenu('mobile_sub_1')">
-                <p>find a store <i id='mobile_sub_1_arrow' class='fa fa-chevron-down'></i></p>
+                <p>find a store &nbsp;&nbsp;<i id='mobile_sub_1_arrow' class='fa fa-chevron-down'></i></p>
                 <div class="mobile_submenu" id="mobile_sub_1">
                     <ul>
                         <li class="mobile_submenu_li"><a href="/stores">Store Directory</a></li>
