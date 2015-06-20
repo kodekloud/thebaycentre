@@ -1261,6 +1261,9 @@ h1 {
 
 /*mobile css*/
 @media (max-width: 767px) {
+    .loading_overlay img{
+        margin-top:100px;
+    }
     .mobile_menu_btn{
         display:block;
     }
