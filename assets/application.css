@@ -1297,6 +1297,7 @@ h1 {
     .mobile_menu_li p{
         border-bottom:1px solid lightgray;
         padding-bottom:16px;
+        margin-bottom:0;
     }
     .mobile_submenu_li{
         list-style:none;
