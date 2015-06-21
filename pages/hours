@@ -7,6 +7,7 @@
     @media (max-width: 767px) {
         .cat_div{
             padding-left:10px;
+            font-size:12px;
         }    
     }
     
