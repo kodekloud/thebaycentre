@@ -67,7 +67,12 @@
         margin-top:43px;
     }
     
-    
+    @media (max-width: 767px) {
+        .tab_item{
+            height:25px;
+            color:black !important;
+        }
+    }
 </style>
 
 <div class="banner_container">
