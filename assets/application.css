@@ -1603,6 +1603,6 @@ h1 {
         margin-right:15px;
     }
     .store_website{
-        display:none;
+        display:none !important;
     }
 }
