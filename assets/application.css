@@ -1615,4 +1615,8 @@ h1 {
         font-size:10pt;
         width:49%;
     }
+    .contact_column{
+        width:100%;
+        border-bottom:1px solid #4d4f71;
+    }
 }
