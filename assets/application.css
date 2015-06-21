@@ -1611,4 +1611,7 @@ h1 {
     .store_select{
         width:88%
     }
+    .hour_line p{
+        font-size:10px;
+    }
 }
