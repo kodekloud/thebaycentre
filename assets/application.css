@@ -1613,5 +1613,6 @@ h1 {
     }
     .hour_line p{
         font-size:10pt;
+        width:49%;
     }
 }
