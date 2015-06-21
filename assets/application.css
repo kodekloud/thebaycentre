@@ -1605,7 +1605,7 @@ h1 {
     .store_website, .store_phone{
         display:none !important;
     }
-    .detail_left_div{
+    .detail_left_div,.detail_right_div{
         width:100%;
     }
     .store_select{
