@@ -3,6 +3,13 @@
         margin-top:90px;
         margin-bottom:47px;
     }
+    
+    @media (max-width: 767px) {
+        .cat_div{
+            padding-left:10px;
+        }    
+    }
+    
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
