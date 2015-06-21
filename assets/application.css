@@ -1618,5 +1618,7 @@ h1 {
     .contact_column{
         width:100%;
         border-bottom:1px solid #4d4f71;
+        padding-bottom:20px;
+        margin-bottom:30px;
     }
 }
