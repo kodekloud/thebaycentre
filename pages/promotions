@@ -18,12 +18,7 @@
     .promo_left_div{
         width:729px;
     }
-    @media (max-width: 767px) {
-        .tab_item{
-            height:25px;
-            color:black !important;
-        }
-    }
+    
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
