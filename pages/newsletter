@@ -99,7 +99,7 @@
         </p>
     </div>
     
-    <input id="newsletter_agree_terms" type="checkbox" required value="Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.">Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.</input>
+    <input id="newsletter_agree_terms" type="checkbox" required value="Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more."><label for="newsletter_agree_terms" class="checkbox_lbl">Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.</label>
     <br>
     
     <button class="news_subscribe" type="submit">Subscribe</button>
