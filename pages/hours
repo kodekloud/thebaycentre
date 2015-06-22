@@ -52,7 +52,7 @@
     </div>
     
     <div class="cat_div">
-        holiday_hours
+        holiday hours
     </div>
     <div class="" id="holiday_hours">
         <script id="holiday_hours_template" type="x-tmpl-mustache/text">
