@@ -268,7 +268,7 @@
                 $.each( collection , function( key, val ) {
                     $.each( val.store_ids , function( key2, val2 ) {
                       store = getStoreDetailsByID(val2)
-                      $("#cat_"+val.id+"_stores").append("<div class='s_div'><span><p><a href='/stores/"+store.slug+"'>"+store.name+"</a></p><a style='float:right;margin-right:0' href='/stores/"+store.slug+"'><i class='fa fa-chevron-right list_icon'></i></a><a class='pull-right store_phone' href='tel:"+store.phone+"'>"+store.phone+"</a><a class='pull-right store_website' href='"+store.website+"'>Visit Website</a> </span></div>")
+                      $("#cat_"+val.id+"_stores").append("<div class='s_div'><span><p><a href='/stores/"+store.slug+"'>"+store.name+"</a></p><a style='float:right;margin-right:0' href='/stores/"+store.slug+"'><i class='fa fa-chevron-right list_icon'></i></a><a class='pull-right store_phone' href='tel:"+store.phone+"'>"+store.phone+"</a><a class='pull-right store_website' href='http://"+store.website+"'>Visit Website</a> </span></div>")
                       
                     })    
                 })    
