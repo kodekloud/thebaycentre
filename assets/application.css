@@ -1141,6 +1141,9 @@ h1 {
 .hour_line:nth-last-child(1){
     margin-bottom:45px;
 }
+.hour_line{
+    padding-left:39px;
+}
 .hour_line p {
     display:inline-block;
     width: 30%;
