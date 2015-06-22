@@ -22,10 +22,10 @@
 </style>
 
 <div class="banner_container">
-    <div class="feature_slider_container flexslider" id="feature_slider_container">
-                <ul class="feature_slider_ul slides" id="feature_slider_ul">
-                    <script id="feature_slider_template" type="x-tmpl-mustache/text">
-                        <li class="feature_promo item">
+    <div class="flexslider" id="">
+                <ul class="banner_slider_ul slides" id="banner_slider_ul">
+                    <script id="banner_slider_template" type="x-tmpl-mustache/text">
+                        <li class="item">
                         </li>
                     </script>
                 </ul>
