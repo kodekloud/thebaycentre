@@ -23,12 +23,12 @@
 
 <div class="banner_container">
     <div class="flexslider" id="">
-                <ul class="banner_slider_ul slides" id="banner_slider_ul">
-                    <script id="banner_slider_template" type="x-tmpl-mustache/text">
-                        <li class="item">
-                        </li>
-                    </script>
-                </ul>
+        <ul class="banner_slider_ul slides" id="banner_slider_ul">
+            <script id="banner_slider_template" type="x-tmpl-mustache/text">
+                <li class="item">
+                </li>
+            </script>
+        </ul>
     </div>
     <img id="main_image" src="http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide1.jpg" class="main_image" alt="banner">
     <div class="missing_out_div">
