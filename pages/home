@@ -242,6 +242,11 @@
                     featured_promos.push(val)
                 }
             })
+            featured_promos.sort(function(a,b){
+               if(a.v > b.v){ return 1}
+                if(a.v < b.v){ return -1}
+                  return 0;
+            });
             
             stores = getStoresList();
             new_stores = []
