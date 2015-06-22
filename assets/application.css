@@ -477,12 +477,15 @@ h1 {
     color:#4d4d4f;
     margin-top:0;
     margin-bottom:53px;
+    text-transform:uppercase;
 }
+
 .footer_h2{
     font-family:montserrat-regular;
     font-size:16px;
     color:#4d4d4f;
     margin-top:0;
+    text-transform:uppercase;
     margin-bottom:0;
 }
 .footer_text{
