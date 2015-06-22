@@ -129,7 +129,8 @@ h1 {
 }
 .popup_subscribe{
     background:#6e6d71;
-    font-family:lora-regular;
+    font-family:railway-regular;
+    font-size:17px;
     color:white;
     height:43px;
     vertical-align:top;
