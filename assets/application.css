@@ -170,6 +170,7 @@ h1 {
 .icheckbox_square-grey{
     margin-right:5px !important;
     width:24px !important;
+    vertical-align:top !important;
 }
 
 .loading_overlay{
