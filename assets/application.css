@@ -998,15 +998,14 @@ h1 {
 }
 .hours_day{
     font-family:lora-regular;
-    font-size:17pt;
+    font-size:14pt;
     display:inline-block;
     margin-top:0;
     margin-bottom:0;
 }
 .hours_time{
     font-family:lora-regular;
-    font-style:italic;
-    font-size:17pt;
+    font-size:14pt;
     display:inline-block;
     position:absolute;
     right:25px;
