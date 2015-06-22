@@ -600,6 +600,7 @@ h1 {
 }
 .feature_slider_container{
     width:100%;
+    border:none;
     
     position:absolute;
 }
