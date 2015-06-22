@@ -540,7 +540,7 @@ h1 {
 .tab_overlay{
     position:absolute;
     width:100%;
-    background:black;
+    background:white;
     height:100%;
     top:0;
     opacity:0.2;
