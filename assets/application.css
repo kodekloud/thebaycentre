@@ -994,7 +994,7 @@ h1 {
     text-transform:uppercase;
 }
 .hours_object{
-    margin-bottom:20px;
+    /*margin-bottom:20px;*/
 }
 .hours_day{
     font-family:lora-regular;
@@ -1002,6 +1002,7 @@ h1 {
     display:inline-block;
     margin-top:0;
     margin-bottom:0;
+    line-height:26pt;
 }
 .hours_time{
     font-family:lora-regular;
@@ -1011,6 +1012,7 @@ h1 {
     right:25px;
     margin-top:0;
     margin-bottom:0;
+    line-height:26pt;
 }
 .store_promo_ul{
     margin:0;
