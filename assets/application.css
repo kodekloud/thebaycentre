@@ -173,6 +173,10 @@ h1 {
     vertical-align:top !important;
 }
 
+.checkbox_lbl{
+    display:inline-block;
+    width:85%;
+}
 .loading_overlay{
     position:absolute;
     height:100%;
