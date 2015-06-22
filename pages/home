@@ -85,7 +85,6 @@
                                 <p class="promo_title"><a class="promo_title" href="{{store_slug}}">{{store_name}}</a> | <a class="promo_title" href="/promotions/{{slug}}">{{name}} </a></p>
                                 <p class="promo_description">
                                     {{description}}
-                                    {{feature_item_index}}
                                 </p>
 
                             </div>
