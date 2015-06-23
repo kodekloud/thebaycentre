@@ -1354,7 +1354,7 @@ h1 {
 /*mobile css*/
 @media (max-width: 767px) {
     .store_detail_description{
-        margin-top:70px;
+        margin-top:70px !important;
     }
     .store_promo_buttons p{
         width:60%;
