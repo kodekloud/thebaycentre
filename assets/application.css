@@ -234,7 +234,7 @@ h1 {
 }
 .search-results{
     position:absolute;
-    background:white;
+    background:#f1f0ed;
     z-index:99999999;
 }
 .results_div{
