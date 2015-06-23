@@ -66,6 +66,12 @@
     .store_detail_description{
         margin-top:43px;
     }
+    .socialize_text{
+        margin-top:0;
+    }
+    .socialize_social_icons{
+        margin-top:-10px;
+    }
     
     @media (max-width: 767px) {
         .tab_item{
