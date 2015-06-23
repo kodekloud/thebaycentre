@@ -26,7 +26,9 @@
         <ul class="banner_slider_ul slides" id="banner_slider_ul">
             <script id="banner_slider_template" type="x-tmpl-mustache/text">
                 <li class="item">
-                    <img src="{{image_url}}"/>
+                    <a href="{{url}}">
+                        <img src="{{image_url}}"/>
+                    </a>
                 </li>
             </script>
         </ul>
