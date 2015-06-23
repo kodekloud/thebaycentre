@@ -99,7 +99,7 @@
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select>
-            <input id="news_gender" name="cm-f-jkyulk" type="text" />
+            <!--<input id="news_gender" name="cm-f-jkyulk" type="text" />-->
         </p>
     </div>
     
