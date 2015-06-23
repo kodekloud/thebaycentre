@@ -15,7 +15,7 @@
     }
     
     @media (max-width: 767px) {
-        .stores_div p{
+        .stores_div p, .cat_div{
             padding-left:15px;
             padding-right:15px;
         }
