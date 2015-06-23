@@ -19,6 +19,20 @@
     .promo_left_div{
         width:729px;
     }
+    
+     @media (max-width: 767px) {
+        .store_promo_buttons p{
+            width:60%;
+        }
+        .store_promo_buttons{
+            margin-top:30px;
+            margin-bottom:30px;
+        }
+        .name_block{
+            width:100%;
+            height:auto;
+        }
+    }
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
