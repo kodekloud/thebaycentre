@@ -3,6 +3,12 @@
         margin-top:90px;
         margin-bottom:47px;
     }
+    .socialize_text{
+        margin-top:0;
+    }
+    .socialize_social_icons{
+        margin-top:-10px;
+    }
     
     @media (max-width: 767px) {
         .cat_div{
