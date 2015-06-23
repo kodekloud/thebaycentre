@@ -96,6 +96,7 @@
         <p>
             <label for="news_gender">Gender</label><br />
             <select id="news_gender" name="cm-f-jkyulk">
+                <option selected disabled>Please Select</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select>
