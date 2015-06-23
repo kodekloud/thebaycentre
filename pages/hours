@@ -15,6 +15,7 @@
         }
         .hour_line p{
             font-size:9pt;
+            vertical-align:top;
         }
     }
     
@@ -63,7 +64,7 @@
     <div class="" id="holiday_hours">
         <script id="holiday_hours_template" type="x-tmpl-mustache/text">
             <div class="hour_line">
-                <p class="">{{holiday_name}} ({{hol}})</p>
+                <p class="">{{holiday_name}} <br> ({{hol}})</p>
                 <p class="">{{hour_string}}</p>
             </div>
         </script>
