@@ -16,6 +16,7 @@
         .hour_line p{
             font-size:9pt;
             vertical-align:top;
+            margin-bottom:0;
         }
     }
     
