@@ -1243,7 +1243,7 @@ h1 {
 }
 .map_container{
     margin-top:60px;
-    margin-bottom:96px;
+    margin-bottom:0;
     margin-left:25px;
     margin-right:25px;
 }
