@@ -260,6 +260,8 @@ h1 {
     padding-bottom:20px;
     border-bottom: 1px solid #4d4d4f;
     color:#4d4d4f;
+    font-size:10pt;
+    font-family:montserrat-regular;
 }
 
 .list-group-item{
