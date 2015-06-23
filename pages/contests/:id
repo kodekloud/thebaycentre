@@ -2,6 +2,12 @@
     .store_detail_description{
         margin-top:15px;
     }
+    
+    @media (max-width: 767px) {
+        .hours_day, .hours_time {
+            font-size:12pt;
+        }    
+    }
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
