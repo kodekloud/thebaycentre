@@ -1244,6 +1244,7 @@ h1 {
     height:50px;
 }
 .store_select select {
+    background:#c7c8ca;
     font-family:montserrat-regular;
     font-size:16px;
     margin-left:37px;
