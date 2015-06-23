@@ -58,7 +58,7 @@
     </ul>
     <div class="store_Search_div">
     <input type="text" id="search_stores" class="store_search_input" placeholder="search for a store">
-    <i class="fa fa-search store_search_icon" onclick="javascript:search()"></i>
+    <i class="fa fa-search store_search_icon" onclick="javascript:manual_search()"></i>
     </div>
     <button class="gray_pill" onclick="see_all_stores()">see all stores</button>
     <button class="gray_pill" onclick="window.location.href='/map'">view map</button>
