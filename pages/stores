@@ -156,10 +156,11 @@
         
         
         $("#search_stores").on("blur", function(evt) {
-         
-            $('#search_stores').trigger(
-                jQuery.Event( 'keypress', { keyCode: 13, which: 13 } )
-            );
+            if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+                $('#search_stores').trigger(
+                    jQuery.Event( 'keypress', { keyCode: 13, which: 13 } )
+                );
+            }
          
         })
         
