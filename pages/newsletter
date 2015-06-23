@@ -68,68 +68,68 @@
     </div>
 </div>
 
-
-<p class="store_detail_title">
-    STAY INFORMED
-</p>
-<div class="store_detail_description">
-    Sign up to be notified on promotions, contests, events, new stores, sales and fashion trends.
-</div>
-<form id="newsletter_form">
-    <input id="hidden_source" name="cm-f-jhtykd" type="hidden" />
-    <input id="hidden_agree_text" name="cm-f-jhtykh" type="hidden" />
-    <input id="full_name" name="cm-name" type="hidden" />
-    <div class="newsletter_row">
-        <p>
-            <label for="first_name">First Name*</label><br />
-            <input id="first_name" type="text" required/>
-        </p>
-        <p>
-            <label for="last_name">Last Name*</label><br />
-            <input id="last_name" type="text" required/>
-        </p>
+<div class="newsletter_content">
+    <p class="store_detail_title">
+        STAY INFORMED
+    </p>
+    <div class="store_detail_description">
+        Sign up to be notified on promotions, contests, events, new stores, sales and fashion trends.
     </div>
-    <div class="newsletter_row">
-        <p>
-            <label for="news_email">Email*</label><br />
-            <input id="news_email" name="cm-iixuu-iixuu" type="email" required/>
-        </p>
-        <p>
-            <label for="news_postal">Postal Code</label><br />
-        <input id="news_postal" name="cm-f-jkyulu" type="text" />
-        </p>
-    </div>
-    <div class="newsletter_row">
-        <p>
-            <label for="news_age">Age</label><br />
-            <input id="news_age" name="cm-f-jkyulh" type="text" />
-        </p>
-        <p>
-            <label for="news_gender">Gender</label><br />
-            <select id="news_gender" name="cm-f-jkyulk">
-                <option selected disabled>Please Select</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select>
-            <!--<input id="news_gender" name="cm-f-jkyulk" type="text" />-->
-        </p>
-    </div>
+    <form id="newsletter_form">
+        <input id="hidden_source" name="cm-f-jhtykd" type="hidden" />
+        <input id="hidden_agree_text" name="cm-f-jhtykh" type="hidden" />
+        <input id="full_name" name="cm-name" type="hidden" />
+        <div class="newsletter_row">
+            <p>
+                <label for="first_name">First Name*</label><br />
+                <input id="first_name" type="text" required/>
+            </p>
+            <p>
+                <label for="last_name">Last Name*</label><br />
+                <input id="last_name" type="text" required/>
+            </p>
+        </div>
+        <div class="newsletter_row">
+            <p>
+                <label for="news_email">Email*</label><br />
+                <input id="news_email" name="cm-iixuu-iixuu" type="email" required/>
+            </p>
+            <p>
+                <label for="news_postal">Postal Code</label><br />
+            <input id="news_postal" name="cm-f-jkyulu" type="text" />
+            </p>
+        </div>
+        <div class="newsletter_row">
+            <p>
+                <label for="news_age">Age</label><br />
+                <input id="news_age" name="cm-f-jkyulh" type="text" />
+            </p>
+            <p>
+                <label for="news_gender">Gender</label><br />
+                <select id="news_gender" name="cm-f-jkyulk">
+                    <option selected disabled>Please Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <!--<input id="news_gender" name="cm-f-jkyulk" type="text" />-->
+            </p>
+        </div>
+        
+        <input id="newsletter_agree_terms" type="checkbox" required value="Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more."><label for="newsletter_agree_terms" class="checkbox_lbl">Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.</label>
+        <br>
+        
+        <button class="news_subscribe" type="submit">Subscribe</button>
+    </form>
     
-    <input id="newsletter_agree_terms" type="checkbox" required value="Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more."><label for="newsletter_agree_terms" class="checkbox_lbl">Yes, I consent to receive your Commercial Electronic Messages.These emails may include special retail offers, promotions, news from our merchants, upcoming events, information on the latest trends and much more.</label>
-    <br>
     
-    <button class="news_subscribe" type="submit">Subscribe</button>
-</form>
-
-
-<p class="store_detail_title">
-    privacy policy
-</p>
-<div class="store_detail_description">
-    Your privacy is very important to us. Your personal information will be used, if requested by you, to contact you regarding future programs, contests, promotions and events by THE BAY CENTRE. It will also be used for THE BAY CENTRE's internal marketing research purposes. From time to time THE BAY CENTRE offers our members an automatic entry to our contests. We will notify you via email that you have been entered. Your personal information will remain confidential to THE BAY CENTRE. It may, however, be disclosed to any entity that acquires THE BAY CENTRE or any of its individual properties provided such entity similarly agrees to protect your privacy. We may also use third parties to process some aspect of the personal information for our use, provided that they similarly agree to protect your privacy. If you have a privacy question or concern you may contact THE BAY CENTRE in writing at the following address: THE BAY CENTRE, #2 – 1150, Douglas Street, Victoria, BC B8W 3M9.
-
+    <p class="store_detail_title">
+        privacy policy
+    </p>
+    <div class="store_detail_description">
+        Your privacy is very important to us. Your personal information will be used, if requested by you, to contact you regarding future programs, contests, promotions and events by THE BAY CENTRE. It will also be used for THE BAY CENTRE's internal marketing research purposes. From time to time THE BAY CENTRE offers our members an automatic entry to our contests. We will notify you via email that you have been entered. Your personal information will remain confidential to THE BAY CENTRE. It may, however, be disclosed to any entity that acquires THE BAY CENTRE or any of its individual properties provided such entity similarly agrees to protect your privacy. We may also use third parties to process some aspect of the personal information for our use, provided that they similarly agree to protect your privacy. If you have a privacy question or concern you may contact THE BAY CENTRE in writing at the following address: THE BAY CENTRE, #2 – 1150, Douglas Street, Victoria, BC B8W 3M9.
+    
+    </div>
 </div>
-
 
 <script>
     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d8a09f82f02542971340c19ca00a3564/newsletter_banner1.jpg");
