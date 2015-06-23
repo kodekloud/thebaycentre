@@ -9,6 +9,10 @@
         padding-top:61px;
         padding-left:0;
     }
+    .stores_div p{
+        height:auto;
+        border-top:none;
+    }
     
 </style>
 
