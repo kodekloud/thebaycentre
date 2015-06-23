@@ -941,6 +941,10 @@ h1 {
     display:inline-block;
 }
 
+.newsletter_content{
+    padding-bottom:35px;
+    border-bottom:1px solid #6d6e71;
+}
 
 /***********SHARE THIS**************/
 .share_this_icon_div{
