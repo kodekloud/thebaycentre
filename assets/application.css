@@ -1010,7 +1010,10 @@ h1 {
 }
 
 .store_detail_left_content_container {
-    
+    color:#6d6e71;
+    font-family:lora-regular;
+    font-size:14pt;
+    line-height:26pt;
 }
 
 .store_detail_description{
