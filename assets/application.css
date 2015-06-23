@@ -804,6 +804,7 @@ h1 {
 /*stores css*/
 .stores_div{
     display:none;
+    padding-left:39px;
     
     
 }
