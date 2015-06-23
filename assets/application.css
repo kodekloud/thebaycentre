@@ -1654,7 +1654,10 @@ h1 {
     }
     #logo_container{
         margin-top:10px;
-        width:80%;
+        width:100%;
+        height:auto;
+        position:absolute;
+        bottom:0;
     }
     .menu_items_container{
         display:none;
