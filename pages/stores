@@ -37,6 +37,9 @@
         .stores_div table{
             width:100%;
         }
+        .stores_div a{
+            margin-right:0;
+        }
     }
 </style>
 
