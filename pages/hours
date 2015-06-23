@@ -66,7 +66,7 @@
             <div class="hour_line">
                 <p class="">{{holiday_name}}</p>
                 <p class="">{{hour_string}}</p>
-                <p style="margin-top:0">({{hol}})</p>
+                <p style="margin-top:0;line-height:0">({{hol}})</p>
             </div>
         </script>
     </div>
