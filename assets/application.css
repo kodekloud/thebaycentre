@@ -1547,6 +1547,7 @@ h1 {
     }
     .mobile_footer_logos{
         width:100%;
+        display:block;
     }
     .find_us_div{
         margin-top:40px;
