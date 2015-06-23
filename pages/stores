@@ -23,7 +23,7 @@
         }
         .cat_div{
             height:auto;
-            font-size:8px;
+            font-size:12px;
             padding-left:15px;
             padding-right:15px;
         }
