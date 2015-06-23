@@ -835,7 +835,9 @@ h1 {
     
 }
 .arrow_td{
-    
+    text-align:right;
+    width:10%;
+    padding-right:10px;
 }
 
 
