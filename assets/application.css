@@ -1009,7 +1009,7 @@ h1 {
     margin-bottom:53px;
 }
 
-.store_detail_left_content_container p{
+#store_detail_left_content_container p{
     color:#6d6e71;
     font-family:lora-regular;
     font-size:14pt;
