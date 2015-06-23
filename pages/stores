@@ -145,7 +145,6 @@
     function see_all_stores(){
     
         $("#search_stores").val('')
-     
         $('#search_stores').trigger(
             jQuery.Event( 'keypress', { keyCode: 13, which: 13 } )
         );
