@@ -1721,4 +1721,7 @@ h1 {
     .footer_bottom_div{
         text-align:center;
     }
+    .promo_left_div, .promo_right_div{
+        width:100%;
+    }
 }
