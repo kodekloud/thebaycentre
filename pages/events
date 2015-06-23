@@ -70,7 +70,7 @@
         margin-top:0;
     }
     .socialize_social_icons{
-        margin-top:-10px;
+        margin-top:0;
     }
     
     @media (max-width: 767px) {
