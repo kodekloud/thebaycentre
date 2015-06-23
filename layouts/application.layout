@@ -532,21 +532,25 @@
         e.preventDefault();
         $("#banner_terms").val($("#agree_terms").attr("value"));
         $("#banner_source").val(window.location.href)
-        
-         $.getJSON(
-            "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
-          $(this).serialize(),
-            function (data) {
-                if (data.Status === 400) {
-                    e.preventDefault();
-                    alert("Please try again later.");
-                } else {
-                    alert("Thank you for signing up.")
-                    $("#banner_email").val("")
-                    $("#banner_agree_terms").prop('checked', false);
-                    toggle_news_form();
-                }
-        });  
+        if ($("#agree_terms").prop("checked") == true){
+            $.getJSON(
+                "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
+              $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        e.preventDefault();
+                        alert("Please try again later.");
+                    } else {
+                        alert("Thank you for signing up.")
+                        $("#banner_email").val("")
+                        $("#banner_agree_terms").prop('checked', false);
+                        toggle_news_form();
+                    }
+            });  
+        } else {
+            alert("Please agree to the terms and conditions before submitting.")
+        }
+         
     })
     
     function toggle_news_form(){
