@@ -842,7 +842,7 @@ h1 {
     color:#4d4d4f;
     display:inline-block;
 }
-.stores_div tr tdp:nth-child(1){
+.stores_div tr td:nth-child(1){
     border-top:none;
 }
 .cat_div{
