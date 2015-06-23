@@ -1656,7 +1656,7 @@ h1 {
         margin-top:10px;
         width:100%;
         height:auto;
-        position:absolute;
+        /*position:absolute;*/
         bottom:0;
     }
     .menu_items_container{
