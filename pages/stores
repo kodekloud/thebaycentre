@@ -161,9 +161,9 @@
         
         
         $("#search_stores").on("blur", function(evt) {
-            blurOccurred = window.setTimeout(function() {
+         
             alert('Done button clicked');
-             }, 10);
+         
         })
         
         
