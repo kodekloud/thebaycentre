@@ -473,7 +473,7 @@ h1 {
 }
 
 #fieldEmail{
-    height:40px;
+    height:30px;
     width:330px;
     padding-left:20px;
     font-size:14px;
@@ -485,7 +485,7 @@ h1 {
 #news_submit{
     border:1px white solid;
     background:#848585;
-    height:43px;
+    height:33px;
     color:white;
     width:100px;
     vertical-align:top;
