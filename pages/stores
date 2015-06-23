@@ -312,6 +312,7 @@
         }
         
         loadMallData(renderAll);  
+        $(".website_td a").attr("target","_blank");
     })
 
     $(".tabs li").click(function(e){
