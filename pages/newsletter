@@ -28,7 +28,10 @@
     }
     
     #news_gender{
-        height:34px;
+        height:40px;
+        background:#c7c8ca;
+        width:93%;
+        margin-top:10px;
         font-family:montserrat-regular;
         font-size:16px;
         color:#4d4d4f;
