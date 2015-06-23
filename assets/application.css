@@ -1353,6 +1353,9 @@ h1 {
 
 /*mobile css*/
 @media (max-width: 767px) {
+    .store_promo_buttons p{
+        width:60%;
+    }
     .share_this_icon_div{
         display:none;
     }
