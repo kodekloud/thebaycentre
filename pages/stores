@@ -70,8 +70,8 @@
                         {{name}} ({{count}})
                         <i id="icon_{{id}}" class="fa fa-plus list_icon"></i>
                     </div>
-                    <div class="stores_div" id="cat_{{id}}_stores">
-                    </div>
+                    <table class="stores_div" id="cat_{{id}}_stores">
+                    </table>
                 </script>
             </div>
         </li>
