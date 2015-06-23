@@ -14,7 +14,7 @@
             padding-left:10px;
         }
         .hour_line p{
-            font-size:10pt;
+            font-size:9pt;
         }
     }
     
