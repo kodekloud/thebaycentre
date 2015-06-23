@@ -927,10 +927,10 @@ h1 {
 }
 .store_search_icon{
     color:white;
-    top:6px;
+    top:8px;
     right:-28px;
     position:absolute;
-    font-size:28px !important;
+    font-size:20px !important;
 }
 .store_Search_div{
     position:relative;
