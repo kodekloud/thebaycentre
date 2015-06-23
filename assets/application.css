@@ -1708,4 +1708,7 @@ h1 {
     .tab_overlay{
         background:black;
     }
+    .footer_bottom_div{
+        text-align:center;
+    }
 }
