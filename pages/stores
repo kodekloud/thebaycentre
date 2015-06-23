@@ -24,6 +24,8 @@
         .cat_div{
             height:auto;
             font-size:8px;
+            padding-left:15px;
+            padding-right:15px;
         }
         .tab_content{
             margin-left:15px;
