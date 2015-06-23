@@ -508,7 +508,7 @@ h1 {
     margin:0;
     font-family:lora-regular;
 }
-.footer_last_container{
+.footer_last_container, .footer_last_container a{
     font-family:lora-regular;
     color:#cfcdc4;
     text-align:center;
