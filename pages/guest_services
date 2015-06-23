@@ -21,6 +21,7 @@
         }
         .cat_div{
             font-size:18pt;
+            height:auto;
         }
     }
     
