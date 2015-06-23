@@ -811,7 +811,7 @@ h1 {
    padding-right:34px; 
 }
 .stores_div tr td{
-    
+    vertical-align:top;
 }
 
 
