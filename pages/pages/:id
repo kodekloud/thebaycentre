@@ -66,7 +66,7 @@
                     </div>
                 </script>    
             </div>
-            <p class="hours_day">Hours subject to change</p>
+            <p class="hours_day" style="font-style:italic">Hours subject to change</p>
         </div>
     </div>
 </div>
