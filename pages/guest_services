@@ -7,7 +7,9 @@
     }
     .stores_div{
         padding-top:61px;
+        padding-left:0;
     }
+    
 </style>
 
 <div class="banner_container">
