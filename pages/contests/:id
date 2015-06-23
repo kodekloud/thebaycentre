@@ -3,6 +3,9 @@
         margin-top:15px;
     }
     
+    .store_detail_content{
+        margin-bottom:0;
+    }
     @media (max-width: 767px) {
         .hours_day, .hours_time {
             font-size:12pt;
