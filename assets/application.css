@@ -1540,6 +1540,9 @@ h1 {
         margin-top:40px;
     }
     .footer_logos{
+        display:none;
+    }
+    .mobile_footer_logos{
         width:100%;
     }
     .find_us_div{
