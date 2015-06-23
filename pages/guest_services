@@ -19,6 +19,9 @@
             padding-left:15px;
             padding-right:15px;
         }
+        .cat_div{
+            font-size:18pt;
+        }
     }
     
     
