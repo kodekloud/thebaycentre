@@ -1652,6 +1652,9 @@ h1 {
     .search_icon{
         top:9px;
     }
+    .menu_container{
+        height:auto;
+    }
     #logo_container{
         margin-top:10px;
         width:100%;
