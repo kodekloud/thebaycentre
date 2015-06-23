@@ -22,6 +22,12 @@
     .tabs li {
          margin-right:-5px;
     }
+    @media (max-width: 767px) {
+        .tab_item {
+            padding-top:10px;
+        }    
+    }
+    
 </style>
 
 <div class="banner_container">
