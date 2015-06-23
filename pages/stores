@@ -240,6 +240,7 @@
             
             $(".loading_overlay").hide();
             $("#page_content").show();
+            $(".website_td a").attr("target","_blank");
         }
         
         
@@ -312,7 +313,7 @@
         }
         
         loadMallData(renderAll);  
-        $(".website_td a").attr("target","_blank");
+        
     })
 
     $(".tabs li").click(function(e){
