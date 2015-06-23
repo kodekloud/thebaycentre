@@ -6,7 +6,7 @@
         line-height:26pt;
     }
     .stores_div{
-        padding-top:61px;
+        padding-top:30px;
         padding-left:0;
     }
     .stores_div p{
