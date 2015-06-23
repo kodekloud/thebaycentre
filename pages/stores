@@ -303,7 +303,7 @@
                 $.each( collection , function( key, val ) {
                     $.each( val.store_ids , function( key2, val2 ) {
                       store = getStoreDetailsByID(val2)
-                    $("#cat_"+val.id+"_stores_table").append("<tr><td class='name_td'><a href='/stores/"+store.slug+"'>"+store.name+"</a></td><td class='website_td'><a href='http://"+store.website+" target="+"blank"+"'>Visit Website</a></td><td class='phone_td'><a class=' store_phone' href='tel:"+store.phone+"'>"+store.phone+"</a></td><td class='arrow_td'><a href='/stores/"+store.slug+"'><i class='fa fa-chevron-right list_icon'></i></a></td>")
+                    $("#cat_"+val.id+"_stores_table").append("<tr><td class='name_td'><a href='/stores/"+store.slug+"'>"+store.name+"</a></td><td class='website_td'><a href='http://"+store.website+" target=_blank'>Visit Website</a></td><td class='phone_td'><a class=' store_phone' href='tel:"+store.phone+"'>"+store.phone+"</a></td><td class='arrow_td'><a href='/stores/"+store.slug+"'><i class='fa fa-chevron-right list_icon'></i></a></td>")
                     
                       
                     })    
