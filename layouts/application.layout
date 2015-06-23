@@ -377,7 +377,8 @@
     </div>
     <footer>
         <div class="footer_logo_div">
-            <img class="footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/89b85fd61b49f7b49bc74345c2070d12/logos.jpg"/>    
+            <img class="footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/89b85fd61b49f7b49bc74345c2070d12/logos.jpg" alt="footer_logos"/>
+            <img class="mobile_footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/89b85fd61b49f7b49bc74345c2070d12/logos.jpg" alt="footer logos"/>
         </div>
         <div class="find_us_div">
             <div class="find_left_div" id="find_left_div">
