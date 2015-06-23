@@ -824,15 +824,15 @@ h1 {
 
 
 .stores_div a{
-    margin:0;
-    height:59px;
-    line-height:59px;
-    font-family:montserrat-regular;
-    font-size:16px;
-    color:#4d4d4f;
-    display:inline-block;
-    text-decoration:none;
-    margin-right:70px;
+    /*margin:0;*/
+    /*height:59px;*/
+    /*line-height:59px;*/
+    /*font-family:montserrat-regular;*/
+    /*font-size:16px;*/
+    /*color:#4d4d4f;*/
+    /*display:inline-block;*/
+    /*text-decoration:none;*/
+    /*margin-right:70px;*/
 }
 .stores_div p {
     border-top:1px solid #f1f0ed;
