@@ -1356,6 +1356,9 @@ h1 {
     .store_detail_description{
         margin-top:70px !important;
     }
+    .cat_stores_container{
+        margin-top:45px;
+    }
     .store_promo_buttons p{
         width:60%;
     }
