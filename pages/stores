@@ -160,8 +160,15 @@
     $(document).ready(function() {
         
         
+        $("#search_stores").on("blur", function(evt) {
+            blurOccurred = window.setTimeout(function() {
+            alert('Done button clicked');
+             }, 10);
+        })
+        
         
         $("#search_stores").keypress(function(event) {
+            
             if (event.keyCode == 13) {
                 search();
             }
