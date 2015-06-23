@@ -1,3 +1,11 @@
+<style>
+    .socialize_text{
+        margin-top:0;
+    }
+    .socialize_social_icons{
+        margin-top:-10px;
+    }
+</style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
     <div class="missing_out_div">
