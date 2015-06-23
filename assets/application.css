@@ -41,7 +41,7 @@
    color:    white;
 }
 img {
-    border:none;
+    border:none \9;
 }
 body{
     overflow-x:hidden;
