@@ -18,6 +18,11 @@
     .promo_left_div{
         width:729px;
     }
+    @media (max-width: 767px) {
+        .store_promo_buttons p{
+            width:60%;
+        }
+    }
     
 </style>
 <div class="banner_container">
