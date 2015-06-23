@@ -40,6 +40,9 @@
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    white;
 }
+img {
+    border:none;
+}
 body{
     overflow-x:hidden;
    
