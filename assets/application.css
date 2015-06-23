@@ -385,6 +385,9 @@ h1 {
     margin-right:auto;
     display:block;
 }
+.mobile_footer_logos{
+    display:none;
+}
 .find_us_div{
     margin-top:95px;
     width:1143px;
