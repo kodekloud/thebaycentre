@@ -13,6 +13,9 @@
         .hour_line{
             padding-left:10px;
         }
+        .hour_line p{
+            font-size:10px;
+        }
     }
     
 </style>
