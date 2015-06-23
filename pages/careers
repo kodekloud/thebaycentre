@@ -19,6 +19,12 @@
     .promo_left_div{
         width:729px;
     }
+    .socialize_text{
+        margin-top:0;
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
     
      @media (max-width: 767px) {
         .store_promo_buttons p{
