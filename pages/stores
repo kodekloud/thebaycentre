@@ -20,6 +20,7 @@
         .tab_item{
             height:25px;
             color:black !important;
+            padding-left:0 !important;
         }
         .cat_div{
             height:auto;
