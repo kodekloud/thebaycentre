@@ -70,9 +70,9 @@
                     </div>
                 </div>
                 <div class="promo_right_div">
-                    <a href="{{alt_promo_image_url}}" rel="lightbox-gallery" title="{{name}}">
+                 
                         <img class="store_promo_img" alt="photo_{{name}}" src="{{alt_promo_image_url}}"/>
-                    </a>
+                  
                 </div>
             </li>
         </script>
@@ -91,9 +91,9 @@
                     </div>
                 </div>
                 <div class="promo_right_div">
-                    <a href="{{alt_promo_image_url}}" rel="lightbox-gallery" title="{{name}}">
+                    
                         <img class="store_promo_img" alt="photo_{{name}}" src="{{alt_promo_image_url}}"/>
-                    </a>
+                  
                 </div>
             </li>
         </script>
