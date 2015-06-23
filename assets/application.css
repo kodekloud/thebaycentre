@@ -1722,6 +1722,6 @@ h1 {
         text-align:center;
     }
     .promo_left_div, .promo_right_div{
-        width:100%;
+        width:100% !important;
     }
 }
