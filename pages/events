@@ -72,7 +72,16 @@
             height:25px;
             color:black !important;
         }
+        .store_promo_buttons p{
+            width:60%;
+        }
+        .store_promo_buttons{
+            margin-top:30px;
+            margin-bottom:30px;
+        }
     }
+    
+    
 </style>
 
 <div class="banner_container">
