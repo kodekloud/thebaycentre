@@ -7,7 +7,7 @@
     @media (max-width: 767px) {
         .cat_div{
             padding-left:10px;
-            font-size:12px;
+            font-size:10px;
             padding-right:0;
         }    
         .hour_line{
