@@ -1685,6 +1685,9 @@ h1 {
         display:block;
         
     }
+    .store_search_input{
+        padding-left:0;
+    }
     .gray_pill{
         width:90%;
         margin-bottom:10px;
