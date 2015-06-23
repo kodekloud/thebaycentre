@@ -1105,6 +1105,10 @@ h1 {
 #promo_share_this .stButton{
     width:45px !important;
 }
+.store_promo_button_icon{
+    height:40px;
+    width:40px;
+}
 .store_promo_buttons p{
     color:#6d6e71;
     font-family:montserrat-regular;
