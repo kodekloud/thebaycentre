@@ -811,6 +811,9 @@ h1 {
 .s_div{
    padding-right:34px; 
 }
+.stores_div table {
+    width:98%;
+}
 .stores_div tr td{
     vertical-align:top;
     font-family:montserrat-regular;
