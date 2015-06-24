@@ -16,6 +16,17 @@
         margin-left:39px;
         margin-right:34px;
     }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
+    
     @media (max-width: 767px) {
         .tab_item{
             height:25px;
