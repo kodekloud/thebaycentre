@@ -1782,6 +1782,7 @@ h1 {
     #store_select_container{
         width:80%;
         -webkit-border-radius:0;
+        -webkit-appearance: none;
         
     }
    
