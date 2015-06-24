@@ -127,7 +127,7 @@
             feature_promo_array = []
              $.each( all_promos , function( key, val ){
                 if (val.description.length > 110) {
-                   val.description =  val.description.substring(0,300)+'...';
+                   val.description =  val.description.substring(0,250)+'...';
                 } 
                  today = new Date();
                  webDate = new Date(val.show_on_web_date)
