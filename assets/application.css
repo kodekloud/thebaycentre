@@ -1781,5 +1781,6 @@ h1 {
     }
     #store_select_container{
         width:80%;
+        -webkit-appearance:none;
     }
 }
