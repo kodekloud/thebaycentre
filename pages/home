@@ -22,6 +22,17 @@
     .tabs li {
          margin-right:-5px;
     }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
+    
     @media (max-width: 767px) {
         .tab_item {
             padding-top:10px;
