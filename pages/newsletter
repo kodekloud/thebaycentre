@@ -71,6 +71,9 @@
         .newsletter_row p{
             width:100%;
         }    
+        .checkbox_lbl{
+            width:85%;
+        }
     }
     
     
