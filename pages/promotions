@@ -10,6 +10,10 @@
     .feature_promo_ul li{
         border:none;
     }
+    
+    .feature_promo_ul li:nt-last-child(1){
+        padding-bottom:40px;
+    }
     .store_promo_ul li {
         padding-left:30px;
         padding-right:30px;
