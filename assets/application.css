@@ -1366,6 +1366,8 @@ h1 {
         padding-right:15px;
         margin-left:0;
         margin-right:0;
+        padding-top:30px;
+        margin-top:30px;
     }
     .store_detail_description{
         margin-top:70px !important;
