@@ -1093,7 +1093,7 @@ h1 {
 .store_promo_ul li{
     list-style:none;
     padding-bottom:84px;
-    /*border-bottom:3px solid lightgray;*/
+    border-bottom:3px solid lightgray;
     margin-bottom:92px;
 }
 
