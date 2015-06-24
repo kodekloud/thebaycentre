@@ -62,7 +62,7 @@ function drop_pin(value){
             var y_offset = (parseInt(height) /2);
             
             map.setMarks([{ xy: [coords["x"] - 25 + x_offset, coords["y"] - 65 + y_offset],
-                      tooltip: {'<div>TEST<div>'},
+                      tooltip: '<div>TEST<div>',
                       attrs: {
                                 class: 'test_pin',
                                 href: '/stores/'+value[1],
