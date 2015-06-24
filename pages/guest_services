@@ -13,6 +13,16 @@
         height:auto;
         border-top:none;
     }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
     
     @media (max-width: 767px) {
         .stores_div p, .cat_div{
