@@ -33,6 +33,9 @@
             font-size:18pt;
             height:auto;
         }
+        .list_icon{
+            font-size:15px !important;
+        }
     }
     
     
