@@ -74,6 +74,9 @@
         .checkbox_lbl{
             width:85%;
         }
+        #news_gender{
+            width:95%;
+        }
     }
     
     
