@@ -1096,7 +1096,7 @@ h1 {
     margin-bottom:92px;
 }
 
-.store_promo_ul li:nth-child(last){
+.store_promo_ul li:nth-last-child(1){
     border-bottom:none;
 }
 .promo_left_div{
