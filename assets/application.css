@@ -744,9 +744,11 @@ h1 {
     width:579px;
 }
 .socialize_div{
-    padding-left:30px;
-    padding-right:25px;
-    height:20px;
+    margin-left:30px;
+    margin-right:25px;
+    height:auto;
+    padding-top:79px;
+    border-top:3px solid lightgray;
 }
 .socialize_text{
     float:left;
