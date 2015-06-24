@@ -39,6 +39,10 @@
         
     }
     
+    .newsletter_content{
+        border-bottom:none;
+    }
+    
     #news_gender{
         height:40px;
         background:#c7c8ca;
