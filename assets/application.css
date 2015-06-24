@@ -321,6 +321,7 @@ h1 {
     margin-left:auto;
     margin-right:auto;
     position:relative;
+    border-bottom:#page_content;
 
 }
 #main_container{
