@@ -5,8 +5,20 @@
     .store_detail_description{
         margin-top:20px;
     }
-    .newsletter_form{
+    .store_detail_content{
+        margin-bottom:0;
+        border-bottom:none;
+        padding-bottom:0;
+    }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
         
+    }
+    .socialize_social_icons{
+        margin-top:0;
     }
     .newsletter_row p{
         width:49%;
