@@ -6,6 +6,21 @@
     .store_detail_content{
         margin-bottom:0;
     }
+    .store_detail_content{
+        margin-bottom:0;
+        border-bottom:none;
+        padding-bottom:0;
+    }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
     @media (max-width: 767px) {
         .hours_day, .hours_time {
             font-size:12pt;
