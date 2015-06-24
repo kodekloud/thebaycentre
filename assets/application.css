@@ -1364,6 +1364,8 @@ h1 {
     .socialize_div{
         padding-left:15px;
         padding-right:15px;
+        margin-left:0;
+        margin-right:0;
     }
     .store_detail_description{
         margin-top:70px !important;
