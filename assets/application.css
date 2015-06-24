@@ -1779,4 +1779,7 @@ h1 {
     .store_detail_content{
         margin-top:70px;
     }
+    #store_select_container{
+        width:80%;
+    }
 }
