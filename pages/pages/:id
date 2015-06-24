@@ -8,6 +8,7 @@
     }
     .store_detail_content{
         margin-bottom:0;
+        border-bottom:none;
     }
     .socialize_div {
         margin-top:80px;
