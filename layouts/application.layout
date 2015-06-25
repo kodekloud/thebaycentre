@@ -849,7 +849,7 @@
             
             $("#s_sub_"+id).hide(function(){$(".submenu_bar").slideUp()});
         } else {
-            if ($("#submenu_bar").is(":visible")){
+            if ($(".submenu_bar").is(":visible")){
                 $(".dd_submenu").hide();
                 $("#s_sub_"+id).show();
             } else {
