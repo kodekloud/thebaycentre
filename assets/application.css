@@ -364,7 +364,7 @@ h1 {
     position:absolute;
     z-index:9999999999;
     right:0;
-    width:900px;
+    width:868px;
 }
 .dd_submenu ul{
     padding:0;
@@ -376,7 +376,7 @@ h1 {
 
 .dd_submenu ul li {
     margin-left:0;
-    display:block;
+    display:inline-block;
     margin-top:0px;
     margin-left:0px;
     cursor:pointer;
