@@ -854,8 +854,9 @@
                 $(".dd_submenu").hide();
                 $("#s_sub_"+id).show();
             } else {
-                $(".submenu_bar").slideDown()
                 $("#s_sub_"+id).show();
+                $(".submenu_bar").slideDown()
+                
             }
             
         }
