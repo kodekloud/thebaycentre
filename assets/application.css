@@ -283,6 +283,10 @@ h1 {
 .submenu_bar{
     background:#7b929d;
     color:white;
+    z-index:999999999999999999;
+    min-height:63px;
+    position:absolute;
+    top:-1px;
 }
 
 .dd_submenu ul{
