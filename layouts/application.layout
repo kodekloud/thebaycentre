@@ -189,21 +189,9 @@
             <ul class="main_menu">
                 <li onclick="javascript:show_dd(1)">
                     find a store
-                    
-                    
                 </li>
                 <li onclick="javascript:show_dd(2)">
                     plan your visit
-                    <div class="dd_submenu" id="s_sub_2">
-                        <ul>
-                            <li><a href="/hours">hours</a></li>
-                            <li><a href="/pages/baycentre-getting-here">getting here</a></li>
-                            <li><a href="/pages/baycentre-parking">parking</a></li>
-                            <li><a href="/guest_services">guest services</a></li>
-                            <li><a href="/pages/baycentre-guest-services-visitor-information">visitor information</a></li>
-                        </ul>
-                    </div>
-                    
                 </li>
                 <li onclick="javascript:show_dd(3)">
                     Deals
@@ -257,6 +245,16 @@
                         <li><a href="/stores">Store Directory</a></li>
                         <li>Centre Directory</li>
                         <li><a href="/map">Interactive Map</a></li>
+                    </ul>
+                </div>
+                
+                <div class="dd_submenu" id="s_sub_2">
+                    <ul>
+                        <li><a href="/hours">hours</a></li>
+                        <li><a href="/pages/baycentre-getting-here">getting here</a></li>
+                        <li><a href="/pages/baycentre-parking">parking</a></li>
+                        <li><a href="/guest_services">guest services</a></li>
+                        <li><a href="/pages/baycentre-guest-services-visitor-information">visitor information</a></li>
                     </ul>
                 </div>
                 
