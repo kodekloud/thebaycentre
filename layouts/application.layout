@@ -856,7 +856,7 @@
             } else {
                 $(".submenu_bar").slideDown()
                 $(".dd_submenu").hide();
-                    $("#s_sub_"+id).show();
+                $("#s_sub_"+id).show();
             }
             
         }
