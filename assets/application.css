@@ -385,15 +385,16 @@ h1 {
     margin-right:10px;
     font-size:10pt;
     text-transform:uppercase;
+    line-height:63px;
 }
 
 .dd_submenu ul li a{
     text-decoration:none;
-    color:#4d4d4f;
+    color:white;
 }
 
 .dd_submenu ul li a:visited{
-    color:#4d4d4f;
+    color:white;
 }
 
 .dd_submenu ul li:hover{
