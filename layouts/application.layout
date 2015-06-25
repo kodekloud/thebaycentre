@@ -254,17 +254,17 @@
                 </div>
                 
                 <div class="dd_submenu" id="s_sub_6">
-                        <ul>
-                            <li><a href="/pages/baycentre-guest-services-gift-cards">Gift Cards</a> </li>
-                            <li><a href="/careers">careers</a>  </li>
-                            <li><a href="/pages/baycentre-leasing-opportunities">Leasing Opportunities</a> </li>
-                            <li><a href="/pages/baycentre-sustainability">Sustainability</a> </li>
-                            <li><a href="/pages/baycentre-community-partners">Community Partners</a> </li>
-                            <li><a href="/pages/baycentre-security">Security</a> </li>
-                            <li><a href="/pages/baycentre-news">news</a> </li>
-                            <li><a href="/contact_us">Contact Us</a> </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a href="/pages/baycentre-guest-services-gift-cards">Gift Cards</a> </li>
+                        <li><a href="/careers">careers</a>  </li>
+                        <li><a href="/pages/baycentre-leasing-opportunities">Leasing Opportunities</a> </li>
+                        <li><a href="/pages/baycentre-sustainability">Sustainability</a> </li>
+                        <li><a href="/pages/baycentre-community-partners">Community Partners</a> </li>
+                        <li><a href="/pages/baycentre-security">Security</a> </li>
+                        <li><a href="/pages/baycentre-news">news</a> </li>
+                        <li><a href="/contact_us">Contact Us</a> </li>
+                    </ul>
+                </div>
                 
                 
             </div>
