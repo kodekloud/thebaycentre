@@ -361,9 +361,9 @@ h1 {
 }
 .dd_submenu{
     display:none;
-    position:relative;
+    margin-left:325px;
     z-index:9999999999;
-    right:0;
+    
     width:868px;
 }
 .dd_submenu ul{
