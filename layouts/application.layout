@@ -189,13 +189,7 @@
             <ul class="main_menu">
                 <li onclick="javascript:show_dd(1)">
                     find a store
-                    <div class="dd_submenu" id="s_sub_1">
-                        <ul>
-                            <li><a href="/stores">Store Directory</a></li>
-                            <li>Centre Directory</li>
-                            <li><a href="/map">Interactive Map</a></li>
-                        </ul>
-                    </div>
+                    
                     
                 </li>
                 <li onclick="javascript:show_dd(2)">
@@ -258,6 +252,13 @@
                 </li>
             </ul>
             <div class="submenu_bar">
+                <div class="dd_submenu" id="s_sub_1">
+                    <ul>
+                        <li><a href="/stores">Store Directory</a></li>
+                        <li>Centre Directory</li>
+                        <li><a href="/map">Interactive Map</a></li>
+                    </ul>
+                </div>
                 
             </div>
         </div>
