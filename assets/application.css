@@ -279,6 +279,12 @@ h1 {
 .menu_items_container{
     position:relative;
 }
+
+.submenu_bar{
+    background:#7b929d;
+    color:;
+}
+
 .dd_submenu ul{
     background:white;
 }
