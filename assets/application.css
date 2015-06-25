@@ -288,6 +288,7 @@ h1 {
     width:1193px;
     position:relative;
     top:-1px;
+    display:none;
 }
 
 .dd_submenu ul{
