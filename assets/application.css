@@ -47,7 +47,8 @@ body{
     overflow-x:hidden;
     
     margin:0;
-    
+    transform: scale(0.75);
+    transform-origin: 0.75% 0.75%;
 }
 footer{
     margin-top:91px;
