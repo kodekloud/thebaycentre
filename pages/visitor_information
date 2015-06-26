@@ -84,4 +84,8 @@
         $("#"+clicked + "_content").show()
         $("#"+clicked + "_content li").show()
     });
+    
+    $(document).ready(function() {
+        
+    });
 </script>
