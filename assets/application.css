@@ -67,6 +67,7 @@ h1 {
 	top:10px;
 	margin-left:auto;
 	margin-right:auto;
+	display:none;
 }
 .detail_icon{
     height:40px;
