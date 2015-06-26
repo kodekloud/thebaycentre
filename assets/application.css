@@ -48,15 +48,15 @@ body{
     
     margin:0;
     
-    transform: scale(0.5, 0.5);
+    transform: scale(0.75, 0.75);
 /*Firefox*/
--moz-transform: scale(0.5, 0.5);
+-moz-transform: scale(0.75, 0.75);
 /*Microsoft Internet Explorer*/
--ms-transform: scale(0.5, 0.5);
+-ms-transform: scale(0.75, 0.75);
 /*Chrome, Safari*/
--webkit-transform: scale(0.5, 0.5);
+-webkit-transform: scale(0.75, 0.75);
 /*Opera*/
--o-transform: scale(0.5, 0.5);
+-o-transform: scale(0.75, 0.75);
 }
 footer{
     margin-top:91px;
