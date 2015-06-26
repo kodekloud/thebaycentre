@@ -45,7 +45,7 @@ img {
 }
 body{
     overflow-x:hidden;
-    /*zoom: 0.75;*/
+    zoom: 0.75;
     margin:0;
 }
 footer{
