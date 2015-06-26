@@ -193,25 +193,26 @@
                 </li>
                 <li onclick="javascript:show_dd(2)">
                     plan your visit
+                    <div class="triangle_down">&nbsp;</div>
                 </li>
                 <li onclick="javascript:show_dd(3)">
                     Deals
-                    
+                    <div class="triangle_down">&nbsp;</div>
                     
                 </li>
                 <li onclick="javascript:show_dd(4)">
                     events & contests
-                    
+                    <div class="triangle_down">&nbsp;</div>
                     
                 </li>
                 <li onclick="javascript:show_dd(5)">
                     Our style
-                    
+                    <div class="triangle_down">&nbsp;</div>
                     
                 </li>
                 <li onclick="javascript:show_dd(6)">
                     about us
-                    
+                    <div class="triangle_down">&nbsp;</div>
                     
                 </li>
             </ul>
