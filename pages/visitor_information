@@ -287,6 +287,9 @@ a:-webkit-any-link{
                  
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
+                if (template == "store_detail_right_content_template2"){
+                    console.log (item_rendered)
+                }
     
             });
             
