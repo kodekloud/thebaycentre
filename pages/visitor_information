@@ -197,13 +197,18 @@
         }
         
         function renderpageHTML(slug, id){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
+         
             prefix = get_prefix();
             var pages_json = prefix+"/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
-                renderData("#promo_title_container", "#promo_title_template", data, "title")
-                renderData("#store_detail_right_content_container", "#store_detail_right_content_template", data, "image")
+                if (id == 1){
+                    renderData("#promo_title_container1", "#promo_title_template1", data, "title")
+                    renderData("#store_detail_right_content_container1", "#store_detail_right_content_template1", data, "image") 
+                } else {
+                    renderData("#promo_title_container2", "#promo_title_template2", data, "title")
+                    renderData("#store_detail_right_content_container2", "#store_detail_right_content_template2", data, "image")
+                }
+                
                
                 
             }).fail(function(jqXHR) {
