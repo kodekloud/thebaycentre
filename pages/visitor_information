@@ -1,0 +1,84 @@
+<style>
+    .store_detail_description{
+        margin-top:15px;
+        color:#6d6e71;
+        font-family:lora-regular;
+        font-size:14pt;
+        line-height:26pt;
+    }
+    .store_detail_content{
+        margin-bottom:0;
+        border-bottom:none;
+        padding-bottom:0;
+    }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
+    
+    @media (max-width: 767px) {
+        .hours_day, .hours_time {
+            font-size:12pt;
+        }    
+    }
+</style>
+
+<div class="banner_container">
+    <img src="" id="main_image" class="main_image" alt="">
+    <div class="missing_out_div">
+        <p onclick="javascript:toggle_news_form()">Fear of missing out?<i id="fear_caret" class="fa fa-caret-down"></i></p>
+        <div class="hidden_newsletter_form">
+            <form style="font-size:12px" id="banner_newsletter">
+                <span><input id="banner_email" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit" id="banner_submit">Subscribe</button></span><br>
+                        <input id="banner_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre"><label for="banner_aggree_terms" class="checkbox_lbl">I agree to receive newsletters from The Bay Centre</label>
+                        
+                         <input type="hidden" name="cm-f-jhtykd" id ="banner_source" />
+                         <input type="hidden" name="cm-f-jhtykh" id="banner_terms"/>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="share_this_icon_div">
+    <span class='st_sharethis'></span>   
+</div>
+
+
+<div class="tab_container">
+    <ul class="tabs">
+        <li id="tab_1" style="background:white">
+        <div class="tab_item" style="color:#4d4d4f">Visitor Informtion &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><div class="tab_overlay" style="display:none">&nbsp;</div></div>
+             
+        </li>
+        <li id="tab_2">
+            <div class="tab_item">Attractions & Accommodations &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><div class="tab_overlay">&nbsp;</div></div>
+        </li>
+    </ul>
+    <ul class="tab_content">
+        <li id="tab_1_content">
+            
+        </li>
+        <li id="tab_2_content" style="display:none">
+            
+        </li>
+    </ul>
+</div>
+<script>
+    $(".tabs li").click(function(e){
+        var clicked = this.id
+        $(".tabs li").css({"background":"transparent","color":"white"});
+        $(".tabs li").find(".tab_overlay").css("display","block");
+        $(".tabs li").find("div").css("color","white");
+        $(this).css("background","white");
+        $(this).find("div").css("color","#4d4d4f");
+        $(this).find(".tab_overlay").css("display","none");
+        $(".tab_content li").hide();
+        $("#"+clicked + "_content").show()
+        $("#"+clicked + "_content li").show()
+    });
+</script>
