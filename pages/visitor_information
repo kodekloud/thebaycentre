@@ -10,6 +10,7 @@
         margin-bottom:0;
         border-bottom:none;
         padding-bottom:0;
+        margin-top:0;
     }
     .socialize_div {
         margin-top:80px;
@@ -38,7 +39,6 @@
         height:auto;
         /*margin-left:39px;*/
         /*margin-right:34px;*/
-        margin-top:0;
     }
     
     @media (max-width: 767px) {
