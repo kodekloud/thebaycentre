@@ -36,8 +36,8 @@
     }
     .tab_content{
         height:auto;
-        margin-left:39px;
-        margin-right:34px;
+        /*margin-left:39px;*/
+        /*margin-right:34px;*/
     }
     
     @media (max-width: 767px) {
