@@ -39,11 +39,11 @@
             <p class="contact_number">F 250.381.4814</p>
         </div>
         <div class="contact_column">
-            <p class="contact_title">guest services</p>
+            <p class="contact_title">Administration Office</p>
             <p class="contact_number">2-1150 Douglas Street, Victoria,</p>
             <p class="contact_number">BC V8W 3M9</p><br>
             <p class="contact_number">P 250.952.5690</p>
-            <p class="contact_number">F 250.381.4814</p>
+            <p class="contact_number">E <a href="mailto: tbcinfo@20vic.com">tbcinfo@20vic.com</a></p>
         </div>
     </div>
     
