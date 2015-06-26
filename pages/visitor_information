@@ -189,6 +189,7 @@ a:-webkit-any-link{
                 }
             })
             hours = prop_hours
+            hours2 = hours
             renderpageHTML("baycentre-guest-services-visitor-information", 1);
             renderpageHTML("baycentre-attractions-accomodations", 2);
             
