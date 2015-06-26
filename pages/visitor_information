@@ -79,7 +79,43 @@
     </ul>
     <ul class="tab_content">
         <li id="tab_1_content">
+            <div class="store_detail_content">
+    
+                <div class="detail_left_div">
             
+                    <div id="promo_title_container">
+                        <script id="promo_title_template" type="x-tmpl-mustache/text">
+                            <p class="store_detail_title">{{title}}</p>
+                            <div class="store_detail_description">{{{body}}}</div>
+                            
+                        </script>
+                    </div>
+                    
+                 
+                   
+                </div>
+                <div class="detail_right_div">
+                    <div id="store_detail_right_content_container">
+                        <script id="store_detail_right_content_template" type="x-tmpl-mustache/text">
+                            <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
+                                <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
+                            </a>
+                        </script>
+                    </div>
+                    <div class="hours_div">  
+                        <p class="hours_title">Hours</p>
+                        <div id="store_detail_hours_container">
+                            <script id="store_detail_hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_object">
+                                    <p class="hours_day">{{day}}</p>
+                                    <p class="hours_time">{{hour_string}}</p>
+                                </div>
+                            </script>    
+                        </div>
+                        <p class="hours_day" style="font-style:italic">Hours subject to change</p>
+                    </div>
+                </div>
+            </div>
         </li>
         <li id="tab_2_content" style="display:none">
             
