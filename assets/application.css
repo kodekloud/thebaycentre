@@ -59,9 +59,13 @@ h1 {
 .triangle_down {
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 100px solid white;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid white;
+	position:absolute;
+	z-index:2;
+	top:30px;
+	right:45px;
 }
 .detail_icon{
     height:40px;
@@ -291,7 +295,7 @@ h1 {
 .submenu_bar{
     background:#7b929d;
     color:white;
-    z-index:999999999999999999;
+    z-index:1;
     width:1193px;
     position:relative;
     top:-1px;
