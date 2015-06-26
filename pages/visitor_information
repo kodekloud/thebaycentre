@@ -83,8 +83,8 @@
     
                 <div class="detail_left_div">
             
-                    <div id="promo_title_container">
-                        <script id="promo_title_template" type="x-tmpl-mustache/text">
+                    <div id="promo_title_container1">
+                        <script id="promo_title_template1" type="x-tmpl-mustache/text">
                             <p class="store_detail_title">{{title}}</p>
                             <div class="store_detail_description">{{{body}}}</div>
                             
@@ -95,8 +95,8 @@
                    
                 </div>
                 <div class="detail_right_div">
-                    <div id="store_detail_right_content_container">
-                        <script id="store_detail_right_content_template" type="x-tmpl-mustache/text">
+                    <div id="store_detail_right_content_container1">
+                        <script id="store_detail_right_content_template1" type="x-tmpl-mustache/text">
                             <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
                                 <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
                             </a>
@@ -104,8 +104,8 @@
                     </div>
                     <div class="hours_div">  
                         <p class="hours_title">Hours</p>
-                        <div id="store_detail_hours_container">
-                            <script id="store_detail_hours_template" type="x-tmpl-mustache/text">
+                        <div id="store_detail_hours_container1">
+                            <script id="store_detail_hours_template1" type="x-tmpl-mustache/text">
                                 <div class="hours_object">
                                     <p class="hours_day">{{day}}</p>
                                     <p class="hours_time">{{hour_string}}</p>
@@ -118,7 +118,43 @@
             </div>
         </li>
         <li id="tab_2_content" style="display:none">
+            <div class="store_detail_content">
+    
+                <div class="detail_left_div">
             
+                    <div id="promo_title_container2">
+                        <script id="promo_title_template2" type="x-tmpl-mustache/text">
+                            <p class="store_detail_title">{{title}}</p>
+                            <div class="store_detail_description">{{{body}}}</div>
+                            
+                        </script>
+                    </div>
+                    
+                 
+                   
+                </div>
+                <div class="detail_right_div">
+                    <div id="store_detail_right_content_container1">
+                        <script id="store_detail_right_content_template2" type="x-tmpl-mustache/text">
+                            <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
+                                <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
+                            </a>
+                        </script>
+                    </div>
+                    <div class="hours_div">  
+                        <p class="hours_title">Hours</p>
+                        <div id="store_detail_hours_container2">
+                            <script id="store_detail_hours_template2" type="x-tmpl-mustache/text">
+                                <div class="hours_object">
+                                    <p class="hours_day">{{day}}</p>
+                                    <p class="hours_time">{{hour_string}}</p>
+                                </div>
+                            </script>    
+                        </div>
+                        <p class="hours_day" style="font-style:italic">Hours subject to change</p>
+                    </div>
+                </div>
+            </div>
         </li>
     </ul>
 </div>
@@ -141,9 +177,111 @@
     
     $(document).ready(function() {
         function renderAll(){
+            var hours = getPropertyHours();
+            prop_hours = []
+            $.each( hours , function( key, val ) {
+                if (val.store_id == null && val.is_holiday == false){
+                    prop_hours.push(val)
+                }
+            })
+            hours = prop_hours
+            // renderpageHTML();
+            renderData("#store_detail_hours_container1","#store_detail_hours_template1", hours, "store_hours1")
+            renderData("#store_detail_hours_container2","#store_detail_hours_template2", hours, "store_hours2")
+            $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+            $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
             $(".loading_overlay").hide();
             $("#page_content").show();
         }
+        
+        function renderpageHTML(slug){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+"/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                renderData("#promo_title_container", "#promo_title_template", data, "title")
+                renderData("#store_detail_right_content_container", "#store_detail_right_content_template", data, "image")
+               
+                
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/389e126f6eee4f2c99cc11b9512c8940/404_banner3.jpg");
+                    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/389e126f6eee4f2c99cc11b9512c8940/404_banner2.jpg");
+                    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/389e126f6eee4f2c99cc11b9512c8940/404_banner1.jpg");
+                }
+            }); 
+        }
+        
+        function renderData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type !="store_hours"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;    
+            }
+            
+            
+            $.each( collection , function( key, val ) {
+                if (type == "store_hours"){
+                    switch(val.day_of_week) {
+                        case 0:
+                            val.day = "Sunday"
+                            break;
+                        case 1:
+                            val.day = "Monday"
+                            break;
+                        case 2:
+                            val.day = "Tuesday"
+                            break;
+                        case 3:
+                            val.day = "Wednesday"
+                            break;
+                        case 4:
+                            val.day = "Thursday"
+                            break;
+                        case 5:
+                            val.day = "Friday"
+                            break;
+                        case 6:
+                            val.day = "Saturday"
+                            break;
+                        
+                    }
+                    var open_time = new Date (val.open_time)
+                    var close_time = new Date (val.close_time)
+                    val.open_time = convert_hour(open_time);
+                    val.close_time = convert_hour(close_time);
+                    if (val.is_closed == true){
+                        val.hour_string = "Closed"
+                    } else {
+                        val.hour_string = val.open_time + " - " + val.close_time
+                    }
+                    
+                } else {
+                    if (val.title.indexOf(" - ") >= 0){
+                        var title = val.title.split(" - ");
+                        val.title = title[1]
+                    } 
+                    
+                    if(val.image_url.indexOf('missing.png') > -1 || val.image_url.length === 0){
+                        val.page_image = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg"    
+                    } else {
+                        val.page_image = (val.image_url);    
+                    }    
+                }
+                 
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
         
         loadMallData(renderAll);  
     });
