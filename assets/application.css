@@ -386,7 +386,7 @@ h1 {
     padding:0;
     width:100%;
     padding-top:0px;
-    padding-bottom:0px;
+    padding-bottom:15px;
     margin-top:0;
     background:#7b929d;
 }
@@ -394,14 +394,13 @@ h1 {
 .dd_submenu ul li {
     margin-left:0;
     display:inline-block;
-    margin-top:0px;
+    margin-top:20px;
     margin-left:0px;
     cursor:pointer;
     color:white;
     margin-right:20px;
     font-size:10pt;
     text-transform:uppercase;
-    line-height:63px;
     color:white;
     font-family:montserrat-regular;
 }
