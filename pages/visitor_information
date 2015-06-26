@@ -48,6 +48,34 @@ a:-webkit-any-link{
         .hours_day, .hours_time {
             font-size:12pt;
         }    
+        
+        
+        .tab_item{
+            height:25px;
+            color:black !important;
+            padding-left:0 !important;
+        }
+        .cat_div{
+            height:auto;
+            font-size:12px;
+            padding-left:15px;
+            padding-right:15px;
+        }
+        .tab_content{
+            margin-left:15px;
+            margin-right:15px;
+        }
+        .stores_div{
+            padding-left:15px;
+        }
+        .stores_div table{
+            width:100%;
+        }
+        .stores_div a{
+            margin-right:0;
+            font-size:12px;
+        }
+    
     }
 </style>
 
