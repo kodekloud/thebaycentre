@@ -189,6 +189,7 @@
             <ul class="main_menu">
                 <li onclick="javascript:show_dd(1)">
                     find a store
+                    triangle_down
                 </li>
                 <li onclick="javascript:show_dd(2)">
                     plan your visit
