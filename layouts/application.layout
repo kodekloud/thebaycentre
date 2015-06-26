@@ -855,6 +855,7 @@
         } else {
             if ($(".submenu_bar").is(":visible")){
                 $(".triangle_down").hide();
+                $("#triangle_"+id).show();
                 $(".dd_submenu").hide();
                 $("#s_sub_"+id).show();
             } else {
