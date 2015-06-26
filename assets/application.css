@@ -45,8 +45,18 @@ img {
 }
 body{
     overflow-x:hidden;
-    /*zoom: 0.75;*/
+    
     margin:0;
+    
+    transform: scale(2, 5);
+/*Firefox*/
+-moz-transform: scale(2, 5);
+/*Microsoft Internet Explorer*/
+-ms-transform: scale(2, 5);
+/*Chrome, Safari*/
+-webkit-transform: scale(2, 5);
+/*Opera*/
+-o-transform: scale(2, 5);
 }
 footer{
     margin-top:91px;
