@@ -185,7 +185,9 @@
                 }
             })
             hours = prop_hours
-            // renderpageHTML();
+            renderpageHTML("baycentre-guest-services-visitor-information", 1);
+            renderpageHTML("baycentre-attractions-accomodations", 2);
+            
             renderData("#store_detail_hours_container1","#store_detail_hours_template1", hours, "store_hours")
             renderData("#store_detail_hours_container2","#store_detail_hours_template2", hours, "store_hours")
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
@@ -194,7 +196,7 @@
             $("#page_content").show();
         }
         
-        function renderpageHTML(slug){
+        function renderpageHTML(slug, id){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
