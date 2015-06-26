@@ -284,12 +284,12 @@ a:-webkit-any-link{
                         val.page_image = (val.image_url);    
                     }    
                 }
-                 
+                if (template == "#store_detail_hours_template2"){
+                    console.log (val)
+                } 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-                if (template == "#store_detail_hours_template2"){
-                    console.log (item_rendered)
-                }
+                
     
             });
             
