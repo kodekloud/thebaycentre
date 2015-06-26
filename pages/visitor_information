@@ -138,7 +138,7 @@ a:-webkit-any-link{
                    
                 </div>
                 <div class="detail_right_div">
-                    <div id="store_detail_right_content_container1">
+                    <div id="store_detail_right_content_container2">
                         <script id="store_detail_right_content_template2" type="x-tmpl-mustache/text">
                             <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
                                 <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
