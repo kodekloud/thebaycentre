@@ -69,7 +69,7 @@
     </ul>
 </div>
 <script>
-     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner1.jpg");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner1.jpg");
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner3.jpg");
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
     $(".tabs li").click(function(e){
