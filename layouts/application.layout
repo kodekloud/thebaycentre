@@ -231,7 +231,7 @@
                         <li><a href="/pages/baycentre-getting-here">getting here</a></li>
                         <li><a href="/pages/baycentre-parking">parking</a></li>
                         <li><a href="/guest_services">guest services</a></li>
-                        <li><a href="/pages/baycentre-guest-services-visitor-information">visitor information</a></li>
+                        <li><a href="/visitor_information">visitor information</a></li>
                     </ul>
                 </div>
                 
@@ -295,7 +295,7 @@
                         <li class="mobile_submenu_li"><a href="/pages/baycentre-getting-here">getting here</a></li>
                         <li class="mobile_submenu_li"><a href="/pages/baycentre-parking">parking</a></li>
                         <li class="mobile_submenu_li"><a href="/guest_services">guest services</a></li>
-                        <li class="mobile_submenu_li"><a href="/pages/baycentre-guest-services-visitor-information">visitor information</a></li>
+                        <li class="mobile_submenu_li"><a href="/visitor_information">visitor information</a></li>
                     </ul>
                 </div>
             </li>
