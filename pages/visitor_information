@@ -263,8 +263,8 @@ a:-webkit-any-link{
                         
                     }
                     if (template == "#store_detail_hours_template2"){
-                    console.log (val)
-                } 
+                        console.log (val)
+                    } 
                     var open_time = new Date (val.open_time)
                     var close_time = new Date (val.close_time)
                     val.open_time = convert_hour(open_time);
