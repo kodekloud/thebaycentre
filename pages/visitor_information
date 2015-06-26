@@ -22,6 +22,24 @@
         margin-top:0;
     }
     
+    .tabs{
+        width:100%;
+        background:transparent;
+    }
+    .tabs li{
+        width:50%;
+        position:relative;
+        bottom:-1px;
+    }
+    .tab_item{
+        border:none;
+    }
+    .tab_content{
+        height:auto;
+        margin-left:39px;
+        margin-right:34px;
+    }
+    
     @media (max-width: 767px) {
         .hours_day, .hours_time {
             font-size:12pt;
