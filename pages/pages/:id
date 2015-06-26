@@ -1,7 +1,7 @@
 <style>
     .store_detail_description{
         margin-top:15px;
-        color:#6d6e71;
+        color:#6d6e71 !important;
         font-family:lora-regular;
         font-size:14pt;
         line-height:26pt;
