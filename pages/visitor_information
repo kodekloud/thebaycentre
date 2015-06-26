@@ -262,6 +262,9 @@ a:-webkit-any-link{
                             break;
                         
                     }
+                    if (template == "#store_detail_hours_template2"){
+                    console.log (val)
+                } 
                     var open_time = new Date (val.open_time)
                     var close_time = new Date (val.close_time)
                     val.open_time = convert_hour(open_time);
@@ -284,9 +287,7 @@ a:-webkit-any-link{
                         val.page_image = (val.image_url);    
                     }    
                 }
-                if (template == "#store_detail_hours_template2"){
-                    console.log (val)
-                } 
+                
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
                 
