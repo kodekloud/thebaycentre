@@ -97,7 +97,29 @@ ept secrets, like enjoying the sun streaming though the galleria roof early in t
            <p class="contact_number">E <a href="mailto: mbolderson@20vic.com">mbolderson@20vic.com  </a></p>
         </div>
     </div>
-
+    <div class="contact_row">
+        <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>   Every season the building’s architecture shines, from the frozen Fort Street fountain on a snowy day, to the sun streaming on the food court patio in the summer.</p>
+            <p class="contact_subtitle">Chris Jiggins </p>
+            <p class="contact_number">Operations Supervisor</p>
+            <p class="contact_number">P 250 952-5695</p>
+            <p class="contact_number">E <a href="mailto: cjiggins@20vic.com">cjiggins@20vic.com  </a></p>
+        </div>
+        <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i> Preparedness is the key to safety and security.<br><br><br><br><br><br></p>
+            <p class="contact_subtitle">Jeff Turner</p>
+            <p class="contact_number">Security & Life Safety Manager</p>
+            <p class="contact_number">P 250 952-5696</p>
+              <p class="contact_number">E <a href="mailto: jturner@20vic.com">jturner@20vic.com  </a></p>
+        </div>
+        <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>   Working in the centre of the downtown shopping district makes for the best lunch hour breaks.<br><br><br><br></p>
+            <p class="contact_subtitle">Melanie Bolderson</p>
+            <p class="contact_number">Accounts Administrator</p>
+            <p class="contact_number">P 250 952-5686 </p>
+           <p class="contact_number">E <a href="mailto: mbolderson@20vic.com">mbolderson@20vic.com  </a></p>
+        </div>
+    </div>
 </div>
 
 
