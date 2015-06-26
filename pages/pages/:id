@@ -21,6 +21,9 @@
     .socialize_social_icons{
         margin-top:0;
     }
+    a {
+        color:#6d6e71;
+    }
     
     @media (max-width: 767px) {
         .hours_day, .hours_time {
