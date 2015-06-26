@@ -62,10 +62,11 @@ h1 {
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	border-top: 20px solid white;
-	position:absolute;
+	position:relative;
 	z-index:2;
-	top:30px;
-	right:45px;
+	top:10px;
+	margin-left:auto;
+	margin-right:auto;
 }
 .detail_icon{
     height:40px;
