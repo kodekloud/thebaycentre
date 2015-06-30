@@ -320,7 +320,7 @@
                     if (store.website != "") {
                         
                     } else {
-                        $("#website_"+store.id).hide();
+                        $("#website_"+store.id).html("");
                     }
                       
                     })    
