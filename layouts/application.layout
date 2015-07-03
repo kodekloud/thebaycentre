@@ -257,7 +257,7 @@
                 
                 <div class="dd_submenu" id="s_sub_6">
                     <ul>
-                        <li><a href="/pages/baycentre-guest-services-gift-cards">Gift Cards</a> </li>
+                        <li><a href="/pages/baycentre-gift-cards">Gift Cards</a> </li>
                         <li><a href="/careers">careers</a>  </li>
                         <li><a href="/pages/baycentre-leasing-opportunities">Leasing Opportunities</a> </li>
                         <li><a href="/pages/baycentre-sustainability">Sustainability</a> </li>
@@ -328,7 +328,7 @@
                 <p>about us &nbsp;&nbsp;<i id='mobile_sub_6_arrow' class='fa fa-chevron-down'></i></p>
                 <div class="mobile_submenu" id="mobile_sub_6">
                     <ul>
-                        <li class="mobile_submenu_li"><a href="/pages/baycentre-guest-services-gift-cards">Gift Cards</a> </li>
+                        <li class="mobile_submenu_li"><a href="/pages/baycentre-gift-cards">Gift Cards</a> </li>
                         <li class="mobile_submenu_li"><a href="/careers">careers</a>  </li>
                         <li class="mobile_submenu_li"><a href="/pages/baycentre-leasing-opportunities">Leasing Opportunities</a> </li>
                         <li class="mobile_submenu_li"><a href="/pages/baycentre-sustainability">Sustainability</a> </li>
