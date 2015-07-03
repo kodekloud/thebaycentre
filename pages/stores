@@ -154,8 +154,8 @@
 
     
 
-    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner3.jpg");
-    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner2.jpg");
+    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/StoreDirectoryLeft.png");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/StoreDirectoryRight.png");
     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/46aca5797e3b84bd6d66160428052711/findstore_banner1.jpg");
 
     function show_stores(id){
