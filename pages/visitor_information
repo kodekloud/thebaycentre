@@ -217,7 +217,7 @@ a:-webkit-any-link{
                 }
             })
             hours = prop_hours
-            renderpageHTML("baycentre-guest-services-visitor-information", 1);
+            renderpageHTML("baycentre-visitor-information", 1);
             renderpageHTML("baycentre-attractions-accomodations", 2);
             
             renderData("#store_detail_hours_container1","#store_detail_hours_template1", hours, "store_hours")
