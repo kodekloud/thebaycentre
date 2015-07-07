@@ -865,7 +865,7 @@
             } else {
                 $("#triangle_"+id).show();
                 $("#s_sub_"+id).show();
-                $(".submenu_container").slideDown()
+                $(".submenu_bar").slideDown()
                 
             }
             
