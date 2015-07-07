@@ -393,6 +393,9 @@ h1 {
     background:#7b929d;
 }
 
+textarea:focus, input:focus{
+    outline: 0;
+}
 .dd_submenu ul li {
     margin-left:0;
     display:inline-block;
