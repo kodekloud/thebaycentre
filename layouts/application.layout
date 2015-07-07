@@ -853,7 +853,7 @@
         if ($("#s_sub_"+id).is(":visible")){
             $("#submenu_container").slideUp();
             $("#triangle_"+id).hide();
-            // $(".submenu_bar").slideUp()
+            $(".submenu_bar").slideUp()
             
             $("#s_sub_"+id).hide();
         } else {
