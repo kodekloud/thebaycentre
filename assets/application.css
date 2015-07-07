@@ -1543,8 +1543,9 @@ textarea:focus, input:focus{
     }
     #banner_submit{
         margin-bottom:5px;
+        width:102%;
     }
-    #banner_email, #banner_submit{
+    #banner_email{
         width:100%;
     }
     #banner_newsletter{
