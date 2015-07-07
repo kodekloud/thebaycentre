@@ -851,10 +851,9 @@
 
     function show_dd(id){
         if ($("#s_sub_"+id).is(":visible")){
-            $("#submenu_container").slideUp();
+            
             $("#triangle_"+id).hide();
             $(".submenu_bar").slideUp()
-            
             $("#s_sub_"+id).hide();
         } else {
             if ($(".submenu_bar").is(":visible")){
@@ -865,9 +864,7 @@
             } else {
                 $("#triangle_"+id).show();
                 $("#s_sub_"+id).show();
-                 
                 $(".submenu_bar").slideDown()
-                $("#submenu_container").slideDown()
                 
             }
             
