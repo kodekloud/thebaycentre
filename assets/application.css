@@ -387,7 +387,7 @@ h1 {
     display:none;
     margin-left:325px;
     z-index:9999999999;
-    
+    padding-bottom:1px;
     width:868px;
 }
 .dd_submenu ul{
