@@ -850,14 +850,14 @@ textarea:focus, input:focus{
     margin-right:10px;
     margin-bottom:15px;
     background:#848585;
-    border:1px solid white;
+    border:none;
     color:white;
     text-align:center;
 }
 #banner_submit{
     background:#848585;
     color:white;
-    border:1px solid white;
+    border:none;
     height:24px;
     width:102%;
     margin-bottom:15px;
