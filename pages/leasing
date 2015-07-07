@@ -121,7 +121,7 @@ We welcome you to come by and visit us, near the escalators on the lower level. 
         
         function renderAll(){
             var prefix = get_prefix();
-            var page_array = ["baycentre-leasing-opportunities-specialty-leasing-merchandise-retail-unit-mru-opportunities","baycentre-leasing-opportunities-repayment-leasing","baycentre-leasing-opportunities-brand-activation-partnerships","baycentre-leasing-opportunities-in-mall-advertising"]
+            var page_array = ["baycentre-leasing-opportunities-in-mall-advertising","baycentre-leasing-opportunities-brand-activation-partnerships","baycentre-leasing-opportunities-brand-activation-partnerships","baycentre-leasing-opportunities-in-mall-advertising"]
             page_array = page_array.reverse()
             full_page_array = []
             $.ajaxSetup({
