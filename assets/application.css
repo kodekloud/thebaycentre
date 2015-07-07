@@ -415,12 +415,10 @@ h1 {
 .dd_submenu ul li a:visited{
     color:white;
 }
-.dd_submenu ul li a:hover{
-    text-decoration:none !important;
-}
+
 
 .dd_submenu ul li:hover{
-    text-decoration:underline;
+    text-decoration:none;
 }
 .footer_logo_div{
     width:100%;
