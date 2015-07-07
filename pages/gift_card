@@ -82,27 +82,7 @@
 
 <p class="gs_text" style="margin-top:61px;margin-left:35px;margin-right:15px">Already have a Bay Centre gift card? Check your balance online at&nbsp;<a href="http://www.getmybalance.com" target="_blank">www.getmybalance.com</a>.</p>
 
-<div class="detail_right_div">
-        <div id="store_detail_right_content_container">
-            <script id="store_detail_right_content_template" type="x-tmpl-mustache/text">
-                <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
-                    <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
-                </a>
-            </script>
-        </div>
-        <div class="hours_div">  
-            <p class="hours_title">Hours</p>
-            <div id="store_detail_hours_container">
-                <script id="store_detail_hours_template" type="x-tmpl-mustache/text">
-                    <div class="hours_object">
-                        <p class="hours_day">{{day}}</p>
-                        <p class="hours_time">{{hour_string}}</p>
-                    </div>
-                </script>    
-            </div>
-            <p class="hours_day" style="font-style:italic">Hours subject to change</p>
-        </div>
-    </div>
+
     
     <div class="cat_stores_container" id="cat_stores_container">
         <script id="cat_stores_template" type="x-tmpl-mustache/text">
