@@ -859,6 +859,7 @@ textarea:focus, input:focus{
     border:1px solid white;
     height:24px;
     width:102%;
+    margin-bottom:15px;
 }
 
 
