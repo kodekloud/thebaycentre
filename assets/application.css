@@ -400,6 +400,10 @@ textarea:focus, input:focus{
 .gray_pill:hover{
     background:darkgray;
 }
+
+.feature_image:hover{
+    opacity:0.75;
+}
 .dd_submenu ul li {
     margin-left:0;
     display:inline-block;
