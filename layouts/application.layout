@@ -216,7 +216,13 @@
                     
                 </li>
             </ul>
-            <div class="submenu_bar">
+            
+        </div>
+    </div>    
+        
+        
+    </header>
+    <div class="submenu_bar">
                 <div class="dd_submenu" id="s_sub_1">
                     <ul>
                         <li><a href="/stores">Store Directory</a></li>
@@ -270,11 +276,6 @@
                 
                 
             </div>
-        </div>
-    </div>    
-        
-        
-    </header>
     <div class="mobile_menu">
         <ul>
             <li class="mobile_menu_li" onclick="javascript:toggle_mobile_submenu('mobile_sub_1')">
