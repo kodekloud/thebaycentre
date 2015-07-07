@@ -416,7 +416,7 @@ h1 {
     color:white;
 }
 .dd_submenu ul li a:hover{
-    text-decoration:none;
+    text-decoration:none !important;
 }
 
 .dd_submenu ul li:hover{
