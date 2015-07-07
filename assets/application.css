@@ -415,6 +415,9 @@ h1 {
 .dd_submenu ul li a:visited{
     color:white;
 }
+.dd_submenu ul li a:hover{
+    text-decoration:none;
+}
 
 .dd_submenu ul li:hover{
     text-decoration:underline;
