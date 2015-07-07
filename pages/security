@@ -117,7 +117,7 @@ For more information, click on the link&nbsp;below to download our&nbsp;brochure
 <script>
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/cb352a97fa23d93dc26777dbd32efa33/GiftCardLeft.png");
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/cb352a97fa23d93dc26777dbd32efa33/GiftCardRight.png");
-    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/cb352a97fa23d93dc26777dbd32efa33/Gift_Cards.png");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/49f1c63402297b453df415fc407dc1c3/Security.png");
     
     function show_stores(id){
        if ($("#cat_"+id+"_stores").is(":visible")){
