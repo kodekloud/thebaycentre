@@ -846,7 +846,7 @@ textarea:focus, input:focus{
 }
 #banner_email{
     height:20px;
-    width:60%;
+    width:100%;
     margin-right:10px;
     margin-bottom:15px;
     background:#848585;
@@ -858,7 +858,7 @@ textarea:focus, input:focus{
     color:white;
     border:1px solid white;
     height:24px;
-    width:85px;
+    width:102%;
 }
 
 
