@@ -398,7 +398,7 @@ textarea:focus, input:focus{
 }
 
 .gray_pill:hover{
-    background:darkgray;
+    background:darkgrey;
 }
 .dd_submenu ul li {
     margin-left:0;
