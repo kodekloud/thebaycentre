@@ -867,7 +867,7 @@
                 $("#s_sub_"+id).show();
                  
                 $(".submenu_bar").slideDown()
-                $("#submenu_container")..slideDown()
+                $("#submenu_container").slideDown()
                 
             }
             
