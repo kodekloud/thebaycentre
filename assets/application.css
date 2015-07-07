@@ -308,6 +308,9 @@ h1 {
     display:none;
 }
 
+.submenu_container{
+    width:100%;
+}
 .dd_submenu ul{
     background:white;
 }
