@@ -109,7 +109,7 @@
         
         function renderAll(){
             var prefix = get_prefix();
-            var page_array = ["baycentre-getting-here-by-car","baycentre-getting-here-by-transit","baycentre-getting-here-by-bicycle","baycentre-getting-here-by-air","baycentre-getting-here-by-sea"]
+            var page_array = ["baycentre-getting-here-by-sea","baycentre-getting-here-by-air","baycentre-getting-here-by-bicycle","baycentre-getting-here-by-transit","baycentre-getting-here-by-car"]
             page_array = page_array.reverse()
             full_page_array = []
             $.ajaxSetup({
