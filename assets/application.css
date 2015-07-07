@@ -852,6 +852,7 @@ textarea:focus, input:focus{
     background:#848585;
     border:1px solid white;
     color:white;
+    text-align:center;
 }
 #banner_submit{
     background:#848585;
