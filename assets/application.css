@@ -396,6 +396,10 @@ h1 {
 textarea:focus, input:focus{
     outline: 0;
 }
+
+.gray_pill:hover{
+    background:darkgray;
+}
 .dd_submenu ul li {
     margin-left:0;
     display:inline-block;
