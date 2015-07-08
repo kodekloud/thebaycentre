@@ -276,7 +276,7 @@ a:-webkit-any-link{
                 
                 
             })
-            $.each( page_array , function( key, val ) {
+            $.each( page_array2 , function( key, val ) {
                 
                 var pages_json = prefix+"/pages/" + val + ".json"
                 $.getJSON(pages_json).then(function(data) {
