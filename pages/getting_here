@@ -136,6 +136,9 @@
             
             renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
             
+            
+            $("#cat_baycentre-getting-here-by-car_stores").append("HELLO WORLD")            
+            
             $(".loading_overlay").hide();
             $("#page_content").show();
             
