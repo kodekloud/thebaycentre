@@ -71,7 +71,7 @@
         
     </div>
     <div class="hidden_div" id="cat_extended_hours_stores">
-            <div class="hour_line">
+            
                 <p>Extended summer hours end Sunday, September 20th. In addition, the following exterior retailer&rsquo;s operating hours may differ from The Bay Centre&rsquo;s regular shopping hours:</p>
 
 <p><a href="/stores/baycentre-hudson-s-bay-the--2">Hudson&rsquo;s Bay&nbsp;</a><br />
@@ -90,7 +90,7 @@
 
 <p>Please see individual <strong><a href="/stores">store listing</a> </strong>for store hours.</p>
 
-            </div>
+         
         </div>
     
     <div class="cat_div" onclick="javascript:show_stores('holiday_hours')">
