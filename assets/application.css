@@ -1292,7 +1292,7 @@ textarea:focus, input:focus{
     margin-bottom:10;
 }
 
-.hour_line_text{
+.hour_line_text, .hour_line_text a{
     color:#6d6e71;
     font-family:lora-regular;
     font-size:14pt;
