@@ -49,6 +49,9 @@ a:-webkit-any-link{
             font-size:12pt;
         }    
         
+        .detail_left_div{
+        width:100%;
+    }
         
         .tab_item{
             height:25px;
