@@ -122,6 +122,7 @@
             
             renderData("#cat_regular_hours_stores","#regular_hours_template",reg_hours, "reg_hours")
             renderData("#cat_holiday_hours_stores","#holiday_hours_template",holiday_hours, "holiday_hours")
+            $(".hidden_div").hide();
             $(".loading_overlay").hide();
             $("#page_content").show();
             
