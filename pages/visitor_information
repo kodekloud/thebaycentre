@@ -296,6 +296,7 @@ a:-webkit-any-link{
             });
             
             renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
+            renderPageData("#cat_stores_container2","#cat_stores_template2",full_page_array2, "pages")
      
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
