@@ -44,14 +44,14 @@ a:-webkit-any-link{
         /*margin-right:34px;*/
     }
     
+    .detail_left_div{
+        width:100% !important;
+    }
+    
     @media (max-width: 767px) {
         .hours_day, .hours_time {
             font-size:12pt;
-        }    
-        
-        .detail_left_div{
-        width:100%;
-    }
+        }  
         
         .tab_item{
             height:25px;
