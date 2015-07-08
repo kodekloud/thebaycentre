@@ -1292,6 +1292,14 @@ textarea:focus, input:focus{
     margin-bottom:10;
 }
 
+.hour_line_text{
+    color:#6d6e71;
+    font-family:lora-regular;
+    font-size:14pt;
+    line-height:26pt;
+    margin-top:0;
+    margin-bottom:10;
+}
 
 /*map page css */
 
