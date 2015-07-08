@@ -31,7 +31,7 @@ a:-webkit-any-link{
         background:transparent;
     }
     .tabs li{
-        width:50%;
+        width:100%;
         position:relative;
         bottom:-1px;
     }
