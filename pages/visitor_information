@@ -126,27 +126,27 @@ a:-webkit-any-link{
                  
                    
                 </div>
-                <div class="detail_right_div">
-                    <div id="store_detail_right_content_container1">
-                        <script id="store_detail_right_content_template1" type="x-tmpl-mustache/text">
-                            <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
-                                <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
-                            </a>
-                        </script>
-                    </div>
-                    <div class="hours_div">  
-                        <p class="hours_title">Hours</p>
-                        <div id="store_detail_hours_container1">
-                            <script id="store_detail_hours_template1" type="x-tmpl-mustache/text">
-                                <div class="hours_object">
-                                    <p class="hours_day">{{day}}</p>
-                                    <p class="hours_time">{{hour_string}}</p>
-                                </div>
-                            </script>    
-                        </div>
-                        <p class="hours_day" style="font-style:italic">Hours subject to change</p>
-                    </div>
-                </div>
+                <!--<div class="detail_right_div">-->
+                <!--    <div id="store_detail_right_content_container1">-->
+                <!--        <script id="store_detail_right_content_template1" type="x-tmpl-mustache/text">-->
+                <!--            <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">-->
+                <!--                <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>-->
+                <!--            </a>-->
+                <!--        </script>-->
+                <!--    </div>-->
+                <!--    <div class="hours_div">  -->
+                <!--        <p class="hours_title">Hours</p>-->
+                <!--        <div id="store_detail_hours_container1">-->
+                <!--            <script id="store_detail_hours_template1" type="x-tmpl-mustache/text">-->
+                <!--                <div class="hours_object">-->
+                <!--                    <p class="hours_day">{{day}}</p>-->
+                <!--                    <p class="hours_time">{{hour_string}}</p>-->
+                <!--                </div>-->
+                <!--            </script>    -->
+                <!--        </div>-->
+                <!--        <p class="hours_day" style="font-style:italic">Hours subject to change</p>-->
+                <!--    </div>-->
+                <!--</div>-->
             </div>
         </li>
         <li id="tab_2_content" style="display:none">
