@@ -245,6 +245,11 @@ Featuring <a href="http://www.thebaycentre.com/stores/baycentre-aerosoles--2" ta
     });
     
     $(document).ready(function() {
+        
+        function add_to_page_array (data){
+            full_page_array.push(data)
+        }
+        
         function renderAll(){
             var prefix = get_prefix();
             var page_array = ["baycentre-visitor-information-visitor-saving-pass","baycentre-visitor-information-guest-services","baycentre-visitor-information-shop-stay-partners","baycentre-visitor-information-getting-here"]
