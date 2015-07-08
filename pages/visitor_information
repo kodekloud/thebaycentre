@@ -187,43 +187,32 @@ a:-webkit-any-link{
       
         </li>
     <li id="tab_2_content" style="display:none">
-    <div class="store_detail_content">
+        <div class="store_detail_content">
+        
+            <div class="detail_left_div">
+            
+                <p class="gs_text" style="margin-top:61px;margin-left:35px;margin-right:15px">
+                While shopping is our favourite thing to do in Victoria, there is a lot to experience while visiting the “City of Gardens.” Only a 1.5 hour ferry ride from Vancouver, Victoria is located on Vancouver Island. The Island was recently rated the Top Island in the Continental US and Canada and one of the Top Ten Islands in the World by the 2014 Travel + Leisure World's Best Awards. After visiting The Bay Centre be sure to save some time to explore everything Victoria has to offer.
+                </p>
+                
+                
+                <div class="cat_stores_container2" id="cat_stores_container">
+                    <script id="cat_stores_template2" type="x-tmpl-mustache/text">
+                        <div class="cat_div" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
+                            {{title}}
+                            <i id="icon_{{slug}}" class="fa fa-plus list_icon"></i>
+                        </div>
+                        <div class="stores_div" id="cat_{{slug}}_stores">
+                            {{{body}}}
+                        </div>
+                    </script>
+                </div>
+            
+            
+            
+            </div>
     
-    <div class="detail_left_div">
-    
-    <div id="promo_title_container2">
-    <script id="promo_title_template2" type="x-tmpl-mustache/text">
-    <p class="store_detail_title">{{title}}</p>
-    <div class="store_detail_description">{{{body}}}</div>
-    
-    </script>
-    </div>
-    
-    
-    
-    </div>
-    <div class="detail_right_div">
-    <div id="store_detail_right_content_container2">
-    <script id="store_detail_right_content_template2" type="x-tmpl-mustache/text">
-    <a href="{{page_image}}" rel="lightbox-gallery" title="{{name}}">
-    <img class="store_front" alt="photo_{{name}}" src="{{page_image}}"/>
-    </a>
-    </script>
-    </div>
-    <div class="hours_div">  
-    <p class="hours_title">Hours</p>
-    <div id="store_detail_hours_container2">
-    <script id="store_detail_hours_template2" type="x-tmpl-mustache/text">
-    <div class="hours_object">
-    <p class="hours_day">{{day}}</p>
-    <p class="hours_time">{{hour_string}}</p>
-    </div>
-    </script>    
-    </div>
-    <p class="hours_day" style="font-style:italic">Hours subject to change</p>
-    </div>
-    </div>
-    </div>
+        </div>
     </li>
     </ul>
 </div>
@@ -258,18 +247,35 @@ a:-webkit-any-link{
     }
     $(document).ready(function() {
         
-        function add_to_page_array (data){
-            full_page_array.push(data)
+        function add_to_page_array (data, array){
+            array.push(data)
         }
         
         function renderAll(){
             var prefix = get_prefix();
             var page_array = ["baycentre-visitor-information-visitor-saving-pass","baycentre-visitor-information-guest-services","baycentre-visitor-information-shop-stay-partners","baycentre-visitor-information-getting-here"]
+            var page_array2 = ["baycentre-attractions-accomodations-transportation","baycentre-attractions-accomodations-tourism","baycentre-attractions-accomodations-city-and-region","baycentre-attractions-accomodations-attractions"]
             page_array = page_array.reverse()
+            page_array2 = page_array2.reverse()
             full_page_array = []
+            full_page_array2 = []
             $.ajaxSetup({
                 async: false
             });
+            $.each( page_array , function( key, val ) {
+                
+                var pages_json = prefix+"/pages/" + val + ".json"
+                $.getJSON(pages_json).then(function(data) {
+                    //var pages_data = JSON.parse(data);
+                    // console.log(data.body);
+                    // $("#page_title").html(data.title)
+                    // $('#mm_page_content').html(data.body);
+                    add_to_page_array (data, full_page_array)
+                })
+                
+                
+                
+            })
             $.each( page_array , function( key, val ) {
                 
                 var pages_json = prefix+"/pages/" + val + ".json"
