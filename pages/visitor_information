@@ -253,7 +253,7 @@ a:-webkit-any-link{
         
         function renderAll(){
             var prefix = get_prefix();
-            var page_array = ["baycentre-visitor-information-visitor-saving-pass","baycentre-visitor-information-guest-services","baycentre-visitor-information-shop-stay-partners","baycentre-visitor-information-getting-here"]
+            var page_array = ["baycentre-visitor-information-getting-here","baycentre-visitor-information-shop-stay-partners","baycentre-visitor-information-guest-services","baycentre-visitor-information-visitor-saving-pass"]
             var page_array2 = ["baycentre-attractions-accomodations-transportation","baycentre-attractions-accomodations-tourism","baycentre-attractions-accomodations-city-and-region","baycentre-attractions-accomodations-attractions"]
             page_array = page_array.reverse()
             page_array2 = page_array2.reverse()
