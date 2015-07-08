@@ -90,6 +90,19 @@
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner3.jpg");
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
     
+    function show_stores(id){
+       if ($("#cat_"+id+"_stores").is(":visible")){
+           $("#cat_"+id+"_stores").slideUp();
+           $("#icon_"+id).removeClass("fa-minus")
+           $("#icon_"+id).addClass("fa-plus")
+       } else {
+           $("#cat_"+id+"_stores").slideDown();
+           $("#icon_"+id).removeClass("fa-plus")
+           $("#icon_"+id).addClass("fa-minus")
+       }
+    }
+    
+    
     $(document).ready(function() {
         function renderPageData(){
             var hours = getPropertyHours();
