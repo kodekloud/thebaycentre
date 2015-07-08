@@ -2,6 +2,36 @@
 a:-webkit-any-link{
     color: #6d6e71;
 }
+
+    .stores_div p, .gs_text {
+        color:#6d6e71;
+        font-family:lora-regular;
+        font-size:14pt;
+        line-height:26pt;
+    }
+    .stores_div{
+        padding-top:30px;
+        padding-left:0;
+        color:#6d6e71;
+        font-family:lora-regular;
+        font-size:14pt;
+        line-height:26pt;
+    }
+    .stores_div p{
+        height:auto;
+        border-top:none;
+    }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
+
     .store_detail_description{
         margin-top:15px;
         color:#6d6e71 !important;
