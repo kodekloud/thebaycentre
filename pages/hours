@@ -69,7 +69,10 @@
         extended shopping hours start june 21, 2015
         <i id="icon_extended_hours" class="fa fa-plus list_icon"></i>
         <div class="hidden_div" id="cat_extended_hours_stores">
-            
+            <div class="hour_line">
+                <p class="">test</p>
+                <p class="">test</p>
+            </div>
         </div>
     </div>
     
