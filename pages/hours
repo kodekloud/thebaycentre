@@ -59,25 +59,8 @@
     <div class="hidden_div" id="cat_regular_hours_stores">
         <script id="regular_hours_template" type="x-tmpl-mustache/text">
             <div class="hour_line">
-                <p>Extended summer hours end Sunday, September 20th. In addition, the following exterior retailer&rsquo;s operating hours may differ from The Bay Centre&rsquo;s regular shopping hours:</p>
-
-<p><a href="/stores/baycentre-hudson-s-bay-the--2">Hudson&rsquo;s Bay&nbsp;</a><br />
-<a href="/stores/baycentre-bento-sushi--2">Bento Sushi&nbsp;</a><br />
-<a href="/stores/baycentre-central-barbers--2">Central Barbers</a>&nbsp;<br />
-<a href="/stores/baycentre-cleopatra-s-bedroom--2">Cleopatra&rsquo;s Bedroom</a>&nbsp;<br />
-<a href="/stores/baycentre-crabtree-evelyn--2">Crabtree &amp; Evelyn&nbsp;</a><br />
-<a href="/stores/baycentre-orchard-on-view--2">Orchard on View&nbsp;</a><br />
-<a href="/stores/baycentre-quiksilver--4">Quiksilver&nbsp;</a><br />
-<a href="/stores/baycentre-sammich-cafe">Sammich&nbsp;</a><br />
-<a href="/stores/baycentre-scallywags-children-s-boutique--2">Scallywags&nbsp;</a><br />
-<a href="/stores/baycentre-lightwell-photography-passport-photos--2">Lightwell Photography&nbsp;</a><br />
-<a href="/stores/baycentre-teavana--2">Teavana&nbsp;</a><br />
-<a href="/stores/baycentre-the-tuscan-kitchen--2">The Tuscan Kitchen&nbsp;</a><br />
-<a href="/stores/baycentre-marble-slab-creamery--2">Marble Slab</a></p>
-
-<p>Please see individual <strong><a href="/stores">store listing</a> </strong>for store hours.</p>
-
-                
+                <p class="">{{day}}</p>
+                <p class="">{{hour_string}}</p>
             </div>
         </script>
     </div>
