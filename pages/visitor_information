@@ -196,7 +196,7 @@ a:-webkit-any-link{
                 </p>
                 
                 
-                <div class="cat_stores_container2" id="cat_stores_container">
+                <div class="cat_stores_container" id="cat_stores_container2">
                     <script id="cat_stores_template2" type="x-tmpl-mustache/text">
                         <div class="cat_div" id="cat_{{slug}}" onclick="javascript:show_stores('{{slug}}')">
                             {{title}}
