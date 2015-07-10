@@ -65,6 +65,16 @@ h1 {
     
 }
 
+a {
+    color:#6e6d71;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#6e6d71;
+    text-decoration:none;
+}
+
 .triangle_down {
 	width: 0;
 	height: 0;
@@ -1140,6 +1150,8 @@ textarea:focus, input:focus{
 .hours_object{
     /*margin-bottom:20px;*/
 }
+
+
 .hours_day{
     font-family:lora-regular;
     font-size:14pt;
