@@ -80,6 +80,7 @@
         font-family:lora-regular;
         font-size:14pt;
         line-height:26pt;
+        text-align:center;
     }
     @media (max-width: 767px) {
         .tab_item{
