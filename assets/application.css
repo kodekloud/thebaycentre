@@ -750,6 +750,7 @@ textarea:focus, input:focus{
 .promo_description{
     font-family:lora-regular;
     font-size:11pt;
+    max-width:90%;
 }
 .feature_promo_left_div{
     display:inline;
