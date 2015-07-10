@@ -724,13 +724,14 @@ textarea:focus, input:focus{
     font-size:12pt;
     margin:0;
     text-transform:uppercase;
+    margin-top:5px;
     /*text-align:left;*/
 }
 .day_string{
     font-family:railway-light;
     font-size:50pt;
     margin:0;
-    line-height:35pt;
+    line-height:40pt;
 }
 .promo_description_div{
     display:inline-block;
