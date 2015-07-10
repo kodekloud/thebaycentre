@@ -247,6 +247,8 @@
             if (all_contests.length > 0) {
                 renderDetailData("#store_contest_container","#store_contest_template", all_contests, "contests");    
             } else {
+                
+                $("#tab_2_content").css("width","100%")
                 $("#store_contest_container").hide()
                 $("#no_contest_container").show();
                 
