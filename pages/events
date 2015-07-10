@@ -365,10 +365,10 @@
                     month = "May"
                     break;
                 case 5:
-                    month = "June"
+                    month = "Jun"
                     break;
                 case 6:
-                    month = "July"
+                    month = "Jul"
                     break;
                 case 7:
                     month = "Aug"
