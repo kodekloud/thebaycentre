@@ -824,13 +824,13 @@ textarea:focus, input:focus{
 }
 #banner_hours_container {
     position:absolute;
-    top:440px;
+    top:420px;
     right:-20px;
     z-index:999999;
-    opacity:0.9;
+    /*opacity:0.9;*/
     border-radius:50%;
-    width:140px;
-    height:140px;
+    width:185px;
+    height:185px;
     background:#57424b;
     color:white;
     font-size:10pt;
