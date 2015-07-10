@@ -1161,6 +1161,9 @@ textarea:focus, input:focus{
 .store_promo_ul{
     margin:0;
     padding:0;
+    border-top:3px solid lightgray;
+    margin-top:70px;
+    padding-top:40px;
 }
 .store_promo_ul li{
     list-style:none;
