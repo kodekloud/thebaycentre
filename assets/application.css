@@ -723,6 +723,7 @@ textarea:focus, input:focus{
     font-family:railway-regular;
     font-size:12pt;
     margin:0;
+    text-transform:uppercase;
 }
 .day_string{
     font-family:railway-regular;
