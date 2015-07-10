@@ -12,6 +12,7 @@
         font-family:lora-regular;
         font-size:14pt;
         line-height:26pt;
+        padding-bottom:30px;
     }
     .stores_div p{
         height:auto;
