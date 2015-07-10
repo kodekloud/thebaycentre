@@ -75,6 +75,7 @@
     
     #no_contest_container{
         padding-left:30px;
+        margin-bottom:50px;
     }
     @media (max-width: 767px) {
         .tab_item{
