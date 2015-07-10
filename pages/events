@@ -274,7 +274,7 @@
                 renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
             } else {
                 $("#tab_1_content").css("width","100%")
-                $("#store_contest_container").hide()
+                $("#store_promo_container").hide()
                 $("#no_event_container").show();
             }
             
