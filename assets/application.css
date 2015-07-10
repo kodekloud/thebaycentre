@@ -720,13 +720,13 @@ textarea:focus, input:focus{
     margin-top:30px;
 }
 .month_string{
-    font-family:railway-regular;
+    font-family:railway-light;
     font-size:12pt;
     margin:0;
     text-transform:uppercase;
 }
 .day_string{
-    font-family:railway-regular;
+    font-family:railway-light;
     font-size:40pt;
     margin:0;
 }
