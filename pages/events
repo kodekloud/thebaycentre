@@ -76,6 +76,10 @@
     #no_contest_container{
         padding-left:30px;
         margin-bottom:50px;
+        color:#6d6e71 !important;
+        font-family:lora-regular;
+        font-size:14pt;
+        line-height:26pt;
     }
     @media (max-width: 767px) {
         .tab_item{
