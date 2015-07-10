@@ -1515,7 +1515,7 @@ textarea:focus, input:focus{
         position:relative;
     }
     #banner_hours_container{
-        top:155px;
+        top:125px;
         position:absolute;
         font-size:7pt;
         height:100px;
