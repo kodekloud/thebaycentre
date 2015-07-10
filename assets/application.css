@@ -730,6 +730,7 @@ textarea:focus, input:focus{
     font-family:railway-light;
     font-size:50pt;
     margin:0;
+    line-height:35pt;
 }
 .promo_description_div{
     display:inline-block;
