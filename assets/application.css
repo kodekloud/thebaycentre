@@ -721,7 +721,7 @@ textarea:focus, input:focus{
 }
 .month_string{
     font-family:railway-light;
-    font-size:12pt;
+    font-size:16pt;
     margin:0;
     text-transform:uppercase;
     margin-top:5px;
