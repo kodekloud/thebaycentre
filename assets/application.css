@@ -4,6 +4,14 @@
 	font-family: montserrat-regular;
 	src: url('http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/Montserrat-Regular.ttf');
 }
+
+
+@font-face {
+	font-family: montserrat-light;
+	src: url('http://assets.kodekloud.io/sites/556628266e6f640eb3000000/db3a3c3791d5212718f47f013d4b5bb5/MuseoSans_light.ttf');
+}
+
+
 @font-face {
 	font-family: lora-regular;
 	src: url('http://assets.kodekloud.io/sites/556628266e6f640eb3000000/a578c8b64c614c3eac576155beb18963/Lora-Regular.ttf');
