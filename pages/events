@@ -73,7 +73,7 @@
         margin-top:0;
     }
     
-    #no_contest_container{
+    #no_contest_container, {
         padding-left:30px;
         margin-bottom:50px;
         color:#6d6e71 !important;
@@ -273,6 +273,8 @@
             if (all_promos.length > 0 ) {
                 renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
             } else {
+                $("#tab_1_content").css("width","100%")
+                $("#store_contest_container").hide()
                 $("#no_event_container").show();
             }
             
