@@ -2,7 +2,10 @@
 a:-webkit-any-link{
     color: #3aa2d2;
 }
-
+#CDSSCROLLINGRAVE.narrow {
+  width: 282px;
+  float: right;
+}
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
