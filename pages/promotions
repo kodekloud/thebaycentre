@@ -195,6 +195,6 @@
             $(container).html(item_rendered.join(''));
         }
         
-        loadMallData(renderPageData);
+        loadMallDataCached(renderPageData);
     });
 </script>
