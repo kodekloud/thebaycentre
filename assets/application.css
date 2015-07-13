@@ -556,6 +556,7 @@ textarea:focus, input:focus{
 }
 #news_submit{
     border:1px white solid;
+    font-family:lora-regular;
     background:#848585;
     height:33px;
     color:white;
