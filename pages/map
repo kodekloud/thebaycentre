@@ -129,7 +129,7 @@ function drop_pin(value){
             
             
         }
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
     })
     
     
