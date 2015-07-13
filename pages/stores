@@ -328,7 +328,7 @@
             }
         }
         
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
         
     })
 
