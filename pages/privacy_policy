@@ -110,7 +110,7 @@
         
         function renderAll(){
             var prefix = get_prefix();
-            var page_array = [""]
+            var page_array = []
             page_array = page_array.reverse()
             full_page_array = []
             $.ajaxSetup({
