@@ -606,15 +606,15 @@ textarea:focus, input:focus{
 /*home specific css*/
 .missing_out_div{
     width:313px;
-    height:63px;
+    height:62px;
     font-family:lora-regular;
     font-size:14px;
     color:white;
-    background:black;
+    background:rgba(0, 0, 0, 0.5);;
     position:absolute;
     top:0;
     right:0;
-    opacity:0.6;
+    /*opacity:0.6;*/
 }
 
 .transparent_div{
@@ -877,7 +877,7 @@ textarea:focus, input:focus{
 }
 .hidden_newsletter_form{
     display:none;
-    background:black;
+    background:rgba(0, 0, 0, 0.5);;;
     padding:20px;
 }
 #banner_email{
