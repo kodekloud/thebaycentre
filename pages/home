@@ -55,7 +55,7 @@
     </div>
     <!--<img id="main_image" src="http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide1.jpg" class="main_image" alt="banner">-->
     <div class="missing_out_div">
-        
+        <div class="transparent_div">&nbsp;</div>
         <p onclick="javascript:toggle_news_form()">Fear of missing out?<i id="fear_caret" class="fa fa-caret-down"></i></p>
         <div class="hidden_newsletter_form">
             <form style="font-size:12px" id="banner_newsletter">
