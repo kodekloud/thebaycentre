@@ -321,7 +321,7 @@
             load_slider("flexslider4")
             
         }
-        loadMallDataCached(render_page_details);  
+        loadMallData(render_page_details);  
         
         
         function renderHomePageData(container, template, collection, type){
