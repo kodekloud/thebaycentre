@@ -179,6 +179,6 @@ We welcome you to come by and visit us, near the escalators on the lower level. 
             $(container).html(item_rendered.join(''));
         };
         
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
