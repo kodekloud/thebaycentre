@@ -166,6 +166,6 @@
             $(container).html(item_rendered.join(''));
         };
         
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
