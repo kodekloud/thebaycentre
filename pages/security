@@ -196,6 +196,6 @@ For more information, click on the link&nbsp;below to download our&nbsp;brochure
             $(container).html(item_rendered.join(''));
         };
         
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
     })
 </script>
