@@ -593,7 +593,7 @@ textarea:focus, input:focus{
 }
 .footer_last_container, .footer_last_container a{
     font-family:lora-regular;
-    color:#cfcdc4;
+    color:#cfcdc4 !important;
     text-align:center;
     background:#848585;
     font-size:7.5pt;
