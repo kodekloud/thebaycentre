@@ -507,7 +507,7 @@ textarea:focus, input:focus{
     display:block;
 }
 .footer_bottom_container a{
-    color:white;
+    color:white !important;
     text-decoration:none;
 }
 .footer_bottom_container a:hover{
