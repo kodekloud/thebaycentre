@@ -1,6 +1,6 @@
 <style>
 a:-webkit-any-link{
-    color: #6d6e71;
+    color: #3aa2d2;
 }
 
     .stores_div p, .gs_text {
