@@ -1001,7 +1001,7 @@
             increaseArea: '20%' // optional
           });
         
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
      });
 </script>
 
