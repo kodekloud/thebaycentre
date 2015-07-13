@@ -617,6 +617,10 @@ textarea:focus, input:focus{
     opacity:0.6;
 }
 
+.transparent_div{
+    position:absolute;
+}
+
 .missing_out_div p {
     line-height:63px;
     text-align:center;
