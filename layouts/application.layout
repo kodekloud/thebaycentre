@@ -570,15 +570,16 @@
     })
     
     function toggle_news_form(){
-        if ($(".hidden_newsletter_form").is(":visible")){
-            $(".hidden_newsletter_form").slideUp("slow");
-            $("#fear_caret").removeClass("fa-caret-up");
-            $("#fear_caret").addClass("fa-caret-down")
-        } else {
-            $(".hidden_newsletter_form").slideDown("slow");
-            $("#fear_caret").removeClass("fa-caret-down");
-            $("#fear_caret").addClass("fa-caret-up")
-        }
+        window.location.href = '/newsletter'
+        // if ($(".hidden_newsletter_form").is(":visible")){
+        //     $(".hidden_newsletter_form").slideUp("slow");
+        //     $("#fear_caret").removeClass("fa-caret-up");
+        //     $("#fear_caret").addClass("fa-caret-down")
+        // } else {
+        //     $(".hidden_newsletter_form").slideDown("slow");
+        //     $("#fear_caret").removeClass("fa-caret-down");
+        //     $("#fear_caret").addClass("fa-caret-up")
+        // }
     }
     
     
