@@ -4,7 +4,13 @@
         color:#3aa2d2 !important;
     }
     
-    
+    .store_detail_title {
+  font-family: railway-regular;
+  font-size: 28pt;
+  color: #6d6e71;
+  text-transform: uppercase;
+  margin-top: 0;
+}
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
@@ -83,7 +89,7 @@ We hope to see you soon at The Bay Centre.
     
     <br>
     <br>
-    Guest Services<br>
+    <p class="store_detail_title">Guest Services</p>
     Below are just a few of the amenities The Bay Centre provides for you year round. For further information, call us at (250) 952-5690 or <a href=mailto:tbcinfo@20vic.com>email us.</a>  <br><br>
 
 We welcome you to come by and visit us, near the escalators on the lower level. </p>
