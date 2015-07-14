@@ -66,11 +66,11 @@
 
 <div class="main_content_div">
     <p class="gs_text" style="margin-top:61px;margin-left:35px;margin-right:15px">
-        <p class="gs_text">With high visibility to more than 7 million potential customers annually in Downtown Victoria&rsquo;s business and shopping district, a presence at The Bay Centre carries influential weight.</p>
+        <p class="gs_text" style="margin-top:61px;margin-left:35px;margin-right:15px" >With high visibility to more than 7 million potential customers annually in Downtown Victoria&rsquo;s business and shopping district, a presence at The Bay Centre carries influential weight.</p>
 
-<p class="gs_text">Get noticed in the Centre of Shopping, Business and Events!</p>
+<p class="gs_text" style="margin-top:61px;margin-left:35px;margin-right:15px">Get noticed in the Centre of Shopping, Business and Events!</p>
 
-<ul class="gs_text">
+<ul class="gs_text" style="margin-top:61px;margin-left:35px;margin-right:15px">
 	<li>Downtown Victoria welcomes daily more than 33,800 employees, thousands of shoppers and visitors.</li>
 	<li>We&rsquo;re located in the centre of the shopping district region. Within a 300-metre radius of The Bay Centre, there are over 400 shops and services!</li>
 	<li>The Bay Centre is located in an entertainment hub that&rsquo;s the venue for some 15 annual festivals that attract approximately 1 million people - all to our front doors.</li>
