@@ -607,6 +607,7 @@ textarea:focus, input:focus{
 }
 /*home specific css*/
 .missing_out_div{
+    cursor:pointer;
     width:313px;
     height:63px;
     font-family:lora-regular;
