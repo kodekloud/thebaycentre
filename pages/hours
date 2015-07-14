@@ -10,7 +10,7 @@
         margin-top:-10px;
     }
     .hidden_div{
-  
+        display:block;
     }
     
     @media (max-width: 767px) {
