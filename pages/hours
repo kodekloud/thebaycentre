@@ -52,9 +52,8 @@
     <div class="store_detail_description">
     </div>
     
-    <div class="cat_div" onclick="javascript:show_stores('regular_hours')">
+    <div class="cat_div">
         regular hours
-        <i id="icon_regular_hours" class="fa fa-plus list_icon"></i>
     </div>
     <div class="hidden_div" id="cat_regular_hours_stores">
         <script id="regular_hours_template" type="x-tmpl-mustache/text">
@@ -65,10 +64,9 @@
         </script>
     </div>
     
-    <div class="cat_div" onclick="javascript:show_stores('extended_hours')">
+    <div class="cat_div" >
         extended shopping hours start june 21, 2015
-        <i id="icon_extended_hours" class="fa fa-plus list_icon"></i>
-        
+
     </div>
     <div class="hidden_div" id="cat_extended_hours_stores">
                 <br>
@@ -94,9 +92,9 @@
          
         </div>
     
-    <div class="cat_div" onclick="javascript:show_stores('holiday_hours')">
+    <div class="cat_div">
         holiday hours
-        <i id="icon_holiday_hours" class="fa fa-plus list_icon"></i>
+
     </div>
     <div class="hidden_div" id="cat_holiday_hours_stores">
         <script id="holiday_hours_template" type="x-tmpl-mustache/text">
