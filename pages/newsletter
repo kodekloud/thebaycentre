@@ -102,7 +102,8 @@
         STAY INFORMED
     </p>
     <div class="store_detail_description">
-        Sign up to be notified on promotions, contests, events, new stores, sales and fashion trends.
+       Don’t miss out on exclusive content and giveaways sent straight to your inbox.<br><br>
+       Fields marked with an asterisk (*) are required.
     </div>
     <form id="newsletter_form">
         <input id="hidden_source" name="cm-f-jhtykd" type="hidden" />
