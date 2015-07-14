@@ -222,7 +222,7 @@
                 </ul>
                 
                 <div id="no_contest_container" style="display:none">
-                    <p>No Current contests this week. please check back later. </p>
+                    <p>Sorry, there are currently no contests on at the moment. Please check back soon for new contests or sign up for our <a href="/newsletter">enewsletter</a> to be notified of upcoming contests and promotions.” </p>
                 </div>
         </li>
     </ul>
