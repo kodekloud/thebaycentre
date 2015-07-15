@@ -45,7 +45,7 @@
     
     
     .item, .banner_slider_ul li img{
-        width:1193px !important;
+        height:550px;
     }
     
     @media (max-width: 767px) {
