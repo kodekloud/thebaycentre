@@ -205,12 +205,12 @@
                     <div class="triangle_down" id="triangle_4">&nbsp;</div>
                     
                 </li>
-                <li onclick="javascript:show_dd(5)">
+                <li onclick="javascript:show_dd(5)" id="m5">
                     Our style
                     <div class="triangle_down" id="triangle_5">&nbsp;</div>
                     
                 </li>
-                <li onclick="javascript:show_dd(6)">
+                <li onclick="javascript:show_dd(6)" id="m6">
                     about us
                     <div class="triangle_down" id="triangle_6">&nbsp;</div>
                     
