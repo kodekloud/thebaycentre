@@ -394,11 +394,15 @@ a:hover {
     font-family:montserrat-regular;
     list-style:none;
     display:inline-block;
-    margin-left:40px;
+    /*margin-left:40px;*/
     text-transform:uppercase;
     position:relative;
     cursor:pointer;
     color:#4d4d4f;
+    height:45px;
+    line-height:45px;
+    padding-left:20px;
+    padding-right:18px;
     
 }
 .dd_submenu{
