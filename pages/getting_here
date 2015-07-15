@@ -2,16 +2,16 @@
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
-        /*font-size:14pt;*/
-        /*line-height:26pt;*/
+        font-size:14pt;
+        line-height:26pt;
     }
     .stores_div{
         padding-top:30px;
         padding-left:0;
         color:#6d6e71;
         font-family:lora-regular;
-        /*font-size:14pt;*/
-        /*line-height:26pt;*/
+        font-size:14pt;
+        line-height:26pt;
     }
     .store_detail_title {
   font-family: railway-regular;
