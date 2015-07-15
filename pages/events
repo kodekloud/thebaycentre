@@ -312,7 +312,7 @@
                 }
                 
                 if (type == "promos"){
-                    if ((val.event_image_url).indexOf('missing.png') > -1){
+                    if ((val.event_image2_url_abs).indexOf('missing.png') > -1){
                         if (val.eventable_type == "Store"){
                             var store_details = getStoreDetailsByID(val.eventable_id)
                             if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
