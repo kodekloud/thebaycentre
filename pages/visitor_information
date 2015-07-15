@@ -55,13 +55,8 @@ a:-webkit-any-link{
   background: white;
   list-style-type: circle !important;
   display: list-item !important;
-  color:black;
+  
     }
-    ul > li
-    {
-    color: black;
-    }
-    
     .store_detail_description{
         margin-top:15px;
         color:#6d6e71 !important;
