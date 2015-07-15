@@ -1,0 +1,476 @@
+<style>
+    .feature_promo_date_div{
+        width:auto;
+        margin-left:0;
+        margin-right:10px;
+        padding-left:15px;
+        padding-right:15px;
+        vertical-align:top;
+        min-width:144px;
+        text-align:center;
+    }
+    .date_block{
+        display:inline-block;
+    }
+    
+    .promo_description_div{
+        width:780px;
+    }
+    .flex-direction-nav{
+        top:-80px !impoprtant;
+    }
+    .tabs li {
+         margin-right:-5px;
+    }
+    .socialize_div {
+        margin-top:80px;
+    }
+    .socialize_text{
+        margin-top:5px;
+        
+    }
+    .socialize_social_icons{
+        margin-top:0;
+    }
+    
+    @media (max-width: 767px) {
+        .tab_item {
+            padding-top:5px;
+        }    
+    }
+    
+</style>
+
+<div class="banner_container">
+    <div class="flexslider4" id="">
+        <ul class="banner_slider_ul slides" id="banner_slider_ul">
+            <script id="banner_slider_template" type="x-tmpl-mustache/text">
+                <li class="item">
+                    <a href="{{url}}">
+                        <img class="banner_slide_img" src="{{image_url}}" alt="banner"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+    </div>
+    <!--<img id="main_image" src="http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide1.jpg" class="main_image" alt="banner">-->
+    <div class="missing_out_div">
+        <div class="transparent_div">&nbsp;</div>
+        <p onclick="javascript:toggle_news_form()">Fear of missing out?<i id="fear_caret" class="fa fa-caret-down"></i></p>
+        <div class="hidden_newsletter_form">
+            <form style="font-size:12px" id="banner_newsletter">
+                <span><input id="banner_email" name="cm-iixuu-iixuu" type="email" required  placeholder="Email address"/><button type="submit" id="banner_submit">Subscribe</button></span><br>
+                        <input id="banner_agree_terms" type="checkbox" required value="I agree to receive newsletters from The Bay Centre"><label for="banner_aggree_terms" class="checkbox_lbl">I agree to receive newsletters from The Bay Centre</label>
+                        
+                         <input type="hidden" name="cm-f-jhtykd" id ="banner_source" />
+                         <input type="hidden" name="cm-f-jhtykh" id="banner_terms"/>
+            </form>
+        </div>
+    </div>
+    <a href="/hours">
+    <div id="banner_hours_container">
+        <script id="banner_hours_template" type="x-tmpl-mustache/text">
+            <p class="today_p">{{status}} Today </p>
+            <p>{{open_time}}-{{close_time}}</p>
+            <a href="/hours">see all<br>hours ></a>
+        </script>
+    </div>
+    </a>
+</div>
+<div class="tab_container">
+    <ul class="tabs">
+        <li id="tab_1" style="background:white">
+        <div class="tab_item" style="color:#4d4d4f">whats happening today &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></div>
+             
+        </li>
+        <li id="tab_2">
+            <div class="tab_item">coming soon &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></div>
+        </li>
+        <li id="tab_3">
+            <div class="tab_item last_tab_item">deals of the week &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></div>
+        </li>
+    </ul>
+    
+    <ul class="tab_content">
+        <li id="tab_1_content">
+            <div id="no_features" class="no_data_div">
+                <p>None available at the moment. Please check again later</p>
+            </div>
+            <div class="feature_slider_container flexslider" id="feature_slider_container">
+                <ul class="feature_slider_ul slides" id="feature_slider_ul">
+                    <script id="feature_slider_template" type="x-tmpl-mustache/text">
+                        <li class="feature_promo item">
+                            <div class="feature_promo_left_div">
+                            <div class="feature_promo_date_div">
+                                <div class="feature_promo_date_triangle">&nbsp;</div>
+                     
+                                    <div class="date_block">
+                                        <p class="month_string">{{start_month}}</p>
+                                        <p class="day_string">{{start_day}}</p>
+                                    </div>
+                                    
+                                    <div class="date_block">
+                                        <p class="month_string">{{end_month}}</p>
+                                        <p class="day_string">{{end_day}}</p>
+                                    </div>
+                                   
+                            </div>
+                            <div class="promo_description_div">
+                                <p class="promo_title"><a class="promo_title" href="{{store_slug}}">{{store_name}}</a> | <a class="promo_title" href="/promotions/{{slug}}">{{name}} </a></p>
+                                <p class="promo_description">
+                                    {{description}}
+                                </p>
+
+                            </div>
+                            </div>
+                            <div class="feature_promo_right_div">
+                                <button  class="read_more_btn" onclick="location.href='/promotions/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </li>
+                    </script>
+                </ul>
+            </div>
+        </li>
+        <li id="tab_2_content" style="display:none">
+            <div id="no_stores" class="no_data_div">
+                <p>None available at the moment. Please check again later</p>
+            </div>
+            <div class="feature_slider_container flexslider2" id="store_slider_container">
+                <ul class="feature_slider_ul slides" id="store_slider_ul">
+                    <script id="store_slider_template" type="x-tmpl-mustache/text">
+                        <li class="feature_promo item">
+                            <div class="feature_promo_left_div">
+                            <div class="feature_promo_date_div">
+                                <div class="feature_promo_date_triangle">&nbsp;</div>
+                     
+                                    <div class="date_block">
+                                        <p class="month_string">{{start_month}}</p>
+                                        <p class="day_string">{{start_day}}</p>
+                                    </div>
+                            </div>
+                            <div class="promo_description_div">
+                                <p class="promo_title"><a class="promo_title" href="/stores/{{slug}}">{{name}}</a></p>
+                                <p class="promo_description">
+                                    {{description}}
+                                </p>
+
+                            </div>
+                            </div>
+                            <div class="feature_promo_right_div">
+                                <button  class="read_more_btn" onclick="location.href='/stores/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </li>
+                    </script>
+                </ul>
+            </div>
+        </li>
+        <li id="tab_3_content" style="display:none">
+            <div id="no_promos" class="no_data_div">
+                <p>None available at the moment. Please check again later</p>
+            </div>
+            <div class="feature_slider_container flexslider3" id="current_promo_slider_container">
+                <ul class="feature_slider_ul slides" id="promo_slider_ul">
+                    <script id="current_promo_slider_template" type="x-tmpl-mustache/text">
+                        <li class="feature_promo item">
+                            <div class="feature_promo_left_div">
+                                <div class="feature_promo_date_div">
+                                    <div class="feature_promo_date_triangle">&nbsp;</div>
+                         
+                                        <div class="date_block">
+                                            <p class="month_string">{{start_month}}</p>
+                                            <p class="day_string">{{start_day}}</p>
+                                        </div>
+                                        
+                                        <div class="date_block">
+                                            <p class="month_string">{{end_month}}</p>
+                                            <p class="day_string">{{end_day}}</p>
+                                        </div>
+                                       
+                                </div>
+                            <div class="promo_description_div">
+                                <p class="promo_title"><a class="promo_title" href="{{store_slug}}">{{store_name}}</a> | <a class="promo_title" href="/promotions/{{slug}}">{{name}}</a> </p>
+                                <p class="promo_description">
+                                    {{description}}
+                                </p>
+
+                            </div>
+                            </div>
+                            <div class="feature_promo_right_div">
+                                <button  class="read_more_btn" onclick="location.href='/promotions/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
+                            </div>
+                        </li>
+                    </script>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="feature_container" id="feature_container">
+     <script id="feature_template" type="x-tmpl-mustache/text">
+        <a class="feature_image" href="{{url}}"><img class="" src="{{image_url}}"/></a>
+     </script>
+</div>
+
+
+
+
+
+<script type="text/javascript" >
+
+     $(".tabs li").click(function(e){
+            var clicked = this.id
+            $(".tabs li").css({"background":"transparent","color":"white"});
+            $(".tabs li").find("div").css("color","white");
+            $(this).css("background","white");
+            $(this).find("div").css("color","#4d4d4f");
+            $(".tab_content li").hide();
+            $("#"+clicked + "_content").show()
+            $("#"+clicked + "_content li").show()
+            switch(clicked) {
+                        case "tab_1":
+                            load_slider("flexslider")
+                            break;
+                        case "tab_2":
+                            load_slider("flexslider2")
+                            break;
+                        case "tab_3":
+                            load_slider("flexslider3")
+                            break;
+                        
+                    }
+            
+            
+        
+        });
+        
+    
+    function load_slider(slider){
+            
+            $('.'+slider).flexslider({
+                animation: "slide",
+                controlNav: false,
+                directionNav: true,        
+                prevText: "",
+                nextText: ""
+            });
+        }
+        
+    
+    
+    $(document).ready(function() {
+        function render_page_details(){
+            var promos = getPromotionsList();
+            promo_array = []
+             $.each( promos , function( key, val ){
+                 today = new Date();
+                 webDate = new Date(val.show_on_web_date);
+                 if (today >= webDate) {
+                     promo_array.push(val)
+                 } 
+             });
+            promos = promo_array
+            featured_promos = []
+            $.each( promos , function( key, val ) {
+                if (val.is_featured == true){
+                    featured_promos.push(val)
+                }
+            })
+            featured_promos = featured_promos.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
+            
+            stores = getStoresList();
+            new_stores = []
+             $.each( stores , function( key, val ) {
+                 if (val.is_coming_soon_store == true){
+                     new_stores.push(val)
+                 }
+             });
+            
+            
+            if (new_stores.length > 0 ){
+                renderHomePageData("#store_slider_ul", "#store_slider_template", new_stores, "stores")
+            } else {
+                $("#no_stores").show()
+            }
+            
+            if (featured_promos.length > 0 ){
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", featured_promos, "feature_promos");
+            } else {
+                $("#no_features").show()
+            }
+            
+            if (promo_array.length > 0 ){
+                renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
+            } else {
+                $("#no_promos").show()
+            }
+            
+            
+            var banners = getBanners()
+            renderHomePageData("#banner_slider_ul","#banner_slider_template",banners,"banners")
+            
+            var featureList = getFeatureList();
+            renderHomePageData("#feature_container", "#feature_template", featureList, "feature_items") 
+            
+            var banner_hours = getTodaysHours();
+            renderHomePageData("#banner_hours_container", "#banner_hours_template", banner_hours, "banner_hours") 
+            
+            $(".loading_overlay").hide();
+            $("#page_content").show();
+            load_slider("flexslider");
+            load_slider("flexslider4")
+            
+        }
+        loadMallDataCached(render_page_details);  
+        
+        
+        function renderHomePageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "banner_hours"){
+                item_list.push(collection)
+                collection = item_list
+            }
+            
+            $.each( collection , function( key, val ) {
+                if (type == "stores"){
+                    if (val.new_store_open_date){
+                        start = new Date (val.new_store_open_date); 
+                        start.setDate(start.getDate()+1);
+                        val.start_month = get_month(start.getMonth())
+                        val.start_day = start.getDate()
+                        val.date_string = val.start_month + " " + val.start_day
+                    } else {
+                        val.start_month  = "Opening";
+                        val.start_day = "Soon"
+                    }
+                    
+                }
+                
+                if (type == "feature_promos"){
+                    if (val.description.length > 110) {
+                       val.description =  val.description.substring(0,300)+'...';
+                    } 
+                    
+                    start = new Date (val.start_date);
+                    end = new Date (val.end_date);
+                    start.setDate(start.getDate()+1);
+                    end.setDate(end.getDate()+1);
+            
+                    if (start.toDateString() == end.toDateString()) {
+                        val.start_month = get_month(start.getMonth())
+                        val.start_day = start.getDate()
+                        
+                        val.date_string = val.start_month + " " + val.start_day
+                        
+                        
+                    } else {
+                        val.start_month =get_month(start.getMonth())
+                        val.start_day = start.getDate() 
+                        val.end_month = get_month(end.getMonth())
+                        val.end_day = end.getDate()
+                        val.end_day = "  - " + val.end_day
+                    }
+                    
+                    if (val.promotionable_type == "Store"){
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.store_name = store_details.name
+                        val.store_slug = "/stores/"+store_details.slug
+                    }else {
+                        val.store_name = "The Bay Centre"
+                        val.store_slug = "/home"
+                    }
+                }
+                
+                if (type == "banner_hours"){
+                    if (val.is_closed == false){
+                        val.status = "Open"
+                    } else {
+                        val.status = "Closed"
+                    }
+                    val.open_time = get_simple_hour(val.open_time)
+                    val.close_time = get_simple_hour(val.close_time)
+                   
+                }
+                
+                
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+            
+        };
+        
+        function get_simple_hour (d){
+            d = new Date(d)
+            h = d.getUTCHours();
+            if (h >= 12) {
+                if ( h != 12) {
+                    h = h - 12;    
+                }
+                
+                i = "PM"
+            } else {
+                if (h == 0) {
+                    h = 12
+                }
+                i = "AM"
+            }
+            
+            return h+""+i;
+        }
+        function get_month (id){
+            switch(id) {
+                case 0:
+                    month = "Jan"
+                    break;
+                case 1:
+                    month = "Feb"
+                    break;
+                case 2:
+                    month = "Mar"
+                    break;
+                case 3:
+                    month = "Apr"
+                    break;
+                case 4:
+                    month = "May"
+                    break;
+                case 5:
+                    month = "Jun"
+                    break;
+                case 6:
+                    month = "Jul"
+                    break;
+                case 7:
+                    month = "Aug"
+                    break;
+                case 8:
+                    month = "Sep"
+                    break;
+                case 9:
+                    month = "Oct"
+                    break;
+                case 10:
+                    month = "Nov"
+                    break;
+                case 11:
+                    month = "Dec"
+                    break;
+                    
+            }
+            return month;
+        }
+        
+        
+        $("#left_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg")
+        $("#right_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg")
+    });
+</script>
