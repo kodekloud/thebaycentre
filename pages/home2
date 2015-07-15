@@ -37,6 +37,10 @@
         display:none;    
     }
     
+    .banner_container{
+        height:550px;
+    }
+    
     .flexslider4 .flex-viewport{
         overflow: visible !important;
     }
