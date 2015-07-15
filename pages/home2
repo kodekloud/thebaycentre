@@ -49,6 +49,9 @@
         .tab_item {
             padding-top:5px;
         }    
+        .tabs{
+            bottom:65px;
+        }
         
         .banner_container{
             height:auto;
