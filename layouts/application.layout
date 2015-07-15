@@ -860,7 +860,7 @@
             $("#m"+id).css({"background":"white", "color":"#4d4d4f"});
         } else {
             if ($(".submenu_bar").is(":visible")){
-                
+                $(".main_menu li").css({"background":"white", "color":"#4d4d4f"});
                 $(".triangle_down").hide();
                 $("#triangle_"+id).show();
                 $(".dd_submenu").hide();
