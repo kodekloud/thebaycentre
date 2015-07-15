@@ -14,11 +14,16 @@ a:-webkit-any-link{
     
     a:link {
     text-decoration: underline;
-}
-#CDSSCROLLINGRAVE.narrow {
+    }
+    #CDSSCROLLINGRAVE.narrow {
   width: 282px;
   float: right;
-}
+    }
+    li {
+    
+    list-style-type: circle;
+    }
+    
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
