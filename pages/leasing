@@ -1,4 +1,16 @@
 <style>
+
+    .stores_div a{
+        color:#3aa2d2 !important;
+    }
+    
+
+    }
+    a:link {
+    text-decoration: underline;
+    }
+
+
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
