@@ -6,7 +6,7 @@
     
 
     }
-    a:link {
+    .store_div a:link {
     text-decoration: underline !important;
     }
 
