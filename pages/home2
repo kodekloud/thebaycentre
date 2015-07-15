@@ -43,6 +43,10 @@
         margin-left:-1193px;
     }
     
+    .item{
+        width:1193px;
+    }
+    
     @media (max-width: 767px) {
         .tab_item {
             padding-top:5px;
