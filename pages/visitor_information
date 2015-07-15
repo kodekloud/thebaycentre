@@ -53,7 +53,8 @@ a:-webkit-any-link{
   margin-top: 0px;
   width: 100%;
   background: white;
-  display: list-item;
+  list-style-type: circle !important;
+  display: list-item !important;
     }
     .store_detail_description{
         margin-top:15px;
