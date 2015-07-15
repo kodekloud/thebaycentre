@@ -16,6 +16,12 @@
     a:link {
     text-decoration: underline;
     }
+    
+    .stores_div li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+    margin-left: 30px;
+}
     .stores_div{
         padding-top:30px;
         padding-left:0;
