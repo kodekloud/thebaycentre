@@ -49,11 +49,12 @@ a:-webkit-any-link{
     .socialize_social_icons{
         margin-top:0;
     }
-li {
+    .tab_content li {
+  margin-top: 0px;
+  width: 100%;
+  background: white;
   display: list-item;
-  text-align: -webkit-match-parent;
-    margin-left: 30px;
-}
+    }
     .store_detail_description{
         margin-top:15px;
         color:#6d6e71 !important;
