@@ -405,6 +405,9 @@ a:hover {
     padding-right:18px;
     
 }
+.main_menu li:hover{
+    background:#7b929d;
+}
 .dd_submenu{
     display:none;
     margin-left:325px;
