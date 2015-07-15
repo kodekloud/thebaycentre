@@ -1,10 +1,7 @@
 <style>
 a:-webkit-any-link{
     color: #3aa2d2;
-    font-family:lora-regular;
-        font-size:14pt;
-        line-height:26pt;
-        text-decoration:underline;
+    
 }
 #CDSSCROLLINGRAVE.narrow {
   width: 282px;
