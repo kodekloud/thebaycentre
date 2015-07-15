@@ -1,6 +1,6 @@
 <style>
 
-li{
+ul li{
     list-style:bullets;
 }
 
