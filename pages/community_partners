@@ -1,9 +1,5 @@
 <style>
 
-.tabs li, .tab_content li{
-    list-style:circle !important;
-}
-
 a:-webkit-any-link{
     color: #6d6e71;
 }
