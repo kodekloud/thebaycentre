@@ -1,7 +1,7 @@
 <style>
 
 ul li{
-    list-style:bullets;
+    list-style:circle;
 }
 
 a:-webkit-any-link{
