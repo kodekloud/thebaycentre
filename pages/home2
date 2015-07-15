@@ -53,6 +53,10 @@
         .banner_container{
             height:auto;
         }
+        
+        .flexslider4 .flex-viewport{
+            overflow: hidden !important;
+        }
     }
     
 </style>
