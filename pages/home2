@@ -37,17 +37,8 @@
         display:none;    
     }
     
-    .banner_container{
-        
-    }
-    
-    
-    .banner_slider_ul li img{
-       
-    }
-    
-    .item{
-      
+    .flexslider4 .flex-viewport{
+        overflow: visible !important;
     }
     
     @media (max-width: 767px) {
