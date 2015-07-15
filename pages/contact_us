@@ -47,7 +47,7 @@
     
     <div class="contact_row">
         <div class="contact_column">
-            <p class="contact_quote"><i class="fa fa-quote-left"></i>   It is rewarding to work in the heart of the business district where I am part of a diverse community of stakeholders who contribute together to build a stronger downtown.</p>
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>   It is rewarding to work in the heart of the business district where I am part of a diverse community of stakeholders who contribute together to build a stronger downtown.<i class="fa fa-quote-right"></i></p>
             <p class="contact_subtitle">darlene hollstein</p>
             <p class="contact_number">General Manager</p>
             <p class="contact_number">P 250 952-5699</p>
