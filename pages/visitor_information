@@ -73,7 +73,9 @@ a:-webkit-any-link{
     .socialize_social_icons{
         margin-top:0;
     }
-    
+    .list_icon{
+            font-size:15px !important;
+        }
     .tabs{
         width:100%;
         background:transparent;
