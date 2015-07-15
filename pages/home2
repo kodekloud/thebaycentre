@@ -257,7 +257,8 @@
         $('.'+slider).flexslider({
             animation: "slide",
             controlNav: false,
-            directionNav: true,        
+            directionNav: true,    
+            animationLoop: true,
             prevText: "",
             nextText: ""
         });
