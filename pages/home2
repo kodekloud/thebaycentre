@@ -271,7 +271,7 @@
     function load_fading_slider(slider){
             
         $('.'+slider).flexslider({
-            animation: "fade",
+            animation: "slide",
             controlNav: false,
             directionNav: true,        
             prevText: "",
