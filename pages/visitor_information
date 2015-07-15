@@ -19,10 +19,7 @@ a:-webkit-any-link{
   width: 282px;
   float: right;
     }
-    li {
     
-    list-style-type: circle !important;
-    }
     
     .stores_div p, .gs_text {
         color:#6d6e71;
