@@ -37,6 +37,14 @@
         display:none;    
     }
     
+    .banner_container{
+        width:3579px;
+        margin-left:-1193px;
+    }
+    .banner_slider_ul li img{
+        width:auto;
+    }
+    
     @media (max-width: 767px) {
         .tab_item {
             padding-top:5px;
