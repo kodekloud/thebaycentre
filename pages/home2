@@ -258,15 +258,26 @@
     
     function load_slider(slider){
             
-            $('.'+slider).flexslider({
-                animation: "slide",
-                controlNav: false,
-                directionNav: true,        
-                prevText: "",
-                nextText: ""
-            });
-        }
+        $('.'+slider).flexslider({
+            animation: "slide",
+            controlNav: false,
+            directionNav: true,        
+            prevText: "",
+            nextText: ""
+        });
+    }
         
+        
+    function load_fading_slider(slider){
+            
+        $('.'+slider).flexslider({
+            animation: "slide",
+            controlNav: false,
+            directionNav: true,        
+            prevText: "",
+            nextText: ""
+        });
+    }
     
     
     $(document).ready(function() {
