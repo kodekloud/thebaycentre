@@ -37,7 +37,7 @@
         display:none;    
     }
     
-    .banner_container{
+    .flexslider4 .flex-viewport{
         /*width:3579px;*/
         /*margin-left:-1195px;*/
     }
