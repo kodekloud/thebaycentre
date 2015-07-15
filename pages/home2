@@ -37,7 +37,9 @@
         display:none;    
     }
     
-    
+    .banner_container{
+        
+    }
     
     @media (max-width: 767px) {
         .tab_item {
