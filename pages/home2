@@ -39,7 +39,7 @@
     
     .banner_container{
         width:3579px;
-        margin-left:-1193px;
+        margin-left:-1196px;
     }
     .banner_slider_ul li img{
         width:auto;
