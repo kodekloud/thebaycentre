@@ -2,13 +2,10 @@
 
     .stores_div a{
         color:#3aa2d2 !important;
+        text-decoration: underline !important;
     }
     
 
-    }
-    .store_div a:link {
-    text-decoration: underline !important;
-    }
 
 
     .stores_div p, .gs_text {
