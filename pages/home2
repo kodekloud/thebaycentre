@@ -344,7 +344,7 @@
             $(".loading_overlay").hide();
             $("#page_content").show();
             load_slider("flexslider");
-            load_slider("flexslider4")
+            load_fading_slider("flexslider4")
             
         }
         loadMallDataCached(render_page_details);  
