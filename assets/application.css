@@ -407,6 +407,7 @@ a:hover {
 }
 .main_menu li:hover{
     background:#7b929d;
+    color:white;
 }
 .dd_submenu{
     display:none;
