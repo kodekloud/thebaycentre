@@ -42,7 +42,7 @@
         margin-left:-1195px;
     }
     .banner_slider_ul li img{
-        width:auto;
+        /*width:auto;*/
     }
     
     @media (max-width: 767px) {
