@@ -33,6 +33,7 @@
     }
     .socialize_div {
         margin-top:80px;
+        padding-bottom:15px;
     }
     .socialize_text{
         margin-top:5px;
