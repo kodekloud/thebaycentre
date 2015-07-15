@@ -8,7 +8,10 @@
         line-height:26pt;
     }
     
-
+.stores_div li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
 
 
     .stores_div p, .gs_text {
