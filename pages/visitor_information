@@ -55,6 +55,7 @@ a:-webkit-any-link{
   background: white;
   list-style-type: circle !important;
   display: list-item !important;
+  color:black;
     }
     .store_detail_description{
         margin-top:15px;
