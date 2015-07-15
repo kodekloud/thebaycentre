@@ -1,4 +1,9 @@
 <style>
+
+li{
+    list-style:bullets;
+}
+
 a:-webkit-any-link{
     color: #6d6e71;
 }
