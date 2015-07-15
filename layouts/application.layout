@@ -394,7 +394,7 @@
     <footer>
         <div class="footer_logo_div">
             <img class="footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/89b85fd61b49f7b49bc74345c2070d12/logos.jpg" alt="footer_logos"/>
-            <a href="/home"><img class="mobile_footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/5ca5845a791ded371afda2d2dfa9b7ca/storelogos_mobile.jpg" alt="footer logos"/></a>
+            <img class="mobile_footer_logos" src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/5ca5845a791ded371afda2d2dfa9b7ca/storelogos_mobile.jpg" alt="footer logos"/>
         </div>
         <div class="find_us_div">
             <div class="find_left_div" id="find_left_div">
@@ -403,7 +403,7 @@
                         <p class="footer_h1">Find us</p>
                         <p class="footer_h2">{{name}}</p>
                         <p class="top_footer_text">Administration Office<br>{{address1}}<br>{{city}}, {{province_state}}<br>{{postal_code}}<br>{{phone_string}}</p>
-                        <img class="footer_site_logo" src="{{site_logo}}">
+                        <a href="/home"><img class="footer_site_logo" src="{{site_logo}}"></a>
                     {% endraw %}
                 </script>  
             </div>
