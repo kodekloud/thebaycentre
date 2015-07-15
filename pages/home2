@@ -44,7 +44,7 @@
     }
     
     .item{
-        width:1193px;
+        width:1193px !important;
     }
     
     @media (max-width: 767px) {
