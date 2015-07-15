@@ -860,10 +860,12 @@
             $("#m"+id).css({"background":"white", "color":"#4d4d4f"});
         } else {
             if ($(".submenu_bar").is(":visible")){
+                
                 $(".triangle_down").hide();
                 $("#triangle_"+id).show();
                 $(".dd_submenu").hide();
                 $("#s_sub_"+id).show();
+                $("#m"+id).css({"background":"#7b929d", "color":"white"});
             } else {
                 $("#triangle_"+id).show();
                 $("#s_sub_"+id).show();
