@@ -57,6 +57,23 @@
              <p class="contact_number">E <a href="mailto: dhollstein@20vic.com ">dhollstein@20vic.com </a></p>
         </div>
         <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i>The variety of people and challenges I encounter in my day... It keeps me interested, it keeps me sharp and best of all it keeps me coming back.&nbsp;<i class="fa fa-quote-right"></i><br><br></p>
+            <p class="contact_subtitle">Duane Mundy </p>
+            <p class="contact_number">Operations Manager</p>
+            <p class="contact_number">P 250 952-5685</p>
+           <p class="contact_number">E <a href="mailto: dmundy@20vic.com ">dmundy@20vic.com  </a></p>
+        </div>
+         <div class="contact_column">
+            <p class="contact_quote"><i class="fa fa-quote-left"></i> Preparedness is the key to safety and security.&nbsp;<i class="fa fa-quote-right"></i><br><br><br><br><br><br></p>
+            <p class="contact_subtitle">Jeff Turner</p>
+            <p class="contact_number">Security & Life Safety Manager</p>
+            <p class="contact_number">P 250 952-5696</p>
+              <p class="contact_number">E <a href="mailto: jturner@20vic.com">jturner@20vic.com  </a></p>
+        </div>
+    </div>
+    
+    <div class="contact_row">
+        <div class="contact_column">
             <p class="contact_quote"><i class="fa fa-quote-left"></i>Discovering and sharing the Centre’s best kept secrets, like enjoying the sun streaming though the galleria roof early in the mornings in centre court. &nbsp;<i class="fa fa-quote-right"></i><br><br></p> 
            
             <p class="contact_subtitle">Adrienne lockstead</p>
@@ -65,28 +82,11 @@
            <p class="contact_number">E <a href="mailto: alockstead@20vic.com">alockstead@20vic.com </a></p>
         </div>
         <div class="contact_column">
-            <p class="contact_quote"><i class="fa fa-quote-left"></i>The variety of people and challenges I encounter in my day... It keeps me interested, it keeps me sharp and best of all it keeps me coming back.&nbsp;<i class="fa fa-quote-right"></i><br><br></p>
-            <p class="contact_subtitle">Duane Mundy </p>
-            <p class="contact_number">Operations Manager</p>
-            <p class="contact_number">P 250 952-5685</p>
-           <p class="contact_number">E <a href="mailto: dmundy@20vic.com ">dmundy@20vic.com  </a></p>
-        </div>
-    </div>
-    
-    <div class="contact_row">
-        <div class="contact_column">
             <p class="contact_quote"><i class="fa fa-quote-left"></i>   Every season the building’s architecture shines, from the frozen Fort Street fountain on a snowy day, to the sun streaming on the food court patio in the summer.&nbsp;<i class="fa fa-quote-right"></i></p>
             <p class="contact_subtitle">Chris Jiggins </p>
             <p class="contact_number">Operations Supervisor</p>
             <p class="contact_number">P 250 952-5695</p>
             <p class="contact_number">E <a href="mailto: cjiggins@20vic.com">cjiggins@20vic.com  </a></p>
-        </div>
-        <div class="contact_column">
-            <p class="contact_quote"><i class="fa fa-quote-left"></i> Preparedness is the key to safety and security.&nbsp;<i class="fa fa-quote-right"></i><br><br><br><br><br><br></p>
-            <p class="contact_subtitle">Jeff Turner</p>
-            <p class="contact_number">Security & Life Safety Manager</p>
-            <p class="contact_number">P 250 952-5696</p>
-              <p class="contact_number">E <a href="mailto: jturner@20vic.com">jturner@20vic.com  </a></p>
         </div>
         <div class="contact_column">
             <p class="contact_quote"><i class="fa fa-quote-left"></i>   Working in the centre of the downtown shopping district makes for the best lunch hour breaks.&nbsp;<i class="fa fa-quote-right"></i><br><br><br><br></p>
