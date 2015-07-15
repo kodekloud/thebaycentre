@@ -327,7 +327,7 @@
                         
                         
                     } else {
-                        val.alt_promo_image_url = getImageURL(val.event_image_url);
+                        val.alt_promo_image_url = (val.event_image2_url_abs);
                     }
                     
                     if (val.eventable_type == "Store"){
