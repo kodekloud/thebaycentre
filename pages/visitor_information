@@ -49,7 +49,7 @@ a:-webkit-any-link{
     .socialize_social_icons{
         margin-top:0;
     }
-    .tab_content li {
+    .tab {
   margin-top: 0px;
   width: 100%;
   background: white;
@@ -187,7 +187,7 @@ a:-webkit-any-link{
             
             <p>Conveniently located:</p>
             
-            <ul class="gs_text">
+            <ul class="tab">
             <li>Across the street from the Cruise Ship shuttle stop;</li>
             <li>Three blocks from the Inner Harbour including the <a href="http://www.clippervacations.com/" target="_blank">Victoria Clipper</a>, <a href="https://www.cohoferry.com/" target="_blank">MV Coho</a>, <a href="https://www.harbourair.com/" target="_blank">Harbour Air</a>, <a href="http://helijet.com/" target="_blank">Helijet</a>;</li>
             <li>Three blocks from the world renowned <a href="http://www.fairmont.com/empress-victoria" target="_blank">Empress Hotel</a> and <a href="http://victoriaconference.com/" target="_blank">Victoria Convention Centre</a>;</li>
