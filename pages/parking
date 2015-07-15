@@ -17,6 +17,13 @@
         height:auto;
         border-top:none;
     }
+    
+    .stores_div a{
+        height:inherit;
+        line-height:inherit;
+        font-size:inherit;
+    }
+    
     .socialize_div {
         margin-top:80px;
     }
