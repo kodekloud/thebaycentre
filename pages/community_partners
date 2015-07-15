@@ -1,7 +1,7 @@
 <style>
 
-ul li{
-    list-style:circle;
+.tabs li, .tab_content li{
+    list-style:circle !important;
 }
 
 a:-webkit-any-link{
