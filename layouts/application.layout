@@ -187,20 +187,20 @@
         </div>
         <div class="menu_items_container">
             <ul class="main_menu">
-                <li onclick="javascript:show_dd(1)">
+                <li onclick="javascript:show_dd(1)" id="m1">
                     find a store
                     <div class="triangle_down" id="triangle_1">&nbsp;</div>
                 </li>
-                <li onclick="javascript:show_dd(2)">
+                <li onclick="javascript:show_dd(2)" id="m2">
                     plan your visit
                     <div class="triangle_down" id="triangle_2">&nbsp;</div>
                 </li>
-                <li onclick="javascript:show_dd(3)">
+                <li onclick="javascript:show_dd(3)" id="m3">
                     Deals
                     <div class="triangle_down" id="triangle_3">&nbsp;</div>
                     
                 </li>
-                <li onclick="javascript:show_dd(4)">
+                <li onclick="javascript:show_dd(4)" id="m4">
                     events & contests
                     <div class="triangle_down" id="triangle_4">&nbsp;</div>
                     
