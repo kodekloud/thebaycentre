@@ -3,6 +3,14 @@ a:-webkit-any-link{
     color: #3aa2d2;
     
 }
+
+ .stores_div a{
+        color:#3aa2d2 !important;
+        font-family:lora-regular;
+        font-size:14pt;
+        line-height:26pt;
+    }
+    
 #CDSSCROLLINGRAVE.narrow {
   width: 282px;
   float: right;
