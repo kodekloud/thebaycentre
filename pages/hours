@@ -29,9 +29,13 @@
             padding-left:10px;
         }
         .hour_line p{
-            font-size:9pt;
-            vertical-align:top;
-            margin-bottom:0;
+              color: #6d6e71;
+  font-family: lora-regular;
+  font-size: 14pt;
+  line-height: 26pt;
+  margin-top: 0;
+  margin-bottom: 10;
+  text-decoration: none;
         }
     }
     
