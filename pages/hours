@@ -38,6 +38,9 @@
             vertical-align:top;
             margin-bottom:0;
         }
+        .hour_line_text a {
+            font-size:9pt;
+        }
     }
     
 </style>
