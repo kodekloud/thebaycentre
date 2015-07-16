@@ -10,7 +10,8 @@
     }
     
     a:link {
-    text-decoration: underline;
+        color:#3aa2d2 !important;
+        text-decoration: underline;
     }
     #CDSSCROLLINGRAVE.narrow {
   width: 282px;
