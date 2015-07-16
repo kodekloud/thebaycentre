@@ -5,7 +5,7 @@
     .socialize_social_icons{
         margin-top:-10px;
     }
-    a:link {
+   .contact_us_container a:link {
     text-decoration: underline;
 }
 </style>
