@@ -12,7 +12,11 @@
     .hidden_div{
         display:block;
     }
-    
+     .hidden_div a:link {
+        color:#3aa2d2 !important;
+        text-decoration: underline;
+     }    
+        
     @media (max-width: 767px) {
         .cat_div{
             padding-left:10px;
