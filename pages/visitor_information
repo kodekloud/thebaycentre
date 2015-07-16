@@ -1,8 +1,5 @@
 <style>
-a:-webkit-any-link{
-    color: #3aa2d2;
-    
-}
+
 
  .stores_div a{
         color:#3aa2d2 !important;
