@@ -33,7 +33,7 @@
             vertical-align:top;
             margin-bottom:0;
         }
-        .hour_line text{
+        .hour_line_text{
             font-size:9pt;
             vertical-align:top;
             margin-bottom:0;
