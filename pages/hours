@@ -16,7 +16,9 @@
         color:#3aa2d2 !important;
         text-decoration: underline;
      }    
-        
+        .hour_line_text a {
+            color:#3aa2d2 !important;
+        }
     @media (max-width: 767px) {
         .cat_div{
             padding-left:10px;
