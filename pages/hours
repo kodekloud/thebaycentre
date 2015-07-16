@@ -12,7 +12,7 @@
     .hidden_div{
         display:block;
     }
-     .hour_line a:link {
+     .hidden_div a:link {
         color:#3aa2d2 !important;
         text-decoration: underline;
      }    
