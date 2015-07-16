@@ -5,7 +5,7 @@ a:-webkit-any-link{
 }
 
     .store_detail_description li{
-        list-style:inherit !important;;
+        list-style:inherit !important;
     }
 
     .store_detail_description{
