@@ -404,6 +404,6 @@
             }
             return month;
         }
-        loadMallDataCached(renderPageData);
+        loadMallData(renderPageData);
     });
 </script>
