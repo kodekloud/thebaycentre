@@ -6,7 +6,7 @@ a:-webkit-any-link{
 
     .store_detail_description li{
         list-style:inherit !important;
-        display:list;
+        display:list-item;
     }
 
     .store_detail_description{
