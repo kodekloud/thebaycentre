@@ -3,6 +3,11 @@
 a:-webkit-any-link{
     color: #6d6e71;
 }
+
+    .store_detail_description li{
+        
+    }
+
     .store_detail_description{
         margin-top:15px;
         color:#6d6e71 !important;
