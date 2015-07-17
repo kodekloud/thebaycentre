@@ -40,7 +40,7 @@
     </select>
 </div>
 
-<button class="gray_pill" onclick="see_all_stores()">see all stores</button>
+<button class="gray_pill pull-right" onclick="see_all_stores()">see all stores</button>
 
 
 <div class="map_container" id="mapsvg"></div>
