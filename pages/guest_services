@@ -5,6 +5,7 @@
         font-family:lora-regular;
         font-size:14pt;
         line-height:26pt;
+        text-decoration: underline;
     }
     
     .title {
@@ -15,9 +16,7 @@
   margin-top: 0;
   margin-left:35px;
 }
-a:link {
-    text-decoration: underline;
-}
+
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
