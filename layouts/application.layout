@@ -832,7 +832,8 @@
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
-        window.location.href="/newsletter"
+        email = $("#fieldEmail").val();
+        window.location.href="/newsletter?"+email
         // $("#fieldjhtykh").val($("#agree_terms").attr("value"));
         // $("#fieldjhtykd").val(window.location.href)
         
