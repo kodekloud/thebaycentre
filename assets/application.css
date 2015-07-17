@@ -1517,6 +1517,11 @@ textarea:focus, input:focus{
 /*mobile css*/
 @media (max-width: 767px) {
     
+    .name_td{
+        width:100%;
+    }
+    
+    
     .map_container, .map_div{
         height:300px !important;
     }
