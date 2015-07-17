@@ -12,6 +12,11 @@
     .hidden_div{
         display:block;
     }
+    .hour_line_text, .hour_line_text a {
+ 
+  margin-top: -40px;
+  
+}
      .hidden_div a:link {
         color:#3aa2d2 !important;
         text-decoration: underline;
