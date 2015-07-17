@@ -13,7 +13,7 @@
         font-size:14pt;
         line-height:26pt;
     }
-    .stores_div a:link{
+    .stores_div p, .gs_text a:link{
         text-decoration:underline !important;
     }
     .stores_div p{
