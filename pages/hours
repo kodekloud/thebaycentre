@@ -66,7 +66,8 @@
     <div class="store_detail_description">
     </div>
     
-    <p class="store_detail_title">store location</p>
+
+    <p class="store_detail_title">regular hours</p>
     <div class="hidden_div" id="cat_regular_hours_stores">
         <script id="regular_hours_template" type="x-tmpl-mustache/text">
             <div class="hour_line">
