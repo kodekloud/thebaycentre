@@ -15,6 +15,8 @@
         margin-top: 10px;
     }
     
+    
+    
 </style>
 <div class="banner_container">
     <img src="" id="main_image" class="main_image" alt="">
