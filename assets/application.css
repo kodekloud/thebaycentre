@@ -1511,7 +1511,7 @@ textarea:focus, input:focus{
 /*mobile css*/
 @media (max-width: 767px) {
     
-    .map_container{
+    .map_container, .map_div{
         height:300px !important;
     }
     
