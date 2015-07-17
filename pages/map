@@ -30,7 +30,7 @@
     <span class='st_sharethis'></span>   
 </div>
 
-<button class="gray_pill" onclick="see_all_stores()">see all stores</button>
+
 
 <div class="store_select">
     <select id="store_select_container" onchange="javascript:drop_pin(this.value)">
@@ -39,6 +39,9 @@
         </script>
     </select>
 </div>
+
+<button class="gray_pill" onclick="see_all_stores()">see all stores</button>
+
 
 <div class="map_container" id="mapsvg"></div>
 
