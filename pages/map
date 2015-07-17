@@ -44,7 +44,7 @@
         </script>
     </select>
     
-    <button class="gray_pill download_map" onclick="">Printable PDF Map</button>
+    <button class="gray_pill download_map" onclick="window.open('http://www.google.com')">Printable PDF Map</button>
 </div>
 
 
