@@ -14,7 +14,7 @@
         line-height:26pt;
     }
     .stores_div a:link{
-        text-decoration:underline;
+        text-decoration:underline !important;
     }
     .stores_div p{
         height:auto;
