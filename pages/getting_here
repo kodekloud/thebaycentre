@@ -101,7 +101,7 @@
         The Bay Centre is centrally located in the centre of Downtown Victoria’s Shopping and Business district. Conveniently located at 1150 Douglas Street; the corner of Douglas and Fort Streets. Covering one full city block, The Bay Centre has four main entrances at Douglas Street, Fort Street, View Street and Government Street. We are easily accessible for pedestrian, cyclists, transit customers, and wheelchair/scooter guests.
         <br>
         <br>
-<div id="canvas1">
+<div id="canvas_1">
 <iframe id="getting_here_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.634026863271!2d-123.3664981!3d48.42517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f749ab70dd595%3A0x775000abe4570019!2sThe+Bay+Centre!5e0!3m2!1sen!2sca!4v1432928127424" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 </div>
 <br><br>
@@ -179,15 +179,15 @@
         }
         
         
-        $('#footer_map').addClass('scrolloff'); // set the pointer events to none on doc ready
-        $('#canvas1').on('click', function () {
-            $('#footer_map').removeClass('scrolloff'); // set the pointer events true on click
+        $('#getting_here_map').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#canvas_1').on('click', function () {
+            $('#getting_here_map').removeClass('scrolloff'); // set the pointer events true on click
         });
 
         // you want to disable pointer events when the mouse leave the canvas area;
 
-        $("#footer_map").mouseleave(function () {
-            $('#footer_map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+        $("#getting_here_map").mouseleave(function () {
+            $('#getting_here_map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
         });
         
         function add_to_page_array (data){
