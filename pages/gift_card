@@ -99,8 +99,8 @@
 </div>
 
 <script>
-    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/b8f115714f8107fc71a10b8bf4749a70/Gift_CardsLEFT.jpg");
-    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/b8f115714f8107fc71a10b8bf4749a70/Gift_CardsRIGHT.jpg");
+    $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ae788a0d586c414fe1209f4b0056bc1e/GiftCardLeft.png");
+    $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ae788a0d586c414fe1209f4b0056bc1e/GiftCardRight.png");
     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/cb352a97fa23d93dc26777dbd32efa33/Gift_Cards.png");
     
     function show_stores(id){
