@@ -104,6 +104,20 @@ function drop_pin(value){
             load_map(regions)
             
         }
+        
+        
+        $('#mapsvg svg').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#mapsvg').on('click', function () {
+            $('#mapsvg svg').removeClass('scrolloff'); // set the pointer events true on click
+        });
+
+        // you want to disable pointer events when the mouse leave the canvas area;
+
+        $("#mapsvg svg").mouseleave(function () {
+            $('#mapsvg svg').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+        });
+        
+        
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
