@@ -83,7 +83,7 @@ a:hover {
 
 
 .back_to_list{
-    margin-left:0;
+    margin-left:0 !important;
     margin-bottom:20px;
 }
 
