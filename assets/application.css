@@ -521,9 +521,9 @@ textarea:focus, input:focus{
 
 
 
-.find_right_div{
+
   
-  iframe {
+  #footer_map {
     height:100%;
     width:100%;
     border:0;
@@ -532,7 +532,7 @@ textarea:focus, input:focus{
 	  -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
 	  -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
   }
-}
+
 
 
 .footer_bottom_div{
