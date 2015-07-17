@@ -227,7 +227,7 @@
                 <div class="dd_submenu" id="s_sub_1">
                     <ul>
                         <li><a href="/stores">Store Directory</a></li>
-                        <li><a href="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74ba67112f2dcb42d1fe4e98b74e28f9/TBC-StoreMapprintcopyMay202015.pdf" target="_blank">Centre Directory</a></li>
+                        <!--<li><a href="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74ba67112f2dcb42d1fe4e98b74e28f9/TBC-StoreMapprintcopyMay202015.pdf" target="_blank">Centre Directory</a></li>-->
                         <li><a href="/map">Interactive Map</a></li>
                     </ul>
                 </div>
@@ -285,7 +285,7 @@
                 <div class="mobile_submenu" id="mobile_sub_1">
                     <ul>
                         <li class="mobile_submenu_li"><a href="/stores">Store Directory</a></li>
-                        <li class="mobile_submenu_li"><a href="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74ba67112f2dcb42d1fe4e98b74e28f9/TBC-StoreMapprintcopyMay202015.pdf" target="_blank">Centre Directory</a></li>
+                        <!--<li class="mobile_submenu_li"><a href="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/74ba67112f2dcb42d1fe4e98b74e28f9/TBC-StoreMapprintcopyMay202015.pdf" target="_blank">Centre Directory</a></li>-->
                         <li class="mobile_submenu_li"><a href="/map">Interactive Map</a></li>
                     </ul>
                 </div>
