@@ -9,7 +9,7 @@
         text-decoration:underline;
     }
     
-    a:link {
+   .store_detail_content a:link {
         color:#3aa2d2 ;
         text-decoration: underline;
     }
