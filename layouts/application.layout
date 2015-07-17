@@ -832,22 +832,22 @@
 
     $("#footer_newsletter").submit(function(e){
         e.preventDefault();
-        $("#fieldjhtykh").val($("#agree_terms").attr("value"));
-        $("#fieldjhtykd").val(window.location.href)
+        // $("#fieldjhtykh").val($("#agree_terms").attr("value"));
+        // $("#fieldjhtykd").val(window.location.href)
         
-         $.getJSON(
-            "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
-          $(this).serialize(),
-            function (data) {
-                if (data.Status === 400) {
-                    e.preventDefault();
-                    alert("Please try again later.");
-                } else {
-                    alert("Thank you for signing up.")
-                    $("#fieldEmail").val("")
-                    $("#agree_terms").prop('checked', false);
-                }
-        });  
+        //  $.getJSON(
+        //     "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
+        //   $(this).serialize(),
+        //     function (data) {
+        //         if (data.Status === 400) {
+        //             e.preventDefault();
+        //             alert("Please try again later.");
+        //         } else {
+        //             alert("Thank you for signing up.")
+        //             $("#fieldEmail").val("")
+        //             $("#agree_terms").prop('checked', false);
+        //         }
+        // });  
     })
 
     function show_dd(id){
