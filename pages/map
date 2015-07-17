@@ -42,9 +42,11 @@
             <option value='{{svgmap_region}}/{{slug}}'>{{name}}</option>
         </script>
     </select>
+    
+    <button class="gray_pill download_map" onclick="">Printable PDF Map</button>
 </div>
 
-<button class="gray_pill download_map" onclick="">Printable PDF Map</button>
+
 
 
 <div class="map_container" id="mapsvg"></div>
