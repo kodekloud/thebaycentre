@@ -1511,6 +1511,10 @@ textarea:focus, input:focus{
 /*mobile css*/
 @media (max-width: 767px) {
     
+    .map_container{
+        height:300px !important;
+    }
+    
     .socialize_div{
         padding-left:15px;
         padding-right:15px;
