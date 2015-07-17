@@ -8,7 +8,10 @@ a:-webkit-any-link{
         list-style:inherit !important;
         display:list-item;
     }
-
+    .store_detail_content a:link {
+        color:#3aa2d2 ;
+        text-decoration: underline;
+    }
     .store_detail_description{
         margin-top:15px;
         color:#6d6e71 !important;
