@@ -964,15 +964,15 @@
         }
         
         
-        $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#footer_map').addClass('scrolloff'); // set the pointer events to none on doc ready
         $('#canvas1').on('click', function () {
-            $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
+            $('#footer_map').removeClass('scrolloff'); // set the pointer events true on click
         });
 
         // you want to disable pointer events when the mouse leave the canvas area;
 
-        $("#map_canvas1").mouseleave(function () {
-            $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+        $("#footer_map").mouseleave(function () {
+            $('#footer_map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
         });
         
         function renderPageData(container, template, collection, type){
