@@ -163,8 +163,8 @@
 
 <script>
     var pathArray = window.location.pathname.split( '?' );
-    var email = pathArray[pathArray.length-1];
-    console.log(email)
+    var email = pathArray[2];
+    console.log(window.location.)
     $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/Enewsletter.png");
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterLeft.png");
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterRight.png");
