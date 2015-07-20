@@ -265,7 +265,11 @@
                  today = new Date();
                  webDate = new Date(val.show_on_web_date)
                  if (today >= webDate) {
-                     promo_array.push(val)
+                    c = $.inArray("news", val.tags)
+                    if (c == -1){
+                        promo_array.push(val)    
+                    }
+                    
                  } 
                 
              });
@@ -296,7 +300,7 @@
                 start.setDate(start.getDate()+1);
                 end.setDate(end.getDate()+1);
                 c = $.inArray("news", val.tags)
-                if (start.toDateString() == end.toDateString() || (c == 0) ) {
+                if (start.toDateString() == end.toDateString()) {
                     val.start_month = get_month(start.getMonth())
                     val.start_day = start.getDate()
                     
