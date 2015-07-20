@@ -1493,7 +1493,7 @@ textarea:focus, input:focus{
     margin-top:55px !important;
 }
 
-#mobile_insta_feed{
+.mobile_insta_feed{
     display:none;
 }
 #search_input{
@@ -1739,10 +1739,10 @@ textarea:focus, input:focus{
     .social_icon{
         height:25px;
     }
-    #insta_feed{
+    .insta_feed{
         display:none;
     }
-    #mobile_insta_feed {
+    .mobile_insta_feed {
         display:block;
     }
     footer {
