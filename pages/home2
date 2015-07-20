@@ -343,14 +343,14 @@
             
 
             var second_tab_content = []
-            second_tab_content = (basic_event_array);
+            second_tab_content = (basic_event_array.slice(0,2));
             
-            // if (news_event_array.length > 1){
-            //     $.merge(second_tab_content,(news_event_array.slice(0,1)));
+            if (news_event_array.length > 1){
+                $.merge(second_tab_content,(news_event_array.slice(0,1)));
               
-            // } else {
-            //     $.merge(second_tab_content,(news_event_array));
-            // }
+            } else {
+                $.merge(second_tab_content,(news_event_array));
+            }
             
         
             
