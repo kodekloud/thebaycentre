@@ -306,7 +306,7 @@
                  } 
              });
              
-            all_events = event_array;
+            all_events = event_array.slice(0,3);
             
              
             
