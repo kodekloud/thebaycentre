@@ -242,20 +242,7 @@
         function renderPageData(){
             all_promos = getEventsList();
             all_promos = all_promos.reverse();
-            all_contests = getContestList();
-            all_contests = all_contests.reverse();
-            
-            if (all_contests.length > 0) {
-                renderDetailData("#store_contest_container","#store_contest_template", all_contests, "contests");    
-            } else {
-                
-                $("#tab_2_content").css("width","100%")
-                $("#store_contest_container").hide()
-                $("#no_contest_container").show();
-                
-            }
-            
-            
+           
             promo_array = []
             
              $.each( all_promos , function( key, val ){
@@ -300,7 +287,7 @@
                 start.setDate(start.getDate()+1);
                 end.setDate(end.getDate()+1);
                 c = $.inArray("news", val.tags)
-                if (start.toDateString() == end.toDateString()) {
+                if (start.toDateString() == end.toDateString() || c == 0) {
                     val.start_month = get_month(start.getMonth())
                     val.start_day = start.getDate()
                     
