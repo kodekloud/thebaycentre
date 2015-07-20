@@ -294,7 +294,7 @@
     
     $(document).ready(function() {
         function render_page_details(){
-            var promos = getPromotionsList();
+            
             var events = getEventsList();
             basic_event_array = []
             news_event_array = []
@@ -331,6 +331,15 @@
             var first_tab_content = []
             
             first_tab_content = (basic_events); 
+            
+            
+            
+            
+            
+            
+            var promos = getPromotionsList();
+            
+            
             
             promo_array = []
              $.each( promos , function( key, val ){
