@@ -7,7 +7,7 @@ a:-webkit-any-link{
     .store_detail_description li{
         list-style:inherit !important;
         display:list-item;
-          list-style-type: initial !important;
+        list-style-type: initial !important;
     }
     .store_detail_content a:link {
         color:#3aa2d2 ;
