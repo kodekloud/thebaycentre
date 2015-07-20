@@ -328,8 +328,10 @@
                 $.merge(first_tab_content,(news_event_array));
             }
             
-            console.log(first_tab_content)
-             
+        
+            var second_tab_content = []
+            
+            second_tab_content = (basic_events); 
             
             promo_array = []
              $.each( promos , function( key, val ){
@@ -339,7 +341,16 @@
                      promo_array.push(val)
                  } 
              });
-            promos = promo_array
+           
+            
+            if (promo_array.length > 1){
+                $.merge(second_tab_content,(promo_array.slice(0,1)));
+            } else {
+                $.merge(second_tab_content,(promo_array));
+            }
+           
+           
+           
             featured_promos = []
             $.each( promos , function( key, val ) {
                 if (val.is_featured == true){
