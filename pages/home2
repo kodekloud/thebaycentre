@@ -147,7 +147,7 @@
                             </div>
                             </div>
                             <div class="feature_promo_right_div">
-                                <button  class="read_more_btn" onclick="location.href='/promotions/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
+                                <button  class="read_more_btn" onclick="location.href='/events/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
                             </div>
                         </li>
                     </script>
