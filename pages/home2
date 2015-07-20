@@ -454,8 +454,9 @@
                         if (val.promotionable_id){
                             val.eventable_id = val.promotionable_id
                             val.eventable_type = val.promotionable_type
+                            val.link = "/promotions/"+val.slug
                         } else {
-                            
+                            val.link = "/events/"+val.slug
                         }
                     }
                     
