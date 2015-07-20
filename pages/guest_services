@@ -5,7 +5,7 @@
         font-family:lora-regular;
         font-size:14pt;
         line-height:26pt;
-        
+        text-decoration: underline;
     }
     
     .title {
@@ -16,9 +16,7 @@
   margin-top: 0;
   margin-left:35px;
 }
-    .cat_div a:link{
-        text-decoration: underline;
-    }
+    
 
     .gs_text a:link{
         text-decoration: underline;
