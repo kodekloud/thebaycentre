@@ -1525,7 +1525,8 @@ textarea:focus, input:focus{
     
     .list_icon{
         position:absolute;
-        
+        right:10px;
+        top:0;
     }
     
     
