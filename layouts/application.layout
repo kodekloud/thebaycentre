@@ -390,11 +390,13 @@
 <!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/b0b452ba0b1a94adc6e82c90f0c97cfe3cef888d.html" id="instansive_b0b452ba0b" name="instansive_b0b452ba0b"  scrolling="no" allowtransparency="true" class="instansive-widget insta_feed" style="border: 0; overflow: hidden;"></iframe>
 
 
+<!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/d254490a3b1f23da3c20502f3f13be63a2201443.html" id="instansive_d254490a3b" name="instansive_d254490a3b"  scrolling="no" allowtransparency="true" class="instansive-widget mobile_insta_feed" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
 
 <!-- SnapWidget -->
 <!--<iframe id="insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIxMHw1fDF8fHllc3wxMHxmYWRlT3V0fG9uU3RhcnR8eWVzfG5v&ve=040615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1150px; height:230px"></iframe>-->
 
-<iframe id="mobile_insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDEzMHwzfDF8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=190615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+<!--<iframe id="mobile_insta_feed" src="http://snapwidget.com/in/?u=dGhlYmF5Y2VudHJlfGlufDEzMHwzfDF8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=190615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>-->
     </div>
     <footer>
         <div class="footer_logo_div">
