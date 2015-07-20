@@ -367,7 +367,7 @@
             }
             
             if (featured_promos.length > 0 ){
-                renderHomePageData("#feature_slider_ul", "#feature_slider_template", basic_events, "feature_promos");
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", first_tab_content, "feature_promos");
             } else {
                 $("#no_features").show()
             }
