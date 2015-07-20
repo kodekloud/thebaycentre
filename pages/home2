@@ -302,11 +302,12 @@
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
                  if (today >= webDate) {
+                     console.log(val.tags)
                      event_array.push(val)
                  } 
              });
              
-            all_events = event_array.slice(0,3);
+            basic_events = event_array.slice(0,2);
             
              
             
@@ -347,7 +348,7 @@
             }
             
             if (featured_promos.length > 0 ){
-                renderHomePageData("#feature_slider_ul", "#feature_slider_template", all_events, "feature_promos");
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", basic_events, "feature_promos");
             } else {
                 $("#no_features").show()
             }
