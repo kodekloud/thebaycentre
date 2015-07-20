@@ -124,15 +124,6 @@
 
 
 <div class="tab_container">
-    <ul class="tabs">
-        <li id="tab_1" style="background:white">
-        <div class="tab_item" style="color:#4d4d4f"><div class="tab_overlay" style="display:none">&nbsp;</div>Events &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></div>
-             
-        </li>
-        <li id="tab_2">
-            <div class="tab_item"><div class="tab_overlay">&nbsp;</div>contests &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></div>
-        </li>
-    </ul>
     <ul class="tab_content">
         <li id="tab_1_content">
             <div class="store_promo_content">
