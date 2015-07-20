@@ -118,9 +118,7 @@
             padding-right:15px;
         }
         
-        .stores_div{
-            padding-left:15px;
-        }
+        
         .stores_div table{
             width:100%;
         }
