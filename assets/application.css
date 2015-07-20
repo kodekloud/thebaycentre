@@ -905,6 +905,7 @@ textarea:focus, input:focus{
 }
 .insta_feed{
     margin-left:30px;
+    width:95%;
 }
 #banner_hours_container {
     position:absolute;
