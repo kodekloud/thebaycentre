@@ -377,13 +377,13 @@
             
             
             
-            if (first_tab_content.length > 0 ){
+            if (second_tab_content.length > 0 ){
                 renderHomePageData("#feature_slider_ul", "#feature_slider_template", second_tab_content, "feature_promos");
             } else {
                 $("#no_features").show()
             }
             
-            if (second_tab_content.length > 0 ){
+            if (first_tab_content.length > 0 ){
                 renderHomePageData("#store_slider_ul", "#store_slider_template", first_tab_content, "mixed")
             } else {
                 $("#no_stores").show()
