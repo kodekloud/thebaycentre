@@ -298,7 +298,7 @@
             var events = getEventsList();
             
             basic_event_array = []
-            news_event_array = 
+            news_event_array = []
              $.each( events , function( key, val ){
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
