@@ -452,7 +452,10 @@
                     }
                     if (type == "mixed"){
                         if (val.promotionable_id){
-                            console.log(val)
+                            val.eventable_id = val.promotionable_id
+                            val.eventable_type = val.promotionable_type
+                        } else {
+                            
                         }
                     }
                     
