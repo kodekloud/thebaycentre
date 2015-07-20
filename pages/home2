@@ -425,7 +425,7 @@
                 
                 if (type == "feature_promos"){
                     if (val.description.length > 110) {
-                       val.description =  val.description.substring(0,300)+'...';
+                       val.description =  val.description.substring(0,100)+'...';
                     } 
                     
                     start = new Date (val.start_date);
