@@ -23,7 +23,7 @@
         color:#6d6e71;
         font-family:lora-regular;
         font-size:14pt;
-        
+        line-height:26pt;
     }
     .stores_div{
         padding-top:30px;
