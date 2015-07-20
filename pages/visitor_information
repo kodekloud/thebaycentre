@@ -111,6 +111,12 @@
             color:black !important;
             padding-left:0 !important;
         }
+        
+        .stores_div a {
+        margin-right: 0px;
+        height:auto;
+        margin-left:0px;
+        }
         .cat_div{
             height:auto;
             font-size:12px;
