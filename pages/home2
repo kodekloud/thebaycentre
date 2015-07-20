@@ -390,7 +390,7 @@
             }
             
             if (promo_array.length > 0 ){
-                renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", promos, "feature_promos")
+                renderHomePageData("#promo_slider_ul", "#current_promo_slider_template", third_tab_content, "feature_promos")
             } else {
                 $("#no_promos").show()
             }
