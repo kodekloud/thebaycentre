@@ -296,7 +296,6 @@
         function render_page_details(){
             var promos = getPromotionsList();
             var events = getEventsList();
-            console.log(events)
             basic_event_array = []
             news_event_array = []
              $.each( events , function( key, val ){
