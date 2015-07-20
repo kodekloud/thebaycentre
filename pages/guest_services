@@ -16,7 +16,7 @@
   margin-top: 0;
   margin-left:35px;
 }
-    .stores_div p, .gs_text a:link{
+    .stores_div a:link{
         text-decoration: underline;
     }
     .stores_div p, .gs_text {
