@@ -352,7 +352,7 @@
                 $.merge(second_tab_content,(promo_array));
             }
            
-           third_tab_content = promos.slice(0.3)
+           third_tab_content = promos.slice(0,3)
            
             featured_promos = []
             $.each( promos , function( key, val ) {
