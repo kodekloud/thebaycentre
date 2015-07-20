@@ -295,6 +295,21 @@
     $(document).ready(function() {
         function render_page_details(){
             var promos = getPromotionsList();
+            var events = getEventsList();
+            
+            event_array = []
+             $.each( events , function( key, val ){
+                 today = new Date();
+                 webDate = new Date(val.show_on_web_date);
+                 if (today >= webDate) {
+                     event_array.push(val)
+                 } 
+             });
+             
+            all_events = event_array;
+            
+             
+            
             promo_array = []
              $.each( promos , function( key, val ){
                  today = new Date();
@@ -332,7 +347,7 @@
             }
             
             if (featured_promos.length > 0 ){
-                renderHomePageData("#feature_slider_ul", "#feature_slider_template", featured_promos, "feature_promos");
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", all_events, "feature_promos");
             } else {
                 $("#no_features").show()
             }
