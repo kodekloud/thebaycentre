@@ -180,7 +180,7 @@
                             </div>
                             </div>
                             <div class="feature_promo_right_div">
-                                <button  class="read_more_btn" onclick="location.href='/stores/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
+                                <button  class="read_more_btn" onclick="location.href='{{link}}'">read more <i class="fa fa-chevron-right"></i></button>
                             </div>
                         </li>
                     </script>
