@@ -309,8 +309,6 @@
                      } else {
                          basic_event_array.push(val)
                      }
-                     console.log(c)
-                     
                  } 
              });
              
