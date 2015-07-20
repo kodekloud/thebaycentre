@@ -19,6 +19,7 @@
     
     .stores_div li {
   display: list-item;
+  list-style-type: initial !important;
   text-align: -webkit-match-parent;
     margin-left: 30px;
 }
