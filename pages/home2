@@ -319,12 +319,12 @@
             }
             
             var first_tab_content = []
-            first_tab_content.push(basic_events);
+            first_tab_content = (basic_events);
             
             if (news_event_array.length > 1){
-                first_tab_content.push(news_event_array.slice(0,1))
+                first_tab_content.extend(news_event_array.slice(0,1))
             } else {
-                first_tab_content.push(news_event_array)
+                first_tab_content.extend(news_event_array)
             }
             
             console.log(first_tab_content)
