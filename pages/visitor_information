@@ -112,23 +112,23 @@
             padding-left:0px !important;
         }
         
+       .stores_div p, .cat_div{
+            padding-left:15px;
+            padding-right:15px;
+        }
+        
         .stores_div a {
         margin-right: 0px;
         height:auto;
-        margin-left:0px;
-        }
-        .cat_div{
-            height:auto;
-            font-size:12px;
-            
-        }
-      
-       
-        .stores_div table{
-            width:100%;
         }
         
-    
+        .cat_div{
+            font-size:18pt;
+            height:auto;
+        }
+        .list_icon{
+            font-size:15px !important;
+        }
     }
 </style>
 
