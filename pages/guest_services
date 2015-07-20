@@ -4,7 +4,7 @@
         color:#3aa2d2 !important;
         font-family:lora-regular;
         font-size:14pt;
-        
+        line-height:26pt;
         
     }
     
@@ -16,7 +16,7 @@
   margin-top: 0;
   margin-left:35px;
 }
-    .stores_div a:link{
+    .stores_div p, .gs_text a:link{
         text-decoration: underline;
     }
     .stores_div p, .gs_text {
