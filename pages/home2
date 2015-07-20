@@ -315,7 +315,7 @@
                  } 
              });
              
-            2_basic_events = event_array.slice(0,2);
+            var 2_basic_events = event_array.slice(0,2);
             
              
             
