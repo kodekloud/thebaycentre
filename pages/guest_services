@@ -16,6 +16,10 @@
   margin-top: 0;
   margin-left:35px;
 }
+    .cat_div a:link{
+        text-decoration: underline;
+    }
+
     .gs_text a:link{
         text-decoration: underline;
     }
