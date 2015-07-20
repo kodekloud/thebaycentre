@@ -122,9 +122,9 @@
         .stores_div table{
             width:100%;
         }
-        .stores_div a{
-            margin-right:0;
-            font-size:12px;
+         .stores_div a {
+        margin-right: 0px;
+        height:auto;
         }
     
     }
