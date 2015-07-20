@@ -448,8 +448,8 @@
                         val.end_day = "  - " + val.end_day
                     }
                     
-                    if (val.promotionable_type == "Store"){
-                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                    if (val.eventable_type == "Store"){
+                        var store_details = getStoreDetailsByID(val.eventable_id);
                         val.store_name = store_details.name
                         val.store_slug = "/stores/"+store_details.slug
                     }else {
