@@ -1902,6 +1902,10 @@ textarea:focus, input:focus{
         width:90%;
         margin-bottom:10px;
     }
+    
+    .back_to_list{
+        width:100% !important;
+    }
     .download_map{
         width:100%;
     }
