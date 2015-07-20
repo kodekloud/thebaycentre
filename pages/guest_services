@@ -56,6 +56,11 @@
             padding-left:15px;
             padding-right:15px;
         }
+        
+        .stores_div a {
+        margin-right: 0px;
+        }
+        
         .cat_div{
             font-size:18pt;
             height:auto;
