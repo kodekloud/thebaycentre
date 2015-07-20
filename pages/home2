@@ -425,21 +425,9 @@
             }
             
             $.each( collection , function( key, val ) {
-                if (type == "stores"){
-                    if (val.new_store_open_date){
-                        start = new Date (val.new_store_open_date); 
-                        start.setDate(start.getDate()+1);
-                        val.start_month = get_month(start.getMonth())
-                        val.start_day = start.getDate()
-                        val.date_string = val.start_month + " " + val.start_day
-                    } else {
-                        val.start_month  = "Opening";
-                        val.start_day = "Soon"
-                    }
-                    
-                }
+               
                 
-                if (type == "feature_promos"){
+                if (type == "feature_promos" || type == "mixed"){
                     if (val.description.length > 110) {
                        val.description =  val.description.substring(0,100)+'...';
                     } 
@@ -463,6 +451,10 @@
                         val.end_day = end.getDate()
                         val.end_day = "  - " + val.end_day
                     }
+                    if (type == "mixed"){
+                        console.log(val)
+                    }
+                    
                     
                     if (val.eventable_type == "Store"){
                         var store_details = getStoreDetailsByID(val.eventable_id);
