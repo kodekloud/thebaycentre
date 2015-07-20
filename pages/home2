@@ -316,9 +316,9 @@
              });
              
             if (basic_event_array.length > 2){
-                var 2_basic_events = basic_event_array
+                var basic_events = basic_event_array.slice(0,2);
             } else {
-                var 2_basic_events = basic_event_array;
+                var basic_events = basic_event_array;
             }
              
             
@@ -362,7 +362,7 @@
             }
             
             if (featured_promos.length > 0 ){
-                renderHomePageData("#feature_slider_ul", "#feature_slider_template", 2_basic_events, "feature_promos");
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", basic_events, "feature_promos");
             } else {
                 $("#no_features").show()
             }
