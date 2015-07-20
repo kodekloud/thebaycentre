@@ -384,7 +384,7 @@
             }
             
             if (new_stores.length > 0 ){
-                renderHomePageData("#store_slider_ul", "#store_slider_template", new_stores, "stores")
+                renderHomePageData("#store_slider_ul", "#store_slider_template", second_tab_content, "mixed")
             } else {
                 $("#no_stores").show()
             }
