@@ -327,7 +327,7 @@
                 first_tab_content.push(news_event_array)
             }
             
-            
+            console.log(first_tab_content)
              
             
             promo_array = []
