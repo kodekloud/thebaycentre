@@ -312,7 +312,7 @@
              });
              
             if (basic_event_array.length >= 2){
-                var basic_events = basic_event_array.slice(0,1);
+                var basic_events = basic_event_array.slice(0,2);
             } else {
                 var basic_events = basic_event_array;
             }
