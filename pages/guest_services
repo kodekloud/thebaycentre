@@ -59,7 +59,7 @@
         
         .stores_div a {
         margin-right: 0px;
-        height:0px;
+        height:auto;
         }
         
         .cat_div{
