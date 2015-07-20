@@ -125,6 +125,7 @@
          .stores_div a {
         margin-right: 0px;
         height:auto;
+        margin-left: 0px;
         }
     
     }
