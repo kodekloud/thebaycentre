@@ -373,7 +373,7 @@
             //      }
             //  });
             
-            
+            console.log(second_tab_content)
             
             
             if (first_tab_content.length > 0 ){
