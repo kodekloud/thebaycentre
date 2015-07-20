@@ -109,7 +109,7 @@
         .tab_item{
             height:25px;
             color:black !important;
-            padding-left:0 !important;
+            padding-left:0px !important;
         }
         
         .stores_div a {
