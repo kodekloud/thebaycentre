@@ -396,6 +396,11 @@
             }
             
             
+            console.log(first_tab_content)
+            console.log(second_tab_content)
+            console.log(third_tab_content)
+            
+            
             var banners = getBanners()
             renderHomePageData("#banner_slider_ul","#banner_slider_template",banners,"banners")
             
