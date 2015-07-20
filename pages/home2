@@ -341,8 +341,7 @@
                 $.merge(first_tab_content,(promo_array));
             }
             
-            console.log(basic_events)
-            console.log(news_event_array)
+
             var second_tab_content = []
             second_tab_content = (basic_events);
             
@@ -378,9 +377,6 @@
             //      }
             //  });
             
-            console.log(second_tab_content)
-            
-            
             if (first_tab_content.length > 0 ){
                 renderHomePageData("#feature_slider_ul", "#feature_slider_template", first_tab_content, "mixed");
             } else {
@@ -412,7 +408,7 @@
             $(".loading_overlay").hide();
             $("#page_content").show();
             load_slider("flexslider");
-            load_fading_slider("flexslider4");
+            load_slider("flexslider4");
             
         }
         loadMallData(render_page_details);  
