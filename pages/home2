@@ -302,7 +302,10 @@
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
                  if (today >= webDate) {
-                     console.log(val.tags)
+                     $.each( val.tags , function( key2, val2 ){
+                        console.log(val2)    
+                     });
+                     
                      event_array.push(val)
                  } 
              });
