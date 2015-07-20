@@ -1523,6 +1523,11 @@ textarea:focus, input:focus{
         width:100%;
     }
     
+    .list_icon{
+        position:absolute;
+        
+    }
+    
     
     .map_container, .map_div{
         height:300px !important;
