@@ -451,7 +451,9 @@
                         val.end_day = "  - " + val.end_day
                     }
                     if (type == "mixed"){
-                        console.log(val)
+                        if (val.promotionable_id){
+                            console.log(val)
+                        }
                     }
                     
                     
