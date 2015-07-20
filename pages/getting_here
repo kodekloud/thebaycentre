@@ -13,10 +13,13 @@
         text-decoration:underline;
     }
     
-    
+    a:link {
+    text-decoration: underline;
+    }
     
     .stores_div li {
   display: list-item;
+  list-style-type: initial !important;
   text-align: -webkit-match-parent;
     margin-left: 30px;
 }
@@ -62,10 +65,6 @@
         .stores_div p, .cat_div{
             padding-left:15px;
             padding-right:15px;
-        }
-        .stores_div a {
-        margin-right: 0px;
-        height:auto;
         }
         .cat_div{
             font-size:18pt;
