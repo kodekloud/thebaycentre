@@ -305,7 +305,7 @@
                  if (today >= webDate) {
                      c = $.inArray("news", val.tags)
                      console.log(c)
-                     basic_event_array.pus(val)
+                     basic_event_array.push(val)
                  } 
              });
              
