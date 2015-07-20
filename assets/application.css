@@ -1673,7 +1673,7 @@ textarea:focus, input:focus{
         margin-right:0;
         padding-left:5px;
         padding-right:5px;
-        height:65px;
+        height:90px;
         min-width:1px !important;
     }
     .date_block{
@@ -1688,7 +1688,7 @@ textarea:focus, input:focus{
     .promo_description_div{
         margin-left:0;
         top:0;
-        width:100%;
+        width:100% !important;
     }
     .promo_title{
         font-size:8pt;
