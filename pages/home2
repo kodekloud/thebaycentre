@@ -297,20 +297,25 @@
             var promos = getPromotionsList();
             var events = getEventsList();
             
-            event_array = []
+            basic_event_array = []
+            news_event_array = 
              $.each( events , function( key, val ){
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
                  if (today >= webDate) {
                      $.each( val.tags , function( key2, val2 ){
-                        console.log(val2)    
+                        if (val.tags != "news") {
+                            basic_event_array.push(val)
+                        } else {
+                            news_event_array.push(val)
+                        }
                      });
                      
-                     event_array.push(val)
+                     
                  } 
              });
              
-            basic_events = event_array.slice(0,2);
+            2basic_events = event_array.slice(0,2);
             
              
             
@@ -351,7 +356,7 @@
             }
             
             if (featured_promos.length > 0 ){
-                renderHomePageData("#feature_slider_ul", "#feature_slider_template", basic_events, "feature_promos");
+                renderHomePageData("#feature_slider_ul", "#feature_slider_template", 2basic_events, "feature_promos");
             } else {
                 $("#no_features").show()
             }
