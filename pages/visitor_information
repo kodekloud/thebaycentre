@@ -55,6 +55,11 @@
   display: list-item !important;
   
     }
+    
+    .stores_div ul li{
+        list-style-type: initial !important;
+  display: list-item !important;
+    }
     .store_detail_description{
         margin-top:15px;
         color:#6d6e71 !important;
