@@ -139,7 +139,7 @@
                                    
                             </div>
                             <div class="promo_description_div">
-                                <p class="promo_title"><a class="promo_title" href="{{store_slug}}">{{store_name}}</a> | <a class="promo_title" href="/events/{{slug}}">{{name}} </a></p>
+                                <p class="promo_title"><a class="promo_title" href="{{store_slug}}">{{store_name}}</a> | <a class="promo_title" href="{{link}}">{{name}} </a></p>
                                 <p class="promo_description">
                                     {{description}}
                                 </p>
@@ -147,7 +147,7 @@
                             </div>
                             </div>
                             <div class="feature_promo_right_div">
-                                <button  class="read_more_btn" onclick="location.href='/events/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
+                                <button  class="read_more_btn" onclick="location.href='{{link}}'">read more <i class="fa fa-chevron-right"></i></button>
                             </div>
                         </li>
                     </script>
@@ -172,7 +172,7 @@
                                     </div>
                             </div>
                             <div class="promo_description_div">
-                                <p class="promo_title"><a class="promo_title" href="/stores/{{slug}}">{{name}}</a></p>
+                                <p class="promo_title"><a class="promo_title" href="/events/{{slug}}">{{name}}</a></p>
                                 <p class="promo_description">
                                     {{description}}
                                 </p>
@@ -180,7 +180,7 @@
                             </div>
                             </div>
                             <div class="feature_promo_right_div">
-                                <button  class="read_more_btn" onclick="location.href='{{link}}'">read more <i class="fa fa-chevron-right"></i></button>
+                                <button  class="read_more_btn" onclick="location.href='/events/{{slug}}'">read more <i class="fa fa-chevron-right"></i></button>
                             </div>
                         </li>
                     </script>
