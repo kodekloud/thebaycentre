@@ -104,7 +104,7 @@
 <script>
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/job_banner3.jpg");
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/job_banner2.jpg");
-    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/job_banner1.jpg");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/86a4667f5eb28d1a9c0a1c7516ad2a27/Job_Opportunities.png");
     
     $(document).ready(function() {
         function renderPageData(){
