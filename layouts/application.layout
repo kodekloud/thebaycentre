@@ -362,7 +362,7 @@
                 </div>
                 
                 <input id="popup_agree_terms" type="checkbox" required value="Yes, I consent to receive your Commercial Electronic Messages; and i acknowledge i have read and understand the <a href='/pages/baycentre-privacy-policy' target='_blank'>Privacy Terms & Conditions</a>"/> 
-                <label for="popup_agree_terms" class="checkbox_label"> Yes, I agree to receive newsletters from The Bay Centre via electronic messaging; and I acknowledge that I have read and understand the  <a href='/pages/baycentre-privacy-policy' target='_blank'>Privacy Terms & Conditions</a>.</label>
+                <label for="popup_agree_terms" class="checkbox_label"> Yes, I agree to receive newsletters from The Bay Centre via electronic messaging; and I acknowledge that I have read and understand the <a href='/pages/baycentre-privacy-policy' target='_blank'>Privacy Terms & Conditions</a>.</label>
             </form>
             
             <p class="popup_cancel" onclick="javascript:dismiss_popup()">No Thanks</p>
