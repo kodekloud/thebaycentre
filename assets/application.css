@@ -1681,7 +1681,7 @@ textarea:focus, input:focus{
         padding-left:5px;
         padding-right:5px;
         height:90px;
-        min-width:1px !important;
+        min-width:50px !important;
     }
     .date_block{
         margin-top:5px;
