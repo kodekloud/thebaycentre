@@ -29,6 +29,7 @@ a:-webkit-any-link{
     }
     .store_detail_title {
   font-family: railway-regular;
+  font-family: proxima \9;
   font-size: 28pt;
   color: #6d6e71;
   text-transform: uppercase;
@@ -38,6 +39,7 @@ a:-webkit-any-link{
 
 h2 {
      font-family: railway-regular;
+     font-family: proxima \9;
   font-size: 28pt;
   color: #6d6e71;
   text-transform: uppercase;
