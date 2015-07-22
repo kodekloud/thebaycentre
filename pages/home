@@ -128,13 +128,8 @@
                                 <div class="feature_promo_date_triangle">&nbsp;</div>
                      
                                     <div class="date_block">
-                                        <p class="month_string">ON</p>
+                                        <p class="day_string">ON</p>
                                         <p class="day_string">NOW</p>
-                                    </div>
-                                    
-                                    <div class="date_block">
-                                        <p class="month_string">{{end_month}}</p>
-                                        <p class="day_string">{{end_day}}</p>
                                     </div>
                                    
                             </div>
