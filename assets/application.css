@@ -1972,7 +1972,7 @@ textarea:focus, input:focus{
     }
     
     #no_contest_container, #no_event_container{
-        padding-left:10px;
+        padding-left:10px !important;
         padding-right:10px;
     }
    
