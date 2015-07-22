@@ -42,7 +42,7 @@
     }
     
     .flexslider4 .flex-viewport{
-        overflow: visible !important;
+        /*overflow: visible !important;*/
     }
     
     @media (max-width: 767px) {
