@@ -236,7 +236,7 @@
 <script>
     $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner3.jpg");
     $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/Events&ContestsLeft.png");
-    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/Events&ContestsRight.png");
+    $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/6fa94434a164d995fb70fb4457cefdac/Events&ContestsCENTRE.jpg");
     
     $(document).ready(function() {
         function renderPageData(){
