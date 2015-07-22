@@ -365,20 +365,19 @@
                  }  
              })
              
-            console.log(featured_promo_array)
              
             third_tab_content = []
             
             if (featured_promo_array.length > 2){
-                $.merge(first_tab_content,(featured_promo_array.slice(0,2)));
+                $.merge(third_tab_content,(featured_promo_array.slice(0,2)));
             } else {
-                $.merge(first_tab_content,(featured_promo_array));
+                $.merge(third_tab_content,(featured_promo_array));
             }
         
-            $.merge(first_tab_content,(promos.slice(0,1)));
+            $.merge(third_tab_content,(promo_array.slice(0,1)));
             
            
-           third_tab_content = promos.slice(0,3);
+        //   third_tab_content = promos.slice(0,3);
            
             
             if (first_tab_content.length > 0 ){
