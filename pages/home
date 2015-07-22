@@ -38,18 +38,20 @@
     }
     
     .banner_container{
-        height:50px;
+        height:550px;
     }
     
     .flexslider4 .flex-viewport{
         /*overflow: visible !important;*/
     }
     
-    .tab_content{
+    
+    @media (max-width: 767px) {
+        .tab_content{
         top:-50px;
     }
     
-    @media (max-width: 767px) {
+        
         .tab_item {
             padding-top:5px;
         }    
