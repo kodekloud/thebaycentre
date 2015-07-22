@@ -401,7 +401,7 @@
             
             var isMobile = window.matchMedia("only screen and (max-width: 760px)");
             console.log(isMobile.matches)
-            if( isMobile == true ) {
+            if( isMobile.matches == true ) {
                 var banners = getMobileBanners();
                 $.each( banners , function( key, val ){
                     val.image_url = val.photo_url_abs
