@@ -399,7 +399,9 @@
                 $("#no_promos").show()
             }
             
-            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+            
+            if( is_mobile == true ) {
                 var banners = getMobileBanners();
                 $.each( banners , function( key, val ){
                     val.image_url = val.photo_url_abs
