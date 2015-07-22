@@ -357,25 +357,6 @@
            
            third_tab_content = promos.slice(0,3);
            
-            // featured_promos = []
-            // $.each( promos , function( key, val ) {
-            //     if (val.is_featured == true){
-            //         featured_promos.push(val)
-            //     }
-            // })
-            // featured_promos = featured_promos.sort(function(a,b){
-            //   if(a.feature_item_index > b.feature_item_index){ return 1}
-            //     if(a.feature_item_index < b.feature_item_index){ return -1}
-            //       return 0;
-            // });
-            
-            // stores = getStoresList();
-            // new_stores = []
-            //  $.each( stores , function( key, val ) {
-            //      if (val.is_coming_soon_store == true){
-            //          new_stores.push(val)
-            //      }
-            //  });
             
             if (first_tab_content.length > 0 ){
                 renderHomePageData("#feature_slider_ul", "#feature_slider_template", first_tab_content, "mixed");
