@@ -623,11 +623,13 @@ textarea:focus, input:focus{
     margin-right:17px;
     margin-bottom:30px;
     font-family:lora-regular;
+    font-family: neuton \9;
     color: white !important;
 }
 #news_submit{
     border:1px white solid;
     font-family:lora-regular;
+    font-family: neuton \9;
     background:#848585;
     height:33px;
     color:white;
@@ -637,6 +639,7 @@ textarea:focus, input:focus{
 
 .top_footer_text{
     font-family:lora-regular;
+    font-family: neuton \9;
     color:#4d4d4f;
     font-size:16px;
     margin-top:5px;
@@ -663,9 +666,11 @@ textarea:focus, input:focus{
 .footer_text{
     margin:0;
     font-family:lora-regular;
+    font-family: neuton \9;
 }
 .footer_last_container, .footer_last_container a{
     font-family:lora-regular;
+    font-family: neuton \9;
     color:#cfcdc4 !important;
     text-align:center;
     background:#848585;
