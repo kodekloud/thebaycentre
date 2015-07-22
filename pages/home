@@ -306,7 +306,10 @@
                      if (c == 0){
                          news_event_array.push(val)
                      } else {
-                         basic_event_array.push(val)
+                         if (val.is_featured == true){
+                            basic_event_array.push(val)    
+                         }
+                         
                      }
                  } 
              });
