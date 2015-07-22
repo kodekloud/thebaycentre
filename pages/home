@@ -194,15 +194,10 @@
                                 <div class="feature_promo_date_div">
                                     <div class="feature_promo_date_triangle">&nbsp;</div>
                          
-                                        <div class="date_block">
-                                            <p class="month_string">{{start_month}}</p>
-                                            <p class="day_string">{{start_day}}</p>
-                                        </div>
-                                        
-                                        <div class="date_block">
-                                            <p class="month_string">{{end_month}}</p>
-                                            <p class="day_string">{{end_day}}</p>
-                                        </div>
+                                    <div class="date_block" style="text-align:left;margin-top:20px">
+                                        <p class="day_string">ON</p>
+                                        <p class="day_string">NOW</p>
+                                    </div>
                                        
                                 </div>
                             <div class="promo_description_div">
