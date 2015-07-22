@@ -365,6 +365,8 @@
                  }  
              })
              
+            console.log(featured_promo_array)
+             
             third_tab_content = []
             
             if (featured_promo_array.length > 2){
