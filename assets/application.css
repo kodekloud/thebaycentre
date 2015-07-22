@@ -1970,5 +1970,9 @@ textarea:focus, input:focus{
         
         
     }
+    
+    #no_contest_container, #no_event_container{
+        
+    }
    
 }
