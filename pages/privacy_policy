@@ -2,11 +2,13 @@
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
+        font-family: neuton \9;
         font-size:14pt;
         line-height:26pt;
     }
     h1 {
      font-family: railway-regular;
+     font-family: proxima \9;
   font-size: 28pt;
   color: #6d6e71;
   text-transform: uppercase;
@@ -17,6 +19,7 @@
         padding-left:0;
         color:#6d6e71;
         font-family:lora-regular;
+        font-family: neuton \9;
         font-size:14pt;
         line-height:26pt;
         padding-bottom:30px;
