@@ -24,6 +24,7 @@
         width:49%;
         display:inline-block;
         font-family:montserrat-regular;
+        font-family: proxima \9;
         font-size:16px;
         color:#4d4d4f;
     }
@@ -31,6 +32,7 @@
         width:90%;
         height:34px;
         font-family:montserrat-regular;
+        font-family: proxima \9;
         font-size:16px;
         color:#4d4d4f;
         line-height:34px;
@@ -49,12 +51,14 @@
         width:93%;
         margin-top:10px;
         font-family:montserrat-regular;
+        font-family: proxima \9;
         font-size:16px;
         color:#4d4d4f;
         line-height:34px;
     }
     .news_subscribe{
         font-family:montserrat-regular;
+        font-family: proxima \9;
         font-size:16px;
         text-transform:uppercase;
         height:40px;
