@@ -365,7 +365,7 @@
                  }  
              })
             
-            featured_promo_array = featured_promo_array.reversed(); 
+            featured_promo_array = featured_promo_array.reverse(); 
              
             third_tab_content = []
             
