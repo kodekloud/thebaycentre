@@ -605,6 +605,7 @@ textarea:focus, input:focus{
     margin-right:17px;
     margin-bottom:30px;
     font-family:lora-regular;
+    color: white !important;
 }
 #news_submit{
     border:1px white solid;
@@ -1823,7 +1824,7 @@ textarea:focus, input:focus{
         height:22px;
         margin-left:1px;
         border-radius:0;
-        color: white !important;
+        
       
     }
     #news_submit{
