@@ -399,12 +399,16 @@
                 $("#no_promos").show()
             }
             
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                var banners = getMobileBanners();
+            } else {
+                var banners = getBanners()
+            }
+
             
 
-            var mobile_banners = getMobileBanners();
-            console.log(mobile_banners)
             
-            var banners = getBanners()
+            
             renderHomePageData("#banner_slider_ul","#banner_slider_template",banners,"banners")
             
             var featureList = getFeatureList();
