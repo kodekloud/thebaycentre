@@ -213,6 +213,7 @@ a:hover {
 .popup_subscribe{
     background:#6e6d71;
     font-family:railway-regular;
+    font-family: proxima \9;
     font-size:17px;
     color:white;
     height:43px;
@@ -223,6 +224,7 @@ a:hover {
 }
 .checkbox_label{
     font-family:railway-regular;
+    font-family: proxima \9;
     font-size:10pt;
     color:#6e6d71;
 }
@@ -245,6 +247,7 @@ a:hover {
 
 .no_data_div p {
     font-family:railway-regular;
+    font-family: proxima \9;
     font-size:20pt;
     color:#4d4d4f;
     margin-top:70px;
@@ -649,6 +652,7 @@ textarea:focus, input:focus{
 
 .footer_h1{
     font-family:railway-regular;
+    font-family: proxima \9;
     font-size:25pt;
     color:#4d4d4f;
     margin-top:0;
@@ -819,6 +823,7 @@ textarea:focus, input:focus{
 }
 .month_string{
     font-family:railway-light;
+    font-family: proxima \9;
     font-size:16pt;
     margin:0;
     text-transform:uppercase;
@@ -827,6 +832,7 @@ textarea:focus, input:focus{
 }
 .day_string{
     font-family:railway-light;
+    font-family: proxima \9;
     font-size:50pt;
     margin:0;
     line-height:40pt;
@@ -840,6 +846,7 @@ textarea:focus, input:focus{
 }
 .promo_title{
     font-family:railway-regular;
+    font-family: proxima \9;
     color:#4d4d4f;
     font-size:20pt;
     text-decoration:none;
@@ -919,6 +926,7 @@ textarea:focus, input:focus{
     float:left;
     margin-top:99px;
     font-family:railway-regular;
+    font-family: proxima \9;
     color:#4d4d4f;
     font-size:28pt;
     text-transform:uppercase;
@@ -1186,6 +1194,7 @@ textarea:focus, input:focus{
 
 .store_detail_title{
     font-family:railway-regular;
+    font-family: proxima \9;
     font-size:28pt;
     color:#6d6e71;
     text-transform:uppercase;
@@ -1358,6 +1367,7 @@ textarea:focus, input:focus{
     padding-left:20px;
     padding-right:20px;
     font-family:railway-regular;
+    font-family: proxima \9;
     text-transform:uppercase;
     font-size:13pt;
     color:#6d6e71;
@@ -1366,12 +1376,14 @@ textarea:focus, input:focus{
 .promo_dates{
     color:#6d6e71;
     font-family:railway-regular;
+    font-family: proxima \9;
     font-size:17pt;
     margin-bottom:0;
     margin-top:50px;
 }
 .job_store_name{
     font-family:railway-regular;
+    font-family: proxima \9;
     text-transform:uppercase;
     color:#6d6e71;
     font-size:21pt;
@@ -1498,6 +1510,7 @@ textarea:focus, input:focus{
 }
 .contact_title{
     font-family:railway-regular;
+    font-family: proxima \9;
     margin-bottom:44px;
     font-size:24pt;
     text-transform:uppercase;
@@ -1513,6 +1526,7 @@ textarea:focus, input:focus{
 }
 .contact_quote{
     font-family:railway-regular;
+    font-family: proxima \9;
     color:#6d6e71;
     font-size:19pt;
     padding-bottom:73px;
