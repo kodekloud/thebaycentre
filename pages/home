@@ -296,7 +296,7 @@
                      if (c == 0){
                          news_event_array.push(val)
                      } else {
-                         if (val.is_featured == true){
+                         if (val.is_featured == false){
                             basic_event_array.push(val)    
                          }
                          
