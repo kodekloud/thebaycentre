@@ -401,7 +401,8 @@
             
             
 
-            
+            var mobile_banners = getMobileBanners();
+            console.log(mobile_banners)
             
             var banners = getBanners()
             renderHomePageData("#banner_slider_ul","#banner_slider_template",banners,"banners")
