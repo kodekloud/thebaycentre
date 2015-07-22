@@ -1823,6 +1823,7 @@ textarea:focus, input:focus{
         height:22px;
         margin-left:1px;
         border-radius:0;
+        color: white !important;
       
     }
     #news_submit{
