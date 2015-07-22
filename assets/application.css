@@ -687,6 +687,7 @@ textarea:focus, input:focus{
     width:313px;
     height:63px;
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14px;
     color:white;
     background:rgba(199,200,202,0.5);
@@ -705,6 +706,7 @@ textarea:focus, input:focus{
     text-align:center;
     margin:0;
     font-family:lora-italic;
+    font-family: neuton \9;
     font-size:13pt;
     
 }
@@ -846,6 +848,7 @@ textarea:focus, input:focus{
 }
 .promo_description{
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:11pt;
     max-width:90%;
 }
@@ -1194,6 +1197,7 @@ textarea:focus, input:focus{
 .store_detail_description{
     color:#6d6e71;
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     line-height:26pt;
     margin-top:54px;
@@ -1239,6 +1243,7 @@ textarea:focus, input:focus{
 
 .hours_day{
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     display:inline-block;
     margin-top:0;
@@ -1247,6 +1252,7 @@ textarea:focus, input:focus{
 }
 .hours_time{
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     display:inline-block;
     position:absolute;
@@ -1380,6 +1386,7 @@ textarea:focus, input:focus{
 }
 .job_text{
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:13pt;
     color:#6d6e71;
     margin:0;
@@ -1402,6 +1409,7 @@ textarea:focus, input:focus{
     width: 30%;
     color:#6d6e71;
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     line-height:26pt;
     margin-top:0;
@@ -1411,6 +1419,7 @@ textarea:focus, input:focus{
 .hour_line_text, .hour_line_text a{
     color:#6d6e71;
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     line-height:26pt;
     margin-top:0;
@@ -1430,6 +1439,7 @@ textarea:focus, input:focus{
 .tooltip_div p {
     color:white;
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     line-height:26pt;
     margin:0;
@@ -1494,6 +1504,7 @@ textarea:focus, input:focus{
 
 .contact_number{
     font-family:lora-regular;
+    font-family: neuton \9;
     font-size:14pt;
     color:#6e6d71;
     margin-top:0;
