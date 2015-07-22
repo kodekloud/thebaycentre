@@ -408,7 +408,7 @@
                     console.log(val.image_url)
                 })
             } else {
-                var banners = getBanners()
+                var banners = getBanners();
             }
 
             
