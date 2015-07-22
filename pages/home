@@ -127,7 +127,7 @@
                             <div class="feature_promo_date_div">
                                 <div class="feature_promo_date_triangle">&nbsp;</div>
                      
-                                    <div class="date_block" style="text-align:left;margin-top:20px">
+                                    <div class="date_block" style="text-align:left">
                                         <p class="day_string" style="font-size:35pt;line-height:35pt">ON</p>
                                         <p class="day_string" style="font-size:35pt;line-height:35pt">NOW</p>
                                     </div>
@@ -194,7 +194,7 @@
                                 <div class="feature_promo_date_div">
                                     <div class="feature_promo_date_triangle">&nbsp;</div>
                          
-                                    <div class="date_block" style="text-align:left;margin-top:20px">
+                                    <div class="date_block" style="text-align:left">
                                         <p class="day_string" style="font-size:35pt;line-height:35pt">ON</p>
                                         <p class="day_string" style="font-size:35pt;line-height:35pt">NOW</p>
                                     </div>
