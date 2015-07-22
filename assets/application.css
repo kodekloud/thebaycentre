@@ -230,6 +230,7 @@ a:hover {
 }
 .popup_cancel{
     font-family:montserrat-regular;
+    font-family: proxima \9;
     text-transform:uppercase;
     margin-top:59px;
     margin-bottom:0;
@@ -281,6 +282,7 @@ a:hover {
 
 .header_link{
     font-family:montserrat-regular;
+    font-family: proxima \9;
     color:#c7c8ca;
     letter-spacing:2px;
     text-transform:uppercase;
@@ -324,6 +326,7 @@ a:hover {
     background:#f1f0ed;
     color:#4d4d4f;
     margin-top:montserrat-regular;
+    font-family: proxima \9;
     margin-top:5px;
 }
 .list-group li {
@@ -340,12 +343,14 @@ a:hover {
     color:#4d4d4f;
     font-size:10pt;
     font-family:montserrat-regular;
+    font-family: proxima \9;
 }
 
 .list-group-item{
     text-decoration:none;
     font-size:10pt;
     font-family:montserrat-regular;
+    font-family: proxima \9;
 }
 .menu_container{
     width:1193px;
@@ -436,6 +441,7 @@ a:hover {
 }
 .main_menu li{
     font-family:montserrat-regular;
+    font-family: proxima \9;
     list-style:none;
     display:inline-block;
     /*margin-left:40px;*/
@@ -492,6 +498,7 @@ textarea:focus, input:focus{
     text-transform:uppercase;
     color:white;
     font-family:montserrat-regular;
+    font-family: proxima \9;
 }
 
 .dd_submenu ul li a{
@@ -612,6 +619,7 @@ textarea:focus, input:focus{
 .footer_title{
     margin-top:0;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     text-transform:uppercase;
     margin-bottom:27px;
@@ -662,6 +670,7 @@ textarea:focus, input:focus{
 
 .footer_h2{
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     color:#4d4d4f;
     margin-top:0;
@@ -751,6 +760,7 @@ textarea:focus, input:focus{
 }
 .tabs li {
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     width:360px;
     height:69px;
@@ -872,6 +882,7 @@ textarea:focus, input:focus{
 .read_more_btn{
     text-decoration:none;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:8pt;
     letter-spacing:2px;
     height:51px;
@@ -956,6 +967,7 @@ textarea:focus, input:focus{
     color:white;
     font-size:14pt;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     text-transform:uppercase;
     text-align:center;
 }
@@ -966,6 +978,7 @@ textarea:focus, input:focus{
     text-decoration:none;
     color:white;
     font-family:montserrat-light;
+    font-family: proxima \9;
 }
 .hidden_newsletter_form{
     display:none;
@@ -1008,6 +1021,7 @@ textarea:focus, input:focus{
 .stores_div tr td{
     vertical-align:top;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     color:#4d4d4f;
     
@@ -1037,6 +1051,7 @@ textarea:focus, input:focus{
     height:59px;
     line-height:59px;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     color:#4d4d4f;
     display:inline-block;
@@ -1051,6 +1066,7 @@ textarea:focus, input:focus{
     height:59px;
     line-height:59px;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     color:#4d4d4f;
     display:inline-block;
@@ -1067,6 +1083,7 @@ textarea:focus, input:focus{
     padding-left:39px;
     padding-right:34px;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     color:#4d4d4f;
     position:relative;
@@ -1087,6 +1104,7 @@ textarea:focus, input:focus{
     background-color:#c7c8ca;
     color:white;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     text-transform:uppercase;
     font-size:16px;
     border-radius:500px;
@@ -1101,6 +1119,7 @@ textarea:focus, input:focus{
     color:white;
     width:100%;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     text-transform:uppercase;
     font-size:16px;
     padding-left:37px;
@@ -1221,6 +1240,7 @@ textarea:focus, input:focus{
     margin-bottom:47px;
     color: #6d6e71;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:17pt;
     text-transform:uppercase;
 }
@@ -1243,6 +1263,7 @@ textarea:focus, input:focus{
 .hours_title{
     margin-top:0;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:17pt;
     text-transform:uppercase;
 }
@@ -1337,6 +1358,7 @@ textarea:focus, input:focus{
 .store_promo_buttons p{
     color:#6d6e71;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:14pt;
     text-transform:uppercase;
     display:inline-block;
@@ -1395,6 +1417,7 @@ textarea:focus, input:focus{
     margin-bottom:22px;
     text-transform:uppercase;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     margin-top:0;
 }
 .job_text{
@@ -1475,6 +1498,7 @@ textarea:focus, input:focus{
 .store_select select {
     background:#c7c8ca;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:16px;
     margin-left:37px;
     text-transform:uppercase;
@@ -1535,6 +1559,7 @@ textarea:focus, input:focus{
 .contact_subtitle{
     margin-top:41px;
     font-family:montserrat-regular;
+    font-family: proxima \9;
     font-size:14pt;
     color:#231f20;
     text-transform:uppercase;
@@ -1622,6 +1647,7 @@ textarea:focus, input:focus{
         text-align:center;
         text-transform:uppercase;
         font-family:montserrat-regular;
+        font-family: proxima \9;
         color:#4d4d4f;
         padding-top:30px;
         
