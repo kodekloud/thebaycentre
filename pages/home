@@ -288,6 +288,7 @@
             var events = getEventsList();
             basic_event_array = []
             news_event_array = []
+            featured_event_array = []
              $.each( events , function( key, val ){
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
@@ -298,6 +299,8 @@
                      } else {
                          if (val.is_featured == false){
                             basic_event_array.push(val)    
+                         } else {
+                            featured_event_array.push(val)   
                          }
                          
                      }
