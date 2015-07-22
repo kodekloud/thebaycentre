@@ -66,6 +66,9 @@
         .flexslider4 .flex-viewport{
             overflow: hidden !important;
         }
+        .feature_promo_date_div{
+            height:100px !important;
+        }
     }
     
 </style>
