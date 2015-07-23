@@ -284,29 +284,72 @@
             
             promo_array = []
             
+            
+            
+            promo_array = []
+            feature_promo_array = []
              $.each( all_promos , function( key, val ){
                 if (val.description.length > 110) {
-                   val.description =  val.description.substring(0,300)+'...';
+                   val.description =  val.description.substring(0,150)+'...';
                 } 
                  today = new Date();
                  webDate = new Date(val.show_on_web_date)
-                 if (today >= webDate) {
-                    c = $.inArray("news", val.tags)
-                    if (c == -1){
-                        promo_array.push(val)    
-                    }
-                    
+                 if (today >= webDate && val.is_featured == false) {
+                     promo_array.push(val)
                  } 
-                
+                 if (val.is_featured == true){
+                     feature_promo_array.push(val)
+                 }
              });
+             feature_promo_array = feature_promo_array.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
             all_promos = promo_array;
-            if (all_promos.length > 0 ) {
+            if (all_promos.length > 0  || feature_promo_array.length > 0) {
                 renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
+                renderDetailData("#feature_store_promo_container","#feature_store_promo_template", feature_promo_array, "promos");    
             } else {
-                $("#tab_1_content").css("width","100%")
-                $("#store_promo_container").hide()
+                if (all_promos.length == 0){
+                    $("#store_promo_container").hide();
+                }
+                
+                if (feature_promo_array.length == 0 ){
+                    $("#feature_store_promo_container").hide()
+                }
                 $("#no_event_container").show();
             }
+            
+            
+            
+            
+            
+            
+            
+            //  $.each( all_promos , function( key, val ){
+            //     if (val.description.length > 110) {
+            //       val.description =  val.description.substring(0,300)+'...';
+            //     } 
+            //      today = new Date();
+            //      webDate = new Date(val.show_on_web_date)
+            //      if (today >= webDate) {
+            //         c = $.inArray("news", val.tags)
+            //         if (c == -1){
+            //             promo_array.push(val)    
+            //         }
+                    
+            //      } 
+                
+            //  });
+            // all_promos = promo_array;
+            // if (all_promos.length > 0 ) {
+            //     renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
+            // } else {
+            //     $("#tab_1_content").css("width","100%")
+            //     $("#store_promo_container").hide()
+            //     $("#no_event_container").show();
+            // }
             
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
