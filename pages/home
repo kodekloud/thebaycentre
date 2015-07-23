@@ -56,7 +56,11 @@
     }
     
         .on_now{
-            
+            font-size:20pt;
+            line-height:20pt;
+        }
+        .on_now_date_block{
+            margin-top:25px;
         }
         .tab_item {
             padding-top:5px;
@@ -142,7 +146,7 @@
                             <div class="feature_promo_date_div">
                                 <div class="feature_promo_date_triangle">&nbsp;</div>
                      
-                                    <div class="date_block" style="text-align:left">
+                                    <div class="date_block on_now_date_block" style="text-align:left">
                                         <p class="day_string on_now">ON</p>
                                         <p class="day_string on_now">NOW</p>
                                     </div>
@@ -209,7 +213,7 @@
                                 <div class="feature_promo_date_div">
                                     <div class="feature_promo_date_triangle">&nbsp;</div>
                          
-                                    <div class="date_block" style="text-align:left">
+                                    <div class="date_block on_now_date_block" style="text-align:left">
                                         <p class="day_string on_now">ON</p>
                                         <p class="day_string on_now">NOW</p>
                                     </div>
