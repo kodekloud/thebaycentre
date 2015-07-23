@@ -141,7 +141,7 @@
                     <script id="feature_store_promo_template" type="x-tmpl-mustache/text">
                         <li>
                             <div class="line_header_div">
-                                <p>featured deal</p>
+                                <p>featured event</p>
                             </div>
                             
                             <div class="promo_left_div">
