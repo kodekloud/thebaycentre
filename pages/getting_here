@@ -2,14 +2,14 @@
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
     }
     .stores_div a{
         color:#3aa2d2 !important;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
         text-decoration:underline;
@@ -30,13 +30,13 @@
         padding-left:0;
         color:#6d6e71;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
     }
     .store_detail_title {
       font-family: railway-regular;
-      font-family: proxima \9;
+      /*font-family: proxima \9;*/
       font-size: 28pt;
       color: #6d6e71;
       text-transform: uppercase;
