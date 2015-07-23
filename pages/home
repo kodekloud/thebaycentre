@@ -360,6 +360,12 @@
                      
                  } 
              });
+             
+            promo_array = promo_array.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
            
             
             if (promo_array.length > 1){
@@ -375,7 +381,11 @@
             } else {
                 $.merge(second_tab_content,(featured_event_array));
             }
-           
+           featured_event_array = featured_event_array.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
             
             if (news_event_array.length > 1){
                 $.merge(second_tab_content,(news_event_array.slice(0,1)));
@@ -396,7 +406,13 @@
                  }  
              })
             
-            featured_promo_array = featured_promo_array.reverse(); 
+            featured_promo_array = featured_promo_array.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
+            
+            
              
             third_tab_content = []
             
