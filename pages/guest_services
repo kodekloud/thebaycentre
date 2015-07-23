@@ -3,7 +3,7 @@
     .stores_div a{
         color:#3aa2d2 !important;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
         text-decoration: underline;
@@ -26,7 +26,7 @@
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
     }
