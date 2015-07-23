@@ -2,13 +2,13 @@
     .stores_div p, .gs_text {
         color:#6d6e71;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
     }
     h1 {
      font-family: railway-regular;
-     font-family: proxima \9;
+     /*font-family: proxima \9;*/
   font-size: 28pt;
   color: #6d6e71;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
         padding-left:0;
         color:#6d6e71;
         font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
         padding-bottom:30px;
@@ -78,7 +78,7 @@
 <div class="main_content_div">
 <h1 style="margin-top:20px;margin-left:35px;margin-right:15px">Privacy Policy</h1>
     <p class="gs_text" style="margin-top:20px;margin-left:35px;margin-right:15px">
-       Your privacy is very important to us. Your personal information will be used, if requested by you, to contact you regarding future programs, contests, promotions and events by THE BAY CENTRE. It will also be used for THE BAY CENTRE's internal marketing research purposes. From time to time THE BAY CENTRE offers our members an automatic entry to our contests. We will notify you via email that you have been entered. Your personal information will remain confidential to THE BAY CENTRE. It may, however, be disclosed to any entity that acquires THE BAY CENTRE or any of its individual properties provided such entity similarly agrees to protect your privacy. We may also use third parties to process some aspect of the personal information for our use, provided that they similarly agree to protect your privacy. If you have a privacy question or concern you may contact THE BAY CENTRE in writing at the following address: THE BAY CENTRE, #2 – 1150, Douglas Street, Victoria, BC V8W 3M9.
+       Your privacy is very important to us. Your personal information will be used, if requested by you, to contact you regarding future programs, contests, promotions and events by THE BAY CENTRE. It will also be used for THE BAY CENTRE's internal marketing research purposes. From time to time THE BAY CENTRE offers our members an automatic entry to our contests. We will notify you via email that you have been entered. Your personal information will remain confidential to THE BAY CENTRE. It may, however, be disclosed to any entity that acquires THE BAY CENTRE or any of its individual properties provided such entity similarly agrees to protect your privacy. We may also use third parties to process some aspect of the personal information for our use, provided that they similarly agree to protect your privacy. If you have a privacy question or concern you may contact THE BAY CENTRE in writing at the following address: THE BAY CENTRE, #2 – 1150, Douglas Street, Victoria, BC B8W 3M9.
 </p>
 
     
