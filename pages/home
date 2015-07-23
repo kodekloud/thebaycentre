@@ -332,23 +332,23 @@
                  } 
              });
              
-            if (basic_event_array.length >= 2){
-                 basic_events = basic_event_array.slice(0,2);
+            if (featured_event_array.length >= 2){
+                 featured_events = featured_event_array.slice(0,2);
             } else {
-                 basic_events = basic_event_array;
+                 featured_events = featured_event_array;
             }
             
             
             var first_tab_content = []
             
-            first_tab_content = (basic_events); 
+            first_tab_content = (featured_events); 
             
             promo_array = []
              $.each( promos , function( key, val ){
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
                  if (today >= webDate) {
-                     if(val.is_featured == false){
+                     if(val.is_featured == true){
                         promo_array.push(val)   
                      }
                      
