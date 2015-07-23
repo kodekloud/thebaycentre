@@ -45,13 +45,19 @@
         /*overflow: visible !important;*/
     }
     
+    .on_now{
+        font-size: 35pt;
+        line-height: 35pt;
+    }
     
     @media (max-width: 767px) {
         .tab_content{
         top:-50px;
     }
     
-        
+        .on_now{
+            
+        }
         .tab_item {
             padding-top:5px;
         }    
@@ -137,8 +143,8 @@
                                 <div class="feature_promo_date_triangle">&nbsp;</div>
                      
                                     <div class="date_block" style="text-align:left">
-                                        <p class="day_string" style="font-size:35pt;line-height:35pt">ON</p>
-                                        <p class="day_string" style="font-size:35pt;line-height:35pt">NOW</p>
+                                        <p class="day_string on_now">ON</p>
+                                        <p class="day_string on_now">NOW</p>
                                     </div>
                                    
                             </div>
@@ -204,8 +210,8 @@
                                     <div class="feature_promo_date_triangle">&nbsp;</div>
                          
                                     <div class="date_block" style="text-align:left">
-                                        <p class="day_string" style="font-size:35pt;line-height:35pt">ON</p>
-                                        <p class="day_string" style="font-size:35pt;line-height:35pt">NOW</p>
+                                        <p class="day_string on_now">ON</p>
+                                        <p class="day_string on_now">NOW</p>
                                     </div>
                                        
                                 </div>
