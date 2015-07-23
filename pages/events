@@ -138,7 +138,7 @@
     <ul class="tab_content">
         <li id="tab_1_content">
             <div class="store_promo_content">
-                <ul class="store_promo_ul feature_promo_ul" id="feature_store_promo_container">
+                <ul class="store_promo_ul feature_promo_ul" id="feature_store_promo_container" style="padding-top:0">
                     <script id="feature_store_promo_template" type="x-tmpl-mustache/text">
                         <li>
                             <div class="line_header_div">
