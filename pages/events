@@ -3,8 +3,9 @@
        margin:0;
     }
     
-    .feature_promo_ul{
-        margin-top:65px;
+    .feature_promo_ul, .store_promo_ul{
+        margin-top:0;
+        border-top:none;
     }
     
     .feature_promo_ul li{
