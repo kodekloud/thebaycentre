@@ -338,6 +338,12 @@
                  featured_events = featured_event_array;
             }
             
+            featured_events = featured_events.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
+            
             
             var first_tab_content = []
             
