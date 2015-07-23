@@ -30,8 +30,8 @@
         padding-left:30px;
         margin-bottom:50px;
         color:#6d6e71 !important;
-        font-family:lora-regular;
-        font-family: neuton \9;
+        /*font-family:lora-regular;*/
+        /*font-family: neuton \9;*/
         font-size:14pt;
         line-height:26pt;
         text-align:center;
