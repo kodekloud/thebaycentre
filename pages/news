@@ -83,10 +83,23 @@
         line-height:26pt;
         text-align:center;
     }
+    
+    .on_now{
+        font-size: 35pt;
+        line-height: 35pt;
+    }
     @media (max-width: 767px) {
         .tab_item{
             height:25px;
             color:black !important;
+        }
+        
+        .on_now{
+            font-size:20pt;
+            line-height:20pt;
+        }
+        .on_now_date_block{
+            margin-top:25px;
         }
         .store_promo_buttons p{
             width:60%;
