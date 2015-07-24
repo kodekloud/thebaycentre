@@ -279,11 +279,17 @@
                 start.setDate(start.getDate()+1);
                 end.setDate(end.getDate()+1);
                 c = $.inArray("news", val.tags)
+                on_now = $.inArray("on_now", val.tags)
+                coming_soon = $.inArray("coming_soon", val.tags)
                 if (start.toDateString() == end.toDateString() || c == 0) {
-                    val.start_month = get_month(start.getMonth())
-                    val.start_day = start.getDate()
                     
-                    val.date_string = val.start_month + " " + val.start_day
+                    if (coming_soon == 0){
+                         val.start_day = "COMING</br>SOON"
+                    }
+                    // val.start_month = get_month(start.getMonth())
+                    // val.start_day = start.getDate()
+                    
+                    // val.date_string = val.start_month + " " + val.start_day
                     
                     
                 } else {
