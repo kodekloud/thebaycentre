@@ -283,7 +283,7 @@
                 coming_soon = $.inArray("coming_soon", val.tags)
                 if (start.toDateString() == end.toDateString() || c == 0) {
                     
-                    if (coming_soon == 0){
+                    if (on_now == 0){
                          val.start_day = "COMING</br>SOON"
                     }
                     // val.start_month = get_month(start.getMonth())
