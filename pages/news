@@ -281,10 +281,12 @@
                 c = $.inArray("news", val.tags)
                 on_now = $.inArray("on_now", val.tags)
                 coming_soon = $.inArray("coming_soon", val.tags)
+                console.log(on_now)
+                console.log(coming_soon)
                 if (start.toDateString() == end.toDateString() || c == 0) {
                     
                     if (on_now == 0){
-                        console.log(on_now)
+                        
                          val.start_month = "1"
                     }
                     // val.start_month = get_month(start.getMonth())
