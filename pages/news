@@ -149,8 +149,8 @@
                                     <div class="feature_promo_date_triangle">&nbsp;</div>
                          
                                         <div class="date_block on_now_date_block" style="text-align:left">
-                                            <p class="day_string on_now">ON</p>
-                                            <p class="day_string on_now">NOW</p>
+                                            <p class="day_string on_now">{{one}}</p>
+                                            <p class="day_string on_now">{{two}}</p>
                                         </div>
                                        
                                 </div>
