@@ -251,7 +251,8 @@
                     
                     if (coming_soon == 1){
                         
-                         val.start_day = "Coming Soon"
+                         val.one = "Coming"
+                         val.two = "soon"
                     }
                     if (on_now == 1){
                         val.start_day = "On Now "
