@@ -285,7 +285,7 @@
                 console.log(coming_soon)
                 if (start.toDateString() == end.toDateString() || c == 0) {
                     
-                    if (on_now == 0){
+                    if (on_now == 1){
                         
                          val.start_month = "1"
                     }
