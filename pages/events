@@ -3,6 +3,10 @@
        margin:0;
     }
     
+    .promo_right_div{
+        margin-bottom:30px;
+    }
+    
     .feature_promo_ul, .store_promo_ul{
         margin-top:0;
         border-top:none;
