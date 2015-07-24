@@ -287,7 +287,7 @@
                     
                     if (on_now == 1){
                         
-                         val.start_day = "coming soon"
+                         val.start_day = "coming <br>soon"
                     }
                     // val.start_month = get_month(start.getMonth())
                     // val.start_day = start.getDate()
