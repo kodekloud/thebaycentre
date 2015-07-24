@@ -285,9 +285,12 @@
                 console.log(coming_soon)
                 if (start.toDateString() == end.toDateString() || c == 0) {
                     
-                    if (on_now == 1){
+                    if (coming_soon == 1){
                         
                          val.start_day = "coming soon"
+                    }
+                    if (on_now == 1){
+                        
                     }
                     // val.start_month = get_month(start.getMonth())
                     // val.start_day = start.getDate()
