@@ -255,7 +255,8 @@
                          val.two = "soon"
                     }
                     if (on_now == 1){
-                        val.start_day = "On Now "
+                        val.one = "On"
+                        val.two = "now"
                     }
                     // val.start_month = get_month(start.getMonth())
                     // val.start_day = start.getDate()
