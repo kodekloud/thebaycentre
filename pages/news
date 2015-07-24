@@ -284,7 +284,7 @@
                 if (start.toDateString() == end.toDateString() || c == 0) {
                     
                     if (on_now == 0){
-                         val.start_day = "1"
+                         val.start_month = "1"
                     }
                     // val.start_month = get_month(start.getMonth())
                     // val.start_day = start.getDate()
