@@ -104,6 +104,13 @@
             width:100%;
             height:auto;
         }
+        
+        .store_promo_ul li {
+            padding-left:5px;
+            padding-right:5px;
+            padding-bottom:40px;
+            width:85% !important;
+        }
     }
     
     
