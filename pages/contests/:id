@@ -59,7 +59,7 @@
         </div>
         <div id="store_detail_left_content_container">
    
-                <p class="store_detail_description">{{{description}}}</p>
+                <p class="store_detail_description">{{{rich_description}}}</p>
             
         </div>
         </script>
