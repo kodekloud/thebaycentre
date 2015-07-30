@@ -245,8 +245,8 @@
                 c = $.inArray("news", val.tags)
                 on_now = $.inArray("on_now", val.tags)
                 coming_soon = $.inArray("coming_soon", val.tags)
-                console.log(on_now)
-                console.log(coming_soon)
+                // console.log(on_now)
+                // console.log(coming_soon)
                 if (start.toDateString() == end.toDateString() || c == 0) {
                     
                     if (coming_soon == 1){
