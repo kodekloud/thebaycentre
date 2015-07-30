@@ -1,5 +1,5 @@
 <style>
-    .store_detail_description, .store_detail_left_content_container p{
+    .store_detail_description, #store_detail_left_content_container p{
         margin-top:15px;
         color: #6d6e71;
         font-family: lora-regular;
