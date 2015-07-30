@@ -284,6 +284,11 @@
             all_contests = all_contests.reverse();
             
             if (all_contests.length > 0) {
+                $.each( all_contests , function( key, val ){
+                if (val.description.length > 110) {
+                   val.description =  val.description.substring(0,150)+'...';
+                } 
+                });
                 renderDetailData("#store_contest_container","#store_contest_template", all_contests, "contests");    
             } else {
                 
