@@ -1,6 +1,11 @@
 <style>
     .store_detail_description{
         margin-top:15px;
+        color: #6d6e71;
+        font-family: lora-regular;
+        /* font-family: neuton \9; */
+        font-size: 14pt;
+        line-height: 26pt;
     }
     
     .store_detail_content{
@@ -59,7 +64,7 @@
         </div>
         <div id="store_detail_left_content_container">
    
-                <p class="store_detail_description">{{{description}}}</p>
+                <p class="store_detail_description">{{{rich_description}}}</p>
             
         </div>
         </script>
