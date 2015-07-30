@@ -860,7 +860,7 @@
     })
 
     function show_dd(id){
-        console.log(this)
+        // console.log(this)
         if ($("#s_sub_"+id).is(":visible")){
             
             $("#triangle_"+id).hide();
