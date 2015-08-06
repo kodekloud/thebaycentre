@@ -160,10 +160,7 @@
        }
     }
     
-    
-    $(document).ready(function() {
-        
-        function load_slider(slider){
+    function load_slider(slider){
             
         $('.'+slider).flexslider({
                 animation: "slide",
@@ -187,6 +184,10 @@
                 }
             });
         }
+        
+    
+    $(document).ready(function() {
+        
         
         
         function renderPageData(){
