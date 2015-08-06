@@ -168,7 +168,7 @@
                 animation: "slide",
                 controlNav: false,
                 directionNav: true,    
-                animationLoop: true,
+                animationLoop: false,
                 slideshow: true,
                 minItems: 3,
                 maxItems: 3,
