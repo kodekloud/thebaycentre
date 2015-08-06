@@ -203,28 +203,39 @@
         });
     }
     
-    banners = []
+    $(document).ready(function() {
+         function renderPageData(){
+            banners = []
             
-    banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/Enewsletter.png")
-    banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterRight.png");
-    banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterLeft.png");
-    banner_array = []
-    $.each( banners , function( key, val ) {
-        var obj = {};
-        obj["image_url"] = val;
-        banner_array.push(obj)
+            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/Enewsletter.png")
+            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterRight.png");
+            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterLeft.png");
+            banner_array = []
+            $.each( banners , function( key, val ) {
+                var obj = {};
+                obj["image_url"] = val;
+                banner_array.push(obj)
+            })
+            
+            renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)   
+            
+            $(".loading_overlay").hide();
+    $("#page_content").show();
+    load_slider("flexslider4");
+         }
+        
+        loadMallDataCached(renderPageData);
+        
     })
     
-    renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
+    
 
     email = getRequestParam("email");
     $("#news_email").val(email);
     // $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/Enewsletter.png");
     // $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterLeft.png");
     // $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/c889df3dc9b4f92087879630ca28fc33/EnewsletterRight.png");
-    $(".loading_overlay").hide();
-    $("#page_content").show();
-    load_slider("flexslider4");
+    
     
     function renderBanners(container, template, collection){
             var item_list = [];
