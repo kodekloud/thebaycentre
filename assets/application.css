@@ -1738,6 +1738,7 @@ textarea:focus, input:focus{
     }
     .banner_container{
         position:relative;
+        height:auto;
     }
     .flex-direction-nav {
         display:none !important;
