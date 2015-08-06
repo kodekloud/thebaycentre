@@ -173,7 +173,7 @@
                 prevText: "",
                 nextText: "",
                 after:function(){
-                    var active_rel = $(this).find('.flex-active-slide').attr('rel');
+                    var active_rel = $(this).find('.flex-active-slide').attr('src');
                     //do something
                     console.log(active_rel)
                     var first = $("#banner_slider_ul").children(":first")
