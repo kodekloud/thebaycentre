@@ -159,7 +159,7 @@
                     // $("#banner_slider_ul").append(first.clone())
                 }
             });
-        }
+        } 
     
     
     $(document).ready(function() {
