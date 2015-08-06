@@ -232,6 +232,8 @@
             $(".loading_overlay").hide();
             $("#page_content").show();
             
+            load_slider("flexslider4");
+            
             
             
             
@@ -250,7 +252,7 @@
             
             $(container).show();
             $(container).html(item_rendered.join(''));
-            load_slider("flexslider4");
+            
         }
         function renderData(container, template, collection, type){
             var item_list = [];
