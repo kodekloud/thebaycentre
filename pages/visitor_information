@@ -331,8 +331,8 @@
             banners = []
             
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/00476ad7fa2adcdf38623cd98b55bbf3/Visitor Information.png")
-            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner3.jpg");
-            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
+            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ed84014fb10de3731d4a758a6e33795e/Visitor_InformationRIGHT.jpg");
+            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ed84014fb10de3731d4a758a6e33795e/Visitor_InformationLEFT.jpg");
             banner_array = []
             $.each( banners , function( key, val ) {
                 var obj = {};
