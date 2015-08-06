@@ -210,9 +210,7 @@
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
             banner_array = []
             $.each( banners , function( key, val ) {
-                var obj = {};
-                obj[a[i]] = val;
-                banner_array.push(obj);
+                
             })
             
             console.log(banner_array)
