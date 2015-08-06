@@ -172,7 +172,7 @@
                 maxItems: 3,
                 prevText: "",
                 nextText: "",
-                before:function(){
+                after:function(){
                     
                     var first = $("#banner_slider_ul").children(":first")
                     console.log(first)
