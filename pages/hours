@@ -210,7 +210,7 @@
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
             $.each( banners , function( key, val ) {
                 console.log(val)
-            }
+            })
             
             
             // renderBanners("#banner_slider_ul","#banner_slider_template",banners)
