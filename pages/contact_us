@@ -210,5 +210,8 @@
             $(container).html(item_rendered.join(''));
             
         }
+        
+        loadMallDataCached(renderPageData);
+        
     });
 </script>
