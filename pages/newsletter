@@ -220,8 +220,8 @@
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)   
             
             $(".loading_overlay").hide();
-    $("#page_content").show();
-    load_slider("flexslider4");
+            $("#page_content").show();
+            load_slider("flexslider4");
          }
         
         loadMallDataCached(renderPageData);
