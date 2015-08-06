@@ -130,7 +130,7 @@
                 maxItems: 3,
                 prevText: "",
                 nextText: "",
-                before:function(){
+                after:function(){
                     var active_rel = $(this).find('.flex-active-slide').attr('rel');
                     //do something
                     var first = $("#banner_slider_ul").children(":first")
