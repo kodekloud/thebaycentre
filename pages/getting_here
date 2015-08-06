@@ -187,7 +187,7 @@
             
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/cb352a97fa23d93dc26777dbd32efa33/Getting_Here.png")
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ed84014fb10de3731d4a758a6e33795e/Getting_HereRIGHT.jpg");
-            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ed84014fb10de3731d4a758a6e33795e/Getting_HereLEFT.jpgg");
+            banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/ed84014fb10de3731d4a758a6e33795e/Getting_HereLEFT.jpg");
             banner_array = []
             $.each( banners , function( key, val ) {
                 var obj = {};
