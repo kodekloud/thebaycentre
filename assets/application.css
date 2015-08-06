@@ -104,8 +104,8 @@ a:hover {
     
 .flexslider4 .flex-viewport{
     overflow: visible !important;
-    width:3579px;
-    margin-left:-1193px;
+    /*width:3579px;*/
+    /*margin-left:-1193px;*/
 }
 
 .flexslider4 ul.flex-direction-nav{
