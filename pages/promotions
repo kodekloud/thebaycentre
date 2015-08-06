@@ -153,7 +153,7 @@
                     //do something
                     var first = $("#banner_slider_ul").children(":first")
                     // console.log($("#banner_slider_ul").children().length)
-                    if ($("#banner_slider_ul").children().length < 6){
+                    if ($("#banner_slider_ul").children().length < 10){
                         $("#banner_slider_ul").append(first.clone())
                     }
                     // $("#banner_slider_ul").append(first.clone())
