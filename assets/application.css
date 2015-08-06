@@ -94,6 +94,35 @@ a:hover {
 }
 
 
+
+.flexslider4 ul.flex-direction-nav{
+        position: relative;
+        top: 243px;
+    }
+    
+    .flex-direction-nav a {
+        display: block;
+        color:gray;
+        /*opacity: 1 !important;*/
+    }
+    
+    .flexslider4:hover .flex-direction-nav .flex-prev {
+      opacity: 0.7;
+      left: 10px;
+    }
+    .flexslider4:hover .flex-direction-nav .flex-prev:hover {
+      opacity: 1;
+    }
+    .flexslider4:hover .flex-direction-nav .flex-next {
+      opacity: 0.7;
+      right: 10px;
+    }
+    .flexslider4:hover .flex-direction-nav .flex-next:hover {
+      opacity: 1;
+    }
+
+
+
 .back_to_list{
     margin-left:0 !important;
     margin-bottom:20px;
