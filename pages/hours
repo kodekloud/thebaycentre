@@ -211,8 +211,8 @@
             banner_array = []
             $.each( banners , function( key, val ) {
                 var obj = {};
-                obj[news] = ""
-                obj[news] = val;
+                obj["news"] = ""
+                obj["news"] = val;
                 banner_array.push(obj)
             })
             
