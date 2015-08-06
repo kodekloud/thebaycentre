@@ -173,9 +173,7 @@
                 prevText: "",
                 nextText: "",
                 after:function(){
-                    var active_rel = $(this).find('.flex-active-slide').attr('src');
-                    //do something
-                    console.log(active_rel)
+                    
                     var first = $("#banner_slider_ul").children(":first")
                     // console.log($("#banner_slider_ul").children().length)
                     if ($("#banner_slider_ul").children().length < 6){
