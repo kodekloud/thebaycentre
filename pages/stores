@@ -27,6 +27,13 @@
         margin-top:0;
     }
     
+    #left_image{
+        display:block;
+    }
+    #right_image{
+        display:block;
+    }
+    
     @media (max-width: 767px) {
         .tab_item{
             height:25px;
