@@ -94,32 +94,45 @@ a:hover {
 }
 
 
+.flex-direction-nav{
+    top:-80px !impoprtant;
+}
+
+.banner_container{
+    height:550px;
+}
+    
+.flexslider4 .flex-viewport{
+    overflow: visible !important;
+    /*width:3579px;*/
+    /*margin-left:-1193px;*/
+}
 
 .flexslider4 ul.flex-direction-nav{
-        position: relative;
-        top: 243px;
-    }
-    
-    .flex-direction-nav a {
-        display: block;
-        color:gray;
-        /*opacity: 1 !important;*/
-    }
-    
-    .flexslider4:hover .flex-direction-nav .flex-prev {
-      opacity: 0.7;
-      left: 10px;
-    }
-    .flexslider4:hover .flex-direction-nav .flex-prev:hover {
-      opacity: 1;
-    }
-    .flexslider4:hover .flex-direction-nav .flex-next {
-      opacity: 0.7;
-      right: 10px;
-    }
-    .flexslider4:hover .flex-direction-nav .flex-next:hover {
-      opacity: 1;
-    }
+    position: relative;
+    top: 243px;
+}
+
+.flex-direction-nav a {
+    display: block;
+    color:gray;
+    /*opacity: 1 !important;*/
+}
+
+.flexslider4:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: 10px;
+}
+.flexslider4:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+.flexslider4:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: 10px;
+}
+.flexslider4:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
 
 
 
