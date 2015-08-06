@@ -406,7 +406,7 @@ a:hover {
     position:absolute;
     left:-1193px;
     top:0;
-    display:none;
+    /*display:none;*/
 
 }
 #right_image{
@@ -415,7 +415,7 @@ a:hover {
     position:absolute;
     right:-1193px;
     top:0;
-    display:none;
+    /*display:none;*/
 }
 #page_content{
     display:none;
