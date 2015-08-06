@@ -1636,6 +1636,13 @@ textarea:focus, input:focus{
 /*mobile css*/
 @media (max-width: 767px) {
     
+    .flexslider4 .flex-viewport{
+        overflow: hidden !important;
+    }
+    .feature_promo_date_div{
+        height:100px !important;
+    }
+    
     .name_td{
         width:100%;
     }
