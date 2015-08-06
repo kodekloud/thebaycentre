@@ -178,7 +178,7 @@
                     console.log(first)
                     // console.log($("#banner_slider_ul").children().length)
                     if ($("#banner_slider_ul").children().length < 6){
-                        $("#banner_slider_ul").append(first.clone())
+                        $("#banner_slider_ul").append(first)
                     }
                   
                     // $("#banner_slider_ul").append(first.clone())
