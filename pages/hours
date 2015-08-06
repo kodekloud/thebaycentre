@@ -177,7 +177,7 @@
                     var first = $("#banner_slider_ul").children(":first")
                     console.log(first)
                     // console.log($("#banner_slider_ul").children().length)
-                    if ($("#banner_slider_ul").children().length < 3){
+                    if ($("#banner_slider_ul").children().length < 4){
                         $("#banner_slider_ul").append(first.clone())
                     }
                   
