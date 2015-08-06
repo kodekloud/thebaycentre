@@ -180,7 +180,7 @@
                     if ($("#banner_slider_ul").children().length < 6){
                         $("#banner_slider_ul").append(first.clone())
                     }
-                    console.log("done")
+                  
                     // $("#banner_slider_ul").append(first.clone())
                 }
             });
