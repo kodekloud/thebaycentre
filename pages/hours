@@ -177,14 +177,14 @@
                     //do something
                     var first = $("#banner_slider_ul").children(":first")
                     // console.log($("#banner_slider_ul").children().length)
-                    if ($("#banner_slider_ul").children().length < 5){
+                    if ($("#banner_slider_ul").children().length < 6){
                         $("#banner_slider_ul").append(first.clone())
                     }
                     // $("#banner_slider_ul").append(first.clone())
                 }
             });
         }
-        
+         
     
     $(document).ready(function() {
         
@@ -205,7 +205,6 @@
                 banner_array.push(obj)
             })
             
-            console.log(banner_array)
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
             var hours = getPropertyHours();
