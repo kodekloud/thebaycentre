@@ -215,7 +215,7 @@
                 banner_array.push(obj);
             })
             
-            
+            console.log(banner_array)
             // renderBanners("#banner_slider_ul","#banner_slider_template",banners)
             load_slider("flexslider4");
             // $(".hidden_div").hide();
