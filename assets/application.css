@@ -849,7 +849,7 @@ textarea:focus, input:focus{
 
 .feature_promo{
     position:relative;
-    margin-left:1px;
+    margin-right:1px;
 }
 .feature_promo_date_div{
     position:relative;
