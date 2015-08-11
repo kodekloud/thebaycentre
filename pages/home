@@ -590,12 +590,7 @@
                         val.on = "ON"
                         val.now = "NOW"
                     } 
-                    console.log(val.name)
-                    console.log(val.tags)
-                    console.log(c)
-                    console.log(d)
-                    console.log(val.on)
-                    console.log(val.now)
+      
                    
                     if (val.on == undefined || val.now == undefined){
                         val.date_block_html = '<p class="month_string">'+val.start_month+'</p><p class="day_string">'+val.start_day+'</p>'
