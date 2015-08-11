@@ -235,8 +235,7 @@
                                 <div class="feature_promo_date_triangle">&nbsp;</div>
                      
                                     <div class="date_block">
-                                        <p class="month_string">{{start_month}}</p>
-                                        <p class="day_string">{{start_day}}</p>
+                                        {{{date_block_html}}}
                                     </div>
                             </div>
                             <div class="promo_description_div">
@@ -557,6 +556,9 @@
                        val.description =  val.description.substring(0,100)+'...';
                     } 
                     
+                     
+                
+                    
                     start = new Date (val.start_date);
                     end = new Date (val.end_date);
                     start.setDate(start.getDate()+1);
@@ -576,6 +578,27 @@
                         val.end_day = end.getDate()
                         val.end_day = "  - " + val.end_day
                     }
+                    
+                    
+                    c = $.inArray("coming_soon", val.tags)
+                     d = $.inArray("on_now", val.tags)
+                    if (c == 0){
+                        val.on = "COMING"
+                        val.now = "SOON"
+                    } 
+                    if (d == 0){
+                        val.on = "ON"
+                        val.now = "NOW"
+                    } 
+                    
+                   
+                    if (val.on == null || val.now == null){
+                        val.date_block_html = '<p class="month_string on_now">'+val.start_month+'</p><p class="day_string on_now">'+val.start_day+'</p>'
+                    } else {
+                        val.date_block_html = '<p class="day_string on_now">ON</p><p class="day_string on_now">NOW</p>'
+                    }
+                    
+                    
                     if (type == "mixed"){
                         if (val.promotionable_id){
                             val.eventable_id = val.promotionable_id
@@ -680,7 +703,7 @@
         }
         
         
-        $("#left_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg")
-        $("#right_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg")
+        // $("#left_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide2.jpg")
+        // $("#right_image").attr("src", "http://kodekloud.s3.amazonaws.com/sites/556628266e6f640eb3000000/754b0df7f7a73f8e7b7e98501e85a474/home_slide3.jpg")
     });
 </script>
