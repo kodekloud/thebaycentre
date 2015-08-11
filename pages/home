@@ -591,6 +591,7 @@
                         val.now = "NOW"
                     } 
                     console.log(val.name)
+                    console.log(val.tags)
                     console.log(c)
                     console.log(d)
                     console.log(val.on)
