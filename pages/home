@@ -591,6 +591,8 @@
                         val.now = "NOW"
                     } 
                     console.log(val.name)
+                    console.log(c)
+                    console.log(d)
                     console.log(val.on)
                     console.log(val.now)
                    
