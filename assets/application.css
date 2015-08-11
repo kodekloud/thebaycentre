@@ -1878,7 +1878,10 @@ textarea:focus, input:focus{
         display:none;
     }
     .mobile_insta_feed {
-        display:block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90% !important;
     }
     footer {
         margin-top:40px;
