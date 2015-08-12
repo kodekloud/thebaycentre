@@ -444,6 +444,7 @@
             });
             
             if (news_event_array.length > 1){
+                news_event_array = news_event_array.reverse();
                 $.merge(second_tab_content,(news_event_array.slice(0,1)));
               
             } else {
