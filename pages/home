@@ -583,6 +583,10 @@
                     
                     c = $.inArray("coming_soon", val.tags)
                     d = $.inArray("on_now", val.tags)
+                    if (val.name == 'Discount Costumes'){
+                        console.log(c)
+                        console.log(d)
+                    }
                     if (c == 0 || c == 1){
                         val.on = "COMING"
                         val.now = "SOON"
@@ -596,7 +600,7 @@
                     if (val.on == undefined || val.now == undefined){
                         val.date_block_html = '<p class="month_string">'+val.start_month+'</p><p class="day_string">'+val.start_day+'</p>'
                     } else {
-                        val.date_block_html = '<p class="day_string on_now">ON</p><p class="day_string on_now">NOW</p>'
+                        val.date_block_html = '<p class="day_string on_now">'+val.on+'</p><p class="day_string on_now">'+val.now+'</p>'
                     }
                     
                     
