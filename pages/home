@@ -587,7 +587,7 @@
                         val.on = "COMING"
                         val.now = "SOON"
                     } 
-                    if (d == 0 || d == 1){
+                    if (d  >= 0){
                         val.on = "ON"
                         val.now = "NOW"
                     } 
