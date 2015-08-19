@@ -1373,6 +1373,7 @@ textarea:focus, input:focus{
 .store_promo_img{
     max-width:100%;
     max-height:100%;
+    width:100%;
 }
 .store_promo_buttons{
     margin-top:59px;
