@@ -362,7 +362,16 @@
                  today = new Date();
                  webDate = new Date(val.show_on_web_date)
                  if (today >= webDate && val.is_featured == false) {
-                     promo_array.push(val)
+                     
+                     c = $.inArray("news", val.tags)
+                     if (c == 0){
+                         
+                     } else {
+                        promo_array.push(val) 
+                         
+                     }
+                     
+                     
                  } 
                  if (val.is_featured == true){
                      feature_promo_array.push(val)
