@@ -175,6 +175,7 @@
             if (videos.length == 0){
                 $("#no_event_container").show()
             } else {
+                videos = videos.reverse()
                 renderDetailData("#store_promo_container","#store_promo_template",videos,"videos")
             }
             
