@@ -179,7 +179,7 @@
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
             var pathArray = window.location.pathname.split( '?' );
-            var tag = pathArray[pathArray.length-1];
+            var tag = pathArray[pathArray.length];
             var blogs = getBlogDataBySlug('baycentre-videos')
             var videos = []
             $.each( blogs.posts , function( key, val ) {
