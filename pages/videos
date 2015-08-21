@@ -181,7 +181,7 @@
             
             var blogs = getBlogDataBySlug('baycentre-videos')
             
-            $.each( blogs , function( key, val ) {
+            $.each( blogs.posts , function( key, val ) {
                 console.log(val)
             });
             
