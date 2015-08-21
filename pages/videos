@@ -178,7 +178,7 @@
             
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
-         
+            params = getUrlParameter('tag');
             var blogs = getBlogDataBySlug('baycentre-videos')
             var videos = []
             $.each( blogs.posts , function( key, val ) {
@@ -194,6 +194,22 @@
             load_slider("flexslider4");
         }
         
+        
+        
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+        
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+        
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
         function renderBanners(container, template, collection){
             var item_list = [];
             var item_rendered = [];
