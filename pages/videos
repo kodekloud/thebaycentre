@@ -179,7 +179,7 @@
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
             
-            var blogs = getBlogDataBySlug('Videos')
+            var blogs = getBlogDataBySlug('baycentre-videos')
             var video_posts = []
             
             $.each( blogs , function( key, val ) {
