@@ -185,7 +185,7 @@
             if (params != undefined){
                 $.each( blogs.posts , function( key, val ) {
                     c = $.inArray(params, val.tag)
-                    if (c >= 0){
+                    if (c == 0){
                         videos.push(val)
                     }
                 });    
