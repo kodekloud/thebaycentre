@@ -179,7 +179,8 @@
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
             
-            
+            var blogs = getBlogList()
+            console.log(blogs)
             
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
