@@ -376,7 +376,10 @@
                  if (today >= webDate) {
                      c = $.inArray("news", val.tags)
                      if (c == 0){
-                         news_event_array.push(val)
+                         if (val.is_featured == true){
+                            news_event_array.push(val);    
+                         }
+                         
                      } else {
                          if (val.is_featured == false){
                             basic_event_array.push(val)    
@@ -400,6 +403,12 @@
                   return 0;
             });
             
+            
+            news_event_array = news_event_array.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
             
             var first_tab_content = []
             
