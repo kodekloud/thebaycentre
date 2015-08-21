@@ -179,42 +179,7 @@
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
             
-            all_promos = getPromotionsList();
-            all_promos = all_promos.reverse();
-            promo_array = []
-            feature_promo_array = []
-             $.each( all_promos , function( key, val ){
-                if (val.description.length > 110) {
-                   val.description =  val.description.substring(0,150)+'...';
-                } 
-                 today = new Date();
-                 webDate = new Date(val.show_on_web_date)
-                 if (today >= webDate && val.is_featured == false) {
-                     promo_array.push(val)
-                 } 
-                 if (val.is_featured == true){
-                     feature_promo_array.push(val)
-                 }
-             });
-             feature_promo_array = feature_promo_array.sort(function(a,b){
-               if(a.feature_item_index > b.feature_item_index){ return 1}
-                if(a.feature_item_index < b.feature_item_index){ return -1}
-                  return 0;
-            });
-            all_promos = promo_array;
-            if (all_promos.length > 0  || feature_promo_array.length > 0) {
-                renderDetailData("#store_promo_container","#store_promo_template", all_promos, "promos");    
-                renderDetailData("#feature_store_promo_container","#feature_store_promo_template", feature_promo_array, "promos");    
-            } else {
-                if (all_promos.length == 0){
-                    $("#store_promo_container").hide();
-                }
-                
-                if (feature_promo_array.length == 0 ){
-                    $("#feature_store_promo_container").hide()
-                }
-                $("#no_event_container").show();
-            }
+            
             
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
@@ -245,26 +210,6 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
-                
-                    if (val.promotionable_type == "Store"){
-                        var store_details = getStoreDetailsByID(val.promotionable_id)
-                        if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
-                            val.alt_promo_image_url = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg"    
-                        } else {
-                            val.alt_promo_image_url = getImageURL(store_details.store_front_url);    
-                        }    
-                    } else {
-                       val.alt_promo_image_url = "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/d52d75490b904799149bedd8a0f02ffe/storedetail_default.jpg" 
-                    }
-                    
-                    
-             
-                
-                if (val.promotionable_type == "Store"){
-                    var store_details = getStoreDetailsByID(val.promotionable_id)
-                    val.store_info = '<a href="/stores/'+store_details.slug+'"><img src="http://assets.kodekloud.io/sites/556628266e6f640eb3000000/591c7592ceb43ac4f0b12c32d6af5630/promo_icon_info.png" class="store_promo_button_icon" alt="store_promo_button_icon"><p>store info</p></a>'
-                }
-                $("#promo_header").show();   
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
