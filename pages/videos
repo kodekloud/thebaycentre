@@ -180,10 +180,10 @@
             
             
             var blogs = getBlogList()
-            
+            var video_posts = []
             
             $.each( blogs , function( key, val ) {
-                console.log(val.posts)    
+                console.log(val)    
             });
             
             
