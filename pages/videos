@@ -181,10 +181,17 @@
             params = getUrlParameter('tag');
             var blogs = getBlogDataBySlug('baycentre-videos')
             var videos = []
-            $.each( blogs.posts , function( key, val ) {
-                console.log(val.tag)
-                console.log(params)
-            });
+            
+            if (params != undefined){
+                $.each( blogs.posts , function( key, val ) {
+                    c = $.inArray(params, val.tag)
+                    if (c >= 0){
+                        videos.push(val)
+                    }
+                });    
+            }
+            
+            console.log(videos)
             
             
             $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
