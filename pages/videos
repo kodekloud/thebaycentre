@@ -224,7 +224,7 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             $.each( collection , function( key, val ) {
                 if (val.body.length > 100) {
-                       val.body =  val.body.substring(0,100)+'...';
+                       val.body =  val.body.substring(0,150)+'...';
                     } 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
