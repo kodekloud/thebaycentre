@@ -183,7 +183,7 @@
             var videos = []
             $.each( blogs.posts , function( key, val ) {
                 console.log(val.tag)
-                console.log(tag)
+                console.log(params)
             });
             
             
