@@ -180,7 +180,6 @@
             
             
             var blogs = getBlogDataBySlug('baycentre-videos')
-            var video_posts = []
             
             $.each( blogs , function( key, val ) {
                 console.log(val.tag)
