@@ -187,6 +187,8 @@
                     c = $.inArray(params, val.tag)
                     if (c == 0){
                         videos.push(val)
+                    } else {
+                        console.log(params)
                     }
                 });    
             }
