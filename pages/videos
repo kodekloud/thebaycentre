@@ -91,7 +91,7 @@
                 </div>
                 <div class="promo_right_div">
                     
-                        <img class="store_promo_img" alt="photo_{{name}}" src="{{image_url}}"/>
+                        <img class="store_promo_img" alt="photo_{{name}}" src="http://img.youtube.com/vi/{{video_link}}/0.jpg"/>
                   
                 </div>
             </li>
