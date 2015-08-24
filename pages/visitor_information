@@ -219,7 +219,7 @@
             <p>We hope to see you soon at The Bay Centre.</p>
             </div>
             </div>
-            </div>
+            
             
             <div class="cat_stores_container" id="cat_stores_container">
             <script id="cat_stores_template" type="x-tmpl-mustache/text">
