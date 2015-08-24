@@ -14,11 +14,21 @@
         color:#3aa2d2 ;
         text-decoration: underline;
     }
-    #CDSSCROLLINGRAVE.narrow {
-  width: 282px;
-  float: right;
+  /*  #CDSSCROLLINGRAVE.narrow {*/
+  /*width: 282px;*/
+  /*float: right;*/
+  /*  }*/
+    
+    
+    
+    
+    #CDSSCROLLINGRAVE.wide{
+        width:98% !important;
     }
     
+    #CDSSCROLLINGRAVE.border{
+        border:none !important;
+    }
     
     .stores_div p, .gs_text {
         color:#6d6e71;
