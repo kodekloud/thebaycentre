@@ -388,17 +388,17 @@
 
 
  <!--INSTANSIVE WIDGET -->
-<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/b0b452ba0b1a94adc6e82c90f0c97cfe3cef888d.html" id="instansive_b0b452ba0b" name="instansive_b0b452ba0b"  scrolling="no" allowtransparency="true" class="instansive-widget insta_feed" style="border: 0; overflow: hidden;"></iframe>
+<!--<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/b0b452ba0b1a94adc6e82c90f0c97cfe3cef888d.html" id="instansive_b0b452ba0b" name="instansive_b0b452ba0b"  scrolling="no" allowtransparency="true" class="instansive-widget insta_feed" style="border: 0; overflow: hidden;"></iframe>-->
 
 
 
-<!--<iframe src="http://www.intagme.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIyMHw1fDF8fHllc3w1fHVuZGVmaW5lZHxubw==" allowTransparency="true" class='insta_feed' frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1175px; height: 235px" ></iframe>-->
+<iframe src="http://www.intagme.com/in/?u=dGhlYmF5Y2VudHJlfGlufDIyMHw1fDF8fHllc3w1fHVuZGVmaW5lZHxubw==" allowTransparency="true" class='insta_feed' frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1175px; height: 235px" ></iframe>
 
 
  <!--INSTANSIVE WIDGET -->
-<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/d254490a3b1f23da3c20502f3f13be63a2201443.html" id="instansive_d254490a3b" name="instansive_d254490a3b"  scrolling="no" allowtransparency="true" class="instansive-widget mobile_insta_feed" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+<!--<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/d254490a3b1f23da3c20502f3f13be63a2201443.html" id="instansive_d254490a3b" name="instansive_d254490a3b"  scrolling="no" allowtransparency="true" class="instansive-widget mobile_insta_feed" style="width: 100%; border: 0; overflow: hidden;"></iframe>-->
 
-<!--<iframe class="mobile_insta_feed" src="http://www.intagme.com/in/?u=dGhlYmF5Y2VudHJlfGlufDEwMHwzfDF8fHllc3wxfHVuZGVmaW5lZHxubw==" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:333px; height: 111px" ></iframe>-->
+<iframe class="mobile_insta_feed" src="http://www.intagme.com/in/?u=dGhlYmF5Y2VudHJlfGlufDEwMHwzfDF8fHllc3wxfHVuZGVmaW5lZHxubw==" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:333px; height: 111px" ></iframe>
 
 
     </div>
