@@ -361,7 +361,7 @@
             full_page_array = []
             full_page_array2 = []
             $.ajaxSetup({
-                async: true
+                async: false
             });
             $.each( page_array , function( key, val ) {
                 
