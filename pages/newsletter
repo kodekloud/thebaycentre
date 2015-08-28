@@ -302,7 +302,7 @@
                 $("#mce-SEX").val($('#news_gender option:selected' ).text()) 
                 $("#mce-AGE").val($('#news_age').val()) 
                 $("#mce-POSTALCODE").val($('#news_postal').val());
-                $("#mce-group[12657][1]").val($('#newsletter_agree_terms').val());
+                $("#mce-group[12657][1]").val($('#newsletter_agree_terms').prop('checked'));
                 
         console.log( $("#mce-group[12657][1]").val())
                 
