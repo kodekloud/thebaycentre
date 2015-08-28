@@ -307,7 +307,7 @@
                 $("#mce-POSTALCODE").val($('#news_postal').val());
                 $("#mce-group[12657]-12657-0").val($('#newsletter_agree_terms').attr("checked"));
                 
-                console.log( $('#newsletter_agree_terms').val())
+                console.log( $('#newsletter_agree_terms').prop( "checked" ))
                 
                 
                 $.ajax({
