@@ -112,7 +112,7 @@
     </div>
 </div>
 
-<form action="//thebaycentre.us8.list-manage.com/subscribe/post?u=35241b945028701ab874f8579&amp;id=850e684995&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+<form action="//thebaycentre.us8.list-manage.com/subscribe/post-json?u=35241b945028701ab874f8579&amp;id=850e684995&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
      <!--mail chimp hidden inputs-->
             
             
