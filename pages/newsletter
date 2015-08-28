@@ -122,7 +122,7 @@
             <input title="advice newsletter" class="newletter-hidden" id="mce-SEX" name="SEX" type="hidden" />
             <input title="advice newsletter" class="newletter-hidden" id="mce-AGE" name="AGE" type="hidden" />
             <input title="advice newsletter" class="newletter-hidden" id="mce-POSTALCODE" name="POSTALCODE" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" id="mce-group[12657][1]" name="group[12657][1]" type="hidden" />
+            <input title="advice newsletter" class="newletter-hidden" id="mce-group[12657]-12657-0" name="group[12657]-12657-0" type="hidden" />
             
             
             
@@ -302,7 +302,7 @@
                 $("#mce-SEX").val($('#news_gender option:selected' ).text()) 
                 $("#mce-AGE").val($('#news_age').val()) 
                 $("#mce-POSTALCODE").val($('#news_postal').val());
-                $("#mce-group[12657][1]").val($('#newsletter_agree_terms').prop('checked'));
+                $("#mce-group[12657]-12657-0").val($('#newsletter_agree_terms').prop('checked'));
                 
         console.log( $("#mce-group[12657][1]").val())
                 
