@@ -276,21 +276,21 @@
         $("#hidden_agree_text").val($("#newsletter_agree_terms").attr("value"));
         $("#hidden_source").val(window.location.href)
         var full_name = $("#first_name").val() + " " + $("#last_name").val();
-        // $("#full_name").val(full_name);
-        //  $.getJSON(
-        //     "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
-        //   $(this).serialize(),
-        //     function (data) {
-        //         if (data.Status === 400) {
-        //             e.preventDefault();
-        //             alert("Please try again later.");
-        //         } else {
-        //             // window.location.href="/thank_you"
-        //             // submitToMailChimp();
-        //         }
-        // }); 
+        $("#full_name").val(full_name);
+         $.getJSON(
+            "http://mobilefringe.createsend.com/t/d/s/iixuu/?callback=?",
+          $(this).serialize(),
+            function (data) {
+                if (data.Status === 400) {
+                    e.preventDefault();
+                    alert("Please try again later.");
+                } else {
+                    // window.location.href="/thank_you"
+                    // submitToMailChimp();
+                }
+        }); 
         
-         submitToMailChimp();
+        
     })
     
     
@@ -307,9 +307,6 @@
                 $("#mce-POSTALCODE").val($('#news_postal').val());
                 $("#mce-group[12657]-12657-0").prop( "checked", true );
                 
-                // console.log($("#mce-group[12657]-12657-0").val( ))
-                
-                
                 $.ajax({
                     type: $("#mc-embedded-subscribe-form").attr('method'),
                     url: $("#mc-embedded-subscribe-form").attr('action'),
@@ -319,7 +316,7 @@
                     contentType: "application/json; charset=utf-8",
                     error       : function(err) { alert("Could not connect to the registration server. Please try again later.") },
                     success     : function(data) {
-                        console.log(data)
+                   
                         if (data.result != "success") {
                             window.location.href="/thank_you"
                         } else {
