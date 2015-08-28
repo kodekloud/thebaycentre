@@ -314,7 +314,7 @@
                     cache       : false,
                     dataType    : 'json',
                     contentType: "application/json; charset=utf-8",
-                    error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+                    error       : function(err) { alert("Could not connect to the registration server. Please try again later.");console.log(err) },
                     success     : function(data) {
                         if (data.result != "success") {
                             window.location.href="/thank_you"
