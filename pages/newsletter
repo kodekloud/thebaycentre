@@ -304,7 +304,7 @@
                 $("#mce-POSTALCODE").val($('#news_postal').val());
                 $("#mce-group[12657][1]").val($('#newsletter_agree_terms').val());
                 
-    
+        console.log($('#newsletter_agree_terms').val())
                 
                 
                 $.ajax({
