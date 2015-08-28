@@ -296,13 +296,13 @@
     function submitToMailChimp(){
             
             
-                $("#mce-FNAME").val()
-                $("#mce-LNAME").val()
-                $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
-                $("#mce-SEX").val($('#fieldBirthday_newsletter').val()) 
-                $("#mce-AGE").val($('#birthdayCheck').val()) 
-                $("#mce-POSTALCODE").val();
-                $("#mce-group[12657][1]").val();
+                $("#mce-FNAME").val($('#first_name').val())
+                $("#mce-LNAME").val($('#last_name').val())
+                $("#mce-EMAIL").val($('#news_email').val())
+                $("#mce-SEX").val($('#news_gender option:selected' ).text()) 
+                $("#mce-AGE").val($('#news_age').val()) 
+                $("#mce-POSTALCODE").val($('#news_postal').val());
+                $("#mce-group[12657][1]").val($('#newsletter_agree_terms').val());
                 
     
                 
