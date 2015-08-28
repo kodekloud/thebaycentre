@@ -122,6 +122,7 @@
             <input title="advice newsletter" class="newletter-hidden" id="mce-SEX" name="SEX" type="hidden" />
             <input title="advice newsletter" class="newletter-hidden" id="mce-AGE" name="AGE" type="hidden" />
             <input title="advice newsletter" class="newletter-hidden" id="mce-POSTALCODE" name="POSTALCODE" type="hidden" />
+            <input title="advice newsletter" class="newletter-hidden" id="mce-group[12657][1]" name="group[12657][1]" type="hidden" />
             
             
             
@@ -288,6 +289,43 @@
                 }
         });  
     })
+    
+    
+    
+    
+    function submitToMailChimp(){
+            
+            
+                $("#mce-FNAME").val()
+                $("#mce-LNAME").val()
+                $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
+                $("#mce-SEX").val($('#fieldBirthday_newsletter').val()) 
+                $("#mce-AGE").val($('#birthdayCheck').val()) 
+                $("#mce-POSTALCODE").val();
+                $("#mce-group[12657][1]").val();
+                
+    
+                
+                
+                $.ajax({
+                    type: $("#mc-embedded-subscribe-form").attr('method'),
+                    url: $("#mc-embedded-subscribe-form").attr('action'),
+                    data: $("#mc-embedded-subscribe-form").serialize(),
+                    cache       : false,
+                    dataType    : 'json',
+                    contentType: "application/json; charset=utf-8",
+                    error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+                    success     : function(data) {
+                        if (data.result != "success") {
+                            window.location.href="/thank_you"
+                        } else {
+                            
+                            window.location.href="/thank_you"
+                        }
+                    }
+                })
+        }
+     
     
     
     function check_email (){
