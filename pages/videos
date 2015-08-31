@@ -102,7 +102,7 @@
     <div class='button_container' id='button_container'>
 
     
-            <button class="gray_pill" onclick="window.open('http://youtube.com/thebaycentre')">see more videos</button></button>
+            <button class="gray_pill" onclick="window.open('http://youtube.com/thebaycentre')">Watch More Videos like these</button>
 
     </div>
     
