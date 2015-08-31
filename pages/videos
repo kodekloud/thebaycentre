@@ -96,13 +96,15 @@
                 </div>
             </li>
         </script>
-        <div class='button_container' id='button_container'>
-            <script id="button_template" type="x-tmpl-mustache/text">
         
-                <button class="gray_pill" onclick="window.open('http://youtube.com/thebaycentre')">see more videos</button></button>
-            </script>
-        </div>
     </ul>
+    
+    <div class='button_container' id='button_container'>
+        <script id="button_template" type="x-tmpl-mustache/text">
+    
+            <button class="gray_pill" onclick="window.open('http://youtube.com/thebaycentre')">see more videos</button></button>
+        </script>
+    </div>
     
     <div id="no_event_container" style="display:none">
         No Current Videos. please check back later. 
