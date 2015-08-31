@@ -33,12 +33,12 @@
     .button_container{
         margin-top:30px;
         margin-bottom:30px;
+        padding-top:30px;
+        padding-bottom:30px;
+        border-top:3px solid lightgray;
     }
     
-    .gray_pill{
-        margin-left:0 !important;
-    }
-     
+    
     @media (max-width: 767px) {
         .store_promo_buttons p{
             width:60%;
