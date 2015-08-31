@@ -136,7 +136,7 @@ a:hover {
 
 .banner_slide_img{
     height:546px;
-    width:1193px;
+    width:1193px !important;
 }
 
 .back_to_list{
