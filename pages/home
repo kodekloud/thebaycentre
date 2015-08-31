@@ -10,6 +10,9 @@
         min-width:144px;
         text-align:center;
     }
+    .banner_slide_img{
+        display:none;
+    }
     .date_block{
         display:inline-block;
     }
@@ -344,7 +347,6 @@
             start: function(){
                  $('.banner_slide_img').show(); 
             },
-            
             after:function(){
                 var active_rel = $(this).find('.flex-active-slide').attr('rel');
                 //do something
@@ -439,7 +441,7 @@
             var second_tab_content = []
             var third_tab_content = []
             
-            console.log(featured_promo_array)
+      
             if (featured_event_array.length > 2){
                 
                  $.merge(first_tab_content,(featured_event_array.slice(0,2)));
