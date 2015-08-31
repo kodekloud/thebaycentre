@@ -96,7 +96,12 @@
                 </div>
             </li>
         </script>
+        <div class='button_container' id='button_container'>
+            <script id="button_template" type="x-tmpl-mustache/text">
         
+                <button class="gray_pill" onclick="window.open('http://youtube.com/thebaycentre')">see more videos</button></button>
+            </script>
+        </div>
     </ul>
     
     <div id="no_event_container" style="display:none">
