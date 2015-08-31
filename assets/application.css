@@ -1659,7 +1659,10 @@ textarea:focus, input:focus{
     }
     
     
-  
+    .banner_slide_img{
+        height:auto !important;
+        width:auto !important;
+    }
     
     .map_container, .map_div{
         height:300px !important;
