@@ -29,6 +29,11 @@
         margin-top:-10px;
     }
     
+    
+    .button_container{
+        margin-top:30px;
+        margin-bottom:30px;
+    }
      
     @media (max-width: 767px) {
         .store_promo_buttons p{
