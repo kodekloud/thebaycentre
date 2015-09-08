@@ -518,7 +518,7 @@
                     val.alt_promo_image_url = "http://mallmaverick.com"+val.photo_url
                 }
                 
-                console.log(val)
+            
                 $("#promo_header").show();   
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
