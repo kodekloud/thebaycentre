@@ -489,7 +489,7 @@
                     val.start_day = start.getDate() 
                     val.end_month = get_month(end.getMonth())
                     val.end_day = end.getDate()
-                    val.end_day = "  - " + val.end_day
+                    val.end_day = val.end_day
                     val.date_string = val.start_month + " " + val.start_day + " - " + val.end_month + " " +  val.end_day
                 }
                 
