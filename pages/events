@@ -169,6 +169,7 @@
                             
                             <div class="promo_left_div">
                                 <p class="store_detail_title">{{name}}</p>
+                                <p class="promo_dates"></p>
                                 <p class="store_detail_description">{{description}}</p>
                                 
                                 <div class="store_promo_buttons">
@@ -518,7 +519,7 @@
                     val.alt_promo_image_url = "http://mallmaverick.com"+val.photo_url
                 }
                 
-            
+                
                 $("#promo_header").show();   
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
