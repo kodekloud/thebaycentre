@@ -1379,11 +1379,11 @@ textarea:focus, input:focus{
     margin-top:59px;
 }
 #promo_share_this .sharethis{
-    background:url("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/dc4d28f03d666b522490b234c8f18b2a/promo_icon_share.png") !important;
-    background-repeat:no-repeat !important;
-    background-size:contain !important;
-    height:40px !important;
-    width:40px !important;
+    background:url(http://assets.kodekloud.io/sites/556628266e6f640eb3000000/41a30d77bd16ed0f745808f1a7db6663/btn_share.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 40px !important;
+    width: 160px !important;
 }
 #promo_share_this .stButton{
     width:160px !important;
