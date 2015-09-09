@@ -37,6 +37,10 @@
         text-align:center;
     }
     
+    #promo_share_this .sharethis{
+        background:url(http://assets.kodekloud.io/sites/556628266e6f640eb3000000/41a30d77bd16ed0f745808f1a7db6663/btn_share.png) !important;
+    }
+    
      @media (max-width: 767px) {
         .store_promo_buttons p{
             width:60%;
