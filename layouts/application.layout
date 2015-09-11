@@ -257,7 +257,7 @@
                 
                 <div class="dd_submenu" id="s_sub_5">
                     <ul>
-                        <!--<li>Blog </li>-->
+                        <li><a href="/videos">Video Style </a></li>
                         <li><a href="/newsletter">Enewsletter</a></li>
                     </ul>
                 </div>
@@ -322,7 +322,7 @@
                 <p>Our style &nbsp;&nbsp;<i id='mobile_sub_5_arrow' class='fa fa-chevron-down'></i></p>
                 <div class="mobile_submenu" id="mobile_sub_5">
                     <ul>
-                        <!--<li class="mobile_submenu_li">Blog </li>-->
+                        <li class="mobile_submenu_li"><a href="/videos">Video Style</a></li>
                         <li class="mobile_submenu_li"><a href="/newsletter">Enewsletter</a></li>
                     </ul>
                 </div>
