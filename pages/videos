@@ -102,7 +102,7 @@
                 </div>
                 <div class="promo_right_div">
                     <a href="/videos/{{slug}}">
-                        <img class="store_promo_img" alt="photo_{{name}}" src="http://img.youtube.com/vi/{{video_link}}/0.jpg"/>
+                        <img class="store_promo_img" alt="photo_{{name}}" src="{{image_url}}"/>
                     </a>
                 </div>
             </li>
