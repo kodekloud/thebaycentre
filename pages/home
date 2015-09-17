@@ -394,8 +394,13 @@
                          if (val.is_featured == false){
                             basic_event_array.push(val)    
                          } else {
+                            if (s == 0){
+                                
+                            } else {
+                                featured_event_without_coming_soon.push(val)
+                            }
                             featured_event_array.push(val)   
-                            console.log(s)
+                            
                          }
                          
                      }
