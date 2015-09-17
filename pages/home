@@ -395,6 +395,7 @@
                             basic_event_array.push(val)    
                          } else {
                             featured_event_array.push(val)   
+                            console.log(s)
                          }
                          
                      }
