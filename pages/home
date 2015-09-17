@@ -378,6 +378,7 @@
             
             
             featured_event_array = []
+            featured_event_without_coming_soon = []
              $.each( events , function( key, val ){
                  today = new Date();
                  webDate = new Date(val.show_on_web_date);
