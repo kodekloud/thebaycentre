@@ -388,7 +388,12 @@
                      s = $.inArray("coming_soon", val.tags)
                      if (c == 0){
                          if (val.is_featured == true){
-                            news_event_array.push(val);    
+                            news_event_array.push(val);
+                            if (s == 0){
+                                
+                            } else {
+                                news_event_without_coming_soon.push(val)
+                            }
                          }
                          
                      } else {
