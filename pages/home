@@ -449,6 +449,18 @@
                   return 0;
             });
             
+            news_event_without_coming_soon = news_event_without_coming_soon.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
+            
+            featured_event_without_coming_soon = featured_event_without_coming_soon.sort(function(a,b){
+               if(a.feature_item_index > b.feature_item_index){ return 1}
+                if(a.feature_item_index < b.feature_item_index){ return -1}
+                  return 0;
+            });
+            
             
             
             var first_tab_content = []
