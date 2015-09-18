@@ -22,13 +22,13 @@
     
     
     
-    /*#CDSSCROLLINGRAVE.wide{*/
-    /*    width:98% !important;*/
-    /*}*/
+    #CDSSCROLLINGRAVE.wide{
+        width:98% !important;
+    }
     
-    /*#CDSSCROLLINGRAVE.border{*/
-    /*    border:none !important;*/
-    /*}*/
+    #CDSSCROLLINGRAVE.border{
+        border:none !important;
+    }
     
     .stores_div p, .gs_text {
         color:#6d6e71;
