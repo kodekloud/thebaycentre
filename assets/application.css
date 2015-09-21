@@ -1651,7 +1651,7 @@ textarea:focus, input:focus{
 }
 
 .hidden-phone{
-    display:hidden;   
+    display:none;   
 }
     
     .flexslider4 .flex-viewport{
