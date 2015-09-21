@@ -1646,6 +1646,14 @@ textarea:focus, input:focus{
 /*mobile css*/
 @media (max-width: 767px) {
     
+    .visible-phone{
+    display:hidden;   
+}
+
+.hidden-phone{
+    display:inline-block;   
+}
+    
     .flexslider4 .flex-viewport{
         overflow: hidden !important;
     }
