@@ -52,7 +52,7 @@
 
 
 .visible-phone{
-    display:hidden;   
+    display:none;   
 }
 
 .hidden-phone{
