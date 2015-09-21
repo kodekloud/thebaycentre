@@ -56,7 +56,7 @@
 }
 
 .hidden-phone{
-    display:hidden;   
+    display:inline-block;   
 }
 
 
