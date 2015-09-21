@@ -54,6 +54,12 @@
 .visible-phone{
     display:hidden;   
 }
+
+.hidden-phone{
+    display:hidden;   
+}
+
+
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    white;
 }
