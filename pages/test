@@ -10,6 +10,7 @@
 
 
 <script>
+    $.getScript("http://www.tripadvisor.com/WidgetEmbed-cdsscrollingravewide?border=true&backgroundColor=gray&locationId=3349451&display_version=2&uniq=310&lang=en_US");
     $(".loading_overlay").hide();
-            $("#page_content").show();
+    $("#page_content").show();
 </script>
