@@ -374,7 +374,7 @@
             full_page_array = []
             full_page_array2 = []
             $.ajaxSetup({
-                // async: false
+                async: false
             });
             $.each( page_array , function( key, val ) {
                 
@@ -406,14 +406,14 @@
             })
             
             $.ajaxSetup({
-                // async: true
+                async: true
             });
             
             renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
             renderPageData("#cat_stores_container2","#cat_stores_template2",full_page_array2, "pages")
      
-            // $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
-            // $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
+            $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+            $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
             $(".loading_overlay").hide();
             $("#page_content").show();
             load_slider("flexslider4");
