@@ -412,7 +412,7 @@
             renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
             renderPageData("#cat_stores_container2","#cat_stores_template2",full_page_array2, "pages")
      
-            // $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+            $.getScript("http://www.jscache.com/wejs?wtype=cdsscrollingravewide&amp;uniq=841&amp;locationId=3349451&amp;lang=en_CA&amp;border=false&amp;shadow=false&amp;display_version=2");
             // $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
             $(".loading_overlay").hide();
             $("#page_content").show();
