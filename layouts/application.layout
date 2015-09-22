@@ -435,12 +435,12 @@
     </div>
     <br />
     <script>
-        $(document).ready(function(e){
-            $('#syria_link').click(function(e){
-                var url = $(this).attr("href");
-                ga('send', 'event', 'Outbound Links', e.currentTarget.host, url);
-            });
-        });
+        // $(document).ready(function(e){
+        //     $('#syria_link').click(function(e){
+        //         var url = $(this).attr("href");
+        //         ga('send', 'event', 'Outbound Links', e.currentTarget.host, url);
+        //     });
+        // });
     </script>
             <div class="footer_bottom_container">
                 <div id="today_hour_container" class="today_hour_container">
