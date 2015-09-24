@@ -212,10 +212,15 @@
 <!--<script src="http://www.jscache.com/wejs?wtype=cdsscrollingravewide&amp;uniq=337&amp;locationId=3349451&amp;lang=en_CA&amp;border=true&amp;shadow=false&amp;backgroundColor=white&amp;display_version=2"></script>-->
 
 
-<div id='trip_advisor'>
-    
+<div id="TA_cdsscrollingravewide841" class="TA_cdsscrollingravewide">
+<ul id="Zn85DHyyAp" class="TA_links 3Rwvx3">
+<li id="x0TQtgkNx8V" class="3KjKcpBaDUU">
+<a target="_blank" href="http://www.tripadvisor.ca/"><img src="http://static.tacdn.com/img2/t4b/Stacked_TA_logo.png" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a>
+</li>
+</ul>
 </div>
-<!--<script src="http://www.jscache.com/wejs?wtype=cdsscrollingravewide&amp;uniq=841&amp;locationId=3349451&amp;lang=en_CA&amp;border=false&amp;shadow=false&amp;display_version=2"></script>-->
+<script src="http://www.jscache.com/wejs?wtype=cdsscrollingravewide&amp;uniq=841&amp;locationId=3349451&amp;lang=en_CA&amp;border=false&amp;shadow=false&amp;display_version=2"></script>
+
 
 
 
@@ -412,8 +417,6 @@
             $(".loading_overlay").hide();
             $("#page_content").show();
             load_slider("flexslider4");
-            
-            
         }
         
         function renderBanners(container, template, collection){
@@ -551,8 +554,5 @@
         };
         
         loadMallDataCached(renderAll);  
-        $("#trip_advisor").html('<div id="TA_cdsscrollingravewide841" class="TA_cdsscrollingravewide"><ul id="Zn85DHyyAp" class="TA_links 3Rwvx3"><li id="x0TQtgkNx8V" class="3KjKcpBaDUU"><a target="_blank" href="http://www.tripadvisor.ca/"><img src="http://static.tacdn.com/img2/t4b/Stacked_TA_logo.png" alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO"/></a></li></ul></div>')
-            
-            $.getScript("http://www.tripadvisor.ca/WidgetEmbed-cdsscrollingravewide?border=false&shadow=false&locationId=3349451&display_version=2&uniq=841&lang=en_CA");
     });
 </script>
