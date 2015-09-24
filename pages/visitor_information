@@ -293,6 +293,13 @@
     </ul>
 </div>
 <script>
+
+    $.getScript('//www.tripadvisor.fr/WidgetEmbed-selfserveprop?nreviews=6&uniq=&iswide=true&locationId=841&rating=true&popIdx=true&border=false&writereviewlink=true&lang=fr', function() {
+    if (typeof(window.taValidate) != 'undefined') {
+      window.taValidate();
+    }
+  });
+
     // $("#main_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/00476ad7fa2adcdf38623cd98b55bbf3/Visitor Information.png");
     // $("#left_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner3.jpg");
     // $("#right_image").attr("src", "http://assets.kodekloud.io/sites/556628266e6f640eb3000000/100437cc60f41ae910b0356151c200b6/guest_banner2.jpg");
