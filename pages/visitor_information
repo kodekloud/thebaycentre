@@ -366,57 +366,57 @@
             
             renderBanners("#banner_slider_ul","#banner_slider_template",banner_array)
             
-            // var prefix = get_prefix();
-            // var page_array = ["baycentre-visitor-information-getting-here","baycentre-visitor-information-shop-stay-partners","baycentre-visitor-information-guest-services","baycentre-visitor-information-visitor-saving-pass"]
-            // var page_array2 = ["baycentre-attractions-accomodations-transportation","baycentre-attractions-accomodations-tourism","baycentre-attractions-accomodations-city-and-region","baycentre-attractions-accomodations-attractions"]
-            // page_array = page_array.reverse()
-            // page_array2 = page_array2.reverse()
-            // full_page_array = []
-            // full_page_array2 = []
-            // $.ajaxSetup({
-            //     async: false
-            // });
-            // $.each( page_array , function( key, val ) {
+            var prefix = get_prefix();
+            var page_array = ["baycentre-visitor-information-getting-here","baycentre-visitor-information-shop-stay-partners","baycentre-visitor-information-guest-services","baycentre-visitor-information-visitor-saving-pass"]
+            var page_array2 = ["baycentre-attractions-accomodations-transportation","baycentre-attractions-accomodations-tourism","baycentre-attractions-accomodations-city-and-region","baycentre-attractions-accomodations-attractions"]
+            page_array = page_array.reverse()
+            page_array2 = page_array2.reverse()
+            full_page_array = []
+            full_page_array2 = []
+            $.ajaxSetup({
+                async: false
+            });
+            $.each( page_array , function( key, val ) {
                 
-            //     var pages_json = prefix+"/pages/" + val + ".json"
-            //     $.getJSON(pages_json).then(function(data) {
-            //         //var pages_data = JSON.parse(data);
-            //         // console.log(data.body);
-            //         // $("#page_title").html(data.title)
-            //         // $('#mm_page_content').html(data.body);
-            //         add_to_page_array (data, full_page_array)
-            //     })
-                
-                
-                
-            // })
-            // $.each( page_array2 , function( key, val ) {
-                
-            //     var pages_json = prefix+"/pages/" + val + ".json"
-            //     $.getJSON(pages_json).then(function(data) {
-            //         //var pages_data = JSON.parse(data);
-            //         // console.log(data.body);
-            //         // $("#page_title").html(data.title)
-            //         // $('#mm_page_content').html(data.body);
-            //         add_to_page_array (data, full_page_array2)
-            //     })
+                var pages_json = prefix+"/pages/" + val + ".json"
+                $.getJSON(pages_json).then(function(data) {
+                    //var pages_data = JSON.parse(data);
+                    // console.log(data.body);
+                    // $("#page_title").html(data.title)
+                    // $('#mm_page_content').html(data.body);
+                    add_to_page_array (data, full_page_array)
+                })
                 
                 
                 
-            // })
+            })
+            $.each( page_array2 , function( key, val ) {
+                
+                var pages_json = prefix+"/pages/" + val + ".json"
+                $.getJSON(pages_json).then(function(data) {
+                    //var pages_data = JSON.parse(data);
+                    // console.log(data.body);
+                    // $("#page_title").html(data.title)
+                    // $('#mm_page_content').html(data.body);
+                    add_to_page_array (data, full_page_array2)
+                })
+                
+                
+                
+            })
             
-            // $.ajaxSetup({
-            //     async: true
-            // });
+            $.ajaxSetup({
+                async: true
+            });
             
-            // renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
-            // renderPageData("#cat_stores_container2","#cat_stores_template2",full_page_array2, "pages")
+            renderPageData("#cat_stores_container","#cat_stores_template",full_page_array, "pages")
+            renderPageData("#cat_stores_container2","#cat_stores_template2",full_page_array2, "pages")
      
-            // $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
-            // $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
+            $.getScript("http://cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+            $('head').append('<link rel="stylesheet" href="http://cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
             $(".loading_overlay").hide();
             $("#page_content").show();
-            // load_slider("flexslider4");
+            load_slider("flexslider4");
         }
         
         function renderBanners(container, template, collection){
