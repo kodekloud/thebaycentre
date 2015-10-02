@@ -67,6 +67,9 @@
      
     <div class="detail_left_div" id="promo_title_container">
     <button class="gray_pill back_to_list" onclick="window.location.href='/events'" id="view_all_btn">View All Contests</button>
+    <div id="pop-over">
+            
+        </div>
         <script id="promo_title_template" type="x-tmpl-mustache/text">
         <div>
             
