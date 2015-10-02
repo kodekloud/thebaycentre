@@ -66,6 +66,7 @@
 <div class="store_detail_content">
     
     <div class="detail_left_div" id="promo_title_container">
+     <button class="gray_pill back_to_list" onclick="window.location.href='/events'" id="view_all_btn">View All Contests</button>
         <script id="promo_title_template" type="x-tmpl-mustache/text">
         <div>
             
@@ -139,6 +140,7 @@
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner1.jpg")
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner2.jpg");
             banners.push("http://assets.kodekloud.io/sites/556628266e6f640eb3000000/8dbac6c93fba1a1cc183512cb3213260/events_banner3.jpg");
+            
             banner_array = []
             $.each( banners , function( key, val ) {
                 var obj = {};
