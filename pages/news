@@ -338,10 +338,7 @@
                         val.one = "On"
                         val.two = "now"
                     }
-                    if (now_open == 1){
-                        val.one = "Now"
-                        val.two = "Open"
-                    }
+                   
                     // val.start_month = get_month(start.getMonth())
                     // val.start_day = start.getDate()
                     
