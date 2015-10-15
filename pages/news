@@ -88,6 +88,10 @@
         font-size: 35pt;
         line-height: 35pt;
     }
+    .now_open{
+        font-size: 35pt;
+        line-height: 35pt;
+    }
     @media (max-width: 767px) {
         .tab_item{
             height:25px;
@@ -99,6 +103,13 @@
             line-height:20pt;
         }
         .on_now_date_block{
+            margin-top:25px;
+        }
+        .now_open{
+            font-size:20pt;
+            line-height:20pt;
+        }
+        .now_open_date_block{
             margin-top:25px;
         }
         .store_promo_buttons p{
@@ -326,6 +337,10 @@
                     if (on_now == 1){
                         val.one = "On"
                         val.two = "now"
+                    }
+                    if (now_open == 1){
+                        val.one = "Now"
+                        val.two = "Open"
                     }
                     // val.start_month = get_month(start.getMonth())
                     // val.start_day = start.getDate()
